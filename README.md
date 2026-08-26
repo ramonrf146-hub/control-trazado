@@ -6,7 +6,7 @@ Matter, ESP32/Node-RED) y hardware de control industrial (variadores de
 frecuencia, gateways RS485/Modbus), y monetiza con enlaces de Amazon
 Associates.
 
-Sitio hermano de [Riego Trazado](https://riegocom.uk) (riego residencial) —
+Sitio hermano de [HidroLab](https://riegocom.uk) (riego residencial) —
 mismo stack y mismo criterio editorial, público y catálogo completamente
 separados.
 
@@ -163,7 +163,7 @@ de ventas/clics no se mezclan entre los dos sitios.
 
 Los umbrales de PA-API (10 ventas calificadas/30 días) y de retención de
 cuenta (3 ventas/180 días) son **por cuenta**, no por sitio — las ventas de
-Riego Trazado y AutomatizaLab suman juntas para esos límites.
+HidroLab y AutomatizaLab suman juntas para esos límites.
 
 ## Script de actualización mensual (PA-API)
 
@@ -202,7 +202,7 @@ npm run actualizar-productos:mock
 
 ## Configurar el cron mensual
 
-Igual que en Riego Trazado: **GitHub Actions** es la opción recomendada
+Igual que en HidroLab: **GitHub Actions** es la opción recomendada
 porque puede commitear directo al repo (ya está en
 `.github/workflows/actualizar-productos.yml`, `cron: "0 6 1 * *"`).
 
@@ -217,7 +217,7 @@ Si no vas a usar la alternativa de Vercel Cron, podés borrar `vercel.json` y
 
 ## Herramienta: agente clasificador de inventario
 
-Vive en `scripts/agente-clasificador/` — a diferencia de en Riego Trazado
+Vive en `scripts/agente-clasificador/` — a diferencia de en HidroLab
 (donde estaba deliberadamente desconectado por no encajar con riego), acá
 **sí coincide con las categorías reales del sitio**. Aun así, no está
 conectado automáticamente al pipeline de `data/productos.json`: es una
@@ -240,7 +240,7 @@ manual.
 
 ## Plugin de Cowork: agregar producto desde un link de Amazon
 
-El mismo plugin construido para Riego Trazado
+El mismo plugin construido para HidroLab
 (`riego-trazado-agregar-producto`) funciona acá — solo cambiá, dentro del
 plugin, el repo de destino (`git clone`) y el Partner Tag por los de
 AutomatizaLab, y actualizá `references/categorias.md` con las dos
@@ -250,7 +250,7 @@ categorías de este sitio en vez de las seis de riego.
 
 Se integró **Google Analytics 4** (`src/components/GoogleAnalytics.tsx`),
 activo solo si definís `NEXT_PUBLIC_GA_ID`. Creá una propiedad GA4 nueva y
-separada de la de Riego Trazado (Admin → Create Property, Data Stream con
+separada de la de HidroLab (Admin → Create Property, Data Stream con
 `https://controltrazado.com`) para no mezclar analíticas de los dos sitios.
 
 ## Deploy en Vercel
@@ -276,7 +276,7 @@ separada de la de Riego Trazado (Admin → Create Property, Data Stream con
   amazon.com.
 - El sitio está registrado con su propio Tracking ID y su propio tema
   declarado en Associates Central (no "Home & Garden", que corresponde a
-  Riego Trazado).
+  HidroLab).
 
 ## Estructura del proyecto
 
