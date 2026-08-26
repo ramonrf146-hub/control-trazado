@@ -1,0 +1,5 @@
+{
+  "_comentario": "PA-API no expone un endpoint confiable de 'más vendidos' en todos los marketplaces, así que el ranking se basa en una lista curada de ASINs por categoría (edita esta lista vos). El script mensual consulta precio/rating/reseñas actuales para cada ASIN y ordena el ranking por número de reseñas (proxy de popularidad). Estos ASINs son productos reales de automatización/control identificados manualmente el 2026-08-25 — reemplazalos o agregá más cuando quieras ajustar qué compite por el ranking del mes.",
+  "automatizacion-hogar-inteligente": ["B0DGXMZ9GD", "B0D7MLMCXR", "B0FZJ8Y54Q"],
+  "control-industrial-b2b": ["B0BN61G4VF", "B0BM5JPXVY", "B09C5NDXDG"]
+}
