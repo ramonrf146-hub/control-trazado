@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { CATEGORIAS } from "@/lib/categorias";
 import { getArticulos } from "@/lib/contenido";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://controltrazado.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://controltrazado.com";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const articulos = await getArticulos();
