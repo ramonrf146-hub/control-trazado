@@ -46,3 +46,6 @@ next-env.d.ts
 
 # salida generada del agente clasificador (se regenera con cada corrida)
 /scripts/agente-clasificador/output/
+
+# asset original sin optimizar (5.5MB) — la versión optimizada vive en /public
+/automatizacion_datos_fluctuando.gif
