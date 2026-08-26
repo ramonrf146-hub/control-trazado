@@ -1,12 +1,12 @@
 ---
 titulo: "Política de privacidad"
-descripcion: "Cómo Control Trazado recopila, usa y protege tu información."
+descripcion: "Cómo AutomatizaLab recopila, usa y protege tu información."
 actualizado: "2026-08-25"
 ---
 
 _Última actualización: 25 de agosto de 2026._
 
-Esta Política de Privacidad describe cómo **Control Trazado** ("nosotros", "nuestro" o "el sitio") recopila, usa y comparte información cuando visitas controltrazado.com (el "Sitio").
+Esta Política de Privacidad describe cómo **AutomatizaLab** ("nosotros", "nuestro" o "el sitio") recopila, usa y comparte información cuando visitas controltrazado.com (el "Sitio").
 
 ## 1. Información que recopilamos
 
@@ -28,7 +28,7 @@ Este Sitio utiliza **Google Analytics 4** para entender cómo se usa el contenid
 
 ## 4. Programa de Afiliados de Amazon
 
-**Control Trazado es un participante en el Programa de Afiliados de Amazon Services LLC**, un programa de publicidad de afiliados diseñado para proporcionar un medio para que los sitios obtengan comisiones por publicidad, publicitando y enlazando a Amazon.com (y, cuando aplique, a otros dominios afiliados de Amazon).
+**AutomatizaLab es un participante en el Programa de Afiliados de Amazon Services LLC**, un programa de publicidad de afiliados diseñado para proporcionar un medio para que los sitios obtengan comisiones por publicidad, publicitando y enlazando a Amazon.com (y, cuando aplique, a otros dominios afiliados de Amazon).
 
 Cuando haces clic en un enlace de producto en este Sitio y realizas una compra en Amazon, podemos recibir una comisión, sin costo adicional para ti. Amazon puede colocar sus propias cookies en tu navegador al hacer clic en estos enlaces; el uso que Amazon hace de esa información se rige por la [Política de privacidad de Amazon](https://www.amazon.com/gp/help/customer/display.html?nodeId=468496).
 

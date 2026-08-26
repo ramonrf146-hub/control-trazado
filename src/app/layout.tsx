@@ -17,16 +17,16 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://controltrazado.com
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Control Trazado — Ranking mensual de automatización y control",
-    template: "%s | Control Trazado",
+    default: "AutomatizaLab — Ranking mensual de automatización y control",
+    template: "%s | AutomatizaLab",
   },
   description:
     "Ranking mensual con criterio técnico de hardware de automatización de hogar inteligente y control industrial B2B: enchufes y relés WiFi, variadores de frecuencia, gateways RS485/Modbus.",
   openGraph: {
     type: "website",
     locale: "es_ES",
-    siteName: "Control Trazado",
-    title: "Control Trazado — Ranking mensual de automatización y control",
+    siteName: "AutomatizaLab",
+    title: "AutomatizaLab — Ranking mensual de automatización y control",
     description:
       "Ranking mensual con criterio técnico de hardware de automatización e industrial, evaluado como un plano de ingeniería.",
   },

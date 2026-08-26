@@ -1,4 +1,4 @@
-# Control Trazado
+# AutomatizaLab
 
 Sitio de afiliados de Amazon enfocado en automatización de hogar inteligente
 y control industrial B2B. Rankea mensualmente enchufes/relés WiFi (Tuya,
@@ -163,7 +163,7 @@ de ventas/clics no se mezclan entre los dos sitios.
 
 Los umbrales de PA-API (10 ventas calificadas/30 días) y de retención de
 cuenta (3 ventas/180 días) son **por cuenta**, no por sitio — las ventas de
-Riego Trazado y Control Trazado suman juntas para esos límites.
+Riego Trazado y AutomatizaLab suman juntas para esos límites.
 
 ## Script de actualización mensual (PA-API)
 
@@ -243,7 +243,7 @@ manual.
 El mismo plugin construido para Riego Trazado
 (`riego-trazado-agregar-producto`) funciona acá — solo cambiá, dentro del
 plugin, el repo de destino (`git clone`) y el Partner Tag por los de
-Control Trazado, y actualizá `references/categorias.md` con las dos
+AutomatizaLab, y actualizá `references/categorias.md` con las dos
 categorías de este sitio en vez de las seis de riego.
 
 ## Analítica (GA4)

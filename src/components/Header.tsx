@@ -56,7 +56,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2.5 shrink-0" onClick={() => setMenuAbierto(false)}>
           <LogoRele />
           <span className="text-base font-extrabold tracking-tight text-text-light">
-            CONTROL<span className="text-accent">_</span>TRAZADO
+            AUTOMATIZA<span className="text-accent">_</span>LAB
           </span>
         </Link>
 

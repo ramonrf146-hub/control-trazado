@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid gap-10 sm:grid-cols-3">
           <div>
             <p className="font-mono text-sm font-medium text-text-light">
-              CONTROL<span className="text-accent">_</span>TRAZADO
+              AUTOMATIZA<span className="text-accent">_</span>LAB
             </p>
             <p className="mt-3 max-w-xs text-sm text-text-dim">
               Ranking mensual de hardware de automatización y control
@@ -61,7 +61,7 @@ export default function Footer() {
         <div className="mt-10 border-t border-line-dim/40 pt-6">
           <p className="text-xs leading-relaxed text-text-dim">
             <strong className="text-text-light">Aviso de afiliación:</strong>{" "}
-            Control Trazado es un participante en el Programa de Afiliados de
+            AutomatizaLab es un participante en el Programa de Afiliados de
             Amazon Services LLC, un programa de publicidad de afiliados
             diseñado para proporcionar un medio para que los sitios obtengan
             comisiones por publicidad, publicitando y enlazando a
@@ -70,7 +70,7 @@ export default function Footer() {
             cambiar — el precio real solo se confirma en Amazon.
           </p>
           <p className="mt-4 text-xs text-text-dim/70">
-            © {new Date().getFullYear()} Control Trazado. Todos los derechos
+            © {new Date().getFullYear()} AutomatizaLab. Todos los derechos
             reservados.
           </p>
         </div>
