@@ -82,5 +82,19 @@
     "notaTecnica": "Tiene control vectorial (no solo V/F escalar), lo que mantiene mejor el torque a bajas RPM — importante si vas a roscar o cortar a velocidad reducida. Con 5HP/4kW cubre motores más grandes que el modelo anterior, y acepta tanto entrada monofásica como trifásica, dando flexibilidad según la instalación eléctrica disponible. Sale hasta 26A — confirmá que tu cableado y protecciones soporten esa corriente antes de instalar.",
     "urlAfiliado": "https://www.amazon.com/dp/B09C5NDXDG?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25"
+  },
+  {
+    "asin": "B0B7MMSQXL",
+    "nombre": "Waveshare Conversor Industrial USB a RS485 (2 unidades)",
+    "categoria": "control-industrial-b2b",
+    "precio": 25.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61t++1v6uCL._AC_SX355_.jpg",
+    "rating": 4.6,
+    "numResenas": 77,
+    "ranking": 4,
+    "notaTecnica": "A diferencia del gateway RS232/485/422 a Ethernet que ya está en el ranking, este es un simple conversor USB a RS485 — conecta directo al puerto USB de una PC/notebook para configurar, programar o monitorear un bus RS485 desde una computadora, no para puentear a una red Ethernet. Usa el chipset FT232RL (reconocido, no un clon genérico) más un transceptor SP485EEN, con protección real contra sobretensión (TVS) y descargas ESD — algo que las opciones más baratas de este tipo suelen omitir. Viene de a 2 unidades, útil si necesitás uno para el taller y otro de respaldo.",
+    "urlAfiliado": "https://www.amazon.com/dp/B0B7MMSQXL?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-26"
   }
 ]
