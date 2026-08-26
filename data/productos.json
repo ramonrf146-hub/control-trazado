@@ -96,5 +96,19 @@
     "notaTecnica": "A diferencia del gateway RS232/485/422 a Ethernet que ya está en el ranking, este es un simple conversor USB a RS485 — conecta directo al puerto USB de una PC/notebook para configurar, programar o monitorear un bus RS485 desde una computadora, no para puentear a una red Ethernet. Usa el chipset FT232RL (reconocido, no un clon genérico) más un transceptor SP485EEN, con protección real contra sobretensión (TVS) y descargas ESD — algo que las opciones más baratas de este tipo suelen omitir. Viene de a 2 unidades, útil si necesitás uno para el taller y otro de respaldo.",
     "urlAfiliado": "https://www.amazon.com/dp/B0B7MMSQXL?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26"
+  },
+  {
+    "asin": "B0BY476TB8",
+    "nombre": "LCLCTC Fuente de Alimentación Riel DIN 5V DC 15W 2.4A",
+    "categoria": "control-industrial-b2b",
+    "precio": 13.4,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61o4y99s8pL._AC_SX466_.jpg",
+    "rating": 4.6,
+    "numResenas": 43,
+    "ranking": 5,
+    "notaTecnica": "Fuente compacta para riel DIN pensada para alimentar electrónica de bajo consumo (Arduino, PLC, relés) desde 5V DC dentro de un tablero o gabinete. Tiene protección contra sobrecarga, sobretensión y cortocircuito, carcasa de marco abierto (buena disipación de calor, pero menos cerrada frente a polvo que una carcasa sellada) y un trimmer para ajustar la salida entre 4.75-5.5V. Ojo: varias reseñas reportan que la corriente real ronda los 3A en vez de los 2.4A que dice el título — la ficha del producto es inconsistente en ese dato, así que no la lleves al límite si necesitás exactamente 2.4A.",
+    "urlAfiliado": "https://www.amazon.com/dp/B0BY476TB8?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-26"
   }
 ]
