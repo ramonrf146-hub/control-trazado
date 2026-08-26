@@ -110,5 +110,19 @@
     "notaTecnica": "Fuente compacta para riel DIN pensada para alimentar electrónica de bajo consumo (Arduino, PLC, relés) desde 5V DC dentro de un tablero o gabinete. Tiene protección contra sobrecarga, sobretensión y cortocircuito, carcasa de marco abierto (buena disipación de calor, pero menos cerrada frente a polvo que una carcasa sellada) y un trimmer para ajustar la salida entre 4.75-5.5V. Ojo: varias reseñas reportan que la corriente real ronda los 3A en vez de los 2.4A que dice el título — la ficha del producto es inconsistente en ese dato, así que no la lleves al límite si necesitás exactamente 2.4A.",
     "urlAfiliado": "https://www.amazon.com/dp/B0BY476TB8?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26"
+  },
+  {
+    "asin": "B0D2XGDQYD",
+    "nombre": "VAMRONE Raíl DIN de Aluminio Ranurado 8\" (30 piezas)",
+    "categoria": "control-industrial-b2b",
+    "precio": 18.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71xSMAmG3aL._AC_SX466_.jpg",
+    "rating": 4.7,
+    "numResenas": 77,
+    "ranking": 6,
+    "notaTecnica": "Son 30 tramos cortos de 8 pulgadas cada uno, no un riel continuo largo — hay que unir varios tramos si el tablero es ancho, y ahí puede quedar una junta visible entre secciones. Perfil de aluminio de 35mm de ancho por 7.5mm de alto (el estándar TS35, versión baja), ranurado y con tapas en los extremos incluidas. El aluminio pesa menos y no se oxida como el acero, pero flexiona más en tramos largos sin apoyo intermedio — para instalaciones con varios equipos pesados colgando, un riel de acero da más rigidez.",
+    "urlAfiliado": "https://www.amazon.com/dp/B0D2XGDQYD?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-26"
   }
 ]
