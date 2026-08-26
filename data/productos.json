@@ -10,7 +10,7 @@
     "numResenas": 957,
     "ranking": 1,
     "notaTecnica": "Tiene salida de contacto seco (dry contact), no es un enchufe listo para usar — se instala dentro de una caja o tablero para conmutar una carga externa, lo que lo hace más versátil para integrar a cableado existente que un enchufe inteligente tradicional. Soporta Matter, así que en teoría funciona con cualquier hub compatible (Apple Home, Google Home, Alexa) sin depender exclusivamente de la app Tuya/eWeLink. Acepta entrada AC o DC, útil si tu proyecto ya corre en 12V/24V DC.",
-    "urlAfiliado": "https://www.amazon.com/dp/B0DGXMZ9GD?tag=TU_PARTNER_TAG",
+    "urlAfiliado": "https://www.amazon.com/dp/B0DGXMZ9GD?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25"
   },
   {
@@ -24,7 +24,7 @@
     "numResenas": 750,
     "ranking": 2,
     "notaTecnica": "Es un enchufe listo para usar (no un módulo para instalar en un tablero), pensado para quien quiere resultado inmediato sin cablear nada. Corre en el ecosistema cerrado de GHome/Tuya — no tiene salida de contacto seco ni integración nativa con Home Assistant sin un puente adicional. Buena opción si tu prioridad es simplicidad, no si buscás integrarlo a un proyecto propio con Node-RED.",
-    "urlAfiliado": "https://www.amazon.com/dp/B0D7MLMCXR?tag=TU_PARTNER_TAG",
+    "urlAfiliado": "https://www.amazon.com/dp/B0D7MLMCXR?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25"
   },
   {
@@ -38,7 +38,7 @@
     "numResenas": 157,
     "ranking": 3,
     "notaTecnica": "El monitoreo de consumo (watts en tiempo real) es el diferencial frente a un enchufe simple — sirve para automatizaciones basadas en consumo, por ejemplo apagar un equipo cuando termina un ciclo. El pack de 4 lo hace conveniente para equipar varios puntos de una vez, pero seguís dependiendo de la app Tuya para configurarlos.",
-    "urlAfiliado": "https://www.amazon.com/dp/B0FZJ8Y54Q?tag=TU_PARTNER_TAG",
+    "urlAfiliado": "https://www.amazon.com/dp/B0FZJ8Y54Q?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25"
   },
   {
@@ -52,7 +52,7 @@
     "numResenas": 120,
     "ranking": 1,
     "notaTecnica": "Soporta los tres estándares seriales (RS232/485/422) en un mismo equipo, así que sirve tanto para instrumentos viejos con puerto RS232 como para buses RS485 multi-dispositivo. La alimentación por PoE es un plus real en instalaciones donde no hay toma de corriente cerca del panel — un solo cable Ethernet lleva datos y energía. Confirmá si tu maestro Modbus necesita modo TCP Server o Client antes de comprar; el modo se configura por software, no viene fijo de fábrica.",
-    "urlAfiliado": "https://www.amazon.com/dp/B0BN61G4VF?tag=TU_PARTNER_TAG",
+    "urlAfiliado": "https://www.amazon.com/dp/B0BN61G4VF?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25"
   },
   {
@@ -66,7 +66,7 @@
     "numResenas": 31,
     "ranking": 2,
     "notaTecnica": "Entrada monofásica a salida trifásica de 220V — la opción típica para talleres que no tienen acometida trifásica y quieren correr un motor de 3 fases. Es un modelo de entrada (2HP/1.5kW), pensado para husillos y motores chicos de CNC, no para cargas industriales grandes. El rango de salida hasta 3000Hz solo es útil si tu husillo específico lo aprovecha — para un motor estándar de 60Hz es irrelevante.",
-    "urlAfiliado": "https://www.amazon.com/dp/B0BM5JPXVY?tag=TU_PARTNER_TAG",
+    "urlAfiliado": "https://www.amazon.com/dp/B0BM5JPXVY?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25"
   },
   {
@@ -80,7 +80,7 @@
     "numResenas": 24,
     "ranking": 3,
     "notaTecnica": "Tiene control vectorial (no solo V/F escalar), lo que mantiene mejor el torque a bajas RPM — importante si vas a roscar o cortar a velocidad reducida. Con 5HP/4kW cubre motores más grandes que el modelo anterior, y acepta tanto entrada monofásica como trifásica, dando flexibilidad según la instalación eléctrica disponible. Sale hasta 26A — confirmá que tu cableado y protecciones soporten esa corriente antes de instalar.",
-    "urlAfiliado": "https://www.amazon.com/dp/B09C5NDXDG?tag=TU_PARTNER_TAG",
+    "urlAfiliado": "https://www.amazon.com/dp/B09C5NDXDG?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25"
   }
 ]
