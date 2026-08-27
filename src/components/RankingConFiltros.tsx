@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import Link from "next/link";
 import type { Producto } from "@/lib/tipos";
 import { CATEGORIAS } from "@/lib/categorias";
 import { useComparador } from "@/lib/useComparador";
@@ -8,6 +9,18 @@ import ProductCard from "./ProductCard";
 import ComparadorModal from "./ComparadorModal";
 
 const PASO_SCROLL = 400; // ancho de tarjeta (380px) + gap (20px) en desktop
+
+/** Guía de caso de uso relacionada, mostrada debajo del slider (nunca adentro) para no interferir con el swipe. */
+const GUIA_POR_CATEGORIA: Record<string, { href: string; texto: string }> = {
+  "control-industrial-b2b": {
+    href: "/articulos/instalar-vfd-240v-bomba-15hp",
+    texto: "📖 Guía: instalar un VFD para bombas pesadas de 15HP",
+  },
+  "automatizacion-hogar-inteligente": {
+    href: "/articulos/node-red-modbus-presion-hidroponia",
+    texto: "📖 Guía: Node-RED + Modbus para monitoreo de presión",
+  },
+};
 
 function IconoChevron({ direccion }: { direccion: "izquierda" | "derecha" }) {
   return (
@@ -149,6 +162,17 @@ export default function RankingConFiltros({ productos }: { productos: Producto[]
           <p className="mt-1 text-center text-xs text-text-dim/70 sm:hidden">
             Deslizá para ver el siguiente →
           </p>
+
+          {GUIA_POR_CATEGORIA[categoriaActiva] && (
+            <p className="mt-3 text-center text-sm">
+              <Link
+                href={GUIA_POR_CATEGORIA[categoriaActiva].href}
+                className="font-semibold text-line hover:underline"
+              >
+                {GUIA_POR_CATEGORIA[categoriaActiva].texto}
+              </Link>
+            </p>
+          )}
         </>
       )}
 

@@ -2,12 +2,19 @@
 
 import { useState } from "react";
 
+/**
+ * El envío por correo todavía no está conectado a un proveedor real
+ * (ver TODO abajo) — por eso el "regalo" se entrega como descarga
+ * directa apenas se completa el form, en vez de prometer un mail que
+ * hoy nadie mandaría.
+ */
 export default function NewsletterBand() {
   const [estado, setEstado] = useState<"idle" | "enviado">("idle");
 
   function manejarEnvio(evento: React.FormEvent<HTMLFormElement>) {
     evento.preventDefault();
-    // TODO: conectar a proveedor de newsletter (ej. Buttondown, ConvertKit).
+    // TODO: conectar a proveedor de newsletter (ej. Buttondown, ConvertKit)
+    // para además guardar el correo como lead, no solo desbloquear la descarga.
     setEstado("enviado");
   }
 
@@ -16,21 +23,30 @@ export default function NewsletterBand() {
       <div className="mx-auto flex max-w-6xl flex-col items-start gap-6 px-4 py-14 sm:flex-row sm:items-center sm:justify-between sm:px-6">
         <div>
           <p className="font-mono text-xs uppercase tracking-wide text-ink/60">
-            Ranking mensual por correo
+            Para quienes arman sus propios sistemas
           </p>
           <h2 className="mt-2 max-w-md text-xl font-semibold sm:text-2xl">
-            Recibe el ranking del mes antes que nadie
+            Llevate el flujo de Node-RED armado, no en blanco
           </h2>
           <p className="mt-2 max-w-md text-sm text-ink/70">
-            Un correo al mes con los cambios de ranking y las notas técnicas
-            nuevas. Sin spam.
+            Te dejamos el archivo listo para importar: lectura Modbus RTU,
+            alertas por umbral y dashboard con gauge — el mismo que armamos
+            en la guía de monitoreo de presión. Editalo con tus propios
+            registros y ahorrate las horas de armarlo desde cero.
           </p>
         </div>
 
         {estado === "enviado" ? (
-          <p className="font-mono text-sm text-accent">
-            Listo — revisa tu correo para confirmar.
-          </p>
+          <div className="flex flex-col items-start gap-2">
+            <p className="font-mono text-sm text-accent">Listo, ya es tuyo.</p>
+            <a
+              href="/plantillas/monitoreo-presion-modbus.json"
+              download
+              className="whitespace-nowrap rounded-sm bg-ink px-4 py-2.5 font-mono text-xs font-medium uppercase tracking-wide text-text-light transition-opacity hover:opacity-90"
+            >
+              Descargar plantilla (.json)
+            </a>
+          </div>
         ) : (
           <form
             onSubmit={manejarEnvio}
@@ -50,7 +66,7 @@ export default function NewsletterBand() {
               type="submit"
               className="whitespace-nowrap rounded-sm bg-ink px-4 py-2.5 font-mono text-xs font-medium uppercase tracking-wide text-text-light transition-opacity hover:opacity-90"
             >
-              Suscribirme
+              Quiero la plantilla gratis
             </button>
           </form>
         )}
