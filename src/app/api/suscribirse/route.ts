@@ -45,17 +45,20 @@ export async function POST(request: Request) {
         tags: typeof tag === "string" ? [tag] : undefined,
       }),
     });
+    const texto = await respuesta.text();
 
     // 201 = alta nueva. 400 suele ser "ya existe ese email" — ambos son
     // éxito desde la perspectiva de quien completó el formulario.
-    // Se loguea cualquier otro caso (ej. cuenta todavía en revisión)
-    // para poder diagnosticarlo en los logs de Vercel.
     if (!respuesta.ok && respuesta.status !== 400) {
-      console.error("Error de Buttondown:", respuesta.status, await respuesta.text());
+      console.error("Error de Buttondown:", respuesta.status, texto);
     }
+
+    // DEBUG TEMPORAL: exponer el detalle real de Buttondown para
+    // diagnosticar por qué no aparecen los suscriptores de prueba.
+    // Sacar este campo una vez confirmado que funciona.
+    return NextResponse.json({ ok: true, debugButtondown: { status: respuesta.status, texto } });
   } catch (error) {
     console.error("No se pudo conectar con Buttondown:", error);
+    return NextResponse.json({ ok: true, debugButtondown: { error: String(error) } });
   }
-
-  return NextResponse.json({ ok: true });
 }
