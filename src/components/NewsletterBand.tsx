@@ -3,18 +3,21 @@
 import { useState } from "react";
 
 /**
- * El envío por correo todavía no está conectado a un proveedor real
- * (ver TODO abajo) — por eso el "regalo" se entrega como descarga
- * directa apenas se completa el form, en vez de prometer un mail que
- * hoy nadie mandaría.
+ * El "regalo" se entrega como descarga directa apenas se completa el
+ * form — el alta en Buttondown (vía /api/suscribirse) es best-effort y
+ * nunca bloquea la descarga si falla o tarda.
  */
 export default function NewsletterBand() {
   const [estado, setEstado] = useState<"idle" | "enviado">("idle");
 
   function manejarEnvio(evento: React.FormEvent<HTMLFormElement>) {
     evento.preventDefault();
-    // TODO: conectar a proveedor de newsletter (ej. Buttondown, ConvertKit)
-    // para además guardar el correo como lead, no solo desbloquear la descarga.
+    const email = new FormData(evento.currentTarget).get("email");
+    fetch("/api/suscribirse", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, tag: "plantilla-node-red" }),
+    }).catch(() => {});
     setEstado("enviado");
   }
 
@@ -57,6 +60,7 @@ export default function NewsletterBand() {
             </label>
             <input
               id="newsletter-email"
+              name="email"
               type="email"
               required
               placeholder="tu@correo.com"

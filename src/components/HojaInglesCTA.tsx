@@ -6,14 +6,20 @@ import { useState } from "react";
  * Segundo lead magnet, más específico que el de NewsletterBand: apunta
  * al lector de artículos de control-industrial-b2b, que es exactamente
  * el perfil de "mantenimiento industrial" al que le sirve esta hoja.
- * Mismo patrón de descarga directa que NewsletterBand — ver el TODO ahí
- * sobre conectar un proveedor real de correo.
+ * Mismo patrón de descarga directa que NewsletterBand: el alta en
+ * Buttondown es best-effort y nunca bloquea la descarga.
  */
 export default function HojaInglesCTA() {
   const [estado, setEstado] = useState<"idle" | "enviado">("idle");
 
   function manejarEnvio(evento: React.FormEvent<HTMLFormElement>) {
     evento.preventDefault();
+    const email = new FormData(evento.currentTarget).get("email");
+    fetch("/api/suscribirse", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, tag: "hoja-ingles-tecnico" }),
+    }).catch(() => {});
     setEstado("enviado");
   }
 
@@ -55,6 +61,7 @@ export default function HojaInglesCTA() {
           </label>
           <input
             id="hoja-ingles-email"
+            name="email"
             type="email"
             required
             placeholder="tu@correo.com"
