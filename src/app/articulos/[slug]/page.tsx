@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getArticulos, getArticuloPorSlug } from "@/lib/contenido";
 import { getCategoriaPorSlug } from "@/lib/categorias";
+import HojaInglesCTA from "@/components/HojaInglesCTA";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -80,6 +81,8 @@ export default async function ArticuloPage({ params }: Props) {
         className="prose prose-invert prose-headings:font-semibold prose-a:text-line mt-8 max-w-none prose-headings:text-text-light prose-p:text-text-dim prose-li:text-text-dim prose-strong:text-text-light"
         dangerouslySetInnerHTML={{ __html: articulo.contenidoHtml }}
       />
+
+      {articulo.categoria === "control-industrial-b2b" && <HojaInglesCTA />}
     </article>
   );
 }
