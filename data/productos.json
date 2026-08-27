@@ -441,5 +441,26 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0CG5VDC8P?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "activo": true
+  },
+  {
+    "asin": "B0DJS9L3C8",
+    "nombre": "Luz de Techo Recargable con Sensor de Movimiento (Control Remoto)",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 17.09,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61RqSfFylvL._AC_UL320_.jpg",
+    "rating": 4.3,
+    "numResenas": 685,
+    "ranking": 7,
+    "notaTecnica": "A diferencia de todo lo demás de esta categoría, esta luz es standalone: no tiene WiFi, no usa app ni se integra con Alexa/Google/HomeKit — la 'automatización' viene del sensor de movimiento y de luz incorporado, no de una red doméstica. Tiene tres modos (siempre encendida, detecta movimiento día y noche, o solo de noche), tres temperaturas de color, dimming y timer, todo manejable con el control remoto incluido o el botón físico. Se recarga por USB-C (4-6 horas) y rinde entre 15 y 40+ horas según el brillo — instalación magnética sin cables, ideal para lugares donde no hay o no querés tender electricidad.",
+    "idealPara": "Placares, pasillos, sótanos o duchas sin punto de luz cableado, donde buscás encendido automático por movimiento sin depender de WiFi ni de una app.",
+    "tags": [
+      "Sin WiFi (standalone)",
+      "Sensor de movimiento",
+      "Recargable USB-C"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0DJS9L3C8?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-26",
+    "activo": true
   }
 ]
