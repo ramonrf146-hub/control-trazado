@@ -30,20 +30,26 @@ export async function POST(request: Request) {
   }
 
   try {
-    const respuesta = await fetch("https://api.buttondown.email/v1/subscribers", {
+    // Dominio y nombre de campo según la documentación actual de
+    // Buttondown (api.buttondown.com, campo "email_address") — la
+    // versión anterior usaba api.buttondown.email + "email" y fallaba
+    // en silencio porque el error no bloqueaba la descarga.
+    const respuesta = await fetch("https://api.buttondown.com/v1/subscribers", {
       method: "POST",
       headers: {
         Authorization: `Token ${apiKey}`,
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        email,
+        email_address: email,
         tags: typeof tag === "string" ? [tag] : undefined,
       }),
     });
 
     // 201 = alta nueva. 400 suele ser "ya existe ese email" — ambos son
     // éxito desde la perspectiva de quien completó el formulario.
+    // Se loguea cualquier otro caso (ej. cuenta todavía en revisión)
+    // para poder diagnosticarlo en los logs de Vercel.
     if (!respuesta.ok && respuesta.status !== 400) {
       console.error("Error de Buttondown:", respuesta.status, await respuesta.text());
     }
