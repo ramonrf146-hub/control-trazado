@@ -10,6 +10,7 @@
     "numResenas": 957,
     "ranking": 1,
     "notaTecnica": "Tiene salida de contacto seco (dry contact), no es un enchufe listo para usar — se instala dentro de una caja o tablero para conmutar una carga externa, lo que lo hace más versátil para integrar a cableado existente que un enchufe inteligente tradicional. Soporta Matter, así que en teoría funciona con cualquier hub compatible (Apple Home, Google Home, Alexa) sin depender exclusivamente de la app Tuya/eWeLink. Acepta entrada AC o DC, útil si tu proyecto ya corre en 12V/24V DC.",
+    "idealPara": "Integrar automatización a cableado ya existente dentro de una caja o tablero, o a hubs Matter (Apple Home, Google Home) sin depender de una app cerrada.",
     "urlAfiliado": "https://www.amazon.com/dp/B0DGXMZ9GD?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25",
     "tags": [
@@ -29,6 +30,7 @@
     "numResenas": 750,
     "ranking": 2,
     "notaTecnica": "Es un enchufe listo para usar (no un módulo para instalar en un tablero), pensado para quien quiere resultado inmediato sin cablear nada. Corre en el ecosistema cerrado de GHome/Tuya — no tiene salida de contacto seco ni integración nativa con Home Assistant sin un puente adicional. Buena opción si tu prioridad es simplicidad, no si buscás integrarlo a un proyecto propio con Node-RED.",
+    "idealPara": "Resultado inmediato sin cablear nada: enchufás y controlás por app. No es para quien busca integrar el equipo a un proyecto propio con Node-RED.",
     "urlAfiliado": "https://www.amazon.com/dp/B0D7MLMCXR?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25",
     "tags": [
@@ -48,6 +50,7 @@
     "numResenas": 157,
     "ranking": 3,
     "notaTecnica": "El monitoreo de consumo (watts en tiempo real) es el diferencial frente a un enchufe simple — sirve para automatizaciones basadas en consumo, por ejemplo apagar un equipo cuando termina un ciclo. El pack de 4 lo hace conveniente para equipar varios puntos de una vez, pero seguís dependiendo de la app Tuya para configurarlos.",
+    "idealPara": "Automatizaciones basadas en consumo real (apagar un equipo al terminar un ciclo) y equipar varios puntos de una vez con el pack de 4.",
     "urlAfiliado": "https://www.amazon.com/dp/B0FZJ8Y54Q?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25",
     "tags": [
@@ -67,6 +70,7 @@
     "numResenas": 120,
     "ranking": 1,
     "notaTecnica": "Soporta los tres estándares seriales (RS232/485/422) en un mismo equipo, así que sirve tanto para instrumentos viejos con puerto RS232 como para buses RS485 multi-dispositivo. La alimentación por PoE es un plus real en instalaciones donde no hay toma de corriente cerca del panel — un solo cable Ethernet lleva datos y energía. Confirmá si tu maestro Modbus necesita modo TCP Server o Client antes de comprar; el modo se configura por software, no viene fijo de fábrica.",
+    "idealPara": "Instalaciones sin toma de corriente cerca del panel (se alimenta por PoE) que necesitan puentear RS232/485/422 viejo o nuevo hacia una red Ethernet.",
     "urlAfiliado": "https://www.amazon.com/dp/B0BN61G4VF?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25",
     "tags": [
@@ -86,6 +90,7 @@
     "numResenas": 31,
     "ranking": 2,
     "notaTecnica": "Entrada monofásica a salida trifásica de 220V — la opción típica para talleres que no tienen acometida trifásica y quieren correr un motor de 3 fases. Es un modelo de entrada (2HP/1.5kW), pensado para husillos y motores chicos de CNC, no para cargas industriales grandes. El rango de salida hasta 3000Hz solo es útil si tu husillo específico lo aprovecha — para un motor estándar de 60Hz es irrelevante.",
+    "idealPara": "Talleres sin acometida trifásica que quieren correr un motor de 3 fases chico (husillos o motores de CNC de hasta 2HP).",
     "urlAfiliado": "https://www.amazon.com/dp/B0BM5JPXVY?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25",
     "tags": [
@@ -105,6 +110,7 @@
     "numResenas": 24,
     "ranking": 3,
     "notaTecnica": "Tiene control vectorial (no solo V/F escalar), lo que mantiene mejor el torque a bajas RPM — importante si vas a roscar o cortar a velocidad reducida. Con 5HP/4kW cubre motores más grandes que el modelo anterior, y acepta tanto entrada monofásica como trifásica, dando flexibilidad según la instalación eléctrica disponible. Sale hasta 26A — confirmá que tu cableado y protecciones soporten esa corriente antes de instalar.",
+    "idealPara": "Motores más grandes (hasta 5HP) que necesitan mantener torque a bajas RPM, por ejemplo roscar o cortar a velocidad reducida.",
     "urlAfiliado": "https://www.amazon.com/dp/B09C5NDXDG?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25",
     "tags": [
@@ -124,6 +130,7 @@
     "numResenas": 77,
     "ranking": 4,
     "notaTecnica": "A diferencia del gateway RS232/485/422 a Ethernet que ya está en el ranking, este es un simple conversor USB a RS485 — conecta directo al puerto USB de una PC/notebook para configurar, programar o monitorear un bus RS485 desde una computadora, no para puentear a una red Ethernet. Usa el chipset FT232RL (reconocido, no un clon genérico) más un transceptor SP485EEN, con protección real contra sobretensión (TVS) y descargas ESD — algo que las opciones más baratas de este tipo suelen omitir. Viene de a 2 unidades, útil si necesitás uno para el taller y otro de respaldo.",
+    "idealPara": "Configurar, programar o monitorear un bus RS485 directo desde una PC — no para puentear hacia una red Ethernet (para eso, el gateway de arriba).",
     "urlAfiliado": "https://www.amazon.com/dp/B0B7MMSQXL?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -143,6 +150,7 @@
     "numResenas": 43,
     "ranking": 5,
     "notaTecnica": "Fuente compacta para riel DIN pensada para alimentar electrónica de bajo consumo (Arduino, PLC, relés) desde 5V DC dentro de un tablero o gabinete. Tiene protección contra sobrecarga, sobretensión y cortocircuito, carcasa de marco abierto (buena disipación de calor, pero menos cerrada frente a polvo que una carcasa sellada) y un trimmer para ajustar la salida entre 4.75-5.5V. Ojo: varias reseñas reportan que la corriente real ronda los 3A en vez de los 2.4A que dice el título — la ficha del producto es inconsistente en ese dato, así que no la lleves al límite si necesitás exactamente 2.4A.",
+    "idealPara": "Alimentar electrónica de bajo consumo (Arduino, PLC, relés) dentro de un tablero — no lo lleves al límite de los 2.4A si eso es crítico para tu diseño.",
     "urlAfiliado": "https://www.amazon.com/dp/B0BY476TB8?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -162,6 +170,7 @@
     "numResenas": 77,
     "ranking": 6,
     "notaTecnica": "Son 30 tramos cortos de 8 pulgadas cada uno, no un riel continuo largo — hay que unir varios tramos si el tablero es ancho, y ahí puede quedar una junta visible entre secciones. Perfil de aluminio de 35mm de ancho por 7.5mm de alto (el estándar TS35, versión baja), ranurado y con tapas en los extremos incluidas. El aluminio pesa menos y no se oxida como el acero, pero flexiona más en tramos largos sin apoyo intermedio — para instalaciones con varios equipos pesados colgando, un riel de acero da más rigidez.",
+    "idealPara": "Tableros chicos a medianos: si el gabinete es ancho vas a unir varios tramos de 8\" y puede quedar una junta visible entre secciones.",
     "urlAfiliado": "https://www.amazon.com/dp/B0D2XGDQYD?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -181,6 +190,7 @@
     "numResenas": 42,
     "ranking": 7,
     "notaTecnica": "El título anuncia 20A/600V pero la ficha técnica interna del mismo listing dice 32A/UL 800V — inconsistencia típica de este tipo de producto, no te bases solo en el título. El cuerpo es nylon PA66 con lámina de cobre puro para buen contacto, y el sistema de jaula autoblocante no estresa el plástico al apretar el tornillo (a diferencia de un terminal tradicional). Ojo: según reseñas detalladas no vienen con topes de fin de carril ni tramos de riel incluidos — hay que comprarlos aparte.",
+    "idealPara": "Cablear un tablero con buen contacto de cobre puro y sistema de jaula autoblocante — comprá aparte los topes de fin de carril, no vienen incluidos.",
     "urlAfiliado": "https://www.amazon.com/dp/B0CW1K4461?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -200,6 +210,7 @@
     "numResenas": 356,
     "ranking": 8,
     "notaTecnica": "Pensada originalmente para ocultar cables de TV/computadora en un escritorio, no es un ducto certificado para tablero industrial — pero varias reseñas la usan igual para prolijar el cableado dentro de un gabinete de electrónica y funciona bien para eso a bajo costo. Es plástico delgado (una reseña la describe como \"cheap quality\" aunque cumple), se instala con cinta doble faz o tornillos, y no reemplaza un ducto ranurado rígido si necesitás algo estructural o resistente a la intemperie.",
+    "idealPara": "Prolijar cableado dentro de un gabinete de electrónica a bajo costo — no reemplaza un ducto rígido si necesitás algo estructural o para intemperie.",
     "urlAfiliado": "https://www.amazon.com/dp/B081GWZTB7?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -218,6 +229,7 @@
     "numResenas": 340,
     "ranking": 9,
     "notaTecnica": "Cable genérico de cobre estañado con aislación de silicona (soporta -60°C a 200°C, 600V nominal) — no es un cable específico de automatización, pero es la opción típica para cableado interno flexible en proyectos DIY (fuentes, sensores, motores chicos) donde el PVC común se pone rígido con el calor. Viene en un solo color (rojo) en bobina de 500 pies — vas a necesitar comprar el negro aparte para el retorno/negativo, y a este precio por pie conviene solo si necesitás la flexibilidad extra de la silicona.",
+    "idealPara": "Cableado interno flexible en proyectos DIY que se calientan (fuentes, drivers, motores chicos) donde el PVC común se pone rígido.",
     "urlAfiliado": "https://www.amazon.com/dp/B08GFQP2MG?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -237,6 +249,7 @@
     "numResenas": 200,
     "ranking": 10,
     "notaTecnica": "Misma familia que el cable de silicona 18AWG del ranking, en calibre más fino (22AWG, 60 hebras estañadas) para señal o cargas chicas, no para alimentación de potencia. Soporta -60°C a 200°C y 600V nominal, ideal para cableado interno de proyectos que se calientan (fuentes, drivers). También viene solo en rojo — necesitás el negro aparte — y en bobina de 1000 pies es una compra grande, no pensada para un proyecto puntual chico.",
+    "idealPara": "Señal o cargas chicas en proyectos que se calientan, no para alimentación de potencia — es la versión más fina del cable de silicona 18AWG de este ranking.",
     "urlAfiliado": "https://www.amazon.com/dp/B08S6PTM95?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -256,6 +269,7 @@
     "numResenas": 316,
     "ranking": 11,
     "notaTecnica": "Combina disyuntor + falla a tierra (30mA clase AC) + protección contra sobretensión (20kA) en un solo módulo de riel DIN — bastante completo para 120/240V. Ojo: varias reseñas (incluida una que terminó en incendio) reportan que las instrucciones de cableado son confusas para 208V/240V sin neutro, así que hay que confirmar bien el diagrama antes de energizarlo. Viene con 1 riel DIN y 5 terminales de crimpado incluidos, pero el grado de protección es IP20 (no sellado, solo para gabinete cerrado).",
+    "idealPara": "Tableros 120V con neutro que necesitan disyuntor + falla a tierra + sobretensión en un solo módulo — confirmá bien el diagrama si vas a energizar sin neutro.",
     "urlAfiliado": "https://www.amazon.com/dp/B0CRKN96TB?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -275,6 +289,7 @@
     "numResenas": 502,
     "ranking": 12,
     "notaTecnica": "Transformador de aislamiento clásico para circuitos de control HVAC (termostatos, relés, válvulas de gas) — no es de montaje en riel DIN, va atornillado con soporte de pie. Varias reseñas de este tipo de transformador reportan que las instrucciones de cableado para 208V/240V sin neutro son confusas y llevaron a quemarlo; para 120V con neutro la mayoría no reporta problemas, pero conviene revisar bien el diagrama si se va a alimentar a otro voltaje.",
+    "idealPara": "Circuitos de control HVAC clásicos (termostatos, relés, válvulas de gas) alimentados a 120V con neutro — revisá el diagrama si tu instalación es distinta.",
     "urlAfiliado": "https://www.amazon.com/dp/B0B8Z2XV7V?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -293,6 +308,7 @@
     "numResenas": 4435,
     "ranking": 4,
     "notaTecnica": "Enchufe inteligente listo para usar, sin instalación en tablero — se enchufa y se controla por app. Funciona con Alexa y Google Home, pero primero hay que vincularlo a la app GHome (no se conecta directo a los asistentes). Solo soporta WiFi 2.4GHz (no 5GHz) y no tiene salida de contacto seco como el SONOFF que ya está en el ranking, así que no sirve para conmutar una carga externa dentro de un tablero — es para enchufar electrodomésticos directamente.",
+    "idealPara": "Enchufar electrodomésticos directo y controlarlos por Alexa/Google Home sin instalación — no sirve para conmutar una carga externa dentro de un tablero.",
     "urlAfiliado": "https://www.amazon.com/dp/B0FD6CYBNH?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -312,6 +328,7 @@
     "numResenas": 0,
     "ranking": 13,
     "notaTecnica": "Arrancador suave real (no un VFD) para motores trifásicos grandes — reduce la corriente de arranque en compresores, bombas o husillos de 15HP. El propio fabricante aclara que requiere un contactor de derivación aparte (no incluido), y el manual no garantiza estar en español. Todavía no tiene ninguna reseña en Amazon (0 calificaciones) — buena opción técnica por precio frente a otros arrancadores similares, pero es una compra sin feedback de otros compradores todavía.",
+    "idealPara": "Reducir la corriente de arranque en motores trifásicos grandes (15HP) como compresores o bombas — sumale el contactor de derivación, no viene incluido.",
     "urlAfiliado": "https://www.amazon.com/dp/B0BM9BQKJY?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
