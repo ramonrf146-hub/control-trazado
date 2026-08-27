@@ -11,6 +11,17 @@
     "ranking": 1,
     "notaTecnica": "Tiene salida de contacto seco (dry contact), no es un enchufe listo para usar — se instala dentro de una caja o tablero para conmutar una carga externa, lo que lo hace más versátil para integrar a cableado existente que un enchufe inteligente tradicional. Soporta Matter, así que en teoría funciona con cualquier hub compatible (Apple Home, Google Home, Alexa) sin depender exclusivamente de la app Tuya/eWeLink. Acepta entrada AC o DC, útil si tu proyecto ya corre en 12V/24V DC.",
     "idealPara": "Integrar automatización a cableado ya existente dentro de una caja o tablero, o a hubs Matter (Apple Home, Google Home) sin depender de una app cerrada.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Este aparato es un \"interruptor a distancia\" que se instala escondido dentro de una caja eléctrica o tablero, no un enchufe que ves y tocás. Tiene lo que se llama \"contacto seco\": pensalo como el dedo de un robot que aprieta o suelta un botón por vos, sin importarle qué corriente tiene ese botón del otro lado. Eso lo hace compatible con casi cualquier instalación existente, no solo con electrodomésticos enchufables.",
+      "ejemploHogar": "Tenés una luz de jardín cableada de forma tradicional (con su propio interruptor de pared) y querés poder prenderla con la voz o el celular sin cambiar todo el cableado — este switch se instala adentro de la caja del interruptor y hace ese trabajo.",
+      "ejemploNegocio": "Un taller quiere automatizar el encendido de un ventilador o compresor que ya está cableado de forma fija, sin comprar un motor nuevo — el contacto seco actúa como un botón robotizado para ese equipo existente.",
+      "puntosClave": [
+        "Confirmá que tenés experiencia (o un electricista) para instalarlo dentro de una caja o tablero — no es plug&play como un enchufe.",
+        "Es compatible con Matter, el estándar que permite usarlo con Apple Home, Google Home o Alexa sin depender de una sola app cerrada.",
+        "Acepta entrada AC o DC — útil si tu proyecto corre en 12V/24V en vez de la corriente normal de la casa."
+      ],
+      "consejoInversion": "Frente a un enchufe inteligente genérico que solo sirve para lo que se enchufa, este switch te permite automatizar cableado que ya existe en tu casa o taller — es más trabajo instalarlo, pero mucho más versátil, y el soporte Matter evita que quedes atado a una sola app para siempre."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0DGXMZ9GD?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25",
     "tags": [
@@ -31,6 +42,17 @@
     "ranking": 2,
     "notaTecnica": "Es un enchufe listo para usar (no un módulo para instalar en un tablero), pensado para quien quiere resultado inmediato sin cablear nada. Corre en el ecosistema cerrado de GHome/Tuya — no tiene salida de contacto seco ni integración nativa con Home Assistant sin un puente adicional. Buena opción si tu prioridad es simplicidad, no si buscás integrarlo a un proyecto propio con Node-RED.",
     "idealPara": "Resultado inmediato sin cablear nada: enchufás y controlás por app. No es para quien busca integrar el equipo a un proyecto propio con Node-RED.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un enchufe doble que se conecta a tu WiFi: enchufás dos aparatos ahí y después los prendés o apagás desde una app o con la voz, sin tocar ningún cable.",
+      "ejemploHogar": "Enchufás una lámpara de living y un ventilador, y programás que se prendan solos a una hora fija todas las noches, o los apagás desde la cama sin levantarte.",
+      "ejemploNegocio": "Un local puede usarlo para prender y apagar la cartelería LED o un ventilador de vidriera en un horario fijo, sin necesidad de que alguien lo haga manualmente todos los días.",
+      "puntosClave": [
+        "Es un enchufe listo para usar: no hace falta instalación ni electricista, solo enchufarlo a la pared.",
+        "Corre en el ecosistema Tuya/GHome — si más adelante querés integrarlo a un sistema más avanzado (como Home Assistant), vas a necesitar un puente adicional.",
+        "No sirve para cableado fijo (como una luz empotrada) — solo para lo que se puede enchufar."
+      ],
+      "consejoInversion": "Para el que quiere resultados ya, sin instalación ni curva de aprendizaje, este enchufe doble es la opción más simple y directa — la contra es quedar atado a la app Tuya, algo a tener en cuenta si en el futuro pensás construir un sistema domótico más grande y personalizado."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0D7MLMCXR?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25",
     "tags": [
@@ -51,6 +73,17 @@
     "ranking": 3,
     "notaTecnica": "El monitoreo de consumo (watts en tiempo real) es el diferencial frente a un enchufe simple — sirve para automatizaciones basadas en consumo, por ejemplo apagar un equipo cuando termina un ciclo. El pack de 4 lo hace conveniente para equipar varios puntos de una vez, pero seguís dependiendo de la app Tuya para configurarlos.",
     "idealPara": "Automatizaciones basadas en consumo real (apagar un equipo al terminar un ciclo) y equipar varios puntos de una vez con el pack de 4.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un enchufe inteligente que además de prender/apagar, te dice cuánta energía (en watts) está consumiendo el aparato conectado en tiempo real — como tener un medidor de luz individual para cada enchufe.",
+      "ejemploHogar": "Conectás la lavadora y programás que el enchufe se apague solo cuando el consumo baja a cero (señal de que terminó el ciclo), ahorrándote dejarla en standby consumiendo de más.",
+      "ejemploNegocio": "Un taller puede monitorear cuánta energía consume cada máquina conectada a estos enchufes, para detectar cuál está gastando de más o cuándo termina un proceso automático.",
+      "puntosClave": [
+        "El diferencial frente a un enchufe simple es el monitoreo de consumo — si no te interesa ese dato, un enchufe básico más barato te alcanza.",
+        "Viene en pack de 4, conveniente si necesitás equipar varios puntos de una sola compra.",
+        "Seguís dependiendo de la app Tuya para configurarlos y ver los datos de consumo."
+      ],
+      "consejoInversion": "El dato de consumo en tiempo real te permite automatizar decisiones basadas en el comportamiento real del aparato (no solo un horario fijo), y comprar el pack de 4 sale más conveniente por unidad que comprarlos sueltos."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0FZJ8Y54Q?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25",
     "tags": [
@@ -71,6 +104,17 @@
     "ranking": 1,
     "notaTecnica": "Soporta los tres estándares seriales (RS232/485/422) en un mismo equipo, así que sirve tanto para instrumentos viejos con puerto RS232 como para buses RS485 multi-dispositivo. La alimentación por PoE es un plus real en instalaciones donde no hay toma de corriente cerca del panel — un solo cable Ethernet lleva datos y energía. Confirmá si tu maestro Modbus necesita modo TCP Server o Client antes de comprar; el modo se configura por software, no viene fijo de fábrica.",
     "idealPara": "Instalaciones sin toma de corriente cerca del panel (se alimenta por PoE) que necesitan puentear RS232/485/422 viejo o nuevo hacia una red Ethernet.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un \"traductor\" que conecta equipos con cables seriales viejos (RS232, RS485, RS422 — el idioma que hablan las máquinas industriales entre sí) a tu red de internet normal (Ethernet), para monitorearlos o controlarlos desde una computadora en otra parte del edificio. Lo de PoE significa que un mismo cable de red le lleva tanto los datos como la energía, sin necesitar un enchufe cerca.",
+      "ejemploHogar": "Si tenés un panel solar o sistema de baterías con salida RS485 y querés monitorearlo desde tu computadora sin cablear una toma de corriente hasta ahí, el PoE resuelve el problema de energía.",
+      "ejemploNegocio": "Una planta con máquinas viejas que usan puertos RS232 (instrumentos de medición antiguos) puede conectarlas a la red moderna de la fábrica sin cambiar los equipos, y sin necesitar corriente cerca del panel gracias al PoE.",
+      "puntosClave": [
+        "Confirmá si tu maestro Modbus (el software o equipo que va a leer los datos) necesita que este gateway funcione como Servidor o Cliente TCP — se configura por software, no viene fijo de fábrica.",
+        "Soporta los tres estándares (RS232/485/422) en un mismo equipo, así que sirve tanto para instrumentos viejos como para buses modernos.",
+        "El PoE es un ahorro real de instalación solo si tu switch de red también soporta PoE — si no, vas a necesitar un inyector aparte."
+      ],
+      "consejoInversion": "Frente a tender un cable de corriente nuevo hasta un panel donde no hay toma cercana, el PoE te ahorra esa obra — y soportar los tres protocolos seriales en un mismo equipo evita comprar tres gateways distintos si tu instalación es mixta."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0BN61G4VF?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25",
     "tags": [
@@ -91,6 +135,17 @@
     "ranking": 2,
     "notaTecnica": "Entrada monofásica a salida trifásica de 220V — la opción típica para talleres que no tienen acometida trifásica y quieren correr un motor de 3 fases. Es un modelo de entrada (2HP/1.5kW), pensado para husillos y motores chicos de CNC, no para cargas industriales grandes. El rango de salida hasta 3000Hz solo es útil si tu husillo específico lo aprovecha — para un motor estándar de 60Hz es irrelevante.",
     "idealPara": "Talleres sin acometida trifásica que quieren correr un motor de 3 fases chico (husillos o motores de CNC de hasta 2HP).",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Un VFD (variador de frecuencia) es como el acelerador de un motor eléctrico: en vez de que el motor solo tenga on/off a toda velocidad, el VFD le permite arrancar suave y regular la velocidad — como el pedal de un auto en vez de un interruptor de luz. Este modelo además convierte corriente monofásica (la de tu casa) en trifásica (la que necesitan muchos motores industriales).",
+      "ejemploHogar": "No es un producto típico de hogar, pero alguien con un taller casero de carpintería o metalurgia con una sierra o torno de 3 fases puede alimentarlo desde el tomacorriente monofásico normal de la casa.",
+      "ejemploNegocio": "Un taller de mecanizado (CNC) sin acometida eléctrica trifásica puede correr un husillo o motor chico de hasta 2HP conectándolo a la corriente monofásica normal del local.",
+      "puntosClave": [
+        "Es un modelo de entrada (2HP/1.5kW) — sirve para motores chicos de CNC, no para maquinaria industrial pesada.",
+        "El rango de velocidad de hasta 3000Hz solo importa si tu husillo específico lo aprovecha — para un motor estándar de 60Hz esa función no sirve de nada.",
+        "Confirmá que tu instalación eléctrica actual sea monofásica de 220V — este modelo espera esa entrada, no otra."
+      ],
+      "consejoInversion": "Sin este equipo, la única forma de correr un motor trifásico en un local sin acometida trifásica es pedirle a la compañía eléctrica una instalación nueva (cara y lenta) — este VFD resuelve el mismo problema por una fracción del costo, con el plus de poder regular la velocidad del motor."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0BM5JPXVY?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25",
     "tags": [
@@ -111,6 +166,17 @@
     "ranking": 3,
     "notaTecnica": "Tiene control vectorial (no solo V/F escalar), lo que mantiene mejor el torque a bajas RPM — importante si vas a roscar o cortar a velocidad reducida. Con 5HP/4kW cubre motores más grandes que el modelo anterior, y acepta tanto entrada monofásica como trifásica, dando flexibilidad según la instalación eléctrica disponible. Sale hasta 26A — confirmá que tu cableado y protecciones soporten esa corriente antes de instalar.",
     "idealPara": "Motores más grandes (hasta 5HP) que necesitan mantener torque a bajas RPM, por ejemplo roscar o cortar a velocidad reducida.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un VFD como el de arriba, pero con \"control vectorial\": una forma más precisa de manejar el motor que mantiene la fuerza (torque) incluso cuando gira lento, como un auto con caja automática inteligente que no pierde tracción al subir una pendiente a baja velocidad.",
+      "ejemploHogar": "Un aficionado con un torno de madera casero que necesita cortar piezas grandes a baja velocidad sin que el motor pierda fuerza.",
+      "ejemploNegocio": "Un taller de mecanizado que necesita roscar o cortar metal a velocidad reducida sin que el motor se ahogue — el control vectorial mantiene la fuerza necesaria en ese momento crítico.",
+      "puntosClave": [
+        "Cubre motores más grandes (hasta 5HP) que el modelo de entrada de este ranking — confirmá la potencia de tu motor antes de elegir uno u otro.",
+        "Acepta entrada monofásica o trifásica, dándote flexibilidad según la instalación eléctrica que tengas.",
+        "Sale hasta 26A de corriente — confirmá que tu cableado y las protecciones (disyuntores) soporten ese amperaje antes de instalarlo."
+      ],
+      "consejoInversion": "Si tu trabajo incluye cortar o roscar a velocidad reducida, el control vectorial evita que pierdas piezas por pérdida de torque — una ventaja real sobre un VFD escalar más barato que no puede sostener la fuerza a bajas revoluciones."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B09C5NDXDG?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25",
     "tags": [
@@ -131,6 +197,17 @@
     "ranking": 4,
     "notaTecnica": "A diferencia del gateway RS232/485/422 a Ethernet que ya está en el ranking, este es un simple conversor USB a RS485 — conecta directo al puerto USB de una PC/notebook para configurar, programar o monitorear un bus RS485 desde una computadora, no para puentear a una red Ethernet. Usa el chipset FT232RL (reconocido, no un clon genérico) más un transceptor SP485EEN, con protección real contra sobretensión (TVS) y descargas ESD — algo que las opciones más baratas de este tipo suelen omitir. Viene de a 2 unidades, útil si necesitás uno para el taller y otro de respaldo.",
     "idealPara": "Configurar, programar o monitorear un bus RS485 directo desde una PC — no para puentear hacia una red Ethernet (para eso, el gateway de arriba).",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un \"adaptador de enchufe\" para el lenguaje RS485: convierte el puerto USB de tu computadora (que las máquinas industriales no entienden) al lenguaje RS485 que sí hablan muchos equipos industriales — como un adaptador de corriente para cuando viajás a un país con otro tipo de enchufe.",
+      "ejemploHogar": "Un aficionado a la domótica que arma su propio sistema de sensores RS485 puede usar este conversor para programar y monitorear el bus directo desde su computadora.",
+      "ejemploNegocio": "Un técnico de mantenimiento necesita conectar su notebook a un bus RS485 de la planta para diagnosticar o reconfigurar un equipo — este conversor es la herramienta que hace posible esa conexión.",
+      "puntosClave": [
+        "Este NO conecta a una red Ethernet — es directo por USB a una sola computadora. Si necesitás conectar el bus a una red, el gateway RS232/485/422 de este ranking es lo que corresponde.",
+        "Usa el chipset FT232RL, un chip reconocido y confiable — evitá clones genéricos que suelen dar problemas de drivers.",
+        "Viene de a 2 unidades: conviene tener uno de respaldo si el trabajo depende de esta herramienta."
+      ],
+      "consejoInversion": "El chipset FT232RL (en vez de un clon barato sin nombre) evita el dolor de cabeza de drivers que no instalan o conexiones que se cortan solas — para una herramienta de diagnóstico que vas a usar seguido, la confiabilidad vale más que ahorrar unos dólares."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0B7MMSQXL?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -151,6 +228,17 @@
     "ranking": 5,
     "notaTecnica": "Fuente compacta para riel DIN pensada para alimentar electrónica de bajo consumo (Arduino, PLC, relés) desde 5V DC dentro de un tablero o gabinete. Tiene protección contra sobrecarga, sobretensión y cortocircuito, carcasa de marco abierto (buena disipación de calor, pero menos cerrada frente a polvo que una carcasa sellada) y un trimmer para ajustar la salida entre 4.75-5.5V. Ojo: varias reseñas reportan que la corriente real ronda los 3A en vez de los 2.4A que dice el título — la ficha del producto es inconsistente en ese dato, así que no la lleves al límite si necesitás exactamente 2.4A.",
     "idealPara": "Alimentar electrónica de bajo consumo (Arduino, PLC, relés) dentro de un tablero — no lo lleves al límite de los 2.4A si eso es crítico para tu diseño.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es la \"batería\" fija de un tablero eléctrico: convierte la corriente normal de 220V en 5V de corriente continua, estable y segura, para alimentar componentes chicos como Arduinos, sensores o relés dentro de un gabinete.",
+      "ejemploHogar": "Un proyecto de domótica casera armado dentro de una caja (tablero chico) necesita alimentar varios módulos de 5V desde la misma fuente, en vez de usar varios cargadores de celular sueltos.",
+      "ejemploNegocio": "Un tablero de control industrial necesita alimentar la electrónica de bajo voltaje (PLC, relés, sensores) de forma prolija y segura, montada en el mismo riel que el resto de los componentes.",
+      "puntosClave": [
+        "Varias reseñas reportan que la corriente real ronda los 3A en vez de los 2.4A que dice el título — no la lleves al límite si tu diseño necesita exactamente 2.4A.",
+        "La carcasa es de marco abierto: disipa mejor el calor, pero está menos protegida contra polvo que una carcasa cerrada.",
+        "Trae un trimmer (tornillito de ajuste) para regular la salida entre 4.75 y 5.5V si tu proyecto necesita algo distinto de 5V exactos."
+      ],
+      "consejoInversion": "Frente a alimentar varios módulos con cargadores USB sueltos (desprolijo y poco confiable), esta fuente centraliza y estabiliza la alimentación de todo el tablero — una base sólida para cualquier proyecto que vaya a quedar funcionando de forma permanente."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0BY476TB8?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -171,6 +259,17 @@
     "ranking": 6,
     "notaTecnica": "Son 30 tramos cortos de 8 pulgadas cada uno, no un riel continuo largo — hay que unir varios tramos si el tablero es ancho, y ahí puede quedar una junta visible entre secciones. Perfil de aluminio de 35mm de ancho por 7.5mm de alto (el estándar TS35, versión baja), ranurado y con tapas en los extremos incluidas. El aluminio pesa menos y no se oxida como el acero, pero flexiona más en tramos largos sin apoyo intermedio — para instalaciones con varios equipos pesados colgando, un riel de acero da más rigidez.",
     "idealPara": "Tableros chicos a medianos: si el gabinete es ancho vas a unir varios tramos de 8\" y puede quedar una junta visible entre secciones.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "El riel DIN es como el riel de una cortina para un tablero eléctrico: una tira metálica ranurada donde se enganchan (sin tornillos) los distintos módulos — relés, fuentes, disyuntores — para que queden ordenados y sea fácil sacarlos o cambiarlos.",
+      "ejemploHogar": "Armás tu propio tablero de domótica en el garage y necesitás una base donde enganchar los módulos de forma prolija, en vez de atornillar cada uno por separado a la pared.",
+      "ejemploNegocio": "Un electricista arma un tablero de control nuevo para un cliente y necesita el riel base sobre el que va a montar todos los componentes (relés, fuentes, disyuntores).",
+      "puntosClave": [
+        "Son 30 tramos cortos de 8 pulgadas, no un riel continuo largo — si tu tablero es ancho vas a unir varios tramos y puede quedar una junta visible.",
+        "Es de aluminio: pesa menos y no se oxida como el acero, pero flexiona más en tramos largos sin apoyo intermedio.",
+        "Es el estándar TS35 versión baja (35mm x 7.5mm) — confirmá que tus módulos sean compatibles con esa medida antes de comprar."
+      ],
+      "consejoInversion": "El aluminio es la mejor opción si tu tablero va a estar expuesto a humedad (no se oxida como el acero), pero si vas a colgar muchos módulos pesados, vale la pena invertir en la versión de acero para evitar que el riel se combe con el tiempo."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0D2XGDQYD?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -191,6 +290,17 @@
     "ranking": 7,
     "notaTecnica": "El título anuncia 20A/600V pero la ficha técnica interna del mismo listing dice 32A/UL 800V — inconsistencia típica de este tipo de producto, no te bases solo en el título. El cuerpo es nylon PA66 con lámina de cobre puro para buen contacto, y el sistema de jaula autoblocante no estresa el plástico al apretar el tornillo (a diferencia de un terminal tradicional). Ojo: según reseñas detalladas no vienen con topes de fin de carril ni tramos de riel incluidos — hay que comprarlos aparte.",
     "idealPara": "Cablear un tablero con buen contacto de cobre puro y sistema de jaula autoblocante — comprá aparte los topes de fin de carril, no vienen incluidos.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Los bloques de terminales son como \"regletas de enchufes\" para cables pelados: te dejan unir, dividir u organizar cables eléctricos dentro de un tablero sin hacer empalmes sueltos con cinta aisladora.",
+      "ejemploHogar": "Armás un tablero casero y necesitás conectar varios cables de un mismo circuito de forma prolija y segura, sin empalmes improvisados.",
+      "ejemploNegocio": "Un electricista industrial organiza el cableado de un tablero nuevo, distribuyendo la alimentación desde un punto central hacia varios equipos usando estos bloques.",
+      "puntosClave": [
+        "El título dice 20A/600V pero la ficha técnica interna dice 32A/UL 800V — es una inconsistencia típica de este tipo de producto, no te bases solo en el título de venta.",
+        "No vienen con topes de fin de carril ni tramos de riel incluidos — hay que comprarlos aparte para que los bloques no se deslicen del riel.",
+        "El sistema de jaula autoblocante no estresa el plástico al apretar el tornillo, a diferencia de un terminal tradicional que se puede rajar con el tiempo."
+      ],
+      "consejoInversion": "El cuerpo de nylon PA66 con lámina de cobre puro da mejor contacto eléctrico y dura más que los terminales de plástico genérico que se agrietan o pierden contacto con el tiempo — para un tablero que va a quedar funcionando años, esa calidad de contacto evita fallas intermitentes."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0CW1K4461?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -211,6 +321,17 @@
     "ranking": 8,
     "notaTecnica": "Pensada originalmente para ocultar cables de TV/computadora en un escritorio, no es un ducto certificado para tablero industrial — pero varias reseñas la usan igual para prolijar el cableado dentro de un gabinete de electrónica y funciona bien para eso a bajo costo. Es plástico delgado (una reseña la describe como \"cheap quality\" aunque cumple), se instala con cinta doble faz o tornillos, y no reemplaza un ducto ranurado rígido si necesitás algo estructural o resistente a la intemperie.",
     "idealPara": "Prolijar cableado dentro de un gabinete de electrónica a bajo costo — no reemplaza un ducto rígido si necesitás algo estructural o para intemperie.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un ductito plástico que se pega o atornilla a una superficie para esconder y ordenar cables sueltos, como el que usarías para prolijar los cables detrás de un escritorio, pero acá aprovechado dentro de un gabinete eléctrico.",
+      "ejemploHogar": "Ordenás los cables de tu proyecto de domótica casero dentro de una caja, evitando que queden sueltos y enredados.",
+      "ejemploNegocio": "Un técnico prolija el cableado dentro de un gabinete de electrónica de bajo costo, sin necesitar un ducto industrial certificado.",
+      "puntosClave": [
+        "No es un ducto certificado para tablero industrial pesado — es plástico delgado pensado originalmente para cables de escritorio.",
+        "No reemplaza un ducto ranurado rígido si necesitás algo estructural o resistente a la intemperie.",
+        "Se instala con cinta doble faz o tornillos — confirmá que la superficie donde lo vas a pegar esté limpia y seca para que la cinta agarre bien."
+      ],
+      "consejoInversion": "Para prolijar cableado liviano dentro de un gabinete a bajo costo, cumple bien su función — pero si tu tablero va a estar sometido a mucho calor, peso o intemperie, conviene invertir en un ducto ranurado industrial más resistente en vez de arriesgar que este se rompa."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B081GWZTB7?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -230,6 +351,17 @@
     "ranking": 9,
     "notaTecnica": "Cable genérico de cobre estañado con aislación de silicona (soporta -60°C a 200°C, 600V nominal) — no es un cable específico de automatización, pero es la opción típica para cableado interno flexible en proyectos DIY (fuentes, sensores, motores chicos) donde el PVC común se pone rígido con el calor. Viene en un solo color (rojo) en bobina de 500 pies — vas a necesitar comprar el negro aparte para el retorno/negativo, y a este precio por pie conviene solo si necesitás la flexibilidad extra de la silicona.",
     "idealPara": "Cableado interno flexible en proyectos DIY que se calientan (fuentes, drivers, motores chicos) donde el PVC común se pone rígido.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un cable eléctrico flexible cubierto con silicona en vez del plástico (PVC) común — la silicona no se pone rígida ni quebradiza cuando hace calor, algo que sí le pasa al cable normal cerca de una fuente o motor caliente.",
+      "ejemploHogar": "Un aficionado que arma un proyecto electrónico casero (una fuente, un driver de motor) necesita cableado interno que no se ponga rígido ni se raje con el calor del componente.",
+      "ejemploNegocio": "Un taller que arma tableros o equipos con fuentes que generan calor usa este cable para las conexiones internas que quedan cerca de esas zonas calientes.",
+      "puntosClave": [
+        "Viene en un solo color (rojo) — vas a necesitar comprar el cable negro aparte para el retorno o negativo del circuito.",
+        "Soporta un rango de temperatura muy amplio (-60°C a 200°C), pero eso también lo hace más caro por pie que un cable PVC común — solo vale la pena si de verdad necesitás esa resistencia al calor.",
+        "Es de calibre 18AWG, pensado para cargas de potencia moderada — para señal o cargas chicas, el mismo fabricante tiene una versión más fina (22AWG) en este ranking."
+      ],
+      "consejoInversion": "Frente a un cable PVC genérico que se pone quebradizo y se raja con el tiempo cerca de fuentes de calor, este cable de silicona sigue flexible durante años — una inversión que evita tener que rehacer el cableado cuando el PVC empieza a fallar."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B08GFQP2MG?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -250,6 +382,17 @@
     "ranking": 10,
     "notaTecnica": "Misma familia que el cable de silicona 18AWG del ranking, en calibre más fino (22AWG, 60 hebras estañadas) para señal o cargas chicas, no para alimentación de potencia. Soporta -60°C a 200°C y 600V nominal, ideal para cableado interno de proyectos que se calientan (fuentes, drivers). También viene solo en rojo — necesitás el negro aparte — y en bobina de 1000 pies es una compra grande, no pensada para un proyecto puntual chico.",
     "idealPara": "Señal o cargas chicas en proyectos que se calientan, no para alimentación de potencia — es la versión más fina del cable de silicona 18AWG de este ranking.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es la versión más fina del mismo cable de silicona de arriba: pensalo como el cable de señal en vez del cable de fuerza, no está hecho para mover mucha corriente sino para llevar señales o alimentar componentes chicos que no consumen mucho.",
+      "ejemploHogar": "Cableado interno de un proyecto electrónico casero (sensores, señales de control) que se calienta un poco y necesita un cable que no se ponga rígido.",
+      "ejemploNegocio": "Un taller que arma drivers o fuentes chicas usa este calibre más fino para las conexiones de señal, reservando el cable más grueso (18AWG) para las conexiones de potencia.",
+      "puntosClave": [
+        "No es para alimentación de potencia — es para señal o cargas chicas. Si necesitás mover más corriente, el 18AWG de este ranking es lo correcto.",
+        "También viene solo en rojo, necesitás el negro aparte.",
+        "Se vende en bobina de 1000 pies — es una compra grande, no pensada para un proyecto puntual chico."
+      ],
+      "consejoInversion": "Para cableado de señal en proyectos que se calientan, esta silicona mantiene su flexibilidad donde un cable PVC común se endurecería — pero solo tiene sentido comprarlo en esta cantidad si vas a usar bastante, porque es una bobina grande."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B08S6PTM95?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -270,6 +413,17 @@
     "ranking": 11,
     "notaTecnica": "Combina disyuntor + falla a tierra (30mA clase AC) + protección contra sobretensión (20kA) en un solo módulo de riel DIN — bastante completo para 120/240V. Ojo: varias reseñas (incluida una que terminó en incendio) reportan que las instrucciones de cableado son confusas para 208V/240V sin neutro, así que hay que confirmar bien el diagrama antes de energizarlo. Viene con 1 riel DIN y 5 terminales de crimpado incluidos, pero el grado de protección es IP20 (no sellado, solo para gabinete cerrado).",
     "idealPara": "Tableros 120V con neutro que necesitan disyuntor + falla a tierra + sobretensión en un solo módulo — confirmá bien el diagrama si vas a energizar sin neutro.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Este disyuntor combina tres protecciones en un solo módulo: corta la corriente si hay una sobrecarga (como un disyuntor común), corta si detecta una fuga de corriente hacia tierra (por ejemplo si alguien toca algo con una falla — esto es el GFCI), y absorbe picos de sobretensión como los de una tormenta eléctrica.",
+      "ejemploHogar": "Protege un tablero casero (por ejemplo de un taller en el garage) contra tres riesgos distintos con un solo dispositivo, en vez de comprar tres protecciones separadas.",
+      "ejemploNegocio": "Un tablero industrial en un ambiente húmedo (lavadero, exterior) necesita esta triple protección para evitar tanto daños al equipo como riesgo eléctrico para las personas.",
+      "puntosClave": [
+        "Varias reseñas (incluida una que terminó en incendio) reportan que las instrucciones de cableado son confusas para 208V/240V sin neutro — confirmá bien el diagrama de tu instalación antes de energizarlo.",
+        "El grado de protección es IP20 (no sellado) — solo sirve dentro de un gabinete cerrado, no expuesto directamente a la intemperie.",
+        "Viene con 1 riel DIN y 5 terminales de crimpado incluidos, así que no necesitás comprar esas piezas aparte."
+      ],
+      "consejoInversion": "Comprar disyuntor, protección GFCI y protección de sobretensión por separado sale más caro y ocupa más espacio en el tablero — este módulo combinado ahorra plata y espacio, siempre que instales bien el cableado según el diagrama correcto para tu voltaje."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0CRKN96TB?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -290,6 +444,17 @@
     "ranking": 12,
     "notaTecnica": "Transformador de aislamiento clásico para circuitos de control HVAC (termostatos, relés, válvulas de gas) — no es de montaje en riel DIN, va atornillado con soporte de pie. Varias reseñas de este tipo de transformador reportan que las instrucciones de cableado para 208V/240V sin neutro son confusas y llevaron a quemarlo; para 120V con neutro la mayoría no reporta problemas, pero conviene revisar bien el diagrama si se va a alimentar a otro voltaje.",
     "idealPara": "Circuitos de control HVAC clásicos (termostatos, relés, válvulas de gas) alimentados a 120V con neutro — revisá el diagrama si tu instalación es distinta.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un transformador que baja el voltaje de la casa (120V/240V) a 24V, el voltaje seguro que usan los termostatos y relés de los sistemas de calefacción/aire acondicionado — como el cargador de una notebook, pero para el circuito de control de tu HVAC.",
+      "ejemploHogar": "Un termostato inteligente que instalaste vos mismo necesita esta alimentación de 24V para funcionar, si el sistema de HVAC de tu casa no la provee directamente.",
+      "ejemploNegocio": "Un técnico de HVAC reemplaza un transformador de control quemado en un sistema comercial de calefacción, para que el termostato y las válvulas de gas vuelvan a recibir alimentación.",
+      "puntosClave": [
+        "Varias reseñas de este tipo de transformador reportan que las instrucciones de cableado para 208V/240V sin neutro son confusas y llevaron a quemarlo; para 120V con neutro la mayoría no reporta problemas.",
+        "No es de montaje en riel DIN — va atornillado con un soporte de pie, distinto a otros componentes de tablero de este ranking.",
+        "Confirmá el voltaje de tu instalación antes de conectarlo — no es un dispositivo universal para cualquier voltaje sin revisar el diagrama."
+      ],
+      "consejoInversion": "Reemplazar un transformador quemado por este tipo de pieza es mucho más barato que llamar a un técnico para instalar un sistema de control nuevo — pero justamente por el riesgo de quemarlo con un cableado incorrecto, vale la pena confirmar bien el diagrama antes de energizarlo, o pedir ayuda si no estás seguro."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0B8Z2XV7V?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -309,6 +474,17 @@
     "ranking": 4,
     "notaTecnica": "Enchufe inteligente listo para usar, sin instalación en tablero — se enchufa y se controla por app. Funciona con Alexa y Google Home, pero primero hay que vincularlo a la app GHome (no se conecta directo a los asistentes). Solo soporta WiFi 2.4GHz (no 5GHz) y no tiene salida de contacto seco como el SONOFF que ya está en el ranking, así que no sirve para conmutar una carga externa dentro de un tablero — es para enchufar electrodomésticos directamente.",
     "idealPara": "Enchufar electrodomésticos directo y controlarlos por Alexa/Google Home sin instalación — no sirve para conmutar una carga externa dentro de un tablero.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es la versión más chica y barata de un enchufe inteligente WiFi: se enchufa a la pared y te deja prender/apagar lo que conectes ahí desde el celular o con la voz.",
+      "ejemploHogar": "Enchufás una guirnalda de luces navideñas o un calefactor portátil y programás que se apague solo a cierta hora, sin tener que acordarte.",
+      "ejemploNegocio": "Un pequeño local puede usarlo para automatizar el encendido de un cartel luminoso o un ventilador de vidriera con una inversión mínima.",
+      "puntosClave": [
+        "Funciona con Alexa y Google Home, pero primero hay que vincularlo a la app GHome — no se conecta directo a los asistentes de voz.",
+        "Solo soporta WiFi de 2.4GHz, no 5GHz — confirmá que tu router tenga esa banda disponible.",
+        "No tiene salida de contacto seco como el switch SONOFF de este ranking, así que no sirve para instalar dentro de un tablero — es solo para enchufar aparatos directamente."
+      ],
+      "consejoInversion": "Es la puerta de entrada más barata a la domótica: para alguien que nunca probó un enchufe inteligente, esta es la forma de más bajo riesgo y costo de empezar, aunque para proyectos más ambiciosos vas a necesitar equipos con más funciones como los otros de este ranking."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0FD6CYBNH?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -329,6 +505,17 @@
     "ranking": 13,
     "notaTecnica": "Arrancador suave real (no un VFD) para motores trifásicos grandes — reduce la corriente de arranque en compresores, bombas o husillos de 15HP. El propio fabricante aclara que requiere un contactor de derivación aparte (no incluido), y el manual no garantiza estar en español. Todavía no tiene ninguna reseña en Amazon (0 calificaciones) — buena opción técnica por precio frente a otros arrancadores similares, pero es una compra sin feedback de otros compradores todavía.",
     "idealPara": "Reducir la corriente de arranque en motores trifásicos grandes (15HP) como compresores o bombas — sumale el contactor de derivación, no viene incluido.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Un arrancador suave es distinto de un VFD: no regula la velocidad todo el tiempo, sino que evita el \"tirón\" eléctrico del momento del arranque de un motor grande — como acelerar un auto de forma progresiva en vez de pisar el acelerador a fondo desde parado, que gastaría mucha más energía y estresaría el motor.",
+      "ejemploHogar": "No es un producto típico de hogar, pero alguien con un motor grande en una pileta o sistema de bombeo residencial de alta potencia podría necesitarlo para evitar tirones eléctricos al arrancar.",
+      "ejemploNegocio": "Un taller o planta con un compresor o bomba de 15HP puede evitar que el arranque del motor haga caer la tensión de toda la instalación, algo que puede afectar a otros equipos conectados a la misma red.",
+      "puntosClave": [
+        "El propio fabricante aclara que requiere un contactor de derivación aparte (no incluido) — sumá ese costo antes de decidir.",
+        "El manual no garantiza estar en español — si no manejás inglés técnico, vas a necesitar ayuda para la puesta en marcha.",
+        "Todavía no tiene ninguna reseña en Amazon — es una buena opción técnica en el papel, pero sin feedback real de otros compradores."
+      ],
+      "consejoInversion": "Para motores grandes, un arranque suave reduce el desgaste mecánico y eléctrico del arranque a full, algo que se traduce en menos mantenimiento y menos golpes a la instalación eléctrica con el tiempo — aunque conviene sumar el contactor de derivación al presupuesto antes de decidir."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0BM9BQKJY?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
@@ -349,6 +536,17 @@
     "ranking": 14,
     "notaTecnica": "A diferencia del gateway RS232/485/422 a Ethernet de este ranking (un solo puerto, con PoE), este equipo maneja 4 buses RS485 independientes al mismo tiempo desde una sola conexión Ethernet — pero no trae PoE, necesitás alimentación aparte. Combina función de servidor serial, gateway Modbus, gateway MQTT y RS485-a-JSON en el mismo equipo, con terminales a tornillo y carcasa para pared o riel DIN. Todavía tiene pocas reseñas (15) para ser un equipo de este precio.",
     "idealPara": "Monitorear o controlar 4 buses RS485 independientes desde una sola red Ethernet, en instalaciones donde no hace falta PoE.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un gateway (traductor) parecido al de RS232/485/422 de este ranking, pero especializado: en vez de traducir un solo bus, maneja 4 buses RS485 completamente independientes al mismo tiempo desde una sola conexión de red — como tener 4 líneas telefónicas separadas que no se interfieren entre sí, todas saliendo por el mismo cable de internet.",
+      "ejemploHogar": "Un aficionado con varios sistemas RS485 separados en la casa (paneles solares, sensores de riego, domótica DIY) puede monitorear los 4 desde una sola red, sin que se mezclen los datos.",
+      "ejemploNegocio": "Una planta con 4 líneas de producción, cada una con su propio bus RS485, puede centralizarlas en un único punto de red sin que el tráfico de una interfiera con las otras.",
+      "puntosClave": [
+        "A diferencia del gateway de un solo puerto de este ranking, este no trae alimentación PoE — necesitás una fuente de corriente aparte.",
+        "Combina varias funciones (gateway Modbus, gateway MQTT, RS485 a JSON) — confirmá cuál necesitás realmente antes de configurarlo.",
+        "Tiene pocas reseñas (15) para el precio — es una compra más técnica, sin mucho historial de otros compradores todavía."
+      ],
+      "consejoInversion": "Si tenés varios buses RS485 que necesitás mantener separados (para que el tráfico de uno no se mezcle con otro), este equipo te ahorra comprar 4 gateways sueltos — una inversión que se paga en simplicidad de instalación y menos cables corriendo por la planta."
+    },
     "tags": [
       "4x RS485 independientes",
       "Ethernet/RJ45",
@@ -370,6 +568,17 @@
     "ranking": 15,
     "notaTecnica": "32 canales de relé controlados por Modbus RTU sobre RS485, con dirección configurable (1-255) para cascadear varios módulos en el mismo bus. Trae aislamiento óptico real entre la lógica y la carga conmutada, más protección TVS y fusible reseteable contra sobretensión — no es un módulo de relé genérico sin protección. Relés con contacto de hasta 10A 250VAC/30VDC. Con solo 5 reseñas todavía, es una compra técnica sólida en el papel pero sin mucho historial de otros compradores.",
     "idealPara": "Automatizar muchas salidas (hasta 32) desde un solo maestro Modbus, en instalaciones donde ya corre un bus RS485.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es como el módulo de relé de 8 canales que armaría un aficionado, pero a escala industrial: 32 \"interruptores a control remoto\" en una sola placa, cada uno controlado por Modbus, el idioma que usan las máquinas industriales para hablar entre sí, como un cable telefónico compartido donde cada equipo tiene su propio número.",
+      "ejemploHogar": "No es un producto típico de hogar, pero alguien armando un sistema de domótica muy grande (muchas luces y equipos independientes) podría usarlo para centralizar el control de todos ellos.",
+      "ejemploNegocio": "Una planta que necesita prender y apagar 32 equipos distintos (luces, motores chicos, electroválvulas) desde un único sistema de control central, usando el mismo bus RS485 que ya tiene instalado.",
+      "puntosClave": [
+        "Tiene dirección configurable (1 a 255), así que podés poner varios de estos módulos en el mismo bus sin que se interfieran — anotá bien qué dirección le pusiste a cada uno.",
+        "Trae aislamiento óptico real: protege la parte de control (baja tensión) de la parte de potencia (lo que se está prendiendo/apagando).",
+        "Con solo 5 reseñas, es una compra técnica sólida en el papel pero todavía sin mucho historial de otros compradores."
+      ],
+      "consejoInversion": "Comprar 32 relés sueltos con sus propias protecciones costaría mucho más y ocuparía mucho más espacio que este módulo integrado — para una instalación grande, la consolidación en una sola placa con aislamiento real es la opción más eficiente en costo y espacio."
+    },
     "tags": [
       "32 canales",
       "RS485 Modbus RTU",
@@ -391,6 +600,17 @@
     "ranking": 16,
     "notaTecnica": "Misma familia y mismas protecciones (aislamiento óptico, TVS, fusible reseteable, relé de hasta 10A 250VAC/30VDC) que el módulo de 32 canales de este ranking, pero con la mitad de salidas — para instalaciones medianas donde 32 canales sería sobredimensionado y caro de más. Sin ninguna reseña todavía en Amazon, así que no hay feedback real de otros compradores más allá de la ficha técnica.",
     "idealPara": "Instalaciones medianas (hasta 16 salidas) donde el módulo de 32 canales de este ranking sería demasiado para lo que necesitás.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es el mismo tipo de módulo de relé Modbus que el de 32 canales de este ranking, pero con la mitad de salidas: para cuando necesitás control remoto de varios equipos, pero no tantos como para justificar el modelo grande.",
+      "ejemploHogar": "Un proyecto de domótica DIY de tamaño mediano (por ejemplo, controlar el riego, las luces del jardín y algunos electrodomésticos) que no necesita las 32 salidas del modelo grande.",
+      "ejemploNegocio": "Una línea de producción chica o mediana que necesita controlar 16 equipos distintos desde un mismo sistema Modbus, sin pagar de más por canales que no va a usar.",
+      "puntosClave": [
+        "Contá cuántas salidas necesitás realmente — si son menos de 16, quizás te convenga un módulo más chico; si son más, andá directo al de 32 canales de este ranking.",
+        "Sin ninguna reseña todavía en Amazon, así que no hay feedback real de compradores más allá de la ficha técnica.",
+        "Tiene las mismas protecciones (aislamiento óptico, TVS, fusible reseteable) que el modelo de 32 canales, así que no estás resignando seguridad por tener menos canales."
+      ],
+      "consejoInversion": "Para instalaciones medianas, este módulo evita pagar de más por 32 canales que no vas a usar, sin sacrificar ninguna de las protecciones eléctricas del modelo más grande — el punto justo entre precio y capacidad."
+    },
     "tags": [
       "16 canales",
       "RS485 Modbus RTU",
@@ -412,6 +632,17 @@
     "ranking": 5,
     "notaTecnica": "A diferencia de los enchufes y switches de este ranking, este no se instala enchufando y listo: se conecta al cableado de tu sistema de calefacción/aire acondicionado. El propio fabricante avisa que en sistemas de calefacción sola, enfriamiento solo, zonificados o con bomba de calor puede necesitar un cable C (común) u otro accesorio de alimentación — conviene revisar el verificador de compatibilidad de Nest antes de comprar. A cambio, suma monitoreo del HVAC con alertas de mantenimiento, horarios de ahorro de energía y control remoto por app, y es compatible con Matter además de Google Assistant.",
     "idealPara": "Automatizar calefacción/aire acondicionado con horarios y ahorro de energía — confirmá antes si tu sistema necesita cable C.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un termostato que reemplaza al que ya tenés en la pared (el que prende y apaga la calefacción o el aire acondicionado), pero conectado a WiFi: aprende tus horarios, te avisa si algo anda mal con el sistema de HVAC, y te deja cambiar la temperatura desde el celular estés donde estés.",
+      "ejemploHogar": "Programás que la calefacción se apague sola cuando todos salen a trabajar y se prenda un rato antes de que vuelvan, ahorrando energía sin pasar frío al llegar.",
+      "ejemploNegocio": "Un local comercial puede automatizar el clima según el horario de atención, evitando gastar en calefacción o aire acondicionado fuera de horario sin que nadie tenga que acordarse de apagarlo.",
+      "puntosClave": [
+        "Antes de comprarlo, usá el verificador de compatibilidad de Nest — algunos sistemas (calefacción sola, zonificados, bomba de calor) pueden necesitar un cable C (común) adicional que tu instalación actual quizás no tiene.",
+        "No es plug&play como un enchufe: se conecta al cableado de tu sistema de HVAC, así que si no tenés experiencia eléctrica, puede convenir un instalador.",
+        "Es compatible con Matter además de Google Assistant, así que no depende de un solo ecosistema de casa inteligente."
+      ],
+      "consejoInversion": "El ahorro de energía por regular mejor la calefacción/aire (apagándolo cuando no hay nadie, por ejemplo) suele pagar el termostato en menos de un año en la factura de luz o gas — una inversión que se recupera sola con el uso diario."
+    },
     "tags": [
       "WiFi 2.4/5GHz",
       "Matter",
@@ -433,6 +664,17 @@
     "ranking": 6,
     "notaTecnica": "El propio fabricante aclara que funciona exclusivamente con Alexa — no es compatible con Google Assistant, Apple HomeKit ni SmartThings, así que si tu casa ya corre en otro ecosistema este foco no te sirve. No necesita hub, se configura directo desde la app Alexa, y el dimming solo funciona por voz o app (no tiene compatibilidad con un dimmer físico de pared). Es la opción de entrada más barata de este ranking para sumar iluminación con color.",
     "idealPara": "Quien ya tiene el ecosistema Alexa armado y quiere iluminación inteligente barata — no sirve si usás Google Home o HomeKit.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un foco LED que reemplaza a uno común, pero con WiFi incorporado: podés prenderlo, apagarlo, cambiar el brillo o el color desde la app o con la voz, sin instalar nada más que enroscarlo en el portalámparas.",
+      "ejemploHogar": "Ponés colores distintos según el momento (blanco cálido para la cena, colores para una fiesta) diciendo simplemente \"Alexa, poné la luz del living en azul\".",
+      "ejemploNegocio": "Un local que quiere cambiar la ambientación de su vidriera según el horario o la temporada (por ejemplo, luces cálidas de noche) sin instalar un sistema de iluminación caro.",
+      "puntosClave": [
+        "El fabricante aclara que funciona exclusivamente con Alexa — si tu casa usa Google Home o Apple HomeKit, este foco no te va a servir.",
+        "No necesita hub aparte, se configura directo desde la app Alexa, pero el dimming (bajar intensidad) solo funciona por voz o app, no con un dimmer físico de pared.",
+        "Es la opción más económica de este ranking para sumar iluminación con color, ideal para probar la domótica sin gran inversión."
+      ],
+      "consejoInversion": "Es la forma más barata de meter un pie en la domótica con Alexa, con luz de colores incluida — pero si no tenés claro con qué ecosistema vas a quedarte a largo plazo, confirmá esa decisión antes de comprar varios, porque no funciona con otros asistentes."
+    },
     "tags": [
       "WiFi 2.4GHz",
       "Solo Alexa",
@@ -454,6 +696,17 @@
     "ranking": 7,
     "notaTecnica": "A diferencia de todo lo demás de esta categoría, esta luz es standalone: no tiene WiFi, no usa app ni se integra con Alexa/Google/HomeKit — la 'automatización' viene del sensor de movimiento y de luz incorporado, no de una red doméstica. Tiene tres modos (siempre encendida, detecta movimiento día y noche, o solo de noche), tres temperaturas de color, dimming y timer, todo manejable con el control remoto incluido o el botón físico. Se recarga por USB-C (4-6 horas) y rinde entre 15 y 40+ horas según el brillo — instalación magnética sin cables, ideal para lugares donde no hay o no querés tender electricidad.",
     "idealPara": "Placares, pasillos, sótanos o duchas sin punto de luz cableado, donde buscás encendido automático por movimiento sin depender de WiFi ni de una app.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es una luz de techo que no necesita cables ni instalación eléctrica: se recarga como un celular (por USB-C) y se pega al techo con imanes, prendiéndose sola cuando detecta movimiento gracias a un sensor incorporado — sin WiFi ni app, todo el \"cerebro\" está adentro de la luz misma.",
+      "ejemploHogar": "La ponés en un placard, pasillo o sótano donde no hay punto de luz instalado, y se prende sola cuando entrás y se apaga sola cuando no hay movimiento.",
+      "ejemploNegocio": "Un depósito o bodega chica sin instalación eléctrica en un rincón puede iluminarse automáticamente al detectar que alguien entró, sin gastar en una instalación eléctrica nueva.",
+      "puntosClave": [
+        "No tiene WiFi ni se integra con Alexa/Google/HomeKit — si buscás que forme parte de una automatización más grande conectada, esta no es la opción.",
+        "Se recarga por USB-C y dura entre 15 y 40+ horas según el brillo — calculá cada cuánto vas a tener que sacarla para recargar según el uso.",
+        "La instalación es magnética (con cinta doble faz o tornillos incluidos) — confirmá que la superficie del techo sea apta para ese tipo de fijación."
+      ],
+      "consejoInversion": "Frente a contratar un electricista para instalar un punto de luz nuevo con cableado, esta luz resuelve el mismo problema (iluminación automática por movimiento) sin obra ni instalación — la inversión se justifica por el ahorro en mano de obra eléctrica, aunque no ofrezca la integración de un sistema WiFi conectado."
+    },
     "tags": [
       "Sin WiFi (standalone)",
       "Sensor de movimiento",
