@@ -336,5 +336,110 @@
       "240V",
       "Sin reseñas"
     ]
+  },
+  {
+    "asin": "B0CQYGWBMZ",
+    "nombre": "waveshare Servidor Serial 4-Ch RS485 a Ethernet RJ45",
+    "categoria": "control-industrial-b2b",
+    "precio": 64.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/613tmg6BhjL._AC_UL320_.jpg",
+    "rating": 4.7,
+    "numResenas": 15,
+    "ranking": 14,
+    "notaTecnica": "A diferencia del gateway RS232/485/422 a Ethernet de este ranking (un solo puerto, con PoE), este equipo maneja 4 buses RS485 independientes al mismo tiempo desde una sola conexión Ethernet — pero no trae PoE, necesitás alimentación aparte. Combina función de servidor serial, gateway Modbus, gateway MQTT y RS485-a-JSON en el mismo equipo, con terminales a tornillo y carcasa para pared o riel DIN. Todavía tiene pocas reseñas (15) para ser un equipo de este precio.",
+    "idealPara": "Monitorear o controlar 4 buses RS485 independientes desde una sola red Ethernet, en instalaciones donde no hace falta PoE.",
+    "tags": [
+      "4x RS485 independientes",
+      "Ethernet/RJ45",
+      "Gateway Modbus/MQTT"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0CQYGWBMZ?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-26",
+    "activo": true
+  },
+  {
+    "asin": "B0CC5P8NC2",
+    "nombre": "waveshare Módulo de Relé Modbus RTU 32 Canales (RS485, Industrial)",
+    "categoria": "control-industrial-b2b",
+    "precio": 84.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61fvCXcouwL._AC_UL320_.jpg",
+    "rating": 5,
+    "numResenas": 5,
+    "ranking": 15,
+    "notaTecnica": "32 canales de relé controlados por Modbus RTU sobre RS485, con dirección configurable (1-255) para cascadear varios módulos en el mismo bus. Trae aislamiento óptico real entre la lógica y la carga conmutada, más protección TVS y fusible reseteable contra sobretensión — no es un módulo de relé genérico sin protección. Relés con contacto de hasta 10A 250VAC/30VDC. Con solo 5 reseñas todavía, es una compra técnica sólida en el papel pero sin mucho historial de otros compradores.",
+    "idealPara": "Automatizar muchas salidas (hasta 32) desde un solo maestro Modbus, en instalaciones donde ya corre un bus RS485.",
+    "tags": [
+      "32 canales",
+      "RS485 Modbus RTU",
+      "Aislamiento óptico"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0CC5P8NC2?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-26",
+    "activo": true
+  },
+  {
+    "asin": "B0CMH47846",
+    "nombre": "Módulo de Relé Modbus RTU 16 Canales (RS485, Industrial)",
+    "categoria": "control-industrial-b2b",
+    "precio": 63.35,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61XzwMlYK-L._AC_UL320_.jpg",
+    "rating": 0,
+    "numResenas": 0,
+    "ranking": 16,
+    "notaTecnica": "Misma familia y mismas protecciones (aislamiento óptico, TVS, fusible reseteable, relé de hasta 10A 250VAC/30VDC) que el módulo de 32 canales de este ranking, pero con la mitad de salidas — para instalaciones medianas donde 32 canales sería sobredimensionado y caro de más. Sin ninguna reseña todavía en Amazon, así que no hay feedback real de otros compradores más allá de la ficha técnica.",
+    "idealPara": "Instalaciones medianas (hasta 16 salidas) donde el módulo de 32 canales de este ranking sería demasiado para lo que necesitás.",
+    "tags": [
+      "16 canales",
+      "RS485 Modbus RTU",
+      "Aislamiento óptico"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0CMH47846?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-26",
+    "activo": true
+  },
+  {
+    "asin": "B08HRPDBFF",
+    "nombre": "Google Nest Thermostat — WiFi Programable",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 118.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61A+x8c9VeL._AC_UL320_.jpg",
+    "rating": 4.1,
+    "numResenas": 29563,
+    "ranking": 5,
+    "notaTecnica": "A diferencia de los enchufes y switches de este ranking, este no se instala enchufando y listo: se conecta al cableado de tu sistema de calefacción/aire acondicionado. El propio fabricante avisa que en sistemas de calefacción sola, enfriamiento solo, zonificados o con bomba de calor puede necesitar un cable C (común) u otro accesorio de alimentación — conviene revisar el verificador de compatibilidad de Nest antes de comprar. A cambio, suma monitoreo del HVAC con alertas de mantenimiento, horarios de ahorro de energía y control remoto por app, y es compatible con Matter además de Google Assistant.",
+    "idealPara": "Automatizar calefacción/aire acondicionado con horarios y ahorro de energía — confirmá antes si tu sistema necesita cable C.",
+    "tags": [
+      "WiFi 2.4/5GHz",
+      "Matter",
+      "Puede requerir cable C"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B08HRPDBFF?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-26",
+    "activo": true
+  },
+  {
+    "asin": "B0CG5VDC8P",
+    "nombre": "Amazon Basics Foco LED Inteligente A19 (Color, Solo Alexa)",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 11.19,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71InrzITFhL._AC_UL320_.jpg",
+    "rating": 4.4,
+    "numResenas": 14214,
+    "ranking": 6,
+    "notaTecnica": "El propio fabricante aclara que funciona exclusivamente con Alexa — no es compatible con Google Assistant, Apple HomeKit ni SmartThings, así que si tu casa ya corre en otro ecosistema este foco no te sirve. No necesita hub, se configura directo desde la app Alexa, y el dimming solo funciona por voz o app (no tiene compatibilidad con un dimmer físico de pared). Es la opción de entrada más barata de este ranking para sumar iluminación con color.",
+    "idealPara": "Quien ya tiene el ecosistema Alexa armado y quiere iluminación inteligente barata — no sirve si usás Google Home o HomeKit.",
+    "tags": [
+      "WiFi 2.4GHz",
+      "Solo Alexa",
+      "Sin hub"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0CG5VDC8P?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-26",
+    "activo": true
   }
 ]
