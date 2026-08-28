@@ -717,38 +717,6 @@
     "activo": true
   },
   {
-    "asin": "B0G2G3QX5K",
-    "nombre": "Wengart Contactor AC 25A 2 Polos, Bobina 120V (Riel DIN)",
-    "categoria": "control-industrial-b2b",
-    "precio": 9.99,
-    "moneda": "USD",
-    "imagen": "https://m.media-amazon.com/images/I/517aP+MTlnL._AC_UL320_.jpg",
-    "rating": 5,
-    "numResenas": 2,
-    "ranking": 17,
-    "notaTecnica": "Un contactor es un relé de mayor capacidad: mientras un relé chico sirve para cargas livianas, este modelo maneja hasta 25A con bobina de 120V AC, en configuración 2NO (normalmente abierto) — pensado para calefones, bombas de pileta, sistemas HVAC o cargadores EV. Es ultra delgado (18mm, 1 módulo) para no ocupar espacio en el tablero, con contactos de plata (100.000 ciclos) y carcasa de policarbonato ignífugo (UL94-V0). Con solo 2 reseñas, es una compra técnica sólida en el papel pero sin mucho historial de otros compradores.",
-    "idealPara": "Switchear cargas de alta corriente (calefones, bombas de pileta, HVAC, cargadores EV) mediante un smart switch o termostato, sin que ese dispositivo chico tenga que soportar la corriente completa.",
-    "guiaCompra": {
-      "queEsYParaQueSirve": "Un contactor es como un relé \"grande\": en vez de que un interruptor chico (un smart switch, un termostato) tenga que soportar toda la corriente de un calefón o una bomba de pileta, el contactor hace ese trabajo pesado — el interruptor chico solo le da la orden de \"prender\" o \"apagar\" a este contactor, que es el que realmente maneja la corriente fuerte.",
-      "ejemploHogar": "Querés controlar el calefón eléctrico o la bomba de la pileta con un termostato o smart switch, pero esos dispositivos no aguantan la corriente que consume el equipo — este contactor se pone en el medio y hace el trabajo pesado.",
-      "ejemploNegocio": "Un taller con un sistema HVAC o una máquina de alta corriente puede integrarla a un control automatizado (PLC, temporizador) sin arriesgar el controlador chico, porque el contactor absorbe toda la carga eléctrica real.",
-      "puntosClave": [
-        "Confirmá el amperaje real de tu equipo contra los 25A de este contactor — no lo lleves al límite si tu carga se acerca a ese número.",
-        "La bobina es de 120V AC — necesitás esa tensión de control, no sirve con 24V DC ni con la versión de 110V/16A de este mismo ranking.",
-        "Con solo 2 reseñas es una compra técnica sólida en el papel (contactos de plata, carcasa UL94-V0) pero sin mucho historial de otros compradores."
-      ],
-      "consejoInversion": "Frente a conectar un calefón o una bomba directo a un smart switch (que se va a quemar tarde o temprano con esa corriente), este contactor de contactos de plata y carcasa ignífuga es la pieza que separa el control inteligente barato de la carga eléctrica real — una inversión chica que protege equipos mucho más caros."
-    },
-    "tags": [
-      "25A",
-      "120V bobina",
-      "2NO DIN rail"
-    ],
-    "urlAfiliado": "https://www.amazon.com/dp/B0G2G3QX5K?tag=controltrazado-20",
-    "actualizadoEn": "2026-08-27",
-    "activo": true
-  },
-  {
     "asin": "B0CGL8J44N",
     "nombre": "BAOMAIN Contactor AC 16A 2 Polos, Bobina 110V (Riel DIN)",
     "categoria": "control-industrial-b2b",
