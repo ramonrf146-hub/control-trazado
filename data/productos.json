@@ -715,5 +715,133 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0DJS9L3C8?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "activo": true
+  },
+  {
+    "asin": "B0G2G3QX5K",
+    "nombre": "Wengart Contactor AC 25A 2 Polos, Bobina 120V (Riel DIN)",
+    "categoria": "control-industrial-b2b",
+    "precio": 9.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/517aP+MTlnL._AC_UL320_.jpg",
+    "rating": 5,
+    "numResenas": 2,
+    "ranking": 17,
+    "notaTecnica": "Un contactor es un relé de mayor capacidad: mientras un relé chico sirve para cargas livianas, este modelo maneja hasta 25A con bobina de 120V AC, en configuración 2NO (normalmente abierto) — pensado para calefones, bombas de pileta, sistemas HVAC o cargadores EV. Es ultra delgado (18mm, 1 módulo) para no ocupar espacio en el tablero, con contactos de plata (100.000 ciclos) y carcasa de policarbonato ignífugo (UL94-V0). Con solo 2 reseñas, es una compra técnica sólida en el papel pero sin mucho historial de otros compradores.",
+    "idealPara": "Switchear cargas de alta corriente (calefones, bombas de pileta, HVAC, cargadores EV) mediante un smart switch o termostato, sin que ese dispositivo chico tenga que soportar la corriente completa.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Un contactor es como un relé \"grande\": en vez de que un interruptor chico (un smart switch, un termostato) tenga que soportar toda la corriente de un calefón o una bomba de pileta, el contactor hace ese trabajo pesado — el interruptor chico solo le da la orden de \"prender\" o \"apagar\" a este contactor, que es el que realmente maneja la corriente fuerte.",
+      "ejemploHogar": "Querés controlar el calefón eléctrico o la bomba de la pileta con un termostato o smart switch, pero esos dispositivos no aguantan la corriente que consume el equipo — este contactor se pone en el medio y hace el trabajo pesado.",
+      "ejemploNegocio": "Un taller con un sistema HVAC o una máquina de alta corriente puede integrarla a un control automatizado (PLC, temporizador) sin arriesgar el controlador chico, porque el contactor absorbe toda la carga eléctrica real.",
+      "puntosClave": [
+        "Confirmá el amperaje real de tu equipo contra los 25A de este contactor — no lo lleves al límite si tu carga se acerca a ese número.",
+        "La bobina es de 120V AC — necesitás esa tensión de control, no sirve con 24V DC ni con la versión de 110V/16A de este mismo ranking.",
+        "Con solo 2 reseñas es una compra técnica sólida en el papel (contactos de plata, carcasa UL94-V0) pero sin mucho historial de otros compradores."
+      ],
+      "consejoInversion": "Frente a conectar un calefón o una bomba directo a un smart switch (que se va a quemar tarde o temprano con esa corriente), este contactor de contactos de plata y carcasa ignífuga es la pieza que separa el control inteligente barato de la carga eléctrica real — una inversión chica que protege equipos mucho más caros."
+    },
+    "tags": [
+      "25A",
+      "120V bobina",
+      "2NO DIN rail"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0G2G3QX5K?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-27",
+    "activo": true
+  },
+  {
+    "asin": "B0CGL8J44N",
+    "nombre": "BAOMAIN Contactor AC 16A 2 Polos, Bobina 110V (Riel DIN)",
+    "categoria": "control-industrial-b2b",
+    "precio": 9.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/51QvttkeNuL._AC_UL320_.jpg",
+    "rating": 5,
+    "numResenas": 1,
+    "ranking": 18,
+    "notaTecnica": "Mismo concepto que el contactor Wengart de este ranking, pero de menor capacidad (16A vs 25A) y bobina de 110V en vez de 120V — para cargas más chicas como iluminación o calefones menores. El fabricante aclara que es exclusivamente para AC, no sirve para DC, y recomienda usarlo siempre con protección de cortocircuito (fusible o térmica) aparte, porque no la trae incorporada. Con solo 1 reseña, es un listado muy nuevo.",
+    "idealPara": "Cargas resistivas más chicas (iluminación, calefones menores) donde el contactor de 25A de este ranking sería sobredimensionado.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es la versión más chica del mismo concepto que el contactor Wengart de este ranking: un \"relé grande\" que hace el trabajo pesado de manejar corriente fuerte, mientras un control chico (termostato, smart switch, PLC) solo le manda la orden de prender o apagar.",
+      "ejemploHogar": "Automatizar el encendido de un calefón chico o un panel de iluminación desde un control de bajo amperaje, sin que ese control tenga que bancarse la corriente real del equipo.",
+      "ejemploNegocio": "Un panel de iluminación comercial o un equipo resistivo (no motor) de un taller puede controlarse de forma automatizada usando este contactor como intermediario seguro.",
+      "puntosClave": [
+        "Es exclusivamente para corriente alterna (AC) — el fabricante aclara que NO sirve para corriente continua (DC).",
+        "Siempre hay que instalarlo con protección de cortocircuito aparte (fusible o térmica) — no la trae incorporada.",
+        "Con 16A de capacidad, es para cargas más chicas que el contactor de 25A de este ranking — confirmá el consumo real de tu equipo antes de elegir."
+      ],
+      "consejoInversion": "Para una carga chica y puramente resistiva, este contactor cuesta lo mismo que el de 25A pero es la opción correcta si tu equipo no necesita esa capacidad — comprar de más no da ningún beneficio, y el amperaje menor no es una desventaja si tu carga real está por debajo."
+    },
+    "tags": [
+      "16A",
+      "110V bobina AC",
+      "Solo AC (no DC)"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0CGL8J44N?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-27",
+    "activo": true
+  },
+  {
+    "asin": "B08K8QC6DD",
+    "nombre": "BNTECHGO Cable de Silicona 14AWG Rojo + Negro (100ft c/u)",
+    "categoria": "control-industrial-b2b",
+    "precio": 78.98,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/51QNToUgatL._AC_UL320_.jpg",
+    "rating": 4.8,
+    "numResenas": 162,
+    "ranking": 19,
+    "notaTecnica": "Mismo tipo de cable de silicona que los 18AWG y 22AWG de este ranking (aislación de silicona, resiste -60°C a 200°C, 600V), pero en un calibre más grueso (14AWG, 400 hebras estañadas) que soporta más corriente — y a diferencia de esos otros dos, este viene en rojo Y negro (100 pies cada uno), así que no hace falta comprar el negro aparte. Con 162 reseñas y 4.8 de rating, tiene mucho más historial que el resto de este lote.",
+    "idealPara": "Cableado de potencia (no solo señal) donde necesitás positivo y negativo del mismo pedido, sin comprar dos productos separados.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es cable eléctrico flexible cubierto con silicona en vez de PVC — la silicona no se pone rígida ni se raja con el calor de un motor o una fuente, a diferencia del cable común. Este calibre (14AWG) es más grueso que los otros cables de silicona de este ranking, así que soporta más corriente — pensado para cableado de potencia, no solo señales chicas.",
+      "ejemploHogar": "Un proyecto de energía solar casero o una batería que necesita cableado flexible resistente al calor, con positivo (rojo) y negativo (negro) del mismo pedido.",
+      "ejemploNegocio": "Un taller que arma motores, cargadores EV o equipos de potencia media puede usar este cable en las conexiones internas que quedan cerca de componentes calientes, sin pedir dos productos distintos para tener ambos colores.",
+      "puntosClave": [
+        "A diferencia de los otros cables de silicona de este ranking (solo rojo), este SÍ trae negro incluido — no necesitás comprar aparte el color de retorno.",
+        "Es un calibre más grueso (14AWG) que los otros de este lote, pensado para más corriente — si tu proyecto es de señal chica, el 18AWG o 22AWG de este ranking alcanza y sale más barato.",
+        "Cada bobina rinde 100 pies por color (200 pies en total) — confirmá que te alcance para tu proyecto antes de comprar."
+      ],
+      "consejoInversion": "Comprar los dos colores en un solo pedido, ya en el calibre correcto para cargas de potencia, evita el error común de quedarte con cable rojo de sobra y tener que hacer un segundo pedido de negro — para un proyecto de potencia real, esta es la opción más completa del ranking."
+    },
+    "tags": [
+      "14AWG",
+      "Rojo+Negro incluidos",
+      "400 hebras"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B08K8QC6DD?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-27",
+    "activo": true
+  },
+  {
+    "asin": "B01KCPKV9C",
+    "nombre": "BNTECHGO Cable de Silicona 18AWG Blanco (Bobina 50ft)",
+    "categoria": "control-industrial-b2b",
+    "precio": 13.98,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/51wjjyup7YL._AC_UL320_.jpg",
+    "rating": 4.5,
+    "numResenas": 151,
+    "ranking": 20,
+    "notaTecnica": "Mismo cable de silicona de la familia BNTECHGO ya presente en este ranking, mismo calibre que la versión roja (18AWG, 150 hebras estañadas, -60°C a 200°C, 600V), pero en blanco — útil como tercer conductor (señal, neutro o identificación) cuando el rojo y el negro ya están ocupados como positivo/negativo. Viene en un solo color, bobina de 50 pies.",
+    "idealPara": "Sumar un tercer conductor (señal, neutro, o identificación de un circuito distinto) a un proyecto que ya usa rojo y negro para positivo/negativo.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es el mismo cable de silicona flexible y resistente al calor que ya conocés de este ranking, mismo calibre 18AWG, pero en color blanco — no es una alimentación de potencia ni un negativo, es pensado como un tercer cable para señal, neutro, o para distinguir un circuito de los demás.",
+      "ejemploHogar": "Un proyecto de domótica casero donde el rojo y el negro ya están ocupados como positivo y negativo, y necesitás un tercer cable para una señal de control o un sensor.",
+      "ejemploNegocio": "Un tablero con varios circuitos de 18AWG puede usar el blanco para identificar visualmente un circuito de señal distinto de los de potencia (que suelen ir en rojo/negro), facilitando el mantenimiento futuro.",
+      "puntosClave": [
+        "Viene en un solo color (blanco) — no reemplaza al rojo ni al negro, es un color adicional para sumar a lo que ya tengas.",
+        "Mismo calibre (18AWG) que la versión roja de este ranking — no es para cargas de potencia, para eso el cable de 14AWG de este mismo lote es la opción correcta.",
+        "Rinde 50 pies — bobina más chica que las de calibre más grueso, pensada para proyectos puntuales de señal."
+      ],
+      "consejoInversion": "Tener un tercer color disponible evita el error clásico de \"¿este cable blanco era el sensor o el neutro?\" meses después de armado el proyecto — para mantenimiento futuro, identificar circuitos por color ahorra mucho más tiempo del que cuesta el cable."
+    },
+    "tags": [
+      "18AWG",
+      "Blanco",
+      "Un solo color"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B01KCPKV9C?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-27",
+    "activo": true
   }
 ]
