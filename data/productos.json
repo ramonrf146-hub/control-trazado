@@ -843,5 +843,37 @@
     "urlAfiliado": "https://www.amazon.com/dp/B01KCPKV9C?tag=controltrazado-20",
     "actualizadoEn": "2026-08-27",
     "activo": true
+  },
+  {
+    "asin": "B01J1R0RTG",
+    "nombre": "BAOMAIN Contactor AC 20A 2 Polos, Bobina 110V (Riel DIN)",
+    "categoria": "control-industrial-b2b",
+    "precio": 9.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/51r05PENyrL._AC_UL320_.jpg",
+    "rating": 4.5,
+    "numResenas": 166,
+    "ranking": 21,
+    "notaTecnica": "Mismo fabricante y familia que el contactor BAOMAIN de 16A de este ranking, pero un escalón de capacidad más arriba (20A) — llena el punto medio entre ese y el Wengart de 25A. A diferencia de los otros dos contactores de este lote (2 y 1 reseñas respectivamente), este tiene 166 reseñas y 4.5 de rating: mucho más historial real de otros compradores. Igual que el resto de la familia, es exclusivamente para AC (no DC) y necesita protección de cortocircuito aparte (fusible o térmica), que no viene incluida.",
+    "idealPara": "El punto medio entre los otros dos contactores de este ranking (16A y 25A) — y la opción con más historial de compradores reales si preferís no arriesgarte con un listado nuevo.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es el mismo tipo de \"relé grande\" que los otros contactores de este ranking: separa el control chico (un smart switch, un termostato, un PLC) de la corriente real que consume un equipo pesado, para que el control no se queme manejando esa carga directamente.",
+      "ejemploHogar": "Automatizar un calefón, una bomba o un equipo de iluminación de consumo medio, sin que el smart switch o termostato tenga que bancarse la corriente completa del equipo.",
+      "ejemploNegocio": "Un taller o local que necesita controlar de forma automatizada un equipo de 20A (motor chico, resistencia, iluminación comercial) puede usar este contactor como intermediario seguro entre el control y la carga.",
+      "puntosClave": [
+        "Es exclusivamente para corriente alterna (AC) — no sirve para DC, aclaración del propio fabricante.",
+        "No trae protección de cortocircuito incorporada — hay que instalarlo siempre con un fusible o térmica aparte.",
+        "Confirmá el amperaje real de tu equipo: si está más cerca de 16A, ese modelo de este ranking sale igual de precio; si supera los 20A, andá directo al de 25A."
+      ],
+      "consejoInversion": "Con 166 reseñas frente a las 1-2 de los otros contactores de este ranking, esta es la opción con más respaldo real si no querés arriesgarte con un listado nuevo — al mismo precio que los otros dos, el historial de compradores es una garantía extra que no cuesta nada de más."
+    },
+    "tags": [
+      "20A",
+      "110V bobina AC",
+      "166 reseñas"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B01J1R0RTG?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-27",
+    "activo": true
   }
 ]
