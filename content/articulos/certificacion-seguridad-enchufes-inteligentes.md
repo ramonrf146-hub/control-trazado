@@ -29,6 +29,12 @@ No alcanza con mirar la certificación — varios productos de este tipo (no sol
 
 El [disyuntor GFCI DIHOOL](/productos/B0CRKN96TB) combina tres protecciones en un módulo, pero varias reseñas (incluyendo un caso reportado de incendio) señalan que las instrucciones de cableado para 208V/240V sin neutro generan confusión real — la certificación del producto no reemplaza confirmar bien el diagrama de tu instalación específica antes de energizar.
 
+## Video: UL vs. ETL explicado
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/NasHm-6astI" title="UL vs ETL, Understanding Safety Certifications — OnLogic" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## Nuestra recomendación del mes
 
 Mirá el ranking de [Automatización y Hogar Inteligente](/categorias/automatizacion-hogar-inteligente) — en cada ficha marcamos explícitamente cuando encontramos inconsistencias de amperaje o falta de protección incorporada, para que no dependas solo de la certificación del título.

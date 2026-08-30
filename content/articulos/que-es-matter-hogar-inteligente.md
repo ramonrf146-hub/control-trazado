@@ -30,6 +30,12 @@ Pensalo como un enchufe universal de datos: en vez de que cada marca (Tuya, Alex
 2. Si el producto solo menciona "funciona con Alexa" o "app propia", andá con cuidado: puede ser un ecosistema cerrado.
 3. Matter no es gratis de fábrica — los dispositivos compatibles suelen costar un poco más que el equivalente sin Matter de la misma marca. Si vas a comprar varios dispositivos y planeás mezclarlos con otros ecosistemas, ese sobrecosto se paga solo.
 
+## Video: Matter explicado en 7 minutos
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/76DlT_2YM4k" title="What Is A Matter Smart Home (Simply Explained) — Steve DOES" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## Nuestra recomendación del mes
 
 Mirá el ranking de [Automatización y Hogar Inteligente](/categorias/automatizacion-hogar-inteligente) — marcamos explícitamente en cada ficha si el producto tiene Matter o si depende de un ecosistema cerrado, para que no lo tengas que adivinar.
