@@ -843,5 +843,47 @@
     "urlAfiliado": "https://www.amazon.com/dp/B01J1R0RTG?tag=controltrazado-20",
     "actualizadoEn": "2026-08-27",
     "activo": true
+  },
+  {
+    "asin": "B0995V2RM7",
+    "nombre": "QILIPSU Caja de Conexiones IP67 20x16.1x7.9\" con Placa de Montaje",
+    "categoria": "control-industrial-b2b",
+    "precio": 134.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61FF2-0Y3AL._SX522_.jpg",
+    "rating": 4.7,
+    "numResenas": 2367,
+    "ranking": 22,
+    "notaTecnica": "Gabinete grande (20x16.1x7.9\") IP67 con placa de montaje interna, puerta interior de metal y tapa con bisagras — pensado para alojar un panel de control completo (relés, breakers, un router) protegido del agua y el polvo, no solo una caja de paso. No trae perforaciones (knockouts) predefinidas: hay que taladrar vos los agujeros para prensaestopas, lo cual varias reseñas señalan como ventaja (quedan exactos donde los necesitás) más que como limitación. El plástico ABS es resistente pero no es metal — para instalaciones con más peso colgando adentro conviene reforzar el montaje.",
+    "urlAfiliado": "https://www.amazon.com/dp/B0995V2RM7?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-26"
+  },
+  {
+    "asin": "B08K8PXYL5",
+    "nombre": "BNTECHGO Cable de Silicona 12AWG Rojo+Negro (50ft c/u)",
+    "categoria": "control-industrial-b2b",
+    "precio": 64.98,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/516KOJ4JSQL._SX522_.jpg",
+    "rating": 4.9,
+    "numResenas": 14,
+    "ranking": 23,
+    "notaTecnica": "Mismo cable de silicona de la marca que ya está en varios calibres en el ranking, acá en 12AWG (680 hebras) para cargas de más corriente — motores chicos, baterías, cables de alimentación de un panel. A diferencia de los otros calibres que solo vienen en rojo, este ya incluye negro (50ft de cada uno), así que no hace falta comprar el retorno aparte. Con solo 14 reseñas todavía es un dato chico comparado con otros productos de la misma marca en el catálogo.",
+    "urlAfiliado": "https://www.amazon.com/dp/B08K8PXYL5?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-26"
+  },
+  {
+    "asin": "B00R1WTT9S",
+    "nombre": "Dinkle DSS2.5N-10P Puente de 10 Polos para Riel DIN (10un)",
+    "categoria": "control-industrial-b2b",
+    "precio": 29.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61U7FMhx4DL._SX522_.jpg",
+    "rating": 4.5,
+    "numResenas": 90,
+    "ranking": 24,
+    "notaTecnica": "Ojo con el nombre: esto NO es un bloque de terminales, es el puente (jumper) de 10 polos que conecta varios bloques DK2.5N entre sí — necesitás los bloques base Dinkle DK2.5N (se venden aparte) para que sirva de algo. Se puede cortar a tamaños más chicos si no necesitás los 10 polos. Una reseña señala que encastra con poca firmeza y se puede salir si no quedó bien presionado — revisá que haga clic firme al instalarlo.",
+    "urlAfiliado": "https://www.amazon.com/dp/B00R1WTT9S?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-26"
   }
 ]
