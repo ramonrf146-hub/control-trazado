@@ -11,6 +11,33 @@ Si compraste dos dispositivos de casa inteligente de marcas distintas y terminas
 
 Pensalo como un enchufe universal de datos: en vez de que cada marca (Tuya, Alexa, Google, Apple) hable su propio idioma y necesites su propia app para controlarla, Matter es un idioma común que todas entienden. Un dispositivo con Matter se puede sumar a Alexa, Google Home o Apple Home sin depender de la app original del fabricante — y en muchos casos, sin depender siquiera de internet, porque parte del control pasa a ser local (tu casa, no la nube de la marca).
 
+<div class="not-prose my-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+<div class="rounded-2xl border border-line-dim/60 bg-ink p-5">
+<p class="text-xs font-mono font-bold uppercase tracking-wide text-red-400">✕ Sin Matter</p>
+<div class="mt-4 space-y-3">
+<div class="flex items-center justify-between rounded-lg bg-ink-2 px-3 py-2 text-xs text-text-dim"><span>App Tuya</span><span>→</span><span>Enchufe</span></div>
+<div class="flex items-center justify-between rounded-lg bg-ink-2 px-3 py-2 text-xs text-text-dim"><span>App Alexa</span><span>→</span><span>Foco</span></div>
+<div class="flex items-center justify-between rounded-lg bg-ink-2 px-3 py-2 text-xs text-text-dim"><span>App Google</span><span>→</span><span>Termostato</span></div>
+</div>
+<p class="mt-4 text-xs text-text-dim">3 apps separadas — ninguna se comunica con las otras.</p>
+</div>
+<div class="rounded-2xl border border-line bg-ink p-5">
+<p class="text-xs font-mono font-bold uppercase tracking-wide text-accent-2">✓ Con Matter</p>
+<div class="mt-4 flex flex-col items-center gap-2">
+<div class="flex flex-wrap justify-center gap-2 text-xs text-text-dim">
+<span class="rounded-lg bg-ink-2 px-2 py-1">Enchufe</span><span class="rounded-lg bg-ink-2 px-2 py-1">Foco</span><span class="rounded-lg bg-ink-2 px-2 py-1">Termostato</span>
+</div>
+<span class="text-lg text-text-dim">↓</span>
+<span class="rounded-full bg-accent-2 px-4 py-1.5 text-xs font-bold text-ink">Matter</span>
+<span class="text-lg text-text-dim">↓</span>
+<div class="flex flex-wrap justify-center gap-2 text-xs text-text-dim">
+<span class="rounded-lg bg-ink-2 px-2 py-1">Alexa</span><span class="rounded-lg bg-ink-2 px-2 py-1">Google Home</span><span class="rounded-lg bg-ink-2 px-2 py-1">Apple Home</span>
+</div>
+</div>
+<p class="mt-4 text-xs text-text-dim">Un idioma común — elegís el hub que quieras.</p>
+</div>
+</div>
+
 ## 2. Por qué te conviene concretamente
 
 - **Menos apps.** Todos tus dispositivos Matter aparecen en el mismo hub (Alexa, Google Home o Apple Home), no uno por marca.

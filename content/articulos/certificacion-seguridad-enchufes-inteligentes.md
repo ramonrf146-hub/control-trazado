@@ -25,6 +25,24 @@ No alcanza con mirar la certificación — varios productos de este tipo (no sol
 2. **Comparás el amperaje del título contra la ficha técnica completa** — si hay discrepancia, confiá en el número más bajo y preguntale al vendedor cuál es el correcto antes de instalar algo que dependa de ese límite.
 3. **Revisá si necesita protección aparte.** Varios contactores y relés (como los [contactores BAOMAIN](/productos/B0CGL8J44N) de este ranking) aclaran explícitamente que no traen protección de cortocircuito incorporada — necesitás sumar un fusible o térmica vos, no es opcional aunque no venga mencionado en destacado.
 
+<div class="not-prose my-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
+<div class="rounded-2xl border border-line-dim/60 bg-ink p-5 text-center">
+<p class="text-2xl font-extrabold text-accent">1</p>
+<p class="mt-2 text-sm font-semibold text-text-light">Buscá la certificación</p>
+<p class="mt-1 text-xs text-text-dim">UL, ETL o CE explícita en el título o las fotos</p>
+</div>
+<div class="rounded-2xl border border-line-dim/60 bg-ink p-5 text-center">
+<p class="text-2xl font-extrabold text-accent">2</p>
+<p class="mt-2 text-sm font-semibold text-text-light">Comparás el amperaje</p>
+<p class="mt-1 text-xs text-text-dim">Título vs. ficha técnica completa — confiá en el número más bajo</p>
+</div>
+<div class="rounded-2xl border border-line-dim/60 bg-ink p-5 text-center">
+<p class="text-2xl font-extrabold text-accent">3</p>
+<p class="mt-2 text-sm font-semibold text-text-light">Revisá la protección</p>
+<p class="mt-1 text-xs text-text-dim">¿Necesita fusible/térmica aparte? Confirmalo antes de instalar</p>
+</div>
+</div>
+
 ## 5. Ejemplo real de este ranking
 
 El [disyuntor GFCI DIHOOL](/productos/B0CRKN96TB) combina tres protecciones en un módulo, pero varias reseñas (incluyendo un caso reportado de incendio) señalan que las instrucciones de cableado para 208V/240V sin neutro generan confusión real — la certificación del producto no reemplaza confirmar bien el diagrama de tu instalación específica antes de energizar.
