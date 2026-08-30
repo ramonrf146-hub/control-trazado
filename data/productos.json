@@ -932,5 +932,37 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0B6P22YJC?tag=controltrazado-20",
     "actualizadoEn": "2026-08-30",
     "activo": true
+  },
+  {
+    "asin": "B0C36WXGP1",
+    "nombre": "Linkind Matter Smart Plug (4-pack) — Enchufe WiFi Certificado ETL",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 24.98,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61uRO-SLa+L._SX342_.jpg",
+    "rating": 4.4,
+    "numResenas": 1760,
+    "ranking": 9,
+    "notaTecnica": "El precio es por el pack de 4 unidades. Es un enchufe Matter listo para usar (no un módulo dry-contact como el dongle SONOFF de este ranking) — soporta 15A/1800W y está certificado ETL. Para usarlo con Apple Home, Alexa, Google Home o SmartThings necesitás un hub/controlador Matter (HomePod, Echo Dot, Nest o hub SmartThings); si no tenés ninguno, también podés controlarlo sin hub desde la app propia AiDot del fabricante.",
+    "idealPara": "Quien quiere un enchufe Matter simple y listo para enchufar (sin cablear nada), certificado ETL, y ya tiene o piensa sumar un hub compatible (HomePod, Echo, Nest) para controlarlo de forma local.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un enchufe inteligente que hablás protocolo Matter — el estándar pensado para que no dependas de la app de un solo fabricante. Lo enchufás en el tomacorriente, conectás el aparato que quieras controlar (una lámpara, un ventilador) y lo manejás desde Apple Home, Alexa o Google Home sin pasar por una app propietaria.",
+      "ejemploHogar": "Conectás una lámpara de living a uno de los 4 enchufes del pack y la programás para que se prenda sola a la noche usando Apple Home, sin instalar ninguna app adicional del fabricante del enchufe.",
+      "ejemploNegocio": "Una oficina chica que ya usa Apple Home o Google Home para el control de luces puede sumar estos enchufes para equipos varios (cafetera, ventilador) sin agregar una app nueva por cada marca de enchufe que compre.",
+      "puntosClave": [
+        "El precio publicado es por el pack de 4 unidades, no por enchufe individual.",
+        "Necesitás un hub Matter (HomePod, Echo Dot, Nest o SmartThings Hub) para usarlo con Apple Home/Alexa/Google Home — sin hub, la alternativa es controlarlo solo desde la app propia AiDot.",
+        "Está certificado ETL, a diferencia de varios enchufes genéricos del rubro que no muestran ninguna certificación en la ficha."
+      ],
+      "consejoInversion": "Frente al dongle SONOFF de este ranking (que requiere armar tu propio servidor Home Assistant), este enchufe es la versión \"plug and play\" del ecosistema abierto: obtenés control local vía Matter sin tener que configurar nada técnico, a cambio de tener menos margen de personalización que un sistema propio."
+    },
+    "tags": [
+      "Matter",
+      "ETL",
+      "4-pack"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0C36WXGP1?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-30",
+    "activo": true
   }
 ]
