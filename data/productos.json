@@ -900,5 +900,37 @@
     "notaTecnica": "Es el tope de fin de carril (end stop) que le falta a varios bloques de terminales de este mismo ranking — sin esto, los bloques pueden deslizarse a lo largo del riel DIN de 35mm. Se atornilla al riel para mayor resistencia en vez de solo trabar a presión, lo que lo hace más firme que las versiones puramente plásticas de encastre. Es un accesorio de complemento, no reemplaza al bloque de terminales en sí — compralo junto con los bloques si el listing de esos no los trae incluidos.",
     "urlAfiliado": "https://www.amazon.com/dp/B082DKDHBC?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26"
+  },
+  {
+    "asin": "B0B6P22YJC",
+    "nombre": "SONOFF Zigbee 3.0 USB Dongle Plus-E — Coordinador para Home Assistant",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 24.9,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/615SXuFWi+L._AC_SY355_.jpg",
+    "rating": 4.6,
+    "numResenas": 3696,
+    "ranking": 8,
+    "notaTecnica": "No es un dispositivo que controlás directo: es un adaptador USB que le da a un servidor de Home Assistant, openHAB o Zigbee2MQTT la capacidad de hablar directo con dispositivos Zigbee, sin pasar por la nube del fabricante. Requiere que ya tengas corriendo alguno de esos sistemas (por ejemplo en una Raspberry Pi o mini-PC) — no sirve solo, conectado a cualquier PC sin ese software. Usa el chip EFR32MG21; existe una versión más nueva sin la 'E' con otro chip, pero esta sigue totalmente soportada.",
+    "idealPara": "Quien ya usa (o quiere migrar a) Home Assistant y prefiere no depender de la nube o la app de una sola marca (como Tuya) para controlar sus dispositivos Zigbee.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es la 'antena' que le da a tu servidor de Home Assistant la capacidad de hablar directamente con dispositivos Zigbee (bombillas, enchufes, sensores) sin pasar por la nube del fabricante de cada uno.",
+      "ejemploHogar": "En vez de tener la app de Tuya, la de otra marca de bombillas y otra más de enchufes todas por separado, conectás todos esos dispositivos Zigbee a un solo panel de Home Assistant local, que sigue funcionando aunque se caiga tu conexión a internet.",
+      "ejemploNegocio": "Un local que ya corre Home Assistant u openHAB para el control de luces y enchufes evita atarse a la nube o la cuenta de un solo fabricante, algo relevante si el equipo instalado cambia de marca con el tiempo.",
+      "puntosClave": [
+        "No sirve solo: necesitás tener corriendo Home Assistant, openHAB o Zigbee2MQTT en una PC, mini-PC o Raspberry Pi — no es un producto para alguien que recién arranca en domótica sin ese software.",
+        "Es un coordinador Zigbee, no Matter ni WiFi — los dispositivos que le conectes tienen que ser Zigbee, así que confirmá el protocolo antes de comprar sensores o bombillas para usar con este dongle.",
+        "Existe una versión más nueva (Dongle Plus, sin la 'E') con otro chip — este modelo sigue totalmente soportado, pero si armás un sistema desde cero puede valer la pena comparar precio contra la versión nueva."
+      ],
+      "consejoInversion": "Frente a quedarte atado a la app de Tuya (más simple para empezar, pero dependés de su nube y sus reglas), este dongle es la puerta de entrada al ecosistema abierto: la inversión de tiempo en configurarlo es mayor, pero después no dependés de que una marca mantenga su app o su servidor funcionando."
+    },
+    "tags": [
+      "Zigbee 3.0",
+      "Home Assistant",
+      "USB"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0B6P22YJC?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-30",
+    "activo": true
   }
 ]
