@@ -885,5 +885,19 @@
     "notaTecnica": "Ojo con el nombre: esto NO es un bloque de terminales, es el puente (jumper) de 10 polos que conecta varios bloques DK2.5N entre sí — necesitás los bloques base Dinkle DK2.5N (se venden aparte) para que sirva de algo. Se puede cortar a tamaños más chicos si no necesitás los 10 polos. Una reseña señala que encastra con poca firmeza y se puede salir si no quedó bien presionado — revisá que haga clic firme al instalarlo.",
     "urlAfiliado": "https://www.amazon.com/dp/B00R1WTT9S?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26"
+  },
+  {
+    "asin": "B082DKDHBC",
+    "nombre": "Dinkle SS2 Soporte de Extremo para Riel DIN (25un)",
+    "categoria": "control-industrial-b2b",
+    "precio": 16.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/31tcjNb9pvL._SY445_SX342_QL70_FMwebp_.jpg",
+    "rating": 4.8,
+    "numResenas": 170,
+    "ranking": 25,
+    "notaTecnica": "Es el tope de fin de carril (end stop) que le falta a varios bloques de terminales de este mismo ranking — sin esto, los bloques pueden deslizarse a lo largo del riel DIN de 35mm. Se atornilla al riel para mayor resistencia en vez de solo trabar a presión, lo que lo hace más firme que las versiones puramente plásticas de encastre. Es un accesorio de complemento, no reemplaza al bloque de terminales en sí — compralo junto con los bloques si el listing de esos no los trae incluidos.",
+    "urlAfiliado": "https://www.amazon.com/dp/B082DKDHBC?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-26"
   }
 ]
