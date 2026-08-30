@@ -25,6 +25,8 @@ Si ya armaste o pensás armar un proyecto propio con Home Assistant o Node-RED, 
 
 La curva de aprendizaje es más alta que abrir una app y tocar un botón, pero es la diferencia entre "tener dispositivos inteligentes" y "tener un sistema que vos controlás".
 
+Para entrar a este mundo con dispositivos Zigbee (que suelen ser más baratos y variados que los Matter nativos), necesitás un coordinador conectado a tu servidor de Home Assistant — el [SONOFF Zigbee 3.0 USB Dongle Plus-E](/productos/B0B6P22YJC) de este ranking es exactamente eso: le da a Home Assistant, openHAB o Zigbee2MQTT la capacidad de hablar directo con esos dispositivos sin pasar por la nube de ningún fabricante.
+
 ## Salida "dry contact" vs. enchufe integrado
 
 Un dato técnico que se pasa por alto seguido: un módulo con salida de "contacto seco" (dry contact) no es lo mismo que un enchufe inteligente. El contacto seco es un relé desnudo — vos le das la carga (la lámpara, el motor, lo que sea) y el módulo solo abre o cierra el circuito. Esto lo hace mucho más flexible para instalarlo dentro de una caja de luz existente o integrarlo a un tablero, pero necesitás saber cablear. Un enchufe inteligente, en cambio, ya viene armado para enchufar y usar — cero cableado, pero cero flexibilidad de instalación.
@@ -35,7 +37,7 @@ Si estás recién empezando, tu presupuesto es ajustado, o simplemente no te imp
 
 ## Nuestra recomendación del mes
 
-Mirá el ranking de [Automatización y Hogar Inteligente](/categorias/automatizacion-hogar-inteligente): incluimos tanto opciones Tuya listas para usar como módulos con salida seca compatibles con Matter, con la nota técnica indicando explícitamente en cuál ecosistema queda cada uno.
+Mirá el ranking de [Automatización y Hogar Inteligente](/categorias/automatizacion-hogar-inteligente): incluimos tanto opciones Tuya listas para usar como módulos con salida seca compatibles con Matter y el [coordinador Zigbee para Home Assistant](/productos/B0B6P22YJC) si preferís el ecosistema abierto — la nota técnica de cada uno indica explícitamente en cuál ecosistema queda.
 
 ## Preguntas frecuentes
 
