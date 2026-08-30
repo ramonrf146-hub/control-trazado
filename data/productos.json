@@ -9,7 +9,7 @@
     "rating": 4.7,
     "numResenas": 957,
     "ranking": 1,
-    "notaTecnica": "Tiene salida de contacto seco (dry contact), no es un enchufe listo para usar — se instala dentro de una caja o tablero para conmutar una carga externa, lo que lo hace más versátil para integrar a cableado existente que un enchufe inteligente tradicional. Soporta Matter, así que en teoría funciona con cualquier hub compatible (Apple Home, Google Home, Alexa) sin depender exclusivamente de la app Tuya/eWeLink. Acepta entrada AC o DC, útil si tu proyecto ya corre en 12V/24V DC.",
+    "notaTecnica": "Tiene salida de contacto seco (dry contact), no es un enchufe listo para usar — se instala dentro de una caja o tablero para conmutar una carga externa, lo que lo hace más versátil para integrar a cableado existente que un enchufe inteligente tradicional. Soporta Matter, así que en teoria funciona con cualquier hub compatible (Apple Home, Google Home, Alexa) sin depender exclusivamente de la app Tuya/eWeLink. Acepta entrada AC o DC, útil si tu proyecto ya corre en 12V/24V DC.",
     "idealPara": "Integrar automatización a cableado ya existente dentro de una caja o tablero, o a hubs Matter (Apple Home, Google Home) sin depender de una app cerrada.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Este aparato es un \"interruptor a distancia\" que se instala escondido dentro de una caja eléctrica o tablero, no un enchufe que ves y tocás. Tiene lo que se llama \"contacto seco\": pensalo como el dedo de un robot que aprieta o suelta un botón por vos, sin importarle qué corriente tiene ese botón del otro lado. Eso lo hace compatible con casi cualquier instalación existente, no solo con electrodomésticos enchufables.",
@@ -28,7 +28,8 @@
       "Matter",
       "Contacto seco",
       "AC/DC"
-    ]
+    ],
+    "activo": true
   },
   {
     "asin": "B0D7MLMCXR",
