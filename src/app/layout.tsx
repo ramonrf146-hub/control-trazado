@@ -30,6 +30,11 @@ export const metadata: Metadata = {
     description:
       "Ranking mensual con criterio técnico de hardware de automatización e industrial, evaluado como un plano de ingeniería.",
   },
+  verification: {
+    other: {
+      "p:domain_verify": "bb9554baa12bd182515a8de9f1f3d4fc",
+    },
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
