@@ -46,7 +46,8 @@ Pensalo como un enchufe universal de datos: en vez de que cada marca (Tuya, Alex
 
 ## 3. Cuáles de este ranking tienen Matter (y cuáles no)
 
-- El [SONOFF WiFi MINI-D](/productos/B0DGXMZ9GD) sí es compatible con Matter — podés sumarlo a cualquier hub sin depender de la app Tuya/eWeLink.
+- El [SONOFF WiFi MINI-D](/productos/B0DGXMZ9GD) sí es compatible con Matter — podés sumarlo a cualquier hub sin depender de la app Tuya/eWeLink, aunque es de salida seca (necesita cablearse dentro de una caja o tablero).
+- El [Linkind Matter Smart Plug](/productos/B0C36WXGP1) es la versión "enchufar y listo": Matter de fábrica, certificado ETL, sin cablear nada — necesitás un hub Matter (HomePod, Echo, Nest) para usarlo con Apple Home/Alexa/Google Home, o la app propia si todavía no tenés uno.
 - El [Google Nest Thermostat](/productos/B08HRPDBFF) también soporta Matter, además de Google Assistant nativo.
 - El [GHome Dual Smart Plug](/productos/B0D7MLMCXR) y el [GHome Smart Mini Enchufe](/productos/B0FD6CYBNH) **no** tienen Matter — corren en el ecosistema cerrado de Tuya, así que dependés de esa app.
 - El [foco Amazon Basics](/productos/B0CG5VDC8P) es un caso especial: funciona **exclusivamente** con Alexa, ni siquiera es multi-ecosistema sin Matter — si tu casa usa Google Home o Apple Home, directamente no te sirve.

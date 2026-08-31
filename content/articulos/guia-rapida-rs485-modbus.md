@@ -32,6 +32,10 @@ El caso típico: tenés equipo industrial (un medidor de energía, un PLC viejo,
 2. **Falta de resistencia de terminación:** un bus RS485 largo necesita una resistencia de 120Ω en cada extremo físico del cable (no en cada dispositivo). Omitirla genera reflexiones de señal que causan errores intermitentes, difíciles de diagnosticar porque a veces "funciona igual" a corta distancia.
 3. **Tierra común faltante:** aunque RS485 es diferencial y tolera bastante ruido, una referencia de tierra muy distinta entre dispositivos alejados puede seguir causando errores — en instalaciones largas, se recomienda un tercer conductor de referencia de señal (GND) además del par A/B.
 
+## Dos opciones reales de este ranking
+
+Si necesitás soporte triple RS232/485/422 con alimentación PoE, el [gateway Waveshare](/productos/B0BN61G4VF) de este ranking lo cubre. Si tu caso es más simple — solo Modbus RTU a Modbus TCP, sin necesidad de PoE — el [PUSR DR302](/productos/B0BR4ZRJGM) hace exactamente eso en formato riel DIN por menos precio, aunque con bastante menos reseñas respaldándolo en Amazon.
+
 ## Nuestra recomendación del mes
 
 Mirá el ranking de [Control Industrial B2B](/categorias/control-industrial-b2b): incluimos un gateway con soporte triple RS232/485/422 y alimentación PoE, útil tanto para instalaciones nuevas como para integrar equipo legado.

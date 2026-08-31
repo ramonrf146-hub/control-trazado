@@ -17,7 +17,7 @@ La ventaja es que funciona rápido y sin configuración técnica. La desventaja 
 
 Matter es un estándar de interoperabilidad respaldado por Amazon, Apple, Google y la Connectivity Standards Alliance, pensado exactamente para resolver el problema anterior. Un dispositivo Matter se controla localmente en tu red — no necesita ida y vuelta a un servidor externo para que enciendas una luz desde tu teléfono en la misma casa. Eso significa menor latencia y que tu automatización sigue funcionando si se corta internet (mientras tu red local siga en pie).
 
-No todos los fabricantes que dicen "compatible con Alexa/Google" son Matter — muchos siguen siendo integraciones basadas en la nube de Tuya. Fijate específicamente si el producto menciona el logo o la palabra "Matter" en la ficha, no solo "compatible con Alexa".
+No todos los fabricantes que dicen "compatible con Alexa/Google" son Matter — muchos siguen siendo integraciones basadas en la nube de Tuya. Fijate específicamente si el producto menciona el logo o la palabra "Matter" en la ficha, no solo "compatible con Alexa". El [Linkind Matter Smart Plug](/productos/B0C36WXGP1) de este ranking es un ejemplo directo: Matter de fábrica, sin depender de la nube de Tuya, aunque para usarlo con Apple Home/Alexa/Google Home igual necesitás un hub Matter (HomePod, Echo, Nest) — o su app propia si todavía no tenés uno.
 
 ## Integración directa con Home Assistant / Node-RED
 
@@ -25,7 +25,7 @@ Si ya armaste o pensás armar un proyecto propio con Home Assistant o Node-RED, 
 
 La curva de aprendizaje es más alta que abrir una app y tocar un botón, pero es la diferencia entre "tener dispositivos inteligentes" y "tener un sistema que vos controlás".
 
-Para entrar a este mundo con dispositivos Zigbee (que suelen ser más baratos y variados que los Matter nativos), necesitás un coordinador conectado a tu servidor de Home Assistant — el [SONOFF Zigbee 3.0 USB Dongle Plus-E](/productos/B0B6P22YJC) de este ranking es exactamente eso: le da a Home Assistant, openHAB o Zigbee2MQTT la capacidad de hablar directo con esos dispositivos sin pasar por la nube de ningún fabricante.
+Para entrar a este mundo con dispositivos Zigbee (que suelen ser más baratos y variados que los Matter nativos), necesitás un coordinador conectado a tu servidor de Home Assistant — el [SONOFF Zigbee 3.0 USB Dongle Plus-E](/productos/B0B6P22YJC) de este ranking es exactamente eso: le da a Home Assistant, openHAB o Zigbee2MQTT la capacidad de hablar directo con esos dispositivos sin pasar por la nube de ningún fabricante. Si no querés armar ese servidor propio, el [Linkind Matter Smart Plug](/productos/B0C36WXGP1) te da una versión "lista para usar" del mismo espíritu de ecosistema abierto, sin necesidad de configurar nada técnico — a cambio de menos margen de personalización.
 
 ## Salida "dry contact" vs. enchufe integrado
 
