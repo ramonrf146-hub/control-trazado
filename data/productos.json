@@ -964,5 +964,69 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0C36WXGP1?tag=controltrazado-20",
     "actualizadoEn": "2026-08-30",
     "activo": true
+  },
+  {
+    "asin": "B08Y8GX1WT",
+    "nombre": "Inkbird PID Temperature Controller Kit — con Relé SSR 40A y Termocupla K",
+    "categoria": "control-industrial-b2b",
+    "precio": 42.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61n67cfLhwL._SX342_.jpg",
+    "rating": 4.5,
+    "numResenas": 605,
+    "ranking": 26,
+    "notaTecnica": "Es un controlador PID de temperatura standalone — NO tiene comunicación RS485/Modbus como los gateways y módulos de relé de este ranking, es un equipo local que se programa y lee directo en su propia pantalla. Viene con el relé de estado sólido (SSR) de 40A y la termocupla tipo K incluidos, además de una salida de alarma separada (250V, 3A) para cablear un buzzer. Acepta 100-240V AC. Existe una versión de la misma familia con salida Modbus RS485, pero tiene mucho menos respaldo de reseñas en Amazon.",
+    "idealPara": "Quien necesita controlar la temperatura de un proceso (horno, calentador, incubadora, reflow) de forma local, sin necesidad de integrarlo a un sistema SCADA/Modbus centralizado.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es el cerebro que mantiene una temperatura constante en un proceso: lee la temperatura real con la termocupla, la compara con la que vos programaste, y prende o apaga la resistencia de calefacción a través del relé de estado sólido para mantenerla estable.",
+      "ejemploHogar": "Armás una máquina casera de reflow para soldar placas electrónicas o un horno de secado, y usás este controlador para mantener la temperatura exacta que necesita el proceso en vez de vigilar un termómetro a mano.",
+      "ejemploNegocio": "Un taller que necesita mantener una temperatura constante en un proceso de curado o secado puede usar este kit para automatizar ese control sin invertir en un sistema industrial completo con Modbus.",
+      "puntosClave": [
+        "No tiene salida RS485/Modbus — es un controlador local, no pensado para integrarse a un sistema SCADA centralizado como los gateways de este ranking.",
+        "Incluye el relé de estado sólido (SSR 40A) y la termocupla tipo K en el mismo kit — no hay que comprarlos por separado como con otros controladores PID más básicos.",
+        "Tiene una salida de alarma separada (250V, 3A) para cablear un buzzer si la temperatura se sale de rango, útil como aviso de seguridad en procesos desatendidos."
+      ],
+      "consejoInversion": "Para un proceso térmico aislado (un horno, una máquina de reflow) este kit resuelve todo con una sola compra. Si tu proyecto necesita que varios equipos reporten a un sistema central por Modbus, vas a necesitar sumar un gateway RS485 de este mismo ranking o buscar la versión con Modbus de este controlador — que hoy tiene muy pocas reseñas para recomendarla con la misma confianza."
+    },
+    "tags": [
+      "PID",
+      "SSR 40A",
+      "Termocupla K"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B08Y8GX1WT?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-30",
+    "activo": true
+  },
+  {
+    "asin": "B0BR4ZRJGM",
+    "nombre": "PUSR DR302 — Gateway Modbus RTU a Modbus TCP, Riel DIN",
+    "categoria": "control-industrial-b2b",
+    "precio": 39,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/41uqCPImQXL._AC_SY450_.jpg",
+    "rating": 4.5,
+    "numResenas": 44,
+    "ranking": 27,
+    "notaTecnica": "Convierte Modbus RTU (por RS485) a Modbus TCP sobre Ethernet, para montar en riel DIN — es una alternativa de otra marca (PUSR) a los gateways Waveshare de este ranking, y más económica. Soporta modo TCP server/client, UDP server/client y COM virtual. Tiene bastante menos reseñas que los productos más populares del catálogo (44), aunque es \"Amazon's Choice\" en su categoría — este nicho de gateways Modbus en Amazon tiene en general pocas reseñas comparado con productos de consumo masivo.",
+    "idealPara": "Quien necesita conectar equipos Modbus RTU (RS485) existentes a una red Ethernet/TCP y busca una opción de riel DIN más económica que los gateways Waveshare de este ranking.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un traductor entre dos versiones del protocolo Modbus: toma la señal RS485 (Modbus RTU) de un equipo industrial viejo o económico y la convierte a Modbus TCP para que la puedas leer desde una red Ethernet normal, sin cablear RS485 hasta la PC o el PLC central.",
+      "ejemploHogar": "Tenés un medidor o sensor industrial que solo habla RS485 y querés monitorearlo desde un software en tu PC conectado por red — este gateway hace de puente sin que tengas que tirar un cable serial largo.",
+      "ejemploNegocio": "Una planta chica con varios equipos RS485 dispersos puede centralizar la lectura de todos en un solo software SCADA conectado por Ethernet, usando un gateway de estos por cada tramo de equipos RS485.",
+      "puntosClave": [
+        "Es Modbus RTU a Modbus TCP — no sirve para otros protocolos seriales que no sean Modbus sobre RS485.",
+        "Tiene bastantes menos reseñas (44) que los gateways Waveshare de este ranking, aunque es \"Amazon's Choice\" en su categoría.",
+        "Se monta en riel DIN, igual que el resto de los componentes industriales de este ranking — no hace falta improvisar el montaje."
+      ],
+      "consejoInversion": "Es la opción más económica de este ranking para el mismo trabajo que hace un gateway Waveshare — vale la pena si el precio es el factor decisivo y no te preocupa tener menos historial de reseñas en Amazon respaldando la marca."
+    },
+    "tags": [
+      "Modbus RTU/TCP",
+      "RS485",
+      "Riel DIN"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0BR4ZRJGM?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-30",
+    "activo": true
   }
 ]
