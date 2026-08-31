@@ -1028,5 +1028,37 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0BR4ZRJGM?tag=controltrazado-20",
     "actualizadoEn": "2026-08-30",
     "activo": true
+  },
+  {
+    "asin": "B0HH89JB6P",
+    "nombre": "S31B-LB — Sensor LoRaWAN de Temperatura y Humedad (SHT31, US915)",
+    "categoria": "control-industrial-b2b",
+    "precio": 144.58,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/419tl3xwZAL._AC_SY450_.jpg",
+    "rating": 0,
+    "numResenas": 0,
+    "ranking": 28,
+    "notaTecnica": "ADVERTENCIA: este producto todavía no tiene ninguna reseña en Amazon (0 compradores lo calificaron) — no hay track record de terceros que lo respalde, a diferencia del resto del catálogo. Además, es un sensor LoRaWAN (radio de largo alcance), un protocolo distinto al WiFi/RS485/Zigbee del resto de este ranking: para que funcione necesitás tener ya instalado un gateway/servidor de red LoRaWAN (por ejemplo The Things Network o un gateway propio) — el sensor solo no sirve de nada. Usa el sensor SHT31 (marca reconocida para temperatura/humedad), carcasa resistente al agua y anti-condensación, y viene en variantes de frecuencia según región (US915, EU868, AU915, KR920, AS923) — confirmá que elegís la banda correcta para tu país antes de comprar.",
+    "idealPara": "Quien ya tiene un gateway LoRaWAN funcionando (o está armando uno) y necesita monitorear temperatura/humedad a larga distancia sin depender de WiFi — por ejemplo en un galpón, invernadero o predio grande donde el WiFi no llega. No comprar si no tenés (o no vas a instalar) infraestructura LoRaWAN.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un sensor de temperatura y humedad que en vez de mandar los datos por WiFi (que tiene poco alcance) usa un protocolo de radio de largo alcance llamado LoRaWAN — puede transmitir datos desde kilómetros de distancia con muy poco consumo de batería, pero necesita un receptor especializado (gateway LoRaWAN) para recibir esa señal, algo que el WiFi normal no requiere.",
+      "ejemploHogar": "Tenés un galpón o invernadero lejos de la casa donde no llega el WiFi, y ya armaste (o vas a armar) un gateway LoRaWAN — este sensor te manda la temperatura y humedad de ese lugar sin tirar cable ni depender de la señal WiFi.",
+      "ejemploNegocio": "Un predio agrícola o una planta con varios puntos de monitoreo dispersos en un área grande puede usar varios de estos sensores reportando a un único gateway LoRaWAN central, en vez de instalar WiFi en todo el predio.",
+      "puntosClave": [
+        "Tiene 0 reseñas en Amazon al momento de esta ficha — comprarlo es apostar a un producto sin historial de otros usuarios que lo respalde.",
+        "No funciona solo: necesitás un gateway LoRaWAN ya instalado (propio o de una red pública como The Things Network) para recibir los datos que manda el sensor.",
+        "Viene en variantes de banda de frecuencia por región (US915, EU868, AU915, KR920, AS923) — comprar la banda equivocada para tu país lo deja inservible."
+      ],
+      "consejoInversion": "Solo tiene sentido si ya estás metido en un proyecto LoRaWAN o estás dispuesto a armar la infraestructura del gateway — para monitoreo de temperatura/humedad más simple dentro del alcance de tu WiFi, un sensor WiFi tradicional es más barato y no depende de esta pieza adicional. Dado que no tiene reseñas, conviene pedir uno solo primero y probarlo antes de comprar varios para un despliegue grande."
+    },
+    "tags": [
+      "LoRaWAN",
+      "SHT31",
+      "Sin reseñas"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0HH89JB6P?tag=controltrazado-20",
+    "actualizadoEn": "2026-08-30",
+    "activo": true
   }
 ]
