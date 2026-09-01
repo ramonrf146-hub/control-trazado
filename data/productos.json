@@ -1060,5 +1060,69 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0HH89JB6P?tag=controltrazado-20",
     "actualizadoEn": "2026-08-30",
     "activo": false
+  },
+  {
+    "asin": "B09R38VVXF",
+    "nombre": "Wyze Auto-Lock Bolt — Cerradura Inteligente con Huella y Teclado",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 79.98,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71YEc7umwoL._AC_SX425_.jpg",
+    "rating": 4.5,
+    "numResenas": 3236,
+    "ranking": 10,
+    "notaTecnica": "Es Bluetooth, NO WiFi de fábrica — para controlarla por app desde fuera de casa (no solo por huella/teclado en la puerta) necesitás sumar el 'Wyze Lock Bridge', que se vende aparte. Sin el bridge, funciona perfecto como cerradura con huella/código pero sin control remoto. Certificación BHMA y resistencia al fuego UL de 20 minutos, IPX5 resistente al agua, hasta 8 meses de batería. Existe una v2 más nueva con WiFi incorporado, con menos reseñas todavía (580) que esta v1.",
+    "idealPara": "Quien quiere reemplazar la llave por huella digital o código en la puerta principal, sin necesidad de abrir la puerta a distancia por app — o que está dispuesto a sumar el Wyze Lock Bridge aparte si sí quiere esa función.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un cerrojo que reemplaza la cerradura tradicional de tu puerta: en vez de llave, la abrís con huella digital, un código numérico, o la app del celular (con el bridge aparte) — es una de las cerraduras inteligentes con más reseñas de Amazon.",
+      "ejemploHogar": "Le das a cada miembro de la familia su propia huella o código, y te dejás de preocupar por copiar llaves o que alguien se quede afuera sin llave.",
+      "ejemploNegocio": "Un Airbnb o alquiler temporario puede darle un código temporal a cada huésped que se desactiva solo al finalizar la estadía, sin tener que cambiar la cerradura entre huéspedes.",
+      "puntosClave": [
+        "Es Bluetooth por defecto — el control remoto por app (abrir la puerta estando afuera de tu casa) requiere el Wyze Lock Bridge, que se vende aparte.",
+        "Tiene certificación BHMA y resistencia al fuego UL de 20 minutos — un dato de seguridad real, no solo de conveniencia.",
+        "Existe una versión v2 más nueva con WiFi de fábrica, pero con bastantes menos reseñas (580) que esta v1 (3.236) al momento de esta ficha."
+      ],
+      "consejoInversion": "Si solo te importa reemplazar la llave por huella/código en la puerta, esta versión alcanza y sobra por su precio. Si el control remoto por app es un requisito desde el día uno, sumá el bridge al presupuesto o considerá directamente la v2 con WiFi incorporado."
+    },
+    "tags": [
+      "Bluetooth",
+      "Huella digital",
+      "BHMA/UL"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B09R38VVXF?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-01",
+    "activo": true
+  },
+  {
+    "asin": "B0F334DN9J",
+    "nombre": "roborock Q7 L5 — Robot Aspiradora y Trapeador con LiDAR",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 159.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61T3QADwWuL._AC_SY450_.jpg",
+    "rating": 4,
+    "numResenas": 16230,
+    "ranking": 11,
+    "notaTecnica": "Navegación LiDAR con mapeo de múltiples pisos, aspira y trapea al mismo tiempo (8.000 Pa de succión), cepillos anti-enredo pensados para pelo de mascota. Se controla por la app propia de Roborock (WiFi). Varias reseñas de compradores reales aclaran que el soporte de Alexa es limitado — solo prender/apagar por voz, no maneja zonas ni programación desde Alexa, eso queda para la app.",
+    "idealPara": "Quien quiere un robot aspiradora con navegación por mapeo real (no aleatoria) a un precio accesible, y le alcanza con controlarlo desde la app del fabricante en vez de depender de comandos de voz avanzados.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un robot que aspira y trapea la casa solo, usando un láser giratorio (LiDAR) para mapear cada ambiente en vez de chocar contra los muebles al azar — así limpia de forma más completa y eficiente, y podés guardar el mapa de cada piso si tu casa tiene más de uno.",
+      "ejemploHogar": "Programás desde la app que limpie la cocina y el living todos los días a las 10am mientras estás en el trabajo, y evitás que entre al cuarto del bebé marcando esa zona como \"no-go\".",
+      "ejemploNegocio": "Una oficina chica o un local puede programar la limpieza fuera del horario de atención, sin que nadie tenga que operar el aspirador manualmente.",
+      "puntosClave": [
+        "El soporte de Alexa es limitado a prender/apagar según reportan compradores reales — la programación de zonas y horarios se maneja desde la app Roborock, no por voz.",
+        "El tanque de agua para trapear es de 270 ml y comparte espacio con el depósito de polvo (son una sola pieza combo) — repasá la ficha si tu casa es grande y vas a necesitar recargar seguido.",
+        "Tiene navegación multi-piso real (guarda un mapa por piso), a diferencia de los robots más económicos que reinician el mapeo cada vez."
+      ],
+      "consejoInversion": "Por debajo de $200 con LiDAR real y 16.000+ reseñas de respaldo, es una entrada sólida a los robots aspiradora con mapeo — si el control por voz completo (no solo on/off) es importante para vos, confirmá esa limitación antes de comprar."
+    },
+    "tags": [
+      "LiDAR",
+      "Aspira y trapea",
+      "WiFi"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0F334DN9J?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-01",
+    "activo": true
   }
 ]
