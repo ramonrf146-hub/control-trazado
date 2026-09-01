@@ -47,7 +47,7 @@ No alcanza con mirar la certificación — varios productos de este tipo (no sol
 
 El [disyuntor GFCI DIHOOL](/productos/B0CRKN96TB) combina tres protecciones en un módulo, pero varias reseñas (incluyendo un caso reportado de incendio) señalan que las instrucciones de cableado para 208V/240V sin neutro generan confusión real — la certificación del producto no reemplaza confirmar bien el diagrama de tu instalación específica antes de energizar.
 
-Del otro lado, el [Linkind Matter Smart Plug](/productos/B0C36WXGP1) es justamente el tipo de ficha que recomendamos buscar: certificación ETL explícita en el título, sin que tengas que ir a buscarla en la letra chica.
+Del otro lado, el [Linkind Matter Smart Plug](/productos/B0C36WXGP1) es justamente el tipo de ficha que recomendamos buscar: certificación ETL explícita en el título, sin que tengas que ir a buscarla en la letra chica. La [cerradura Wyze Auto-Lock Bolt](/productos/B09R38VVXF) va un paso más allá y suma certificación BHMA y resistencia al fuego UL de 20 minutos — relevante en un producto de seguridad del hogar, no solo eléctrico.
 
 ## Video: UL vs. ETL explicado
 

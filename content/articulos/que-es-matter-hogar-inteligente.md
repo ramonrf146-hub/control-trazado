@@ -50,6 +50,7 @@ Pensalo como un enchufe universal de datos: en vez de que cada marca (Tuya, Alex
 - El [Linkind Matter Smart Plug](/productos/B0C36WXGP1) es la versión "enchufar y listo": Matter de fábrica, certificado ETL, sin cablear nada — necesitás un hub Matter (HomePod, Echo, Nest) para usarlo con Apple Home/Alexa/Google Home, o la app propia si todavía no tenés uno.
 - El [Google Nest Thermostat](/productos/B08HRPDBFF) también soporta Matter, además de Google Assistant nativo.
 - El [GHome Dual Smart Plug](/productos/B0D7MLMCXR) y el [GHome Smart Mini Enchufe](/productos/B0FD6CYBNH) **no** tienen Matter — corren en el ecosistema cerrado de Tuya, así que dependés de esa app.
+- El [roborock Q7 L5](/productos/B0F334DN9J) y la [cerradura Wyze Auto-Lock Bolt](/productos/B09R38VVXF) tampoco tienen Matter — el robot se controla por la app propia de Roborock, y la cerradura es Bluetooth con su propio bridge opcional. Son buenos ejemplos de categorías (aspiradoras, cerraduras) donde Matter todavía no es lo más común, a diferencia de enchufes y sensores.
 - El [foco Amazon Basics](/productos/B0CG5VDC8P) es un caso especial: funciona **exclusivamente** con Alexa, ni siquiera es multi-ecosistema sin Matter — si tu casa usa Google Home o Apple Home, directamente no te sirve.
 
 ## 4. Cómo confirmarlo antes de comprar cualquier otro producto
