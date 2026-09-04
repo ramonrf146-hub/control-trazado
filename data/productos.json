@@ -1124,5 +1124,37 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0F334DN9J?tag=controltrazado-20",
     "actualizadoEn": "2026-09-01",
     "activo": true
+  },
+  {
+    "asin": "B0H2HXRNB7",
+    "nombre": "SONOFF SenseGuard SNZB-03PR2 — Sensor de Movimiento Zigbee con Sensor de Luz",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 16.5,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/51gXJdRttfL._AC_SX425_.jpg",
+    "rating": 4,
+    "numResenas": 104,
+    "ranking": 12,
+    "notaTecnica": "Sensor de movimiento Zigbee de la misma marca que el switch SONOFF MINI-D de este ranking — si ya tenés el hub SONOFF Zigbee Bridge, se integra directo sin sumar otro ecosistema aparte. Suma sensor de luz (no solo detecta movimiento, también mide luminosidad), útil para automatizaciones tipo 'prender la luz solo si hay movimiento Y está oscuro'. Requiere sí o sí el SONOFF Zigbee Bridge (no incluido) — no funciona standalone ni por WiFi directo. Es la segunda generación del sensor (PR2), con 104 reseñas todavía.",
+    "idealPara": "Quien ya tiene o va a comprar el hub SONOFF Zigbee Bridge y quiere sumar detección de movimiento + luz para automatizar cuándo prender una luz o equipo.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un sensor que detecta cuando alguien se mueve en una habitación y, a diferencia de un sensor de movimiento básico, también mide cuánta luz hay en el ambiente — así podés armar una automatización que solo prenda la luz si hay movimiento Y además está oscuro, sin que se dispare de día por gusto.",
+      "ejemploHogar": "Lo instalás en el pasillo o el baño, y programás que la luz (conectada a un switch SONOFF de este ranking) se prenda sola solo si hay movimiento y es de noche, ahorrando el gasto de dejarla prendida de día.",
+      "ejemploNegocio": "Un local puede automatizar la luz de un depósito o baño de empleados para que se prenda sola solo cuando hay alguien y está oscuro, evitando que quede prendida sin necesidad todo el día.",
+      "puntosClave": [
+        "Necesita sí o sí el SONOFF Zigbee Bridge (se vende aparte) — este sensor no funciona standalone ni con WiFi directo.",
+        "Si ya tenés el switch SONOFF MINI-D de este ranking (o pensás sumarlo), este sensor se integra al mismo hub sin agregar otro ecosistema aparte.",
+        "Suma sensor de luz además de movimiento — la función diferencial frente a un sensor de movimiento básico que solo detecta presencia."
+      ],
+      "consejoInversion": "Es un complemento barato ($16.50) para quien ya invirtió en el ecosistema SONOFF/Zigbee — combinado con un switch de contacto seco de este ranking, arma una automatización de luz por movimiento sin pagar por un sistema cerrado de otra marca."
+    },
+    "tags": [
+      "Zigbee",
+      "Sensor de luz",
+      "Requiere hub SONOFF"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0H2HXRNB7?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-04",
+    "activo": true
   }
 ]

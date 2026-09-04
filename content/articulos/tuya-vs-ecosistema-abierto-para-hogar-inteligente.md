@@ -27,6 +27,8 @@ La curva de aprendizaje es más alta que abrir una app y tocar un botón, pero e
 
 Para entrar a este mundo con dispositivos Zigbee (que suelen ser más baratos y variados que los Matter nativos), necesitás un coordinador conectado a tu servidor de Home Assistant — el [SONOFF Zigbee 3.0 USB Dongle Plus-E](/productos/B0B6P22YJC) de este ranking es exactamente eso: le da a Home Assistant, openHAB o Zigbee2MQTT la capacidad de hablar directo con esos dispositivos sin pasar por la nube de ningún fabricante. Si no querés armar ese servidor propio, el [Linkind Matter Smart Plug](/productos/B0C36WXGP1) te da una versión "lista para usar" del mismo espíritu de ecosistema abierto, sin necesidad de configurar nada técnico — a cambio de menos margen de personalización.
 
+Una vez que tenés el coordinador, sumar sensores Zigbee es directo — por ejemplo el [SONOFF SenseGuard SNZB-03PR2](/productos/B0H2HXRNB7), un sensor de movimiento con sensor de luz que se integra al mismo hub sin agregar otro ecosistema aparte (aunque si usás el hub propio de SONOFF en vez de un coordinador USB, no necesita Home Assistant para funcionar).
+
 ## Salida "dry contact" vs. enchufe integrado
 
 Un dato técnico que se pasa por alto seguido: un módulo con salida de "contacto seco" (dry contact) no es lo mismo que un enchufe inteligente. El contacto seco es un relé desnudo — vos le das la carga (la lámpara, el motor, lo que sea) y el módulo solo abre o cierra el circuito. Esto lo hace mucho más flexible para instalarlo dentro de una caja de luz existente o integrarlo a un tablero, pero necesitás saber cablear. Un enchufe inteligente, en cambio, ya viene armado para enchufar y usar — cero cableado, pero cero flexibilidad de instalación.
