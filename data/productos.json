@@ -1184,5 +1184,33 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0866S3D82?tag=controltrazado-20",
     "actualizadoEn": "2026-09-04",
     "activo": true
+  },
+  {
+    "asin": "B09H2T18WD",
+    "nombre": "aosu Video Doorbell Ultra V8S — Timbre con Cámara 5MP, Sin Suscripción",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 129.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61c+HwbHoxL._AC_SY355_.jpg",
+    "rating": 4.4,
+    "numResenas": 10311,
+    "ranking": 14,
+    "notaTecnica": "Timbre con cámara, distinto de la cámara indoor Tapo de este ranking — este va en la puerta de entrada, detecta a alguien que se acerca y te deja ver/hablar antes de abrir. Sin suscripción obligatoria: guarda grabación en 8GB de almacenamiento local incluido, algo que marcas como Ring o Nest cobran aparte. Funciona a batería o cableado a un timbre existente. La integración con Alexa muestra el video en un dispositivo con pantalla, no es control por voz.",
+    "idealPara": "Ver y hablar con quien toca el timbre antes de abrir la puerta, sin pagar suscripción mensual por el almacenamiento de grabaciones.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "A diferencia de la cámara indoor de este ranking (que monitorea un ambiente interior), este timbre reemplaza tu timbre actual y agrega cámara, micrófono y parlante — ves quién está en la puerta desde el celular y podés hablarle sin abrir, esté quien esté del otro lado.",
+      "ejemploHogar": "Suena el timbre, mirás el celular y ves que es un repartidor — le hablás para que deje el paquete, sin tener que ir hasta la puerta.",
+      "ejemploNegocio": "Un local con entrada de empleados puede usarlo para verificar quién toca antes de abrir, sin necesitar a alguien parado ahí todo el día.",
+      "puntosClave": [
+        "No necesita suscripción — trae 8GB de almacenamiento local incluido, a diferencia de marcas como Ring que cobran mensual para guardar grabaciones.",
+        "Funciona a batería (inalámbrico) o cableado a un timbre existente — elegí según tu instalación.",
+        "La integración con Alexa es para mostrar el video en un dispositivo con pantalla (Echo Show), no te deja controlarlo por voz."
+      ],
+      "consejoInversion": "Con más de 10.300 reseñas y sin costo mensual de suscripción, ahorra en el largo plazo frente a las marcas líderes que cobran aparte por el almacenamiento en la nube — el ahorro de la suscripción se nota a partir del primer año de uso."
+    },
+    "tags": ["Timbre con cámara", "Sin suscripción", "8GB local"],
+    "urlAfiliado": "https://www.amazon.com/dp/B09H2T18WD?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-04",
+    "activo": true
   }
 ]
