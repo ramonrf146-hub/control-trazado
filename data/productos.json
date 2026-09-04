@@ -1156,5 +1156,33 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0H2HXRNB7?tag=controltrazado-20",
     "actualizadoEn": "2026-09-04",
     "activo": true
+  },
+  {
+    "asin": "B0866S3D82",
+    "nombre": "TP-Link Tapo C100 — Cámara de Seguridad Indoor WiFi 1080P",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 19.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/719LWqwDgVL._AC_SY450_.jpg",
+    "rating": 4.4,
+    "numResenas": 28213,
+    "ranking": 13,
+    "notaTecnica": "Cámara de seguridad indoor plug-in, no requiere batería ni cableado especial. A diferencia de los enchufes/switches de este ranking (que controlan cargas), esta es un dispositivo de monitoreo: detección de movimiento con notificación push, audio bidireccional, visión nocturna, y graba en tarjeta SD local o en la nube de TP-Link (plan de pago opcional). Corre en la app Tapo, separada de la app Kasa de la misma marca — la integración con Alexa/Google es para mostrar el video en una pantalla, no para control por voz. #1 Best Seller en su categoría.",
+    "idealPara": "Sumar monitoreo de video a un ambiente interior (entrada, taller, cuarto de bebé) sin cableado, complementando los switches/enchufes de este ranking que solo controlan cargas.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "A diferencia de los enchufes y switches de este ranking que prenden y apagan cosas, esta es una cámara: te deja ver en vivo y grabar lo que pasa en un ambiente desde el celular, con aviso automático si detecta movimiento.",
+      "ejemploHogar": "La instalás en la entrada o el living para ver quién entra cuando no estás, o en el cuarto del bebé como monitor con audio bidireccional.",
+      "ejemploNegocio": "Un taller chico puede monitorear el depósito o la entrada fuera de horario, recibiendo una alerta al celular si detecta movimiento cuando el local debería estar cerrado.",
+      "puntosClave": [
+        "Corre en la app Tapo, un ecosistema separado de la app Kasa (la otra línea de TP-Link) — no se mezclan aunque sean la misma marca.",
+        "El almacenamiento de grabación es local (tarjeta SD, no incluida) o en la nube de pago — sin ninguna de las dos, solo podés ver en vivo, no repasar grabaciones viejas.",
+        "La integración con Alexa/Google es para mostrar el video en una pantalla (Echo Show), no te deja controlar la cámara por comandos de voz."
+      ],
+      "consejoInversion": "A $19.99 con más de 28.000 reseñas y el puesto #1 en su categoría, es de las formas más baratas de sumar monitoreo de video confiable a la casa o el taller — para grabación histórica sin límite de días, conviene sumar una tarjeta SD (barata) antes de depender de la nube de pago."
+    },
+    "tags": ["Cámara indoor", "App Tapo", "Detección de movimiento"],
+    "urlAfiliado": "https://www.amazon.com/dp/B0866S3D82?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-04",
+    "activo": true
   }
 ]
