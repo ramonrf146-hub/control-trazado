@@ -6,6 +6,8 @@ export interface Categoria {
   slug: CategoriaSlug;
   nombre: string;
   descripcion: string;
+  nombreEn: string;
+  descripcionEn: string;
 }
 
 /**
@@ -45,6 +47,12 @@ export interface Producto {
   actualizadoEn: string;
   /** false = el enlace queda pausado: no se muestra en el sitio pero se conserva en el catálogo. Default true si se omite. */
   activo?: boolean;
+  /** Traducciones al inglés. Opcionales como red de seguridad: si faltan, `t()` hace fallback al español. */
+  nombreEn?: string;
+  notaTecnicaEn?: string;
+  idealParaEn?: string;
+  guiaCompraEn?: GuiaCompra;
+  tagsEn?: string[];
 }
 
 export interface ArticuloFrontmatter {

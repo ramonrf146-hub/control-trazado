@@ -1,27 +1,36 @@
 import { CATEGORIAS } from "@/lib/categorias";
+import { getDictionary, type Locale } from "@/lib/i18n";
 
-function formatearFecha(fecha: string | null) {
+function formatearFecha(fecha: string | null, locale: Locale) {
   if (!fecha) return "—";
   const [anio, mes] = fecha.split("-");
-  const meses = [
+  const mesesEs = [
     "ene", "feb", "mar", "abr", "may", "jun",
     "jul", "ago", "sep", "oct", "nov", "dic",
   ];
+  const mesesEn = [
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+  ];
+  const meses = locale === "en" ? mesesEn : mesesEs;
   return `${meses[Number(mes) - 1]} ${anio}`;
 }
 
 export default function StatsGrid({
   totalProductos,
   ultimaActualizacion,
+  locale,
 }: {
   totalProductos: number;
   ultimaActualizacion: string | null;
+  locale: Locale;
 }) {
+  const d = getDictionary(locale);
   const stats = [
-    { etiqueta: "Productos evaluados", valor: String(totalProductos) },
-    { etiqueta: "Categorías cubiertas", valor: String(CATEGORIAS.length) },
-    { etiqueta: "Actualización", valor: "Mensual" },
-    { etiqueta: "Último corte", valor: formatearFecha(ultimaActualizacion) },
+    { etiqueta: d["stats.productosEvaluados"], valor: String(totalProductos) },
+    { etiqueta: d["stats.categoriasCubiertas"], valor: String(CATEGORIAS.length) },
+    { etiqueta: d["stats.actualizacion"], valor: d["stats.mensual"] },
+    { etiqueta: d["stats.ultimoCorte"], valor: formatearFecha(ultimaActualizacion, locale) },
   ];
 
   return (

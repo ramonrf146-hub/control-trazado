@@ -9,11 +9,15 @@ export const CATEGORIAS: Categoria[] = [
     slug: "automatizacion-hogar-inteligente",
     nombre: "Automatización y Hogar Inteligente",
     descripcion: "Enchufes, relés y controladores WiFi para automatizar tu casa o un proyecto DIY — Tuya, Matter, ESP32, Node-RED.",
+    nombreEn: "Home Automation & Smart Home",
+    descripcionEn: "WiFi plugs, relays, and controllers to automate your home or a DIY project — Tuya, Matter, ESP32, Node-RED.",
   },
   {
     slug: "control-industrial-b2b",
     nombre: "Control Industrial B2B",
     descripcion: "Variadores de frecuencia, gateways RS485/Modbus y hardware de control para talleres, plantas y proyectos de automatización industrial.",
+    nombreEn: "Industrial Control (B2B)",
+    descripcionEn: "Variable frequency drives, RS485/Modbus gateways, and control hardware for workshops, plants, and industrial automation projects.",
   },
 ];
 

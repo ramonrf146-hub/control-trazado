@@ -4,11 +4,14 @@ import Link from "next/link";
 import { getArticulos, getArticuloPorSlug } from "@/lib/contenido";
 import { getCategoriaPorSlug } from "@/lib/categorias";
 import { getProductosPorCategoria } from "@/lib/productos";
+import { getDictionary, t, withLocale, type Locale } from "@/lib/i18n";
 import GridDeProductos from "@/components/GridDeProductos";
 import HojaInglesCTA from "@/components/HojaInglesCTA";
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://controltrazado.com";
+
 interface Props {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ lang: string; slug: string }>;
 }
 
 export async function generateStaticParams() {
@@ -17,14 +20,22 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params;
-  const articulo = await getArticuloPorSlug(slug);
+  const { lang, slug } = await params;
+  const locale: Locale = lang === "en" ? "en" : "es";
+  const articulo = await getArticuloPorSlug(slug, locale);
   if (!articulo) return {};
 
   return {
     title: articulo.titulo,
     description: articulo.descripcion,
-    alternates: { canonical: `/articulos/${slug}` },
+    alternates: {
+      canonical: locale === "en" ? `/en/articulos/${slug}` : `/articulos/${slug}`,
+      languages: {
+        es: `${SITE_URL}/articulos/${slug}`,
+        en: `${SITE_URL}/en/articulos/${slug}`,
+        "x-default": `${SITE_URL}/articulos/${slug}`,
+      },
+    },
     openGraph: {
       type: "article",
       title: articulo.titulo,
@@ -35,8 +46,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function ArticuloPage({ params }: Props) {
-  const { slug } = await params;
-  const articulo = await getArticuloPorSlug(slug);
+  const { lang, slug } = await params;
+  const locale: Locale = lang === "en" ? "en" : "es";
+  const d = getDictionary(locale);
+  const articulo = await getArticuloPorSlug(slug, locale);
   if (!articulo) notFound();
 
   const categoria = articulo.categoria ? getCategoriaPorSlug(articulo.categoria) : undefined;
@@ -60,18 +73,18 @@ export default async function ArticuloPage({ params }: Props) {
       />
 
       <nav className="font-mono text-xs uppercase tracking-wide text-text-dim">
-        <Link href="/articulos" className="hover:text-line">
-          Guías
+        <Link href={withLocale("/articulos", locale)} className="hover:text-line">
+          {d["nav.guias"]}
         </Link>{" "}
         / {articulo.titulo}
       </nav>
 
       {categoria && (
         <Link
-          href={`/categorias/${categoria.slug}`}
+          href={withLocale(`/categorias/${categoria.slug}`, locale)}
           className="mt-4 inline-block font-mono text-[11px] uppercase tracking-wide text-line hover:underline"
         >
-          {categoria.nombre}
+          {t(categoria.nombre, categoria.nombreEn, locale)}
         </Link>
       )}
 
@@ -90,19 +103,19 @@ export default async function ArticuloPage({ params }: Props) {
       {productosRelacionados.length > 0 && categoria && (
         <section className="mt-14 border-t border-line-dim/60 pt-10">
           <div className="flex items-center justify-between gap-4">
-            <h2 className="text-xl font-semibold text-text-light">Productos relacionados</h2>
+            <h2 className="text-xl font-semibold text-text-light">{d["articulo.productosRelacionados"]}</h2>
             <Link
-              href={`/categorias/${categoria.slug}`}
+              href={withLocale(`/categorias/${categoria.slug}`, locale)}
               className="whitespace-nowrap font-mono text-xs uppercase tracking-wide text-line hover:underline"
             >
-              Ver ranking completo →
+              {d["articulo.verRankingCompleto"]}
             </Link>
           </div>
-          <GridDeProductos productos={productosRelacionados} />
+          <GridDeProductos productos={productosRelacionados} locale={locale} />
         </section>
       )}
 
-      {articulo.categoria === "control-industrial-b2b" && <HojaInglesCTA />}
+      {articulo.categoria === "control-industrial-b2b" && <HojaInglesCTA locale={locale} />}
     </article>
   );
 }

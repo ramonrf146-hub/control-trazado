@@ -6,22 +6,29 @@ import type { Producto } from "@/lib/tipos";
 import { CATEGORIAS } from "@/lib/categorias";
 import { useComparador } from "@/lib/useComparador";
 import { calcularInsigniasCatalogo } from "@/lib/insignias";
+import { getDictionary, t, withLocale, type Locale } from "@/lib/i18n";
 import ProductCard from "./ProductCard";
 import ComparadorModal from "./ComparadorModal";
 
 const PASO_SCROLL = 400; // ancho de tarjeta (380px) + gap (20px) en desktop
 
 /** Guía de caso de uso relacionada, mostrada debajo del slider (nunca adentro) para no interferir con el swipe. */
-const GUIA_POR_CATEGORIA: Record<string, { href: string; texto: string }> = {
-  "control-industrial-b2b": {
-    href: "/articulos/instalar-vfd-240v-bomba-15hp",
-    texto: "📖 Guía: instalar un VFD para bombas pesadas de 15HP",
-  },
-  "automatizacion-hogar-inteligente": {
-    href: "/articulos/node-red-modbus-presion-hidroponia",
-    texto: "📖 Guía: Node-RED + Modbus para monitoreo de presión",
-  },
-};
+function guiaPorCategoria(
+  categoriaActiva: string,
+  d: ReturnType<typeof getDictionary>
+): { href: string; texto: string } | undefined {
+  const guias: Record<string, { href: string; texto: string }> = {
+    "control-industrial-b2b": {
+      href: "/articulos/instalar-vfd-240v-bomba-15hp",
+      texto: d["ranking.guiaVfd"],
+    },
+    "automatizacion-hogar-inteligente": {
+      href: "/articulos/node-red-modbus-presion-hidroponia",
+      texto: d["ranking.guiaNodeRed"],
+    },
+  };
+  return guias[categoriaActiva];
+}
 
 function IconoChevron({ direccion }: { direccion: "izquierda" | "derecha" }) {
   return (
@@ -31,12 +38,13 @@ function IconoChevron({ direccion }: { direccion: "izquierda" | "derecha" }) {
   );
 }
 
-export default function RankingConFiltros({ productos }: { productos: Producto[] }) {
+export default function RankingConFiltros({ productos, locale }: { productos: Producto[]; locale: Locale }) {
   const [categoriaActiva, setCategoriaActiva] = useState<string>("todas");
   const sliderRef = useRef<HTMLDivElement>(null);
   const comparador = useComparador();
   const [puedeIzquierda, setPuedeIzquierda] = useState(false);
   const [puedeDerecha, setPuedeDerecha] = useState(false);
+  const d = getDictionary(locale);
 
   const productosFiltrados = useMemo(() => {
     if (categoriaActiva === "todas") return productos;
@@ -85,7 +93,7 @@ export default function RankingConFiltros({ productos }: { productos: Producto[]
     <div>
       <div
         role="tablist"
-        aria-label="Filtrar por categoría"
+        aria-label={d["ranking.filtrarAria"]}
         className="flex flex-wrap gap-2"
       >
         <button
@@ -98,7 +106,7 @@ export default function RankingConFiltros({ productos }: { productos: Producto[]
               : "bg-line-dim/60 text-text-dim hover:text-text-light"
           }`}
         >
-          Todas
+          {d["ranking.todas"]}
         </button>
         {CATEGORIAS.map((categoria) => (
           <button
@@ -112,14 +120,14 @@ export default function RankingConFiltros({ productos }: { productos: Producto[]
                 : "bg-line-dim/60 text-text-dim hover:text-text-light"
             }`}
           >
-            {categoria.nombre}
+            {t(categoria.nombre, categoria.nombreEn, locale)}
           </button>
         ))}
       </div>
 
       {productosFiltrados.length === 0 ? (
         <p className="mt-8 text-sm text-text-dim">
-          Aún no hay productos rankeados en esta categoría.
+          {d["ranking.sinProductos"]}
         </p>
       ) : (
         <>
@@ -136,6 +144,7 @@ export default function RankingConFiltros({ productos }: { productos: Producto[]
                 >
                   <ProductCard
                     producto={producto}
+                    locale={locale}
                     comparando={comparador.estaSeleccionado(producto)}
                     comparadorBloqueado={comparador.estaBloqueado(producto)}
                     onToggleComparar={() => comparador.toggleSeleccion(producto)}
@@ -150,7 +159,7 @@ export default function RankingConFiltros({ productos }: { productos: Producto[]
               <button
                 type="button"
                 onClick={() => desplazar("izquierda")}
-                aria-label="Ver producto anterior"
+                aria-label={d["ranking.verProductoAnterior"]}
                 className="absolute left-0 top-1/2 hidden -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-line-dim bg-ink p-2.5 text-text-light shadow-lg transition-colors hover:border-line hover:text-line sm:flex"
               >
                 <IconoChevron direccion="izquierda" />
@@ -160,7 +169,7 @@ export default function RankingConFiltros({ productos }: { productos: Producto[]
               <button
                 type="button"
                 onClick={() => desplazar("derecha")}
-                aria-label="Ver producto siguiente"
+                aria-label={d["ranking.verProductoSiguiente"]}
                 className="absolute right-0 top-1/2 hidden translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-line-dim bg-ink p-2.5 text-text-light shadow-lg transition-colors hover:border-line hover:text-line sm:flex"
               >
                 <IconoChevron direccion="derecha" />
@@ -168,16 +177,16 @@ export default function RankingConFiltros({ productos }: { productos: Producto[]
             )}
           </div>
           <p className="mt-1 text-center text-xs text-text-dim/70 sm:hidden">
-            Deslizá para ver el siguiente →
+            {d["ranking.deslizar"]}
           </p>
 
-          {GUIA_POR_CATEGORIA[categoriaActiva] && (
+          {guiaPorCategoria(categoriaActiva, d) && (
             <p className="mt-3 text-center text-sm">
               <Link
-                href={GUIA_POR_CATEGORIA[categoriaActiva].href}
+                href={withLocale(guiaPorCategoria(categoriaActiva, d)!.href, locale)}
                 className="font-semibold text-line hover:underline"
               >
-                {GUIA_POR_CATEGORIA[categoriaActiva].texto}
+                {guiaPorCategoria(categoriaActiva, d)!.texto}
               </Link>
             </p>
           )}
@@ -187,19 +196,19 @@ export default function RankingConFiltros({ productos }: { productos: Producto[]
       {comparador.seleccionados.length >= 2 && !comparador.modalAbierto && (
         <div className="fixed bottom-4 left-1/2 z-40 flex -translate-x-1/2 items-center gap-3 rounded-full border border-line-dim bg-ink-2 py-2 pl-4 pr-2 shadow-xl">
           <span className="text-sm text-text-light">
-            {comparador.seleccionados.length} seleccionados
+            {comparador.seleccionados.length} {d["ranking.seleccionados"]}
           </span>
           <button
             type="button"
             onClick={() => comparador.setModalAbierto(true)}
             className="rounded-full bg-accent-2 px-4 py-2 text-xs font-bold text-ink transition-opacity hover:opacity-90"
           >
-            Comparar
+            {d["ranking.comparar"]}
           </button>
           <button
             type="button"
             onClick={comparador.limpiar}
-            aria-label="Cancelar comparación"
+            aria-label={d["ranking.cancelarComparacion"]}
             className="flex h-8 w-8 items-center justify-center rounded-full text-text-dim hover:text-text-light"
           >
             ✕
@@ -208,7 +217,7 @@ export default function RankingConFiltros({ productos }: { productos: Producto[]
       )}
 
       {comparador.modalAbierto && (
-        <ComparadorModal productos={comparador.seleccionados} onCerrar={comparador.limpiar} />
+        <ComparadorModal productos={comparador.seleccionados} locale={locale} onCerrar={comparador.limpiar} />
       )}
     </div>
   );

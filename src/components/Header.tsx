@@ -2,7 +2,15 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { CATEGORIAS } from "@/lib/categorias";
+import { getDictionary, t, withLocale, type Locale } from "@/lib/i18n";
+
+/** Convierte la ruta actual (ya sin el /en, ver proxy.ts) al equivalente en el otro idioma. */
+function rutaEnOtroIdioma(pathname: string, localeDestino: Locale): string {
+  const sinPrefijo = pathname.startsWith("/en") ? pathname.slice(3) || "/" : pathname;
+  return withLocale(sinPrefijo, localeDestino);
+}
 
 function LogoRele() {
   return (
@@ -47,13 +55,21 @@ function IconoMenu({ abierto }: { abierto: boolean }) {
   );
 }
 
-export default function Header() {
+export default function Header({ locale }: { locale: Locale }) {
   const [menuAbierto, setMenuAbierto] = useState(false);
+  const d = getDictionary(locale);
+  const pathname = usePathname();
+  const hrefEs = rutaEnOtroIdioma(pathname, "es");
+  const hrefEn = rutaEnOtroIdioma(pathname, "en");
 
   return (
     <header className="sticky top-0 z-50 border-b border-line-dim/60 bg-ink/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <Link href="/" className="flex items-center gap-2.5 shrink-0" onClick={() => setMenuAbierto(false)}>
+        <Link
+          href={withLocale("/", locale)}
+          className="flex items-center gap-2.5 shrink-0"
+          onClick={() => setMenuAbierto(false)}
+        >
           <LogoRele />
           <span className="text-base font-extrabold tracking-tight text-text-light">
             AUTOMATIZA<span className="text-accent">_</span>LAB
@@ -61,36 +77,51 @@ export default function Header() {
         </Link>
 
         <nav
-          aria-label="Categorías"
+          aria-label={d["nav.categoriasAria"]}
           className="hidden items-center gap-5 overflow-x-auto text-sm font-medium text-text-dim md:flex"
         >
           {CATEGORIAS.map((categoria) => (
             <Link
               key={categoria.slug}
-              href={`/categorias/${categoria.slug}`}
+              href={withLocale(`/categorias/${categoria.slug}`, locale)}
               className="whitespace-nowrap transition-colors hover:text-line"
             >
-              {categoria.nombre}
+              {t(categoria.nombre, categoria.nombreEn, locale)}
             </Link>
           ))}
         </nav>
 
         <div className="flex items-center gap-3 text-sm font-medium">
           <Link
-            href="/articulos"
+            href={withLocale("/articulos", locale)}
             className="hidden text-text-dim transition-colors hover:text-line sm:inline"
           >
-            Guías
+            {d["nav.guias"]}
           </Link>
           <Link
-            href="/#ranking"
+            href={locale === "es" ? "/#ranking" : "/en#ranking"}
             className="rounded-full bg-accent px-4 py-2 text-ink transition-opacity hover:opacity-90"
           >
-            Ver ranking
+            {d["nav.verRanking"]}
           </Link>
+          <span className="hidden items-center gap-1 text-xs font-semibold sm:flex" aria-label={d["lang.switchAria"]}>
+            <Link
+              href={hrefEs}
+              className={locale === "es" ? "text-text-light" : "text-text-dim hover:text-text-light"}
+            >
+              {d["lang.es"]}
+            </Link>
+            <span className="text-text-dim/50">/</span>
+            <Link
+              href={hrefEn}
+              className={locale === "en" ? "text-text-light" : "text-text-dim hover:text-text-light"}
+            >
+              {d["lang.en"]}
+            </Link>
+          </span>
           <button
             type="button"
-            aria-label={menuAbierto ? "Cerrar menú" : "Abrir menú"}
+            aria-label={menuAbierto ? d["nav.cerrarMenu"] : d["nav.abrirMenu"]}
             aria-expanded={menuAbierto}
             aria-controls="menu-movil"
             onClick={() => setMenuAbierto((v) => !v)}
@@ -104,29 +135,40 @@ export default function Header() {
       {menuAbierto && (
         <nav
           id="menu-movil"
-          aria-label="Categorías"
+          aria-label={d["nav.categoriasAria"]}
           className="border-t border-line-dim/60 bg-ink px-4 py-4 text-sm font-medium text-text-dim md:hidden"
         >
           <ul className="flex flex-col gap-1">
             {CATEGORIAS.map((categoria) => (
               <li key={categoria.slug}>
                 <Link
-                  href={`/categorias/${categoria.slug}`}
+                  href={withLocale(`/categorias/${categoria.slug}`, locale)}
                   onClick={() => setMenuAbierto(false)}
                   className="block rounded-sm px-2 py-2.5 transition-colors hover:bg-ink-2 hover:text-line"
                 >
-                  {categoria.nombre}
+                  {t(categoria.nombre, categoria.nombreEn, locale)}
                 </Link>
               </li>
             ))}
             <li className="mt-1 border-t border-line-dim/40 pt-2">
               <Link
-                href="/articulos"
+                href={withLocale("/articulos", locale)}
                 onClick={() => setMenuAbierto(false)}
                 className="block rounded-sm px-2 py-2.5 transition-colors hover:bg-ink-2 hover:text-line"
               >
-                Guías y artículos
+                {d["nav.guiasYArticulos"]}
               </Link>
+            </li>
+            <li className="border-t border-line-dim/40 pt-2 sm:hidden">
+              <div className="flex items-center gap-2 px-2 py-1 text-xs font-semibold">
+                <Link href={hrefEs} className={locale === "es" ? "text-text-light" : "text-text-dim"}>
+                  {d["lang.es"]}
+                </Link>
+                <span className="text-text-dim/50">/</span>
+                <Link href={hrefEn} className={locale === "en" ? "text-text-light" : "text-text-dim"}>
+                  {d["lang.en"]}
+                </Link>
+              </div>
             </li>
           </ul>
         </nav>

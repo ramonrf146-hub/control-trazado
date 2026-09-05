@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { getDictionary, type Locale } from "@/lib/i18n";
 
 /**
  * Segundo lead magnet, más específico que el de NewsletterBand: apunta
@@ -9,8 +10,13 @@ import { useState } from "react";
  * Mismo patrón de descarga directa que NewsletterBand: el alta en
  * Buttondown es best-effort y nunca bloquea la descarga.
  */
-export default function HojaInglesCTA() {
+export default function HojaInglesCTA({ locale }: { locale: Locale }) {
   const [estado, setEstado] = useState<"idle" | "enviado">("idle");
+  const d = getDictionary(locale);
+
+  // Esta hoja enseña vocabulario técnico EN a hispanohablantes — no tiene
+  // sentido ofrecérsela a un lector que ya lee en inglés.
+  if (locale === "en") return null;
 
   function manejarEnvio(evento: React.FormEvent<HTMLFormElement>) {
     evento.preventDefault();
@@ -26,10 +32,10 @@ export default function HojaInglesCTA() {
   return (
     <section className="mt-10 rounded-3xl border border-line-dim bg-ink-2 p-6">
       <p className="font-mono text-xs font-semibold uppercase tracking-wide text-accent-2">
-        Para el día a día en el taller
+        {d["hojaIngles.eyebrow"]}
       </p>
       <h2 className="mt-2 text-lg font-bold text-text-light">
-        El inglés técnico que necesitás en la planta, en una sola hoja
+        {d["hojaIngles.titulo"]}
       </h2>
       <p className="mt-2 text-sm leading-relaxed text-text-dim">
         Términos como <em>dry contact</em>, <em>gauge</em> o <em>variable
@@ -41,14 +47,14 @@ export default function HojaInglesCTA() {
 
       {estado === "enviado" ? (
         <div className="mt-4 flex flex-col items-start gap-2">
-          <p className="font-mono text-sm text-accent-2">Listo, ya es tuya.</p>
+          <p className="font-mono text-sm text-accent-2">{d["hojaIngles.enviadoMensaje"]}</p>
           <a
             href="/plantillas/ingles-tecnico-mantenimiento.html"
             target="_blank"
             rel="noopener noreferrer"
             className="whitespace-nowrap rounded-full bg-accent-2 px-4 py-2.5 text-xs font-bold uppercase tracking-wide text-ink transition-opacity hover:opacity-90"
           >
-            Abrir hoja de referencia
+            {d["hojaIngles.abrirHoja"]}
           </a>
         </div>
       ) : (
@@ -57,21 +63,21 @@ export default function HojaInglesCTA() {
           className="mt-4 flex w-full max-w-sm flex-col gap-2 sm:flex-row"
         >
           <label htmlFor="hoja-ingles-email" className="sr-only">
-            Correo electrónico
+            {d["hojaIngles.emailLabel"]}
           </label>
           <input
             id="hoja-ingles-email"
             name="email"
             type="email"
             required
-            placeholder="tu@correo.com"
+            placeholder={d["hojaIngles.emailPlaceholder"]}
             className="w-full rounded-full border border-line-dim bg-ink px-4 py-2.5 text-sm text-text-light placeholder:text-text-dim/60 focus:border-line focus:outline-none"
           />
           <button
             type="submit"
             className="whitespace-nowrap rounded-full bg-accent-2 px-4 py-2.5 text-xs font-bold uppercase tracking-wide text-ink transition-opacity hover:opacity-90"
           >
-            Quiero la hoja de referencia
+            {d["hojaIngles.boton"]}
           </button>
         </form>
       )}
