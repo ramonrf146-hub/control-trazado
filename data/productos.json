@@ -29,7 +29,26 @@
       "Contacto seco",
       "AC/DC"
     ],
-    "activo": true
+    "activo": true,
+    "nombreEn": "SONOFF WiFi MINI-D Smart Switch — Dry Contact, Matter Compatible",
+    "notaTecnicaEn": "Has a dry-contact output, not a plug-and-play outlet — it installs inside a box or panel to switch an external load, which makes it more versatile for retrofitting existing wiring than a traditional smart plug. Supports Matter, so in theory it works with any compatible hub (Apple Home, Google Home, Alexa) without relying solely on the Tuya/eWeLink app. Accepts AC or DC input, useful if your project already runs on 12V/24V DC.",
+    "idealParaEn": "Adding automation to wiring you already have inside a box or panel, or to Matter hubs (Apple Home, Google Home) without depending on a closed app.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "This device is a \"remote switch\" that installs hidden inside an electrical box or panel, not a plug you see and touch. It has what's called a \"dry contact\": think of it as a robot finger that presses or releases a button for you, regardless of what current is on the other side of that button. That makes it compatible with almost any existing installation, not just plug-in appliances.",
+      "ejemploHogar": "You have a garden light wired the traditional way (with its own wall switch) and want to turn it on with your voice or phone without redoing all the wiring — this switch installs inside the switch box and does that job.",
+      "ejemploNegocio": "A workshop wants to automate a fan or compressor that's already hard-wired, without buying a new motor — the dry contact acts as a robotic button for that existing equipment.",
+      "puntosClave": [
+        "Confirm you have the experience (or an electrician) to install it inside a box or panel — it's not plug-and-play like an outlet.",
+        "It's Matter compatible, the standard that lets you use it with Apple Home, Google Home, or Alexa without depending on a single closed app.",
+        "Accepts AC or DC input — useful if your project runs on 12V/24V instead of standard household current."
+      ],
+      "consejoInversion": "Compared to a generic smart plug that only works for what you plug into it, this switch lets you automate wiring that already exists in your home or workshop — it's more work to install, but far more versatile, and Matter support keeps you from being locked into a single app forever."
+    },
+    "tagsEn": [
+      "Matter",
+      "Dry contact",
+      "AC/DC"
+    ]
   },
   {
     "asin": "B0D7MLMCXR",
@@ -57,6 +76,25 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0D7MLMCXR?tag=controltrazado-20",
     "actualizadoEn": "2026-08-25",
     "tags": [
+      "WiFi 2.4GHz",
+      "Tuya",
+      "15A"
+    ],
+    "nombreEn": "GHome Dual Smart Plug 15A — WiFi Double Outlet",
+    "notaTecnicaEn": "It's a ready-to-use outlet (not a module for a panel), meant for anyone who wants immediate results without wiring anything. It runs on the closed GHome/Tuya ecosystem — no dry-contact output or native Home Assistant integration without an extra bridge. A good choice if simplicity is your priority, not if you're looking to integrate it into your own Node-RED project.",
+    "idealParaEn": "Immediate results without wiring anything: plug it in and control it from an app. Not for anyone looking to integrate the device into their own Node-RED project.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a double outlet that connects to your WiFi: you plug two devices into it and then turn them on or off from an app or with your voice, without touching a single wire.",
+      "ejemploHogar": "You plug in a living-room lamp and a fan, and schedule them to turn on by themselves at a fixed time every night, or turn them off from bed without getting up.",
+      "ejemploNegocio": "A store can use it to turn LED signage or a window fan on and off on a fixed schedule, without someone having to do it manually every day.",
+      "puntosClave": [
+        "It's a ready-to-use outlet: no installation or electrician needed, just plug it into the wall.",
+        "It runs on the Tuya/GHome ecosystem — if you later want to integrate it into a more advanced system (like Home Assistant), you'll need an extra bridge.",
+        "It doesn't work for fixed wiring (like a recessed light) — only for things you can plug in."
+      ],
+      "consejoInversion": "For anyone who wants results now, with no installation or learning curve, this dual outlet is the simplest, most direct option — the trade-off is being tied to the Tuya app, worth keeping in mind if you plan to build a bigger, more custom smart-home system down the road."
+    },
+    "tagsEn": [
       "WiFi 2.4GHz",
       "Tuya",
       "15A"
@@ -91,6 +129,25 @@
       "Monitoreo consumo",
       "Tuya",
       "4-pack"
+    ],
+    "nombreEn": "Smart Plug with Energy Monitoring 15A (4-pack)",
+    "notaTecnicaEn": "Real-time power monitoring (watts) is the differentiator over a simple plug — useful for consumption-based automations, like turning off a device when a cycle finishes. The 4-pack makes it convenient to equip several points at once, but you're still dependent on the Tuya app to configure them.",
+    "idealParaEn": "Consumption-based automations (turning off a device when a cycle ends) and equipping several points at once with the 4-pack.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a smart plug that, besides turning on/off, tells you how much energy (in watts) the connected device is drawing in real time — like having an individual power meter for each outlet.",
+      "ejemploHogar": "You plug in the washing machine and set the outlet to turn off by itself once consumption drops to zero (a sign the cycle finished), saving you from leaving it on standby drawing extra power.",
+      "ejemploNegocio": "A workshop can monitor how much energy each machine plugged into these outlets is drawing, to spot which one is using too much or when an automatic process finishes.",
+      "puntosClave": [
+        "The differentiator over a simple plug is consumption monitoring — if that data doesn't matter to you, a cheaper basic plug is enough.",
+        "Comes in a 4-pack, convenient if you need to equip several points in a single purchase.",
+        "You're still dependent on the Tuya app to configure them and see the consumption data."
+      ],
+      "consejoInversion": "Real-time consumption data lets you automate decisions based on the device's actual behavior (not just a fixed schedule), and buying the 4-pack works out cheaper per unit than buying them separately."
+    },
+    "tagsEn": [
+      "Consumption monitoring",
+      "Tuya",
+      "4-pack"
     ]
   },
   {
@@ -122,6 +179,25 @@
       "RS485/Modbus",
       "PoE",
       "Riel DIN"
+    ],
+    "nombreEn": "Waveshare RS232/485/422 to Ethernet Gateway (PoE)",
+    "notaTecnicaEn": "Supports all three serial standards (RS232/485/422) on one device, so it works for both old instruments with an RS232 port and multi-device RS485 buses. PoE power is a real plus in installations where there's no outlet near the panel — a single Ethernet cable carries both data and power. Confirm whether your Modbus master needs TCP Server or Client mode before buying; the mode is set in software, it doesn't come fixed from the factory.",
+    "idealParaEn": "Installations with no outlet near the panel (it's powered via PoE) that need to bridge old or new RS232/485/422 to an Ethernet network.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a \"translator\" that connects equipment with old serial cables (RS232, RS485, RS422 — the language industrial machines speak to each other) to your regular internet network (Ethernet), so you can monitor or control them from a computer elsewhere in the building. PoE means a single network cable carries both the data and the power, with no outlet needed nearby.",
+      "ejemploHogar": "If you have a solar panel or battery system with an RS485 output and want to monitor it from your computer without running a power outlet out there, PoE solves the power problem.",
+      "ejemploNegocio": "A plant with old machines that use RS232 ports (older measuring instruments) can connect them to the factory's modern network without replacing the equipment, and without needing power near the panel thanks to PoE.",
+      "puntosClave": [
+        "Confirm whether your Modbus master (the software or device that will read the data) needs this gateway to act as a TCP Server or Client — it's configured in software, not fixed from the factory.",
+        "Supports all three standards (RS232/485/422) on one device, so it works for both old instruments and modern buses.",
+        "PoE is a real installation saving only if your network switch also supports PoE — otherwise you'll need a separate injector."
+      ],
+      "consejoInversion": "Compared to running new power cable out to a panel with no outlet nearby, PoE saves you that job — and supporting all three serial protocols on one device avoids buying three separate gateways if your installation is mixed."
+    },
+    "tagsEn": [
+      "RS485/Modbus",
+      "PoE",
+      "DIN rail"
     ]
   },
   {
@@ -151,6 +227,25 @@
     "actualizadoEn": "2026-08-25",
     "tags": [
       "220V 1F→3F",
+      "2HP",
+      "CNC"
+    ],
+    "nombreEn": "MOLLOM VFD 1.5kW (2HP) — Single-Phase to Three-Phase 220V",
+    "notaTecnicaEn": "Single-phase input to 220V three-phase output — the typical choice for workshops without a three-phase feed that want to run a 3-phase motor. This is an entry-level model (2HP/1.5kW), meant for spindles and small CNC motors, not large industrial loads. The output range up to 3000Hz is only useful if your specific spindle takes advantage of it — for a standard 60Hz motor it's irrelevant.",
+    "idealParaEn": "Workshops without a three-phase feed that want to run a small 3-phase motor (spindles or CNC motors up to 2HP).",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A VFD (variable frequency drive) is like the accelerator pedal of an electric motor: instead of the motor only having on/off at full speed, the VFD lets it start smoothly and regulate speed — like a car's pedal instead of a light switch. This model also converts single-phase current (the kind in your house) into three-phase (what many industrial motors need).",
+      "ejemploHogar": "It's not a typical home product, but someone with a home woodworking or metalworking shop with a 3-phase saw or lathe can power it from a normal single-phase household outlet.",
+      "ejemploNegocio": "A machine shop without a three-phase electrical feed can run a small spindle or motor up to 2HP by connecting it to the shop's normal single-phase power.",
+      "puntosClave": [
+        "It's an entry-level model (2HP/1.5kW) — good for small CNC motors, not heavy industrial machinery.",
+        "The speed range up to 3000Hz only matters if your specific spindle takes advantage of it — for a standard 60Hz motor that feature is useless.",
+        "Confirm your current electrical setup is single-phase 220V — this model expects that input, not another one."
+      ],
+      "consejoInversion": "Without this device, the only way to run a three-phase motor in a shop without a three-phase feed is to ask the power company for a new installation (expensive and slow) — this VFD solves the same problem for a fraction of the cost, with the added benefit of being able to regulate motor speed."
+    },
+    "tagsEn": [
+      "220V 1P→3P",
       "2HP",
       "CNC"
     ]
@@ -184,6 +279,25 @@
       "Control vectorial",
       "5HP",
       "1F/3F"
+    ],
+    "nombreEn": "VFD 4kW (5HP) Vector Control — 220V 1-Phase/3-Phase",
+    "notaTecnicaEn": "Has vector control (not just scalar V/F), which holds torque better at low RPM — important if you'll be threading or cutting at reduced speed. At 5HP/4kW it covers larger motors than the entry-level model, and accepts both single-phase and three-phase input, giving flexibility depending on the electrical setup available. Rated up to 26A — confirm your wiring and breakers can handle that current before installing.",
+    "idealParaEn": "Larger motors (up to 5HP) that need to hold torque at low RPM, for example threading or cutting at reduced speed.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a VFD like the one above, but with \"vector control\": a more precise way of driving the motor that keeps its force (torque) even when spinning slowly, like a car with a smart automatic transmission that doesn't lose traction climbing a hill at low speed.",
+      "ejemploHogar": "A hobbyist with a home wood lathe who needs to cut large pieces at low speed without the motor losing power.",
+      "ejemploNegocio": "A machine shop that needs to thread or cut metal at reduced speed without the motor stalling — vector control maintains the necessary force at that critical moment.",
+      "puntosClave": [
+        "Covers larger motors (up to 5HP) than the entry-level model in this ranking — confirm your motor's power before choosing one or the other.",
+        "Accepts single-phase or three-phase input, giving you flexibility depending on the electrical setup you have.",
+        "Rated up to 26A of current — confirm your wiring and breakers can handle that amperage before installing it."
+      ],
+      "consejoInversion": "If your work includes cutting or threading at reduced speed, vector control keeps you from losing pieces to torque loss — a real advantage over a cheaper scalar VFD that can't sustain force at low RPM."
+    },
+    "tagsEn": [
+      "Vector control",
+      "5HP",
+      "1P/3P"
     ]
   },
   {
@@ -215,6 +329,25 @@
       "USB",
       "FT232RL",
       "2 unidades"
+    ],
+    "nombreEn": "Waveshare Industrial USB to RS485 Converter (2 units)",
+    "notaTecnicaEn": "Unlike the RS232/485/422-to-Ethernet gateway already in this ranking, this is a simple USB-to-RS485 converter — it plugs directly into a PC/laptop's USB port to configure, program, or monitor an RS485 bus from a computer, not to bridge to an Ethernet network. Uses the FT232RL chipset (a recognized one, not a generic clone) plus an SP485EEN transceiver, with real overvoltage (TVS) and ESD protection — something cheaper options of this type often skip. Comes as 2 units, useful if you need one for the shop and one as a spare.",
+    "idealParaEn": "Configuring, programming, or monitoring an RS485 bus directly from a PC — not for bridging to an Ethernet network (for that, the gateway above).",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a \"plug adapter\" for the RS485 language: it converts your computer's USB port (which industrial machines don't understand) into the RS485 language that many industrial devices do speak — like a power adapter for when you travel to a country with a different outlet type.",
+      "ejemploHogar": "A smart-home hobbyist building their own RS485 sensor system can use this converter to program and monitor the bus directly from their computer.",
+      "ejemploNegocio": "A maintenance technician needs to connect their laptop to a plant's RS485 bus to diagnose or reconfigure a device — this converter is the tool that makes that connection possible.",
+      "puntosClave": [
+        "This does NOT connect to an Ethernet network — it's direct USB to a single computer. If you need to connect the bus to a network, the RS232/485/422 gateway in this ranking is the right choice.",
+        "Uses the FT232RL chipset, a recognized and reliable chip — avoid generic clones that often cause driver problems.",
+        "Comes as 2 units: worth having a spare if your work depends on this tool."
+      ],
+      "consejoInversion": "The FT232RL chipset (instead of a cheap no-name clone) avoids the headache of drivers that won't install or connections that drop on their own — for a diagnostic tool you'll use often, reliability is worth more than saving a few dollars."
+    },
+    "tagsEn": [
+      "USB",
+      "FT232RL",
+      "2 units"
     ]
   },
   {
@@ -244,6 +377,25 @@
     "actualizadoEn": "2026-08-26",
     "tags": [
       "Riel DIN",
+      "5V DC",
+      "15W"
+    ],
+    "nombreEn": "LCLCTC DIN Rail Power Supply 5V DC 15W 2.4A",
+    "notaTecnicaEn": "Compact DIN-rail supply meant to power low-consumption electronics (Arduino, PLC, relays) at 5V DC inside a panel or enclosure. Has overload, overvoltage, and short-circuit protection, an open-frame housing (good heat dissipation, but less sealed against dust than an enclosed housing), and a trimmer to adjust output between 4.75-5.5V. Note: several reviews report the real current is closer to 3A than the 2.4A stated in the title — the product listing is inconsistent on that spec, so don't push it to the limit if you need exactly 2.4A.",
+    "idealParaEn": "Powering low-consumption electronics (Arduino, PLC, relays) inside a panel — don't push it to the 2.4A limit if that's critical for your design.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the fixed \"battery\" of an electrical panel: it converts standard 220V current into stable, safe 5V DC to power small components like Arduinos, sensors, or relays inside an enclosure.",
+      "ejemploHogar": "A home automation project built inside a box (small panel) needs to power several 5V modules from the same supply, instead of using several loose phone chargers.",
+      "ejemploNegocio": "An industrial control panel needs to power its low-voltage electronics (PLC, relays, sensors) neatly and safely, mounted on the same rail as the rest of the components.",
+      "puntosClave": [
+        "Several reviews report the real current is closer to 3A than the 2.4A stated in the title — don't push it to the limit if your design needs exactly 2.4A.",
+        "The housing is open-frame: it dissipates heat better, but is less protected against dust than an enclosed housing.",
+        "Comes with a trimmer (small adjustment screw) to regulate output between 4.75 and 5.5V if your project needs something other than exactly 5V."
+      ],
+      "consejoInversion": "Compared to powering several modules with loose USB chargers (messy and unreliable), this supply centralizes and stabilizes power for the whole panel — a solid base for any project that's going to stay running permanently."
+    },
+    "tagsEn": [
+      "DIN rail",
       "5V DC",
       "15W"
     ]
@@ -277,6 +429,25 @@
       "TS35",
       "Aluminio",
       "30 piezas"
+    ],
+    "nombreEn": "VAMRONE Slotted Aluminum DIN Rail 8\" (30 pieces)",
+    "notaTecnicaEn": "This is 30 short 8-inch sections, not one continuous long rail — you'll need to join several sections if the panel is wide, and a visible seam between sections can result. Aluminum profile 35mm wide by 7.5mm tall (the low-profile TS35 standard), slotted, with end caps included. Aluminum is lighter and doesn't rust like steel, but flexes more over long unsupported spans — for installations with several heavy components hanging off it, a steel rail gives more rigidity.",
+    "idealParaEn": "Small to medium panels: if the enclosure is wide you'll join several 8\" sections and a visible seam between them can result.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "The DIN rail is like a curtain rail for an electrical panel: a slotted metal strip where different modules — relays, supplies, breakers — snap in without screws, so they stay organized and are easy to remove or swap.",
+      "ejemploHogar": "You're building your own home-automation panel in the garage and need a base to snap the modules onto neatly, instead of screwing each one to the wall separately.",
+      "ejemploNegocio": "An electrician builds a new control panel for a client and needs the base rail to mount all the components (relays, supplies, breakers) on.",
+      "puntosClave": [
+        "This is 30 short 8-inch sections, not one continuous long rail — if your panel is wide you'll join several sections and a visible seam can result.",
+        "It's aluminum: lighter and doesn't rust like steel, but flexes more over long unsupported spans.",
+        "It's the low-profile TS35 standard (35mm x 7.5mm) — confirm your modules are compatible with that size before buying."
+      ],
+      "consejoInversion": "Aluminum is the best choice if your panel will be exposed to moisture (it doesn't rust like steel), but if you're going to hang many heavy modules, it's worth investing in the steel version to keep the rail from sagging over time."
+    },
+    "tagsEn": [
+      "TS35",
+      "Aluminum",
+      "30 pieces"
     ]
   },
   {
@@ -308,6 +479,25 @@
       "Riel DIN",
       "Nylon PA66",
       "100 pzs"
+    ],
+    "nombreEn": "Meowlian DIN Rail Terminal Block 100pcs UK-2.5B",
+    "notaTecnicaEn": "The title advertises 20A/600V but the listing's own technical sheet says 32A/UL 800V — a typical inconsistency for this kind of product, don't rely on the title alone. The body is PA66 nylon with pure copper for good contact, and the self-locking cage system doesn't stress the plastic when the screw is tightened (unlike a traditional terminal). Note: per detailed reviews, they don't come with end stops or rail sections included — you'll need to buy those separately.",
+    "idealParaEn": "Wiring a panel with good pure-copper contact and a self-locking cage system — buy end stops separately, they're not included.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Terminal blocks are like \"power strips\" for bare wires: they let you join, split, or organize electrical wires inside a panel without loose splices held together with electrical tape.",
+      "ejemploHogar": "You're building a home panel and need to connect several wires from the same circuit neatly and safely, without improvised splices.",
+      "ejemploNegocio": "An industrial electrician organizes the wiring of a new panel, distributing power from a central point to several devices using these blocks.",
+      "puntosClave": [
+        "The title says 20A/600V but the listing's own technical sheet says 32A/UL 800V — a typical inconsistency for this kind of product, don't rely on the sales title alone.",
+        "They don't come with end stops or rail sections included — you'll need to buy those separately so the blocks don't slide off the rail.",
+        "The self-locking cage system doesn't stress the plastic when the screw is tightened, unlike a traditional terminal that can crack over time."
+      ],
+      "consejoInversion": "The PA66 nylon body with pure copper gives better electrical contact and lasts longer than generic plastic terminals that crack or lose contact over time — for a panel that's going to run for years, that contact quality avoids intermittent failures."
+    },
+    "tagsEn": [
+      "DIN rail",
+      "PA66 nylon",
+      "100 pcs"
     ]
   },
   {
@@ -338,6 +528,24 @@
     "tags": [
       "Canaleta cable",
       "8 tramos"
+    ],
+    "nombreEn": "REFLYING Open Cable Raceway 8 Sections (White)",
+    "notaTecnicaEn": "Originally designed to hide TV/computer cables on a desk, it's not a certified duct for an industrial panel — but several reviews use it anyway to tidy wiring inside an electronics enclosure, and it works fine for that at low cost. It's thin plastic (one review calls it \"cheap quality\" though it does the job), installs with double-sided tape or screws, and doesn't replace a rigid slotted duct if you need something structural or weatherproof.",
+    "idealParaEn": "Tidying wiring inside an electronics enclosure at low cost — doesn't replace a rigid duct if you need something structural or for outdoor use.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a small plastic duct that sticks or screws onto a surface to hide and organize loose cables, like the kind you'd use to tidy cables behind a desk, but used here inside an electrical enclosure instead.",
+      "ejemploHogar": "You tidy the cables of your home automation project inside a box, keeping them from ending up loose and tangled.",
+      "ejemploNegocio": "A technician tidies the wiring inside a low-cost electronics enclosure, without needing a certified industrial duct.",
+      "puntosClave": [
+        "It's not a certified duct for a heavy industrial panel — it's thin plastic originally meant for desk cables.",
+        "It doesn't replace a rigid slotted duct if you need something structural or weatherproof.",
+        "It installs with double-sided tape or screws — make sure the surface you're sticking it to is clean and dry so the tape holds well."
+      ],
+      "consejoInversion": "For tidying light wiring inside an enclosure on a budget, it does the job well — but if your panel will be exposed to a lot of heat, weight, or outdoor conditions, it's worth investing in a more durable industrial slotted duct instead of risking this one breaking."
+    },
+    "tagsEn": [
+      "Cable raceway",
+      "8 sections"
     ]
   },
   {
@@ -369,6 +577,25 @@
       "18AWG",
       "Silicona",
       "-60° a 200°C"
+    ],
+    "nombreEn": "BNTECHGO Silicone Wire 18AWG Red (500ft Spool)",
+    "notaTecnicaEn": "Generic tinned-copper wire with silicone insulation (rated -60°C to 200°C, 600V nominal) — not automation-specific, but it's the typical choice for flexible internal wiring in DIY projects (supplies, sensors, small motors) where standard PVC turns stiff with heat. Comes in a single color (red) on a 500ft spool — you'll need to buy black separately for the return/negative, and at this price per foot it's only worth it if you need silicone's extra flexibility.",
+    "idealParaEn": "Flexible internal wiring in DIY projects that run hot (supplies, drivers, small motors) where standard PVC turns stiff.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a flexible electrical wire coated in silicone instead of standard plastic (PVC) — silicone doesn't turn stiff or brittle in the heat, something standard wire does near a warm supply or motor.",
+      "ejemploHogar": "A hobbyist building a home electronics project (a power supply, a motor driver) needs internal wiring that won't stiffen or crack from the component's heat.",
+      "ejemploNegocio": "A shop building panels or equipment with supplies that generate heat uses this wire for internal connections near those hot spots.",
+      "puntosClave": [
+        "Comes in a single color (red) — you'll need to buy black separately for the circuit's return or negative.",
+        "Rated for a very wide temperature range (-60°C to 200°C), but that also makes it pricier per foot than standard PVC wire — only worth it if you truly need that heat resistance.",
+        "It's 18AWG gauge, meant for moderate power loads — for signal or small loads, the same manufacturer has a thinner (22AWG) version in this ranking."
+      ],
+      "consejoInversion": "Compared to generic PVC wire that turns brittle and cracks over time near heat sources, this silicone wire stays flexible for years — an investment that saves you from having to redo the wiring once the PVC starts failing."
+    },
+    "tagsEn": [
+      "18AWG",
+      "Silicone",
+      "-60° to 200°C"
     ]
   },
   {
@@ -400,6 +627,25 @@
       "22AWG",
       "Silicona",
       "60 hebras"
+    ],
+    "nombreEn": "BNTECHGO Silicone Wire 22AWG Red (1000ft Spool)",
+    "notaTecnicaEn": "Same family as the 18AWG silicone wire in this ranking, in a thinner gauge (22AWG, 60 tinned strands) for signal or small loads, not power. Rated -60°C to 200°C and 600V nominal, ideal for internal wiring of projects that run hot (supplies, drivers). Also comes only in red — you need black separately — and at a 1000ft spool it's a large purchase, not meant for a small one-off project.",
+    "idealParaEn": "Signal or small loads in projects that run hot, not for power — it's the thinner version of the 18AWG silicone wire in this ranking.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the thinner version of the same silicone wire above: think of it as the signal cable instead of the power cable, not built to carry a lot of current but to carry signals or power small components that don't draw much.",
+      "ejemploHogar": "Internal wiring for a home electronics project (sensors, control signals) that gets a bit warm and needs a wire that won't turn stiff.",
+      "ejemploNegocio": "A shop building small drivers or supplies uses this thinner gauge for signal connections, reserving the thicker cable (18AWG) for power connections.",
+      "puntosClave": [
+        "It's not for power — it's for signal or small loads. If you need to carry more current, the 18AWG in this ranking is the right choice.",
+        "Also comes only in red, you need black separately.",
+        "Sold on a 1000ft spool — it's a large purchase, not meant for a small one-off project."
+      ],
+      "consejoInversion": "For signal wiring in projects that run hot, this silicone stays flexible where standard PVC wire would stiffen — but it only makes sense to buy this much if you're going to use a lot, since it's a large spool."
+    },
+    "tagsEn": [
+      "22AWG",
+      "Silicone",
+      "60 strands"
     ]
   },
   {
@@ -431,6 +677,25 @@
       "GFCI 30mA",
       "Riel DIN",
       "20kA"
+    ],
+    "nombreEn": "DIHOOL GFCI Breaker with Surge Protection, DIN Rail 20A",
+    "notaTecnicaEn": "Combines a breaker + ground fault protection (30mA Class A) + surge protection (20kA) in a single DIN-rail module — fairly complete for 120/240V. Note: several reviews (including one that ended in a fire) report the wiring instructions are confusing for 208V/240V without a neutral, so double-check the diagram before energizing it. Comes with 1 DIN rail and 5 crimp terminals included, but the protection rating is IP20 (not sealed, only for an enclosed panel).",
+    "idealParaEn": "120V panels with a neutral that need a breaker + ground fault + surge protection in a single module — double-check the diagram if you're energizing without a neutral.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "This breaker combines three protections in a single module: it cuts power if there's an overload (like a regular breaker), cuts power if it detects a leak to ground (for example if someone touches something faulty — this is the GFCI), and absorbs surge spikes like the ones from a lightning storm.",
+      "ejemploHogar": "It protects a home panel (for example, a garage workshop) against three different risks with a single device, instead of buying three separate protections.",
+      "ejemploNegocio": "An industrial panel in a wet environment (laundry room, outdoors) needs this triple protection to avoid both equipment damage and electrical risk to people.",
+      "puntosClave": [
+        "Several reviews (including one that ended in a fire) report the wiring instructions are confusing for 208V/240V without a neutral — double-check the diagram for your installation before energizing it.",
+        "The protection rating is IP20 (not sealed) — it only works inside an enclosed panel, not directly exposed to the outdoors.",
+        "Comes with 1 DIN rail and 5 crimp terminals included, so you don't need to buy those parts separately."
+      ],
+      "consejoInversion": "Buying a breaker, GFCI protection, and surge protection separately costs more and takes up more panel space — this combined module saves money and space, as long as you wire it correctly per the right diagram for your voltage."
+    },
+    "tagsEn": [
+      "GFCI 30mA",
+      "DIN rail",
+      "20kA"
     ]
   },
   {
@@ -461,6 +726,24 @@
     "tags": [
       "24V 40VA",
       "HVAC"
+    ],
+    "nombreEn": "WUYELIN Control Transformer 24V 40VA for HVAC",
+    "notaTecnicaEn": "A classic isolation transformer for HVAC control circuits (thermostats, relays, gas valves) — not DIN-rail mounted, it's foot-mounted with screws. Several reviews of this type of transformer report that wiring instructions for 208V/240V without a neutral are confusing and led to burnout; for 120V with a neutral most report no issues, but it's worth checking the diagram carefully if powering it at another voltage.",
+    "idealParaEn": "Classic HVAC control circuits (thermostats, relays, gas valves) powered at 120V with a neutral — check the diagram if your installation is different.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a transformer that steps down household voltage (120V/240V) to 24V, the safe voltage used by thermostats and relays in heating/cooling systems — like a laptop charger, but for your HVAC's control circuit.",
+      "ejemploHogar": "A smart thermostat you installed yourself needs this 24V supply to work, if your home's HVAC system doesn't provide it directly.",
+      "ejemploNegocio": "An HVAC technician replaces a burned-out control transformer in a commercial heating system, so the thermostat and gas valves get power again.",
+      "puntosClave": [
+        "Several reviews of this type of transformer report that wiring instructions for 208V/240V without a neutral are confusing and led to burnout; for 120V with a neutral most report no issues.",
+        "It's not DIN-rail mounted — it's foot-mounted with screws, different from other panel components in this ranking.",
+        "Confirm your installation's voltage before connecting it — it's not a universal device for any voltage without checking the diagram."
+      ],
+      "consejoInversion": "Replacing a burned-out transformer with a part like this is much cheaper than calling a technician to install a whole new control system — but precisely because of the risk of burning it out with wrong wiring, it's worth checking the diagram carefully before energizing it, or asking for help if you're not sure."
+    },
+    "tagsEn": [
+      "24V 40VA",
+      "HVAC"
     ]
   },
   {
@@ -489,6 +772,25 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0FD6CYBNH?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "tags": [
+      "WiFi 2.4GHz",
+      "Alexa/Google",
+      "Plug&Play"
+    ],
+    "nombreEn": "GHome Smart Mini WiFi Smart Plug",
+    "notaTecnicaEn": "A ready-to-use smart plug, no panel installation needed — you plug it in and control it from an app. Works with Alexa and Google Home, but you need to link it to the GHome app first (it doesn't connect directly to the assistants). Only supports 2.4GHz WiFi (not 5GHz) and has no dry-contact output like the SONOFF already in this ranking, so it can't switch an external load inside a panel — it's for plugging in appliances directly.",
+    "idealParaEn": "Plugging in appliances directly and controlling them via Alexa/Google Home with no installation — doesn't work for switching an external load inside a panel.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the smallest, cheapest version of a WiFi smart plug: you plug it into the wall and it lets you turn whatever's connected on or off from your phone or with your voice.",
+      "ejemploHogar": "You plug in a string of holiday lights or a portable heater and schedule it to turn off by itself at a certain time, without having to remember.",
+      "ejemploNegocio": "A small store can use it to automate turning a lit sign or window fan on and off with minimal investment.",
+      "puntosClave": [
+        "Works with Alexa and Google Home, but you need to link it to the GHome app first — it doesn't connect directly to voice assistants.",
+        "Only supports 2.4GHz WiFi, not 5GHz — confirm your router has that band available.",
+        "Has no dry-contact output like the SONOFF switch in this ranking, so it can't be installed inside a panel — it's only for plugging in devices directly."
+      ],
+      "consejoInversion": "It's the cheapest entry point into home automation: for someone who's never tried a smart plug, this is the lowest-risk, lowest-cost way to start, though for more ambitious projects you'll need devices with more features like the others in this ranking."
+    },
+    "tagsEn": [
       "WiFi 2.4GHz",
       "Alexa/Google",
       "Plug&Play"
@@ -523,6 +825,25 @@
       "15HP/11kW",
       "240V",
       "Sin reseñas"
+    ],
+    "nombreEn": "ATO Three-Phase Soft Starter 15HP (11kW) 240V 45A",
+    "notaTecnicaEn": "A real soft starter (not a VFD) for large three-phase motors — reduces inrush current in compressors, pumps, or 15HP spindles. The manufacturer itself notes it requires a separate bypass contactor (not included), and the manual isn't guaranteed to be in Spanish. Still has no reviews on Amazon (0 ratings) — a good technical option on price versus other similar starters, but it's a purchase with no feedback from other buyers yet.",
+    "idealParaEn": "Reducing inrush current in large three-phase motors (15HP) like compressors or pumps — add the bypass contactor, it's not included.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A soft starter is different from a VFD: it doesn't regulate speed all the time, it prevents the electrical \"jolt\" at the moment a large motor starts up — like accelerating a car gradually instead of flooring it from a stop, which would use much more energy and stress the motor.",
+      "ejemploHogar": "It's not a typical home product, but someone with a large motor in a pool or high-power residential pumping system might need it to avoid electrical jolts on startup.",
+      "ejemploNegocio": "A workshop or plant with a 15HP compressor or pump can prevent the motor's startup from dropping voltage across the whole installation, something that can affect other equipment on the same network.",
+      "puntosClave": [
+        "The manufacturer itself notes it requires a separate bypass contactor (not included) — add that cost before deciding.",
+        "The manual isn't guaranteed to be in Spanish — if you don't handle technical English, you'll need help for commissioning.",
+        "Still has no reviews on Amazon — a good technical option on paper, but with no real feedback from other buyers."
+      ],
+      "consejoInversion": "For large motors, a soft start reduces mechanical and electrical wear from a full-force startup, which translates into less maintenance and less stress on the electrical installation over time — though it's worth adding the bypass contactor to the budget before deciding."
+    },
+    "tagsEn": [
+      "15HP/11kW",
+      "240V",
+      "No reviews"
     ]
   },
   {
@@ -555,7 +876,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B0CQYGWBMZ?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
-    "activo": true
+    "activo": true,
+    "nombreEn": "waveshare 4-Ch RS485 to Ethernet RJ45 Serial Server",
+    "notaTecnicaEn": "Unlike the RS232/485/422-to-Ethernet gateway in this ranking (single port, with PoE), this device handles 4 independent RS485 buses at once from a single Ethernet connection — but it doesn't include PoE, you need separate power. Combines serial server, Modbus gateway, MQTT gateway, and RS485-to-JSON functions in one device, with screw terminals and a wall- or DIN-rail-mount housing. Still has few reviews (15) for a device at this price.",
+    "idealParaEn": "Monitoring or controlling 4 independent RS485 buses from a single Ethernet network, in installations where PoE isn't needed.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a gateway (translator) similar to the RS232/485/422 one in this ranking, but specialized: instead of translating a single bus, it handles 4 fully independent RS485 buses at once from a single network connection — like having 4 separate phone lines that don't interfere with each other, all going out over the same internet cable.",
+      "ejemploHogar": "A hobbyist with several separate RS485 systems at home (solar panels, irrigation sensors, DIY home automation) can monitor all 4 from a single network, without the data mixing up.",
+      "ejemploNegocio": "A plant with 4 production lines, each with its own RS485 bus, can centralize them at a single network point without one line's traffic interfering with the others.",
+      "puntosClave": [
+        "Unlike the single-port gateway in this ranking, this one doesn't include PoE power — you'll need a separate power supply.",
+        "Combines several functions (Modbus gateway, MQTT gateway, RS485 to JSON) — confirm which one you actually need before configuring it.",
+        "Has few reviews (15) for the price — it's a more technical purchase, without much track record from other buyers yet."
+      ],
+      "consejoInversion": "If you have several RS485 buses you need to keep separate (so one's traffic doesn't mix with another's), this device saves you from buying 4 separate gateways — an investment that pays off in simpler installation and fewer cables running through the plant."
+    },
+    "tagsEn": [
+      "4x independent RS485",
+      "Ethernet/RJ45",
+      "Modbus/MQTT gateway"
+    ]
   },
   {
     "asin": "B0CC5P8NC2",
@@ -587,7 +927,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B0CC5P8NC2?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
-    "activo": true
+    "activo": true,
+    "nombreEn": "waveshare Modbus RTU Relay Module 32 Channels (RS485, Industrial)",
+    "notaTecnicaEn": "32 relay channels controlled over Modbus RTU via RS485, with a configurable address (1-255) to cascade several modules on the same bus. Has real optical isolation between the logic and the switched load, plus TVS protection and a resettable fuse against overvoltage — not an unprotected generic relay module. Relay contacts rated up to 10A 250VAC/30VDC. With only 5 reviews so far, it's a solid technical purchase on paper but without much history from other buyers.",
+    "idealParaEn": "Automating many outputs (up to 32) from a single Modbus master, in installations that already run an RS485 bus.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's like the 8-channel relay module a hobbyist would build, but at industrial scale: 32 \"remote-controlled switches\" on one board, each controlled over Modbus, the language industrial machines use to talk to each other, like a shared phone line where each device has its own number.",
+      "ejemploHogar": "It's not a typical home product, but someone building a very large home-automation system (many independent lights and devices) could use it to centralize control of all of them.",
+      "ejemploNegocio": "A plant that needs to turn 32 different devices on and off (lights, small motors, solenoid valves) from a single central control system, using the same RS485 bus already installed.",
+      "puntosClave": [
+        "Has a configurable address (1 to 255), so you can put several of these modules on the same bus without interference — keep good notes on which address you assigned each one.",
+        "Has real optical isolation: it protects the control side (low voltage) from the power side (whatever's being switched on/off).",
+        "With only 5 reviews, it's a solid technical purchase on paper but still without much track record from other buyers."
+      ],
+      "consejoInversion": "Buying 32 separate relays with their own protections would cost much more and take up far more space than this integrated module — for a large installation, consolidating onto one board with real isolation is the most cost- and space-efficient option."
+    },
+    "tagsEn": [
+      "32 channels",
+      "RS485 Modbus RTU",
+      "Optical isolation"
+    ]
   },
   {
     "asin": "B0CMH47846",
@@ -619,7 +978,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B0CMH47846?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
-    "activo": true
+    "activo": true,
+    "nombreEn": "Modbus RTU Relay Module 16 Channels (RS485, Industrial)",
+    "notaTecnicaEn": "Same family and same protections (optical isolation, TVS, resettable fuse, relay rated up to 10A 250VAC/30VDC) as the 32-channel module in this ranking, but with half the outputs — for medium installations where 32 channels would be overkill and overpriced. No reviews yet on Amazon, so there's no real feedback from buyers beyond the spec sheet.",
+    "idealParaEn": "Medium installations (up to 16 outputs) where the 32-channel module in this ranking would be more than you need.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the same type of Modbus relay module as the 32-channel one in this ranking, but with half the outputs: for when you need remote control of several devices, but not enough to justify the bigger model.",
+      "ejemploHogar": "A medium-sized DIY home-automation project (for example, controlling irrigation, garden lights, and a few appliances) that doesn't need the big model's 32 outputs.",
+      "ejemploNegocio": "A small or medium production line that needs to control 16 different devices from the same Modbus system, without overpaying for channels it won't use.",
+      "puntosClave": [
+        "Count how many outputs you actually need — if fewer than 16, a smaller module might suit you better; if more, go straight to the 32-channel one in this ranking.",
+        "No reviews yet on Amazon, so there's no real buyer feedback beyond the spec sheet.",
+        "Has the same protections (optical isolation, TVS, resettable fuse) as the 32-channel model, so you're not giving up any safety for having fewer channels."
+      ],
+      "consejoInversion": "For medium installations, this module avoids overpaying for 32 channels you won't use, without sacrificing any of the larger model's electrical protections — the sweet spot between price and capacity."
+    },
+    "tagsEn": [
+      "16 channels",
+      "RS485 Modbus RTU",
+      "Optical isolation"
+    ]
   },
   {
     "asin": "B08HRPDBFF",
@@ -651,7 +1029,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B08HRPDBFF?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
-    "activo": true
+    "activo": true,
+    "nombreEn": "Google Nest Thermostat — Programmable WiFi",
+    "notaTecnicaEn": "Unlike the plugs and switches in this ranking, this doesn't just plug in and go: it connects to your heating/cooling system's wiring. The manufacturer itself warns that heat-only, cool-only, zoned, or heat-pump systems may need a C-wire (common) or another power accessory — worth checking Nest's compatibility checker before buying. In exchange, it adds HVAC monitoring with maintenance alerts, energy-saving schedules, and remote control via app, and it's compatible with Matter as well as Google Assistant.",
+    "idealParaEn": "Automating heating/cooling with schedules and energy savings — check first whether your system needs a C-wire.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a thermostat that replaces the one already on your wall (the one that turns your heating or AC on and off), but connected to WiFi: it learns your schedule, alerts you if something's wrong with your HVAC system, and lets you change the temperature from your phone wherever you are.",
+      "ejemploHogar": "You schedule the heat to turn off by itself when everyone leaves for work and turn back on a bit before they get home, saving energy without coming home to a cold house.",
+      "ejemploNegocio": "A store can automate climate control based on business hours, avoiding wasted heating or AC outside those hours without anyone having to remember to turn it off.",
+      "puntosClave": [
+        "Before buying, use Nest's compatibility checker — some systems (heat-only, zoned, heat pump) may need an additional C-wire (common) your current setup might not have.",
+        "It's not plug-and-play like an outlet: it connects to your HVAC system's wiring, so if you don't have electrical experience, an installer might be worth it.",
+        "It's compatible with Matter as well as Google Assistant, so it's not locked into a single smart-home ecosystem."
+      ],
+      "consejoInversion": "The energy savings from better regulating heating/cooling (turning it off when no one's home, for example) usually pays for the thermostat in under a year on your power or gas bill — an investment that pays for itself through daily use."
+    },
+    "tagsEn": [
+      "WiFi 2.4/5GHz",
+      "Matter",
+      "May require C-wire"
+    ]
   },
   {
     "asin": "B0CG5VDC8P",
@@ -683,7 +1080,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B0CG5VDC8P?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
-    "activo": true
+    "activo": true,
+    "nombreEn": "Amazon Basics A19 Smart LED Bulb (Color, Alexa Only)",
+    "notaTecnicaEn": "The manufacturer itself states it works exclusively with Alexa — not compatible with Google Assistant, Apple HomeKit, or SmartThings, so if your home already runs another ecosystem this bulb won't work for you. No hub needed, it's set up directly from the Alexa app, and dimming only works by voice or app (no compatibility with a physical wall dimmer). It's the cheapest entry option in this ranking for adding color lighting.",
+    "idealParaEn": "Anyone already set up with the Alexa ecosystem who wants cheap smart lighting — won't work if you use Google Home or HomeKit.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's an LED bulb that replaces a regular one, but with WiFi built in: you can turn it on, off, dim it, or change its color from the app or with your voice, with no installation beyond screwing it into the socket.",
+      "ejemploHogar": "You set different colors depending on the moment (warm white for dinner, colors for a party) by simply saying \"Alexa, turn the living room light blue.\"",
+      "ejemploNegocio": "A store that wants to change its window display's mood depending on time of day or season (warm lights at night, for example) without installing an expensive lighting system.",
+      "puntosClave": [
+        "The manufacturer states it works exclusively with Alexa — if your home uses Google Home or Apple HomeKit, this bulb won't work for you.",
+        "No separate hub needed, it's set up directly from the Alexa app, but dimming only works by voice or app, not with a physical wall dimmer.",
+        "It's the cheapest option in this ranking for adding color lighting, ideal for trying out smart home without a big investment."
+      ],
+      "consejoInversion": "It's the cheapest way to get a foot into smart home with Alexa, color lighting included — but if you're not sure which ecosystem you'll stick with long-term, confirm that decision before buying several, since it won't work with other assistants."
+    },
+    "tagsEn": [
+      "WiFi 2.4GHz",
+      "Alexa only",
+      "No hub"
+    ]
   },
   {
     "asin": "B0DJS9L3C8",
@@ -715,7 +1131,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B0DJS9L3C8?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
-    "activo": true
+    "activo": true,
+    "nombreEn": "Rechargeable Ceiling Light with Motion Sensor (Remote Control)",
+    "notaTecnicaEn": "Unlike everything else in this category, this light is standalone: no WiFi, no app, no integration with Alexa/Google/HomeKit — the \"automation\" comes from the built-in motion and light sensor, not a home network. Has three modes (always on, detects motion day and night, or night only), three color temperatures, dimming, and a timer, all controllable with the included remote or the physical button. Recharges via USB-C (4-6 hours) and lasts 15 to 40+ hours depending on brightness — magnetic installation with no wiring, ideal for spots with no power run or where you don't want to add one.",
+    "idealParaEn": "Closets, hallways, basements, or showers with no wired light fixture, where you want automatic motion-triggered lighting without relying on WiFi or an app.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a ceiling light that needs no wiring or electrical installation: it recharges like a phone (via USB-C) and sticks to the ceiling with magnets, turning on by itself when it detects motion thanks to a built-in sensor — no WiFi or app, all the \"brain\" is inside the light itself.",
+      "ejemploHogar": "You put it in a closet, hallway, or basement with no light fixture installed, and it turns on by itself when you walk in and off by itself when there's no motion.",
+      "ejemploNegocio": "A small warehouse or storage room with no electrical installation in a corner can light up automatically when it detects someone entered, without spending on a new electrical installation.",
+      "puntosClave": [
+        "No WiFi and no integration with Alexa/Google/HomeKit — if you want it to be part of a bigger connected automation, this isn't the option.",
+        "Recharges via USB-C and lasts 15 to 40+ hours depending on brightness — factor in how often you'll need to take it down to recharge based on use.",
+        "Installation is magnetic (with included double-sided tape or screws) — confirm your ceiling surface is suitable for that kind of mounting."
+      ],
+      "consejoInversion": "Compared to hiring an electrician to install a new wired light fixture, this light solves the same problem (automatic motion lighting) with no construction or installation — the investment pays off in saved electrical labor, even though it doesn't offer the integration of a connected WiFi system."
+    },
+    "tagsEn": [
+      "No WiFi (standalone)",
+      "Motion sensor",
+      "USB-C rechargeable"
+    ]
   },
   {
     "asin": "B0CGL8J44N",
@@ -747,7 +1182,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B0CGL8J44N?tag=controltrazado-20",
     "actualizadoEn": "2026-08-27",
-    "activo": true
+    "activo": true,
+    "nombreEn": "BAOMAIN AC Contactor 16A 2-Pole, 110V Coil (DIN Rail)",
+    "notaTecnicaEn": "Same concept as the Wengart contactor in this ranking, but lower capacity (16A vs 25A) and a 110V coil instead of 120V — for smaller loads like lighting or minor water heaters. The manufacturer states it's AC only, not for DC, and recommends always using it with separate short-circuit protection (a fuse or breaker), since it doesn't include one. With only 1 review, it's a very new listing.",
+    "idealParaEn": "Smaller resistive loads (lighting, minor water heaters) where the 25A contactor in this ranking would be overkill.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the smaller version of the same concept as the Wengart contactor in this ranking: a \"big relay\" that does the heavy lifting of handling strong current, while a small control (thermostat, smart switch, PLC) just sends it the on/off command.",
+      "ejemploHogar": "Automating a small water heater or a lighting panel from a low-amperage control, without that control having to handle the device's real current.",
+      "ejemploNegocio": "A commercial lighting panel or a resistive (non-motor) piece of shop equipment can be controlled in an automated way using this contactor as a safe intermediary.",
+      "puntosClave": [
+        "It's AC only — the manufacturer states it does NOT work for direct current (DC).",
+        "Always needs separate short-circuit protection (a fuse or breaker) — it doesn't come with one built in.",
+        "At 16A capacity, it's for smaller loads than the 25A contactor in this ranking — confirm your equipment's actual draw before choosing."
+      ],
+      "consejoInversion": "For a small, purely resistive load, this contactor costs the same as the 25A one but is the right choice if your equipment doesn't need that capacity — buying more capacity than you need gives no benefit, and the lower amperage isn't a downside if your actual load is below it."
+    },
+    "tagsEn": [
+      "16A",
+      "110V AC coil",
+      "AC only (not DC)"
+    ]
   },
   {
     "asin": "B08K8QC6DD",
@@ -779,7 +1233,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B08K8QC6DD?tag=controltrazado-20",
     "actualizadoEn": "2026-08-27",
-    "activo": true
+    "activo": true,
+    "nombreEn": "BNTECHGO Silicone Wire 14AWG Red + Black (100ft each)",
+    "notaTecnicaEn": "Same type of silicone wire as the 18AWG and 22AWG in this ranking (silicone insulation, resists -60°C to 200°C, 600V), but in a thicker gauge (14AWG, 400 tinned strands) that handles more current — and unlike those other two, this one comes in red AND black (100ft each), so you don't need to buy black separately. With 162 reviews and a 4.8 rating, it has far more track record than the rest of this batch.",
+    "idealParaEn": "Power wiring (not just signal) where you need positive and negative from the same order, without buying two separate products.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's flexible electrical wire coated in silicone instead of PVC — silicone doesn't stiffen or crack from the heat of a motor or supply, unlike standard wire. This gauge (14AWG) is thicker than the other silicone wires in this ranking, so it handles more current — meant for power wiring, not just small signals.",
+      "ejemploHogar": "A home solar or battery project that needs flexible, heat-resistant wiring, with positive (red) and negative (black) from the same order.",
+      "ejemploNegocio": "A shop building motors, EV chargers, or medium-power equipment can use this wire for internal connections near hot components, without ordering two separate products to get both colors.",
+      "puntosClave": [
+        "Unlike the other silicone wires in this ranking (red only), this one DOES include black — you don't need to buy the return color separately.",
+        "It's a thicker gauge (14AWG) than the others in this batch, meant for more current — if your project is small-signal, the 18AWG or 22AWG in this ranking is enough and cheaper.",
+        "Each spool gives you 100 feet per color (200 feet total) — confirm that's enough for your project before buying."
+      ],
+      "consejoInversion": "Buying both colors in one order, already in the right gauge for power loads, avoids the common mistake of ending up with leftover red wire and having to place a second order for black — for a real power project, this is the most complete option in the ranking."
+    },
+    "tagsEn": [
+      "14AWG",
+      "Red+black included",
+      "400 strands"
+    ]
   },
   {
     "asin": "B01KCPKV9C",
@@ -811,7 +1284,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B01KCPKV9C?tag=controltrazado-20",
     "actualizadoEn": "2026-08-27",
-    "activo": true
+    "activo": true,
+    "nombreEn": "BNTECHGO Silicone Wire 18AWG White (50ft Spool)",
+    "notaTecnicaEn": "Same BNTECHGO silicone wire family already in this ranking, same gauge as the red version (18AWG, 150 tinned strands, -60°C to 200°C, 600V), but in white — useful as a third conductor (signal, neutral, or identification) when red and black are already used as positive/negative. Comes in a single color, 50ft spool.",
+    "idealParaEn": "Adding a third conductor (signal, neutral, or to identify a separate circuit) to a project that already uses red and black for positive/negative.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the same flexible, heat-resistant silicone wire you already know from this ranking, same 18AWG gauge, but in white — it's not power or a negative, it's meant as a third wire for signal, neutral, or to tell one circuit apart from the others.",
+      "ejemploHogar": "A home automation project where red and black are already used as positive and negative, and you need a third wire for a control signal or sensor.",
+      "ejemploNegocio": "A panel with several 18AWG circuits can use white to visually identify a signal circuit apart from the power ones (usually red/black), making future maintenance easier.",
+      "puntosClave": [
+        "Comes in a single color (white) — it doesn't replace red or black, it's an additional color to add to what you already have.",
+        "Same gauge (18AWG) as the red version in this ranking — not for power loads, for that the 14AWG wire in this same batch is the right choice.",
+        "Gives 50 feet — a smaller spool than the thicker gauges, meant for small signal projects."
+      ],
+      "consejoInversion": "Having a third color available avoids the classic \"was this white wire the sensor or the neutral?\" question months after the project's built — for future maintenance, color-coding circuits saves far more time than the wire costs."
+    },
+    "tagsEn": [
+      "18AWG",
+      "White",
+      "Single color"
+    ]
   },
   {
     "asin": "B01J1R0RTG",
@@ -843,7 +1335,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B01J1R0RTG?tag=controltrazado-20",
     "actualizadoEn": "2026-08-27",
-    "activo": true
+    "activo": true,
+    "nombreEn": "BAOMAIN AC Contactor 20A 2-Pole, 110V Coil (DIN Rail)",
+    "notaTecnicaEn": "Same manufacturer and family as the 16A BAOMAIN contactor in this ranking, but one capacity step up (20A) — filling the middle ground between that one and the 25A Wengart. Unlike the other two contactors in this batch (2 and 1 reviews respectively), this one has 166 reviews and a 4.5 rating: far more real track record from other buyers. Like the rest of the family, it's AC only (not DC) and needs separate short-circuit protection (a fuse or breaker), which isn't included.",
+    "idealParaEn": "The middle ground between the other two contactors in this ranking (16A and 25A) — and the option with the most buyer track record if you'd rather not risk a brand-new listing.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the same type of \"big relay\" as the other contactors in this ranking: it separates the small control (a smart switch, a thermostat, a PLC) from the actual current a heavy device draws, so the control doesn't burn out handling that load directly.",
+      "ejemploHogar": "Automating a water heater, a pump, or a medium-consumption lighting fixture, without the smart switch or thermostat having to handle the device's full current.",
+      "ejemploNegocio": "A shop or store that needs to automatically control a 20A device (small motor, heating element, commercial lighting) can use this contactor as a safe intermediary between the control and the load.",
+      "puntosClave": [
+        "It's AC only — doesn't work for DC, per the manufacturer's own note.",
+        "Doesn't include built-in short-circuit protection — always install it with a separate fuse or breaker.",
+        "Confirm your equipment's real amperage: if it's closer to 16A, that model in this ranking costs the same; if it's over 20A, go straight to the 25A one."
+      ],
+      "consejoInversion": "With 166 reviews versus the 1-2 of the other contactors in this ranking, this is the option with the most real backing if you'd rather not risk a brand-new listing — at the same price as the other two, the buyer track record is extra assurance that costs nothing more."
+    },
+    "tagsEn": [
+      "20A",
+      "110V AC coil",
+      "166 reviews"
+    ]
   },
   {
     "asin": "B0995V2RM7",
@@ -857,7 +1368,9 @@
     "ranking": 22,
     "notaTecnica": "Gabinete grande (20x16.1x7.9\") IP67 con placa de montaje interna, puerta interior de metal y tapa con bisagras — pensado para alojar un panel de control completo (relés, breakers, un router) protegido del agua y el polvo, no solo una caja de paso. No trae perforaciones (knockouts) predefinidas: hay que taladrar vos los agujeros para prensaestopas, lo cual varias reseñas señalan como ventaja (quedan exactos donde los necesitás) más que como limitación. El plástico ABS es resistente pero no es metal — para instalaciones con más peso colgando adentro conviene reforzar el montaje.",
     "urlAfiliado": "https://www.amazon.com/dp/B0995V2RM7?tag=controltrazado-20",
-    "actualizadoEn": "2026-08-26"
+    "actualizadoEn": "2026-08-26",
+    "nombreEn": "QILIPSU IP67 Junction Box 20x16.1x7.9\" with Mounting Plate",
+    "notaTecnicaEn": "Large enclosure (20x16.1x7.9\") IP67 rated with an internal mounting plate, metal inner door, and hinged lid — meant to house a complete control panel (relays, breakers, a router) protected from water and dust, not just a pass-through junction box. Has no pre-drilled knockouts: you drill your own holes for cable glands, which several reviews call an advantage (they land exactly where you need them) rather than a limitation. The ABS plastic is sturdy but not metal — for installations with more weight hanging inside, reinforcing the mount is worth considering."
   },
   {
     "asin": "B08K8PXYL5",
@@ -871,7 +1384,9 @@
     "ranking": 23,
     "notaTecnica": "Mismo cable de silicona de la marca que ya está en varios calibres en el ranking, acá en 12AWG (680 hebras) para cargas de más corriente — motores chicos, baterías, cables de alimentación de un panel. A diferencia de los otros calibres que solo vienen en rojo, este ya incluye negro (50ft de cada uno), así que no hace falta comprar el retorno aparte. Con solo 14 reseñas todavía es un dato chico comparado con otros productos de la misma marca en el catálogo.",
     "urlAfiliado": "https://www.amazon.com/dp/B08K8PXYL5?tag=controltrazado-20",
-    "actualizadoEn": "2026-08-26"
+    "actualizadoEn": "2026-08-26",
+    "nombreEn": "BNTECHGO Silicone Wire 12AWG Red+Black (50ft each)",
+    "notaTecnicaEn": "Same silicone wire brand already present in several gauges in this ranking, here in 12AWG (680 strands) for higher-current loads — small motors, batteries, a panel's power feed cables. Unlike the other gauges that only come in red, this one already includes black (50ft of each), so you don't need to buy the return separately. With only 14 reviews it's still a small data point compared to other products from the same brand in the catalog."
   },
   {
     "asin": "B00R1WTT9S",
@@ -885,7 +1400,9 @@
     "ranking": 24,
     "notaTecnica": "Ojo con el nombre: esto NO es un bloque de terminales, es el puente (jumper) de 10 polos que conecta varios bloques DK2.5N entre sí — necesitás los bloques base Dinkle DK2.5N (se venden aparte) para que sirva de algo. Se puede cortar a tamaños más chicos si no necesitás los 10 polos. Una reseña señala que encastra con poca firmeza y se puede salir si no quedó bien presionado — revisá que haga clic firme al instalarlo.",
     "urlAfiliado": "https://www.amazon.com/dp/B00R1WTT9S?tag=controltrazado-20",
-    "actualizadoEn": "2026-08-26"
+    "actualizadoEn": "2026-08-26",
+    "nombreEn": "Dinkle DSS2.5N-10P 10-Pole DIN Rail Jumper Bridge (10pcs)",
+    "notaTecnicaEn": "Note the name: this is NOT a terminal block, it's the 10-pole jumper (bridge) that connects several DK2.5N blocks together — you need the base Dinkle DK2.5N blocks (sold separately) for this to be of any use. It can be cut down to smaller sizes if you don't need all 10 poles. One review notes it snaps in loosely and can come out if not seated firmly — check that it clicks firmly into place when installing."
   },
   {
     "asin": "B082DKDHBC",
@@ -899,7 +1416,9 @@
     "ranking": 25,
     "notaTecnica": "Es el tope de fin de carril (end stop) que le falta a varios bloques de terminales de este mismo ranking — sin esto, los bloques pueden deslizarse a lo largo del riel DIN de 35mm. Se atornilla al riel para mayor resistencia en vez de solo trabar a presión, lo que lo hace más firme que las versiones puramente plásticas de encastre. Es un accesorio de complemento, no reemplaza al bloque de terminales en sí — compralo junto con los bloques si el listing de esos no los trae incluidos.",
     "urlAfiliado": "https://www.amazon.com/dp/B082DKDHBC?tag=controltrazado-20",
-    "actualizadoEn": "2026-08-26"
+    "actualizadoEn": "2026-08-26",
+    "nombreEn": "Dinkle SS2 DIN Rail End Stop (25pcs)",
+    "notaTecnicaEn": "This is the end stop missing from several terminal blocks in this ranking — without it, blocks can slide along the 35mm DIN rail. It screws into the rail for extra holding strength instead of just snap-fitting, which makes it sturdier than purely plastic snap-in versions. It's a complementary accessory, it doesn't replace the terminal block itself — buy it along with the blocks if their listing doesn't already include them."
   },
   {
     "asin": "B0B6P22YJC",
@@ -931,7 +1450,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B0B6P22YJC?tag=controltrazado-20",
     "actualizadoEn": "2026-08-30",
-    "activo": true
+    "activo": true,
+    "nombreEn": "SONOFF Zigbee 3.0 USB Dongle Plus-E — Coordinator for Home Assistant",
+    "notaTecnicaEn": "This isn't a device you control directly: it's a USB adapter that gives a Home Assistant, openHAB, or Zigbee2MQTT server the ability to talk directly to Zigbee devices, without going through the manufacturer's cloud. It requires you to already be running one of those systems (for example on a Raspberry Pi or mini-PC) — it doesn't work on its own, plugged into any PC without that software. Uses the EFR32MG21 chip; a newer version without the 'E' with a different chip exists, but this one remains fully supported.",
+    "idealParaEn": "Anyone already using (or looking to migrate to) Home Assistant who'd rather not depend on the cloud or a single brand's app (like Tuya) to control their Zigbee devices.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the \"antenna\" that gives your Home Assistant server the ability to talk directly to Zigbee devices (bulbs, plugs, sensors) without going through each manufacturer's cloud.",
+      "ejemploHogar": "Instead of having the Tuya app, another bulb brand's app, and yet another for plugs all separate, you connect all those Zigbee devices to a single local Home Assistant panel, which keeps working even if your internet connection drops.",
+      "ejemploNegocio": "A store already running Home Assistant or openHAB for lighting and plug control avoids being tied to a single manufacturer's cloud or account, which matters if the installed equipment changes brand over time.",
+      "puntosClave": [
+        "It doesn't work alone: you need Home Assistant, openHAB, or Zigbee2MQTT running on a PC, mini-PC, or Raspberry Pi — not a product for someone just starting out in home automation without that software.",
+        "It's a Zigbee coordinator, not Matter or WiFi — the devices you connect to it need to be Zigbee, so confirm the protocol before buying sensors or bulbs to use with this dongle.",
+        "A newer version (Dongle Plus, without the 'E') with a different chip exists — this model remains fully supported, but if you're building a system from scratch it may be worth comparing price against the newer version."
+      ],
+      "consejoInversion": "Compared to staying tied to the Tuya app (simpler to start with, but you depend on its cloud and its rules), this dongle is the gateway to the open ecosystem: the time investment to set it up is bigger, but afterward you don't depend on a brand keeping its app or servers running."
+    },
+    "tagsEn": [
+      "Zigbee 3.0",
+      "Home Assistant",
+      "USB"
+    ]
   },
   {
     "asin": "B0C36WXGP1",
@@ -963,7 +1501,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B0C36WXGP1?tag=controltrazado-20",
     "actualizadoEn": "2026-08-30",
-    "activo": true
+    "activo": true,
+    "nombreEn": "Linkind Matter Smart Plug (4-pack) — ETL Certified WiFi Outlet",
+    "notaTecnicaEn": "The price is for the 4-pack. It's a ready-to-use Matter plug (not a dry-contact module like the SONOFF dongle in this ranking) — supports 15A/1800W and is ETL certified. To use it with Apple Home, Alexa, Google Home, or SmartThings you need a Matter hub/controller (HomePod, Echo Dot, Nest, or a SmartThings hub); if you don't have one, you can also control it hub-free from the manufacturer's own AiDot app.",
+    "idealParaEn": "Anyone who wants a simple, plug-in Matter outlet (no wiring), ETL certified, and already has or plans to add a compatible hub (HomePod, Echo, Nest) to control it locally.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a smart plug that speaks the Matter protocol — the standard designed so you don't depend on a single manufacturer's app. You plug it into the outlet, connect the device you want to control (a lamp, a fan), and manage it from Apple Home, Alexa, or Google Home without going through a proprietary app.",
+      "ejemploHogar": "You connect a living-room lamp to one of the 4 plugs in the pack and schedule it to turn on by itself at night using Apple Home, with no additional app from the plug's manufacturer.",
+      "ejemploNegocio": "A small office already using Apple Home or Google Home for lighting control can add these plugs for various devices (coffee maker, fan) without adding a new app for every plug brand it buys.",
+      "puntosClave": [
+        "The listed price is for the 4-pack, not per individual plug.",
+        "You need a Matter hub (HomePod, Echo Dot, Nest, or SmartThings Hub) to use it with Apple Home/Alexa/Google Home — without a hub, the alternative is controlling it only from the manufacturer's own AiDot app.",
+        "It's ETL certified, unlike several generic plugs in this category that show no certification on their listing."
+      ],
+      "consejoInversion": "Compared to the SONOFF dongle in this ranking (which requires setting up your own Home Assistant server), this plug is the \"plug and play\" version of the open ecosystem: you get local Matter control without configuring anything technical, in exchange for less customization room than a self-built system."
+    },
+    "tagsEn": [
+      "Matter",
+      "ETL",
+      "4-pack"
+    ]
   },
   {
     "asin": "B08Y8GX1WT",
@@ -995,7 +1552,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B08Y8GX1WT?tag=controltrazado-20",
     "actualizadoEn": "2026-08-30",
-    "activo": true
+    "activo": true,
+    "nombreEn": "Inkbird PID Temperature Controller Kit — with 40A SSR Relay and K-Type Thermocouple",
+    "notaTecnicaEn": "This is a standalone PID temperature controller — it has NO RS485/Modbus communication like the gateways and relay modules in this ranking, it's a local device programmed and read directly on its own screen. Comes with the 40A solid-state relay (SSR) and K-type thermocouple included, plus a separate alarm output (250V, 3A) to wire a buzzer. Accepts 100-240V AC. A version of the same family with an RS485 Modbus output exists, but it has far fewer reviews on Amazon backing it.",
+    "idealParaEn": "Anyone who needs to control a process's temperature (oven, heater, incubator, reflow) locally, without needing to integrate it into a centralized SCADA/Modbus system.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the brain that holds a process at a constant temperature: it reads the real temperature with the thermocouple, compares it to what you programmed, and turns the heating element on or off through the solid-state relay to keep it stable.",
+      "ejemploHogar": "You build a home reflow machine for soldering circuit boards or a drying oven, and use this controller to hold the exact temperature the process needs instead of watching a thermometer by hand.",
+      "ejemploNegocio": "A shop that needs to hold a constant temperature in a curing or drying process can use this kit to automate that control without investing in a full industrial Modbus system.",
+      "puntosClave": [
+        "It has no RS485/Modbus output — it's a local controller, not meant to integrate into a centralized SCADA system like the gateways in this ranking.",
+        "Includes the solid-state relay (40A SSR) and K-type thermocouple in the same kit — no need to buy them separately as with more basic PID controllers.",
+        "Has a separate alarm output (250V, 3A) to wire a buzzer if the temperature goes out of range, useful as a safety alert on unattended processes."
+      ],
+      "consejoInversion": "For an isolated thermal process (an oven, a reflow machine) this kit solves everything with a single purchase. If your project needs several devices reporting to a central Modbus system, you'll need to add an RS485 gateway from this same ranking or look for the Modbus version of this controller — which today has very few reviews to recommend it with the same confidence."
+    },
+    "tagsEn": [
+      "PID",
+      "40A SSR",
+      "K-type thermocouple"
+    ]
   },
   {
     "asin": "B0BR4ZRJGM",
@@ -1027,7 +1603,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B0BR4ZRJGM?tag=controltrazado-20",
     "actualizadoEn": "2026-08-30",
-    "activo": true
+    "activo": true,
+    "nombreEn": "PUSR DR302 — Modbus RTU to Modbus TCP Gateway, DIN Rail",
+    "notaTecnicaEn": "Converts Modbus RTU (over RS485) to Modbus TCP over Ethernet, DIN-rail mounted — it's an alternative from another brand (PUSR) to the Waveshare gateways in this ranking, and cheaper. Supports TCP server/client mode, UDP server/client, and virtual COM. Has considerably fewer reviews than the catalog's most popular products (44), though it's an \"Amazon's Choice\" in its category — this niche of Modbus gateways on Amazon generally has fewer reviews compared to mass-consumer products.",
+    "idealParaEn": "Anyone who needs to connect existing Modbus RTU (RS485) equipment to an Ethernet/TCP network and wants a cheaper DIN-rail option than the Waveshare gateways in this ranking.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a translator between two versions of the Modbus protocol: it takes the RS485 signal (Modbus RTU) from an old or budget industrial device and converts it to Modbus TCP so you can read it from a normal Ethernet network, without running RS485 cable all the way to the PC or central PLC.",
+      "ejemploHogar": "You have an industrial meter or sensor that only speaks RS485 and want to monitor it from software on your networked PC — this gateway acts as the bridge without you having to run a long serial cable.",
+      "ejemploNegocio": "A small plant with several scattered RS485 devices can centralize reading all of them into a single Ethernet-connected SCADA software, using one of these gateways per section of RS485 equipment.",
+      "puntosClave": [
+        "It's Modbus RTU to Modbus TCP — it doesn't work for other serial protocols besides Modbus over RS485.",
+        "Has considerably fewer reviews (44) than the Waveshare gateways in this ranking, though it's an \"Amazon's Choice\" in its category.",
+        "Mounts on a DIN rail, same as the rest of the industrial components in this ranking — no need to improvise the mounting."
+      ],
+      "consejoInversion": "It's the cheapest option in this ranking for the same job a Waveshare gateway does — worth it if price is the deciding factor and you're not concerned about having less review history backing the brand."
+    },
+    "tagsEn": [
+      "Modbus RTU/TCP",
+      "RS485",
+      "DIN rail"
+    ]
   },
   {
     "asin": "B0HH89JB6P",
@@ -1059,7 +1654,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B0HH89JB6P?tag=controltrazado-20",
     "actualizadoEn": "2026-08-30",
-    "activo": false
+    "activo": false,
+    "nombreEn": "S31B-LB — LoRaWAN Temperature and Humidity Sensor (SHT31, US915)",
+    "notaTecnicaEn": "WARNING: this product still has no reviews on Amazon (0 buyers have rated it) — there's no third-party track record backing it, unlike the rest of the catalog. It's also a LoRaWAN sensor (long-range radio), a different protocol from the WiFi/RS485/Zigbee used elsewhere in this ranking: for it to work you need an already-installed LoRaWAN network gateway/server (for example The Things Network or your own gateway) — the sensor alone does nothing. Uses the SHT31 sensor (a recognized brand for temperature/humidity), a water-resistant, anti-condensation housing, and comes in region-specific frequency variants (US915, EU868, AU915, KR920, AS923) — confirm you're choosing the right band for your country before buying.",
+    "idealParaEn": "Anyone who already has a working LoRaWAN gateway (or is building one) and needs to monitor temperature/humidity over long range without relying on WiFi — for example in a barn, greenhouse, or large property where WiFi doesn't reach. Don't buy if you don't have (or aren't going to install) LoRaWAN infrastructure.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a temperature and humidity sensor that, instead of sending data over WiFi (which has limited range), uses a long-range radio protocol called LoRaWAN — it can transmit data from kilometers away on very little battery, but needs a specialized receiver (LoRaWAN gateway) to pick up that signal, something regular WiFi doesn't require.",
+      "ejemploHogar": "You have a barn or greenhouse far from the house where WiFi doesn't reach, and you've already built (or are going to build) a LoRaWAN gateway — this sensor sends you the temperature and humidity from that spot with no cable and no dependence on WiFi signal.",
+      "ejemploNegocio": "A farm or a plant with several monitoring points scattered over a large area can use several of these sensors reporting to a single central LoRaWAN gateway, instead of installing WiFi across the whole property.",
+      "puntosClave": [
+        "Has 0 reviews on Amazon as of this listing — buying it means betting on a product with no track record from other users backing it.",
+        "Doesn't work alone: you need an already-installed LoRaWAN gateway (your own or a public network like The Things Network) to receive the data the sensor sends.",
+        "Comes in region-specific frequency band variants (US915, EU868, AU915, KR920, AS923) — buying the wrong band for your country makes it useless."
+      ],
+      "consejoInversion": "It only makes sense if you're already into a LoRaWAN project or willing to build the gateway infrastructure — for simpler temperature/humidity monitoring within your WiFi's range, a traditional WiFi sensor is cheaper and doesn't depend on this extra piece. Since it has no reviews, it's worth ordering just one first and testing it before buying several for a large rollout."
+    },
+    "tagsEn": [
+      "LoRaWAN",
+      "SHT31",
+      "No reviews"
+    ]
   },
   {
     "asin": "B09R38VVXF",
@@ -1091,7 +1705,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B09R38VVXF?tag=controltrazado-20",
     "actualizadoEn": "2026-09-01",
-    "activo": true
+    "activo": true,
+    "nombreEn": "Wyze Auto-Lock Bolt — Smart Lock with Fingerprint and Keypad",
+    "notaTecnicaEn": "It's Bluetooth, NOT WiFi out of the box — to control it via app from outside the house (not just fingerprint/keypad at the door) you need to add the 'Wyze Lock Bridge', sold separately. Without the bridge, it works perfectly as a fingerprint/code lock but with no remote control. BHMA certification and 20-minute UL fire resistance, IPX5 water resistant, up to 8 months of battery life. A newer v2 with built-in WiFi exists, with fewer reviews so far (580) than this v1.",
+    "idealParaEn": "Anyone who wants to replace their key with a fingerprint or code at the front door, without needing to open the door remotely via app — or who's willing to add the Wyze Lock Bridge separately if they do want that feature.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a deadbolt that replaces your door's traditional lock: instead of a key, you open it with a fingerprint, a numeric code, or the phone app (with the bridge added) — it's one of the most-reviewed smart locks on Amazon.",
+      "ejemploHogar": "You give each family member their own fingerprint or code, and stop worrying about copying keys or someone getting locked out.",
+      "ejemploNegocio": "An Airbnb or short-term rental can give each guest a temporary code that deactivates automatically at the end of their stay, without having to change the lock between guests.",
+      "puntosClave": [
+        "It's Bluetooth by default — remote app control (opening the door while away from home) requires the Wyze Lock Bridge, sold separately.",
+        "Has BHMA certification and 20-minute UL fire resistance — a real safety spec, not just a convenience feature.",
+        "A newer v2 version with built-in WiFi exists, but with considerably fewer reviews (580) than this v1 (3,236) as of this listing."
+      ],
+      "consejoInversion": "If all you care about is replacing the key with a fingerprint/code at the door, this version is more than enough for its price. If remote app control is a must from day one, add the bridge to your budget or consider the v2 with built-in WiFi directly."
+    },
+    "tagsEn": [
+      "Bluetooth",
+      "Fingerprint",
+      "BHMA/UL"
+    ]
   },
   {
     "asin": "B0F334DN9J",
@@ -1123,7 +1756,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B0F334DN9J?tag=controltrazado-20",
     "actualizadoEn": "2026-09-01",
-    "activo": true
+    "activo": true,
+    "nombreEn": "roborock Q7 L5 — Robot Vacuum and Mop with LiDAR",
+    "notaTecnicaEn": "LiDAR navigation with multi-floor mapping, vacuums and mops at the same time (8,000 Pa suction), anti-tangle brushes designed for pet hair. Controlled via Roborock's own app (WiFi). Several real buyer reviews note that Alexa support is limited — voice on/off only, it doesn't handle zones or scheduling from Alexa, that's left to the app.",
+    "idealParaEn": "Anyone who wants a robot vacuum with real mapped navigation (not random) at an accessible price, and is fine controlling it from the manufacturer's app instead of relying on advanced voice commands.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a robot that vacuums and mops the house on its own, using a spinning laser (LiDAR) to map each room instead of bumping into furniture at random — so it cleans more thoroughly and efficiently, and can save a map for each floor if your home has more than one.",
+      "ejemploHogar": "You schedule it from the app to clean the kitchen and living room every day at 10am while you're at work, and keep it out of the baby's room by marking that zone as \"no-go\".",
+      "ejemploNegocio": "A small office or store can schedule cleaning outside business hours, with no one having to operate the vacuum manually.",
+      "puntosClave": [
+        "Alexa support is limited to on/off according to real buyers — zone and schedule management is handled from the Roborock app, not by voice.",
+        "The mopping water tank is 270ml and shares space with the dust bin (they're a single combo unit) — check the spec sheet if your home is large and you'll need to refill often.",
+        "Has real multi-floor navigation (saves a map per floor), unlike cheaper robots that restart mapping every time."
+      ],
+      "consejoInversion": "Under $200 with real LiDAR and 16,000+ reviews backing it, it's a solid entry point into mapped robot vacuums — if full voice control (not just on/off) matters to you, confirm that limitation before buying."
+    },
+    "tagsEn": [
+      "LiDAR",
+      "Vacuum and mop",
+      "WiFi"
+    ]
   },
   {
     "asin": "B0H2HXRNB7",
@@ -1155,7 +1807,26 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B0H2HXRNB7?tag=controltrazado-20",
     "actualizadoEn": "2026-09-04",
-    "activo": true
+    "activo": true,
+    "nombreEn": "SONOFF SenseGuard SNZB-03PR2 — Zigbee Motion Sensor with Light Sensor",
+    "notaTecnicaEn": "A Zigbee motion sensor from the same brand as the SONOFF MINI-D switch in this ranking — if you already have the SONOFF Zigbee Bridge hub, it integrates directly with no extra ecosystem to add. Adds a light sensor (not just motion detection, it also measures brightness), useful for automations like 'turn on the light only if there's motion AND it's dark'. Requires the SONOFF Zigbee Bridge (not included) — it doesn't work standalone or over direct WiFi. It's the sensor's second generation (PR2), with 104 reviews so far.",
+    "idealParaEn": "Anyone who already has or is going to buy the SONOFF Zigbee Bridge hub and wants to add motion + light detection to automate when a light or device turns on.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a sensor that detects when someone moves in a room and, unlike a basic motion sensor, also measures how much light is in the room — so you can build an automation that only turns on the light if there's motion AND it's dark, without it triggering pointlessly during the day.",
+      "ejemploHogar": "You install it in the hallway or bathroom, and schedule the light (connected to a SONOFF switch in this ranking) to turn on by itself only if there's motion and it's nighttime, saving on leaving it on during the day.",
+      "ejemploNegocio": "A store can automate a storage room or employee bathroom light to turn on by itself only when someone's there and it's dark, avoiding it staying on unnecessarily all day.",
+      "puntosClave": [
+        "Needs the SONOFF Zigbee Bridge (sold separately) — this sensor doesn't work standalone or with direct WiFi.",
+        "If you already have the SONOFF MINI-D switch in this ranking (or plan to add it), this sensor integrates into the same hub with no extra ecosystem added.",
+        "Adds a light sensor besides motion — the differentiator over a basic motion sensor that only detects presence."
+      ],
+      "consejoInversion": "It's a cheap add-on ($16.50) for anyone who's already invested in the SONOFF/Zigbee ecosystem — combined with a dry-contact switch from this ranking, it builds a motion-based lighting automation without paying for another brand's closed system."
+    },
+    "tagsEn": [
+      "Zigbee",
+      "Light sensor",
+      "Requires SONOFF hub"
+    ]
   },
   {
     "asin": "B0866S3D82",
@@ -1180,10 +1851,33 @@
       ],
       "consejoInversion": "A $19.99 con más de 28.000 reseñas y el puesto #1 en su categoría, es de las formas más baratas de sumar monitoreo de video confiable a la casa o el taller — para grabación histórica sin límite de días, conviene sumar una tarjeta SD (barata) antes de depender de la nube de pago."
     },
-    "tags": ["Cámara indoor", "App Tapo", "Detección de movimiento"],
+    "tags": [
+      "Cámara indoor",
+      "App Tapo",
+      "Detección de movimiento"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B0866S3D82?tag=controltrazado-20",
     "actualizadoEn": "2026-09-04",
-    "activo": true
+    "activo": true,
+    "nombreEn": "TP-Link Tapo C100 — Indoor WiFi Security Camera 1080P",
+    "notaTecnicaEn": "Plug-in indoor security camera, no battery or special wiring needed. Unlike the plugs/switches in this ranking (which control loads), this is a monitoring device: motion detection with push notifications, two-way audio, night vision, and it records to a local SD card or TP-Link's cloud (optional paid plan). Runs on the Tapo app, separate from the same brand's Kasa app — Alexa/Google integration is for showing video on a screen, not voice control. #1 Best Seller in its category.",
+    "idealParaEn": "Adding video monitoring to an indoor space (entryway, workshop, nursery) with no wiring, complementing the switches/plugs in this ranking that only control loads.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Unlike the plugs and switches in this ranking that turn things on and off, this is a camera: it lets you watch live and record what happens in a room from your phone, with an automatic alert if it detects motion.",
+      "ejemploHogar": "You install it at the entryway or living room to see who comes in when you're not home, or in the baby's room as a monitor with two-way audio.",
+      "ejemploNegocio": "A small shop can monitor the storeroom or entrance after hours, getting a phone alert if it detects motion when the store should be closed.",
+      "puntosClave": [
+        "Runs on the Tapo app, an ecosystem separate from the Kasa app (TP-Link's other line) — they don't mix even though they're the same brand.",
+        "Recording storage is local (SD card, not included) or paid cloud — without either, you can only watch live, not review old footage.",
+        "Alexa/Google integration is for showing video on a screen (Echo Show), it doesn't let you control the camera by voice commands."
+      ],
+      "consejoInversion": "At $19.99 with over 28,000 reviews and the #1 spot in its category, it's one of the cheapest ways to add reliable video monitoring to your home or workshop — for unlimited historical recording, it's worth adding a cheap SD card before relying on the paid cloud."
+    },
+    "tagsEn": [
+      "Indoor camera",
+      "Tapo app",
+      "Motion detection"
+    ]
   },
   {
     "asin": "B09H2T18WD",
@@ -1208,10 +1902,33 @@
       ],
       "consejoInversion": "Con más de 10.300 reseñas y sin costo mensual de suscripción, ahorra en el largo plazo frente a las marcas líderes que cobran aparte por el almacenamiento en la nube — el ahorro de la suscripción se nota a partir del primer año de uso."
     },
-    "tags": ["Timbre con cámara", "Sin suscripción", "8GB local"],
+    "tags": [
+      "Timbre con cámara",
+      "Sin suscripción",
+      "8GB local"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B09H2T18WD?tag=controltrazado-20",
     "actualizadoEn": "2026-09-04",
-    "activo": true
+    "activo": true,
+    "nombreEn": "aosu Video Doorbell Ultra V8S — 5MP Camera Doorbell, No Subscription",
+    "notaTecnicaEn": "A doorbell with a camera, different from the Tapo indoor camera in this ranking — this one goes at the front door, detects someone approaching, and lets you see/talk before opening. No subscription required: it saves recordings to 8GB of included local storage, something brands like Ring or Nest charge extra for. Works on battery or wired to an existing doorbell. Alexa integration shows video on a screen device, it's not voice control.",
+    "idealParaEn": "Seeing and talking to whoever's at the door before opening, without paying a monthly subscription for recording storage.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Unlike the indoor camera in this ranking (which monitors an indoor space), this doorbell replaces your current one and adds a camera, microphone, and speaker — you see who's at the door from your phone and can talk to them without opening, whoever's on the other side.",
+      "ejemploHogar": "The doorbell rings, you check your phone and see it's a delivery driver — you talk to them to leave the package, without having to walk to the door.",
+      "ejemploNegocio": "A store with an employee entrance can use it to verify who's knocking before opening, without needing someone standing there all day.",
+      "puntosClave": [
+        "No subscription needed — it comes with 8GB of included local storage, unlike brands like Ring that charge monthly to save recordings.",
+        "Works on battery (wireless) or wired to an existing doorbell — choose based on your setup.",
+        "Alexa integration is for showing video on a screen device (Echo Show), it doesn't let you control it by voice."
+      ],
+      "consejoInversion": "With over 10,300 reviews and no monthly subscription cost, it saves money in the long run compared to leading brands that charge extra for cloud storage — the subscription savings show up starting in the first year of use."
+    },
+    "tagsEn": [
+      "Camera doorbell",
+      "No subscription",
+      "8GB local"
+    ]
   },
   {
     "asin": "B0GV57H4YQ",
@@ -1236,9 +1953,32 @@
       ],
       "consejoInversion": "A $49.99 y sin costo mensual, es una de las formas más baratas de sumarle inteligencia a algo que ya tenés en vez de comprar un abrepuertas nuevo completo — el volumen de compras mensuales y el respaldo de una marca establecida en portones (Genie) compensan que todavía acumule pocas reseñas."
     },
-    "tags": ["Retrofit universal", "Sin suscripción", "Alertas en tiempo real"],
+    "tags": [
+      "Retrofit universal",
+      "Sin suscripción",
+      "Alertas en tiempo real"
+    ],
     "urlAfiliado": "https://www.amazon.com/dp/B0GV57H4YQ?tag=controltrazado-20",
     "actualizadoEn": "2026-09-05",
-    "activo": true
+    "activo": true,
+    "nombreEn": "Genie Aladdin Connect — Universal WiFi Garage Door Controller",
+    "notaTecnicaEn": "Solves the 'did I close the garage?' anxiety without replacing the whole opener — it installs on the opener you already have (compatible with most major brands) and connects it to WiFi. Amazon's Choice, '1K+ bought in the past month', from Genie (an established garage-door brand, not a generic manufacturer). Has fewer reviews than the rest of the catalog since it's a more recent launch in the Aladdin Connect line — the monthly purchase count and brand backing make up for the still-low accumulated reviews. No monthly subscription.",
+    "idealParaEn": "Anyone who already has a working garage door opener and wants to add remote control and alerts without buying a new motor.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a controller that installs on your current garage door opener (it doesn't replace it) and adds WiFi: you can open, close, and check the door's status from your phone wherever you are, and schedule it to close automatically if it's left open by mistake.",
+      "ejemploHogar": "You leave the house on your way to work and the 'did I close the garage?' worry gets solved by checking your phone, without having to go back and check in person.",
+      "ejemploNegocio": "A store with a storage room accessed through a garage door can give a supplier temporary remote access (a virtual key) without needing someone present to let them in, and gets an alert of when they came and went.",
+      "puntosClave": [
+        "It doesn't replace the door's motor — it installs as an accessory on the opener you already have, so confirm your brand is on the manufacturer's compatibility list first.",
+        "No monthly subscription, unlike other security brands in this catalog that do require one for basic functions.",
+        "The kit is for a single door — if you have a double garage with two independent doors, you'll need a second kit or the 2-door version."
+      ],
+      "consejoInversion": "At $49.99 and no monthly cost, it's one of the cheapest ways to add smarts to something you already own instead of buying a whole new opener — the monthly purchase volume and the backing of an established garage-door brand (Genie) make up for it still having few reviews."
+    },
+    "tagsEn": [
+      "Universal retrofit",
+      "No subscription",
+      "Real-time alerts"
+    ]
   }
 ]
