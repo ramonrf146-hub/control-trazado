@@ -1212,5 +1212,33 @@
     "urlAfiliado": "https://www.amazon.com/dp/B09H2T18WD?tag=controltrazado-20",
     "actualizadoEn": "2026-09-04",
     "activo": true
+  },
+  {
+    "asin": "B0GV57H4YQ",
+    "nombre": "Genie Aladdin Connect — Controlador WiFi Universal para Portón de Garaje",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 49.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/713u1esPWyL._AC_SX425_.jpg",
+    "rating": 4.5,
+    "numResenas": 84,
+    "ranking": 15,
+    "notaTecnica": "Resuelve la ansiedad de '¿cerré el garaje?' sin reemplazar el motor completo — se instala sobre el abrelatas que ya tenés (compatible con la mayoría de las marcas principales) y lo conecta a WiFi. Amazon's Choice, '1K+ compras el último mes', de Genie (marca establecida en portones de garaje, no un fabricante genérico). Tiene menos reseñas que el resto del catálogo por ser un lanzamiento más reciente de la línea Aladdin Connect — la cifra de compras mensuales y el respaldo de marca compensan la reseña acumulada todavía baja. Sin suscripción mensual.",
+    "idealPara": "Quien ya tiene un abrepuertas de garaje funcionando y quiere agregarle control remoto y alertas sin comprar un motor nuevo.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un controlador que se instala sobre tu abrepuertas de garaje actual (no lo reemplaza) y le agrega WiFi: podés abrir, cerrar y ver el estado del portón desde el celular estés donde estés, y programar que se cierre solo si se queda abierto por error.",
+      "ejemploHogar": "Salís de tu casa camino al trabajo y la duda de '¿habré cerrado el garaje?' se resuelve mirando el celular, sin tener que volver a comprobarlo en persona.",
+      "ejemploNegocio": "Un local con depósito de acceso por portón puede darle acceso remoto temporal a un proveedor (llave virtual) sin tener que estar presente para abrirle, y recibe alerta de cuándo entró y salió.",
+      "puntosClave": [
+        "No reemplaza el motor del portón — se instala como accesorio sobre el abrepuertas que ya tenés, así que confirmá antes que tu marca esté en la lista de compatibilidad del fabricante.",
+        "No cobra suscripción mensual, a diferencia de otras marcas de seguridad de este catálogo que sí la piden para funciones básicas.",
+        "El kit es de una sola puerta — si tenés garaje doble con dos portones independientes, necesitás sumar un segundo kit o la versión de 2 puertas."
+      ],
+      "consejoInversion": "A $49.99 y sin costo mensual, es una de las formas más baratas de sumarle inteligencia a algo que ya tenés en vez de comprar un abrepuertas nuevo completo — el volumen de compras mensuales y el respaldo de una marca establecida en portones (Genie) compensan que todavía acumule pocas reseñas."
+    },
+    "tags": ["Retrofit universal", "Sin suscripción", "Alertas en tiempo real"],
+    "urlAfiliado": "https://www.amazon.com/dp/B0GV57H4YQ?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-05",
+    "activo": true
   }
 ]

@@ -67,7 +67,7 @@ Pensalo como un enchufe universal de datos: en vez de que cada marca (Tuya, Alex
 
 ## Nuestra recomendación del mes
 
-Mirá el ranking de [Automatización y Hogar Inteligente](/categorias/automatizacion-hogar-inteligente) — marcamos explícitamente en cada ficha si el producto tiene Matter o si depende de un ecosistema cerrado, para que no lo tengas que adivinar.
+Mirá el ranking de [Automatización y Hogar Inteligente](/categorias/automatizacion-hogar-inteligente) — marcamos explícitamente en cada ficha si el producto tiene Matter o si depende de un ecosistema cerrado, para que no lo tengas que adivinar. Si el problema que estás resolviendo es más específico (por ejemplo, no saber si dejaste el garaje abierto), mirá también [cómo dejar de preguntarte si cerraste el garaje](/articulos/dejar-de-preguntarte-si-cerraste-el-garaje).
 
 ## Preguntas frecuentes
 
