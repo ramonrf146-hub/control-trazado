@@ -1367,10 +1367,34 @@
     "numResenas": 2367,
     "ranking": 22,
     "notaTecnica": "Gabinete grande (20x16.1x7.9\") IP67 con placa de montaje interna, puerta interior de metal y tapa con bisagras — pensado para alojar un panel de control completo (relés, breakers, un router) protegido del agua y el polvo, no solo una caja de paso. No trae perforaciones (knockouts) predefinidas: hay que taladrar vos los agujeros para prensaestopas, lo cual varias reseñas señalan como ventaja (quedan exactos donde los necesitás) más que como limitación. El plástico ABS es resistente pero no es metal — para instalaciones con más peso colgando adentro conviene reforzar el montaje.",
+    "idealPara": "Quien necesita alojar un panel de control completo (relés, breakers, router) protegido del agua y el polvo, no solo pasar cables.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un gabinete IP67 grande, no una simple caja de paso — tiene una placa de montaje interna para atornillar componentes, una puerta interior de metal, y una tapa exterior con bisagras, pensado para albergar un tablero de control completo protegido del agua y el polvo.",
+      "ejemploHogar": "Instalás el controlador de riego, un router y un par de relés dentro de este gabinete en el patio o el garage, protegidos de la lluvia y la humedad, en vez de dejarlos expuestos o metidos en una caja improvisada.",
+      "ejemploNegocio": "Un integrador arma un tablero de control completo (breakers, relés, fuente de alimentación) para instalarlo a la intemperie en una planta o invernadero, usando este gabinete como el punto de partida sellado sobre el que monta todo lo demás.",
+      "puntosClave": [
+        "No trae perforaciones (knockouts) predefinidas — vas a necesitar taladrar vos los agujeros para los prensaestopas, en el lugar exacto que necesites.",
+        "El plástico ABS resiste bien la intemperie pero no es metal — si vas a colgar componentes pesados adentro, reforzá el montaje en vez de confiar solo en la placa interna.",
+        "La puerta interior de metal es un plus de seguridad: separa la parte eléctrica energizada de lo primero que tocás al abrir la tapa exterior."
+      ],
+      "consejoInversion": "Comparado con armar un gabinete a medida o reforzar una caja genérica, este ya viene con placa de montaje y puerta de seguridad — el ahorro de tiempo de instalación suele justificar el precio si el proyecto lo amerita (no es necesario para un solo relé chico)."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B0995V2RM7?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "nombreEn": "QILIPSU IP67 Junction Box 20x16.1x7.9\" with Mounting Plate",
-    "notaTecnicaEn": "Large enclosure (20x16.1x7.9\") IP67 rated with an internal mounting plate, metal inner door, and hinged lid — meant to house a complete control panel (relays, breakers, a router) protected from water and dust, not just a pass-through junction box. Has no pre-drilled knockouts: you drill your own holes for cable glands, which several reviews call an advantage (they land exactly where you need them) rather than a limitation. The ABS plastic is sturdy but not metal — for installations with more weight hanging inside, reinforcing the mount is worth considering."
+    "notaTecnicaEn": "Large enclosure (20x16.1x7.9\") IP67 rated with an internal mounting plate, metal inner door, and hinged lid — meant to house a complete control panel (relays, breakers, a router) protected from water and dust, not just a pass-through junction box. Has no pre-drilled knockouts: you drill your own holes for cable glands, which several reviews call an advantage (they land exactly where you need them) rather than a limitation. The ABS plastic is sturdy but not metal — for installations with more weight hanging inside, reinforcing the mount is worth considering.",
+    "idealParaEn": "Anyone who needs to house a complete control panel (relays, breakers, a router) protected from water and dust, not just route cables through.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a large IP67 enclosure, not a simple pass-through box — it has an internal mounting plate for bolting down components, a metal inner door, and a hinged outer lid, built to house a complete control panel protected from water and dust.",
+      "ejemploHogar": "You install your irrigation controller, a router, and a couple of relays inside this enclosure in the yard or garage, protected from rain and humidity, instead of leaving them exposed or stuffed into a makeshift box.",
+      "ejemploNegocio": "An integrator builds a complete control panel (breakers, relays, power supply) for outdoor installation at a plant or greenhouse, using this enclosure as the sealed starting point everything else mounts onto.",
+      "puntosClave": [
+        "It has no pre-drilled knockouts — you'll need to drill your own holes for cable glands, exactly where you need them.",
+        "The ABS plastic holds up well outdoors but isn't metal — if you're hanging heavy components inside, reinforce the mount rather than relying only on the internal plate.",
+        "The metal inner door is a safety plus: it separates the live electrical parts from the first thing you touch when opening the outer lid."
+      ],
+      "consejoInversion": "Compared to building a custom enclosure or reinforcing a generic box, this one already comes with a mounting plate and a safety door — the installation time saved usually justifies the price if the project calls for it (overkill for a single small relay)."
+    }
   },
   {
     "asin": "B08K8PXYL5",
@@ -1383,10 +1407,34 @@
     "numResenas": 14,
     "ranking": 23,
     "notaTecnica": "Mismo cable de silicona de la marca que ya está en varios calibres en el ranking, acá en 12AWG (680 hebras) para cargas de más corriente — motores chicos, baterías, cables de alimentación de un panel. A diferencia de los otros calibres que solo vienen en rojo, este ya incluye negro (50ft de cada uno), así que no hace falta comprar el retorno aparte. Con solo 14 reseñas todavía es un dato chico comparado con otros productos de la misma marca en el catálogo.",
+    "idealPara": "Cargas de más corriente (motores chicos, baterías, alimentación de un panel) que necesitan un calibre más grueso que el 14-18AWG del resto del catálogo.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es cable de silicona multihebra (680 hebras) en calibre 12AWG — más grueso que los calibres 14-18AWG de este mismo ranking, pensado para cargas de mayor corriente como motores chicos, baterías o la alimentación principal de un panel.",
+      "ejemploHogar": "Cableás la alimentación de una bomba o un motor de mayor consumo en un proyecto DIY, donde un calibre más fino se calentaría de más con esa corriente.",
+      "ejemploNegocio": "Un integrador arma el cableado de alimentación interno de un tablero de control, donde el conductor principal necesita manejar más amperaje que las señales de control de bajo consumo.",
+      "puntosClave": [
+        "A diferencia de otros calibres de la misma marca en este catálogo que solo vienen en rojo, este pack ya incluye negro (50ft de cada color) — no hace falta comprar el retorno aparte.",
+        "El aislamiento de silicona se mantiene flexible incluso en frío y resiste mejor el calor que el PVC común — importa si el cable va cerca de un motor o una fuente que genera calor.",
+        "Con solo 14 reseñas todavía es un dato chico comparado con otros calibres de la misma marca en el catálogo — la calidad del cable en sí no cambia entre calibres, pero el historial de compras es menor."
+      ],
+      "consejoInversion": "Elegir el calibre correcto no es opcional por seguridad: un cable muy fino para la corriente real se calienta y es un riesgo de incendio. Si tu carga supera lo que aguanta el 14-18AWG, este 12AWG es la opción de este catálogo, no un capricho de \"más grueso es mejor\"."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B08K8PXYL5?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "nombreEn": "BNTECHGO Silicone Wire 12AWG Red+Black (50ft each)",
-    "notaTecnicaEn": "Same silicone wire brand already present in several gauges in this ranking, here in 12AWG (680 strands) for higher-current loads — small motors, batteries, a panel's power feed cables. Unlike the other gauges that only come in red, this one already includes black (50ft of each), so you don't need to buy the return separately. With only 14 reviews it's still a small data point compared to other products from the same brand in the catalog."
+    "notaTecnicaEn": "Same silicone wire brand already present in several gauges in this ranking, here in 12AWG (680 strands) for higher-current loads — small motors, batteries, a panel's power feed cables. Unlike the other gauges that only come in red, this one already includes black (50ft of each), so you don't need to buy the return separately. With only 14 reviews it's still a small data point compared to other products from the same brand in the catalog.",
+    "idealParaEn": "Higher-current loads (small motors, batteries, a panel's power feed) that need a thicker gauge than the 14-18AWG already in this catalog.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's multi-strand silicone wire (680 strands) in 12AWG gauge — thicker than the 14-18AWG gauges already in this ranking, meant for higher-current loads like small motors, batteries, or a panel's main power feed.",
+      "ejemploHogar": "You wire the power feed for a pump or a higher-draw motor in a DIY project, where a thinner gauge would overheat under that current.",
+      "ejemploNegocio": "An integrator wires the internal power feed of a control panel, where the main conductor needs to handle more amperage than the low-current control signals.",
+      "puntosClave": [
+        "Unlike other gauges from the same brand in this catalog that only come in red, this pack already includes black (50ft of each color) — no need to buy the return conductor separately.",
+        "Silicone insulation stays flexible even in cold and handles heat better than standard PVC — matters if the wire runs near a motor or a heat-generating source.",
+        "With only 14 reviews it's still a small data point compared to other gauges from the same brand in the catalog — the wire quality itself doesn't change between gauges, but the purchase history is thinner."
+      ],
+      "consejoInversion": "Picking the right gauge isn't optional for safety — wire too thin for the real current overheats and becomes a fire risk. If your load exceeds what 14-18AWG can handle, this 12AWG is the option in this catalog, not a \"thicker is just better\" upsell."
+    }
   },
   {
     "asin": "B00R1WTT9S",
@@ -1399,10 +1447,34 @@
     "numResenas": 90,
     "ranking": 24,
     "notaTecnica": "Ojo con el nombre: esto NO es un bloque de terminales, es el puente (jumper) de 10 polos que conecta varios bloques DK2.5N entre sí — necesitás los bloques base Dinkle DK2.5N (se venden aparte) para que sirva de algo. Se puede cortar a tamaños más chicos si no necesitás los 10 polos. Una reseña señala que encastra con poca firmeza y se puede salir si no quedó bien presionado — revisá que haga clic firme al instalarlo.",
+    "idealPara": "Quien ya tiene o va a comprar bloques de terminales Dinkle DK2.5N y necesita puentear varios canales juntos (por ejemplo, distribuir un mismo positivo a 10 salidas).",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un puente (jumper) de 10 polos que conecta eléctricamente varios bloques de terminales Dinkle DK2.5N entre sí, para no tener que cablear manualmente cada uno por separado cuando necesitás repartir la misma señal o alimentación a varios puntos.",
+      "ejemploHogar": "Armás un tablero DIY donde varios relés necesitan compartir el mismo positivo de 24V — en vez de cablear un puente individual a cada bloque, este jumper los conecta a todos de una vez.",
+      "ejemploNegocio": "Un integrador arma una regleta de distribución en un tablero industrial, donde una sola fase o un común necesita llegar a 10 salidas distintas sin duplicar cableado innecesario.",
+      "puntosClave": [
+        "Ojo con el nombre: esto NO es un bloque de terminales en sí — necesitás los bloques base Dinkle DK2.5N (se venden aparte) para que este puente sirva de algo.",
+        "Se puede cortar a tamaños más chicos si no necesitás los 10 polos completos — no hace falta comprar uno más corto si te sobran algunos.",
+        "Una reseña señala que puede encastrar con poca firmeza — confirmá que haga clic firme al instalarlo, sobre todo si el tablero va a estar sujeto a vibración."
+      ],
+      "consejoInversion": "Frente a cablear cada bloque a mano con cables puente individuales, este jumper ahorra tiempo de armado y reduce el riesgo de un cable suelto — pero solo tiene sentido si ya estás en el ecosistema de bloques Dinkle DK2.5N, no es compatible con bloques de otras marcas."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B00R1WTT9S?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "nombreEn": "Dinkle DSS2.5N-10P 10-Pole DIN Rail Jumper Bridge (10pcs)",
-    "notaTecnicaEn": "Note the name: this is NOT a terminal block, it's the 10-pole jumper (bridge) that connects several DK2.5N blocks together — you need the base Dinkle DK2.5N blocks (sold separately) for this to be of any use. It can be cut down to smaller sizes if you don't need all 10 poles. One review notes it snaps in loosely and can come out if not seated firmly — check that it clicks firmly into place when installing."
+    "notaTecnicaEn": "Note the name: this is NOT a terminal block, it's the 10-pole jumper (bridge) that connects several DK2.5N blocks together — you need the base Dinkle DK2.5N blocks (sold separately) for this to be of any use. It can be cut down to smaller sizes if you don't need all 10 poles. One review notes it snaps in loosely and can come out if not seated firmly — check that it clicks firmly into place when installing.",
+    "idealParaEn": "Anyone who already has (or is buying) Dinkle DK2.5N terminal blocks and needs to bridge several channels together (for example, distributing one positive lead across 10 outputs).",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a 10-pole jumper bridge that electrically connects several Dinkle DK2.5N terminal blocks together, so you don't have to manually wire each one separately when you need to distribute the same signal or power feed to multiple points.",
+      "ejemploHogar": "You build a DIY panel where several relays need to share the same 24V positive — instead of wiring an individual jumper to each block, this bridge connects all of them at once.",
+      "ejemploNegocio": "An integrator builds a distribution strip in an industrial panel, where one phase or common needs to reach 10 different outputs without duplicating unnecessary wiring.",
+      "puntosClave": [
+        "Note the name: this is NOT a terminal block itself — you need the base Dinkle DK2.5N blocks (sold separately) for this bridge to be of any use.",
+        "It can be cut down to smaller sizes if you don't need all 10 poles — no need to buy a shorter one if you have extras left over.",
+        "One review notes it can snap in loosely — check that it clicks firmly into place, especially if the panel will be exposed to vibration."
+      ],
+      "consejoInversion": "Compared to hand-wiring each block with individual jumper wires, this bridge saves assembly time and reduces the risk of a loose wire — but it only makes sense if you're already in the Dinkle DK2.5N block ecosystem, it's not compatible with other brands' blocks."
+    }
   },
   {
     "asin": "B082DKDHBC",
@@ -1415,10 +1487,34 @@
     "numResenas": 170,
     "ranking": 25,
     "notaTecnica": "Es el tope de fin de carril (end stop) que le falta a varios bloques de terminales de este mismo ranking — sin esto, los bloques pueden deslizarse a lo largo del riel DIN de 35mm. Se atornilla al riel para mayor resistencia en vez de solo trabar a presión, lo que lo hace más firme que las versiones puramente plásticas de encastre. Es un accesorio de complemento, no reemplaza al bloque de terminales en sí — compralo junto con los bloques si el listing de esos no los trae incluidos.",
+    "idealPara": "Cualquier instalación con bloques de terminales sobre riel DIN que todavía no tenga un tope de fin de carril — es la pieza que falta, no un lujo.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es el tope de fin de carril (end stop) que se atornilla a los extremos del riel DIN de 35mm para evitar que los bloques de terminales se deslicen a lo largo del riel con el uso o la vibración.",
+      "ejemploHogar": "Terminás de armar tu tablero DIY con bloques de terminales sobre riel DIN y le sumás estos topes en cada extremo para que no se te vayan corriendo cada vez que conectás o desconectás un cable.",
+      "ejemploNegocio": "Un integrador que instala tableros con vibración constante (cerca de motores o bombas) necesita que los bloques queden fijos en el riel — este soporte atornillado aguanta mejor que uno que solo traba a presión.",
+      "puntosClave": [
+        "Se atornilla al riel para mayor resistencia, a diferencia de las versiones puramente plásticas de encastre a presión que se pueden aflojar con el tiempo.",
+        "Es un accesorio de complemento, no reemplaza al bloque de terminales — compralo junto con los bloques si ese listing no los trae incluidos.",
+        "Vienen 25 unidades por paquete, así que alcanza para varios tableros chicos o varios extremos de riel en una instalación más grande."
+      ],
+      "consejoInversion": "Es una pieza barata que se suele olvidar hasta que los bloques ya empezaron a deslizarse — conviene comprarla junto con los bloques de terminales desde el principio, no como una reparación después del hecho."
+    },
     "urlAfiliado": "https://www.amazon.com/dp/B082DKDHBC?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
     "nombreEn": "Dinkle SS2 DIN Rail End Stop (25pcs)",
-    "notaTecnicaEn": "This is the end stop missing from several terminal blocks in this ranking — without it, blocks can slide along the 35mm DIN rail. It screws into the rail for extra holding strength instead of just snap-fitting, which makes it sturdier than purely plastic snap-in versions. It's a complementary accessory, it doesn't replace the terminal block itself — buy it along with the blocks if their listing doesn't already include them."
+    "notaTecnicaEn": "This is the end stop missing from several terminal blocks in this ranking — without it, blocks can slide along the 35mm DIN rail. It screws into the rail for extra holding strength instead of just snap-fitting, which makes it sturdier than purely plastic snap-in versions. It's a complementary accessory, it doesn't replace the terminal block itself — buy it along with the blocks if their listing doesn't already include them.",
+    "idealParaEn": "Any DIN rail terminal block installation that doesn't have an end stop yet — it's the missing piece, not a nice-to-have.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the end stop that screws onto the ends of 35mm DIN rail to keep terminal blocks from sliding along the rail with use or vibration.",
+      "ejemploHogar": "You finish building your DIY panel with terminal blocks on DIN rail and add these stops at each end so they don't drift every time you connect or disconnect a wire.",
+      "ejemploNegocio": "An integrator installing panels with constant vibration (near motors or pumps) needs the blocks to stay fixed on the rail — this screwed-in stop holds better than one that only snaps in place.",
+      "puntosClave": [
+        "It screws into the rail for extra holding strength, unlike purely plastic snap-in versions that can loosen over time.",
+        "It's a complementary accessory, it doesn't replace the terminal block — buy it along with the blocks if that listing doesn't already include them.",
+        "Comes 25 pieces per pack, enough for several small panels or multiple rail ends in a larger installation."
+      ],
+      "consejoInversion": "It's a cheap part that's easy to forget until the blocks have already started sliding — worth buying alongside the terminal blocks from the start, not as a fix after the fact."
+    }
   },
   {
     "asin": "B0B6P22YJC",
