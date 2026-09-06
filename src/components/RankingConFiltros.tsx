@@ -10,7 +10,7 @@ import { getDictionary, t, withLocale, type Locale } from "@/lib/i18n";
 import ProductCard from "./ProductCard";
 import ComparadorModal from "./ComparadorModal";
 
-const PASO_SCROLL = 400; // ancho de tarjeta (380px) + gap (20px) en desktop
+const PASO_SCROLL = 300; // ancho de tarjeta (280px) + gap (20px) en desktop
 
 /** Guía de caso de uso relacionada, mostrada debajo del slider (nunca adentro) para no interferir con el swipe. */
 function guiaPorCategoria(
@@ -140,7 +140,7 @@ export default function RankingConFiltros({ productos, locale }: { productos: Pr
               {productosFiltrados.map((producto) => (
                 <div
                   key={producto.asin}
-                  className="w-[85vw] max-w-sm shrink-0 snap-start sm:w-[380px]"
+                  className="w-[70vw] max-w-xs shrink-0 snap-start sm:w-[280px]"
                 >
                   <ProductCard
                     producto={producto}
