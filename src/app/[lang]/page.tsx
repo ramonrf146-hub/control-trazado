@@ -8,7 +8,7 @@ import RankingConFiltros from "@/components/RankingConFiltros";
 import ComoArmamosRanking from "@/components/ComoArmamosRanking";
 import NewsletterBand from "@/components/NewsletterBand";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://controltrazado.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.controltrazado.com";
 
 interface Props {
   params: Promise<{ lang: string }>;

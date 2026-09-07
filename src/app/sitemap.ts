@@ -3,7 +3,7 @@ import { CATEGORIAS } from "@/lib/categorias";
 import { getArticulos } from "@/lib/contenido";
 import { getProductos } from "@/lib/productos";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://controltrazado.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.controltrazado.com";
 
 /** Emite la URL española (sin prefijo, histórica) y la inglesa (/en) para una misma ruta. */
 function esYEn(
