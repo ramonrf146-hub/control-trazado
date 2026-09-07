@@ -15,6 +15,12 @@ RS232 es punto a punto (un dispositivo a un dispositivo) y de distancia corta, t
 
 Modbus es el protocolo que define cómo se estructuran los mensajes; RS485 es solo el medio físico por el que viajan. Modbus RTU corre directamente sobre el bus serial RS485 — es el formato que hablan la mayoría de los PLCs y medidores más viejos. Modbus TCP es la misma lógica de protocolo pero empaquetada para viajar sobre una red Ethernet/IP. Un gateway RS485-a-Ethernet lo que hace es traducir entre los dos: recibe Modbus RTU de un lado y lo reempaqueta como Modbus TCP del otro (o viceversa), sin que el dispositivo final sepa que hubo una traducción en el medio.
 
+## Video: RS485 y Modbus explicados
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/WtBi7-IF9Fg" title="Beginner's Guide To Modbus RS485 Protocol | How They Work | A Complete Tutorial" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## 3. Cuándo necesitás un gateway/conversor
 
 El caso típico: tenés equipo industrial (un medidor de energía, un PLC viejo, un VFD) que solo habla RS485, pero tu sistema de monitoreo o SCADA vive en la red Ethernet de la planta, potencialmente accesible desde otra parte del edificio o incluso remoto. En vez de tirar cable serial por toda la planta (limitado a 1200m y sensible a instalación), instalás un gateway cerca del equipo RS485 y de ahí en adelante todo viaja por la infraestructura de red existente.
