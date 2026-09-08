@@ -31,6 +31,14 @@ A motor of this power needs overload, ground fault, and surge protection. A [GFC
 
 For internal panel connections near heat-generating components (like the starter or VFD itself working at full load), [silicone wire](/en/productos/B08GFQP2MG) doesn't stiffen or crack over time like standard PVC — worth it on the short runs near the power equipment, though you don't need it throughout the whole panel.
 
+## Video: sizing, wiring, and programming a single-phase-to-three-phase VFD
+
+If you'd rather watch the full process before touching a wire, this tutorial walks through exactly the three critical steps in this guide — choosing the right VFD size, wiring the single-phase input and three-phase output, and programming the basic parameters before energizing the motor.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/eT1eau5y7lk" title="How to Size, Wire, and Program a VFD to Convert Single Phase Power Into 3 Phase Power" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## 6. Advanced step: remote monitoring over Modbus
 
 If your starter or VFD has an RS485/Modbus output, you can read its parameters (current, status, faults) from a computer without having to stand in front of the panel. To connect the bus directly to a PC, a [USB-RS485 converter](/en/productos/B0B7MMSQXL) is enough; if you'd rather centralize it on the shop network, an [RS485-to-Ethernet gateway with PoE](/en/productos/B0BN61G4VF) saves you from running a power cable out to the panel.

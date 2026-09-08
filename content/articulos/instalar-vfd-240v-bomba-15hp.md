@@ -31,6 +31,14 @@ Un motor de esta potencia necesita protección contra sobrecarga, falla a tierra
 
 Para las conexiones internas del tablero que quedan cerca de componentes que generan calor (como el propio arrancador o VFD trabajando a full carga), un [cable de silicona](/productos/B08GFQP2MG) no se pone rígido ni se raja con el tiempo como el PVC común — vale la pena en los tramos cortos cerca del equipo de potencia, aunque no hace falta usarlo en todo el tablero.
 
+## Video: dimensionar, cablear y programar un VFD monofásico-a-trifásico
+
+Si preferís ver el proceso completo antes de tocar un cable, este tutorial repasa exactamente los tres pasos críticos de esta guía — cómo elegir el tamaño correcto del VFD, cómo cablear la entrada monofásica y la salida trifásica, y cómo programar los parámetros básicos antes de energizar el motor.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/eT1eau5y7lk" title="How to Size, Wire, and Program a VFD to Convert Single Phase Power Into 3 Phase Power" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## 6. Paso avanzado: monitoreo remoto por Modbus
 
 Si tu arrancador o VFD tiene salida RS485/Modbus, podés leer sus parámetros (corriente, estado, fallas) desde una computadora sin tener que pararte frente al tablero. Para conectar el bus a una PC directamente, un [conversor USB-RS485](/productos/B0B7MMSQXL) alcanza; si preferís centralizarlo en la red del taller, un [gateway RS485 a Ethernet con PoE](/productos/B0BN61G4VF) evita tender un cable de corriente hasta el panel.
