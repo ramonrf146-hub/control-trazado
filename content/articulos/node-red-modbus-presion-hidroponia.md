@@ -44,7 +44,7 @@ Instalando `node-red-dashboard` (mismo proceso que el paquete Modbus) sumás nod
 
 ## 7. Extra: cortar la bomba automáticamente
 
-Si además de la alerta querés que el sistema corte la bomba solo ante una falla, la salida del nodo `switch` puede disparar un nodo `Modbus-Write` hacia un [módulo de relé Modbus RTU](/productos/B0CMH47846) que interrumpa la alimentación de la bomba. Esto convierte el monitoreo pasivo en una protección activa — recomendable si el sistema va a quedar corriendo sin supervisión por varias horas.
+Si además de la alerta querés que el sistema corte la bomba solo ante una falla, la salida del nodo `switch` puede disparar un nodo `Modbus-Write` hacia un módulo de relé Modbus RTU que interrumpa la alimentación de la bomba. Esto convierte el monitoreo pasivo en una protección activa — recomendable si el sistema va a quedar corriendo sin supervisión por varias horas. Para cortar solo esta bomba (una salida), el [módulo de 8 canales](/productos/B083J24HCM) de este ranking alcanza y sobra — el [de 16 canales](/productos/B0CMH47846) tiene sentido recién si en el mismo tablero también vas a controlar otros equipos además de la bomba.
 
 ## Nuestra recomendación del mes
 

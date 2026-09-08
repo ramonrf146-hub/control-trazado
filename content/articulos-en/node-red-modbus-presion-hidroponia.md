@@ -44,7 +44,7 @@ Installing `node-red-dashboard` (same process as the Modbus package) adds `ui_ga
 
 ## 7. Extra: cutting the pump automatically
 
-If, besides the alert, you want the system to cut the pump on its own when there's a fault, the `switch` node's output can trigger a `Modbus-Write` node toward a [Modbus RTU relay module](/en/productos/B0CMH47846) that interrupts power to the pump. This turns passive monitoring into active protection — recommended if the system is going to run unsupervised for hours at a time.
+If, besides the alert, you want the system to cut the pump on its own when there's a fault, the `switch` node's output can trigger a `Modbus-Write` node toward a Modbus RTU relay module that interrupts power to the pump. This turns passive monitoring into active protection — recommended if the system is going to run unsupervised for hours at a time. To cut just this one pump (a single output), the [8-channel module](/en/productos/B083J24HCM) in this ranking is more than enough — the [16-channel one](/en/productos/B0CMH47846) only makes sense if the same panel is also going to control other equipment besides the pump.
 
 ## Our pick of the month
 

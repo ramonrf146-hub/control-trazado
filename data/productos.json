@@ -2076,5 +2076,55 @@
       "No subscription",
       "Real-time alerts"
     ]
+  },
+  {
+    "asin": "B083J24HCM",
+    "nombre": "Waveshare Módulo de Relé Modbus RTU 8 Canales (RS485, Industrial)",
+    "categoria": "control-industrial-b2b",
+    "precio": 41.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61T10dJIEdL._SX425_.jpg",
+    "rating": 4.8,
+    "numResenas": 28,
+    "ranking": 29,
+    "notaTecnica": "Misma familia que los módulos de 16 y 32 canales de este ranking (aislamiento óptico, magnético y TVS, relé de hasta 10A 250VAC/30VDC), pero en la versión más chica de la línea — para instalaciones pequeñas donde ni 16 ni 32 canales tienen sentido. Es el único de los tres con reseñas reales en Amazon (4.8 estrellas, 28 reseñas). La ficha no especifica el rango de voltaje de alimentación del módulo (otros Waveshare de esta familia usan DC 7-36V) — conviene confirmarlo con el vendedor antes de comprar si tu instalación tiene una fuente fija.",
+    "idealPara": "Instalaciones chicas (hasta 8 salidas) donde los módulos de 16 o 32 canales de este ranking serían un gasto innecesario.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es la versión más chica de la misma familia de módulos de relé Modbus RTU de este ranking — mismo protocolo RS485, mismas protecciones eléctricas, pero con 8 salidas en vez de 16 o 32, para proyectos que no necesitan tanta capacidad.",
+      "ejemploHogar": "Un proyecto de domótica DIY chico — por ejemplo, controlar el riego, un par de luces de exterior y un portón — que no justifica pagar por 16 o 32 canales que no vas a usar.",
+      "ejemploNegocio": "Un panel de control pequeño en una línea de producción o un cuarto de máquinas que solo necesita accionar 8 equipos distintos por Modbus, sin sobredimensionar el sistema.",
+      "puntosClave": [
+        "Tiene 28 reseñas reales (4.8 estrellas) — a diferencia de los módulos de 16 y 32 canales de este ranking, que todavía no tienen ninguna reseña en Amazon.",
+        "La ficha no especifica el rango de voltaje de alimentación (otros módulos Waveshare de esta familia usan DC 7-36V) — confirmalo con el vendedor antes de comprar si tu fuente de alimentación es fija.",
+        "Incluye función de encendido/apagado temporizado (flash-on/flash-off) por comando, útil para activar un relé por un tiempo fijo sin lógica extra en el controlador."
+      ],
+      "consejoInversion": "A $41.99 cuesta más por canal que el de 16 canales de este ranking ($63.35÷16 ≈ $3.96/canal vs. $41.99÷8 ≈ $5.25/canal), pero es la única opción de las tres con historial real de compradores — si tu instalación es chica y preferís no ser el primero en probar un módulo sin reseñas, el costo extra por canal se justifica."
+    },
+    "tags": [
+      "8 canales",
+      "RS485 Modbus RTU",
+      "Aislamiento óptico"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B083J24HCM?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-08",
+    "nombreEn": "Waveshare Modbus RTU Relay Module 8 Channels (RS485, Industrial)",
+    "notaTecnicaEn": "Same family as the 16- and 32-channel modules in this ranking (optical, magnetic and TVS isolation, relay rated up to 10A 250VAC/30VDC), but the smallest version of the line — for small installations where neither 16 nor 32 channels make sense. It is the only one of the three with real reviews on Amazon (4.8 stars, 28 reviews). The listing does not state the module's supply voltage range (other Waveshare modules in this family use DC 7-36V) — worth confirming with the seller before buying if your installation has a fixed power source.",
+    "idealParaEn": "Small installations (up to 8 outputs) where the 16- or 32-channel modules in this ranking would be an unnecessary expense.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It is the smallest version of the same family of Modbus RTU relay modules in this ranking — same RS485 protocol, same electrical protections, but with 8 outputs instead of 16 or 32, for projects that do not need that much capacity.",
+      "ejemploHogar": "A small DIY home-automation project — for example, controlling irrigation, a couple of outdoor lights, and a gate — that does not justify paying for 16 or 32 channels you will not use.",
+      "ejemploNegocio": "A small control panel on a production line or equipment room that only needs to switch 8 different devices over Modbus, without oversizing the system.",
+      "puntosClave": [
+        "It has 28 real reviews (4.8 stars) — unlike the 16- and 32-channel modules in this ranking, which do not have any reviews on Amazon yet.",
+        "The listing does not state the supply voltage range (other Waveshare modules in this family use DC 7-36V) — confirm it with the seller before buying if your power source is fixed.",
+        "Includes a timed on/off function (flash-on/flash-off) by command, useful for activating a relay for a fixed time without extra logic in the controller."
+      ],
+      "consejoInversion": "At $41.99 it costs more per channel than the 16-channel module in this ranking ($63.35÷16 ≈ $3.96/channel vs. $41.99÷8 ≈ $5.25/channel), but it is the only one of the three with a real buyer track record — if your installation is small and you would rather not be the first to try a module with no reviews, the extra cost per channel is justified."
+    },
+    "tagsEn": [
+      "8 channels",
+      "RS485 Modbus RTU",
+      "Optical isolation"
+    ]
   }
 ]
