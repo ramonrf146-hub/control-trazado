@@ -45,7 +45,7 @@ Si tu arrancador o VFD tiene salida RS485/Modbus, podés leer sus parámetros (c
 
 ## Nuestra recomendación del mes
 
-Mirá el ranking completo de [Control Industrial B2B](/categorias/control-industrial-b2b) — ahí podés comparar arrancadores suaves, VFDs y todo el hardware de tablero (riel DIN, protecciones, cableado) que mencionamos en esta guía, con nuestra nota técnica en cada uno.
+Mirá el ranking completo de [Control Industrial B2B](/categorias/control-industrial-b2b) — ahí podés comparar arrancadores suaves, VFDs y todo el hardware de tablero (riel DIN, protecciones, cableado) que mencionamos en esta guía, con nuestra nota técnica en cada uno. Si todavía estás decidiendo qué tipo de VFD te conviene antes de llegar a esta instalación puntual, la guía [cómo elegir un variador de frecuencia](/articulos/como-elegir-variador-de-frecuencia-vfd) cubre el criterio general (monofásico vs. trifásico, V/F vs. vectorial). Para el armado físico del tablero paso a paso (riel, terminales, topes, canaleta), la guía [cómo armar un tablero eléctrico industrial](/articulos/como-armar-tablero-electrico-industrial) profundiza en cada pieza. Y si vas a monitorear el VFD por RS485/Modbus como en el paso 6, la [guía rápida de RS485 y Modbus](/articulos/guia-rapida-rs485-modbus) explica los errores más comunes de cableado antes de que te topes con ellos.
 
 ## Preguntas frecuentes
 

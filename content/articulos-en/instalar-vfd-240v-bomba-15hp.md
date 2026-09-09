@@ -45,7 +45,7 @@ If your starter or VFD has an RS485/Modbus output, you can read its parameters (
 
 ## Our pick of the month
 
-Check out the full [Industrial Control (B2B)](/en/categorias/control-industrial-b2b) ranking — there you can compare soft starters, VFDs, and all the panel hardware (DIN rail, protections, wiring) mentioned in this guide, with our technical note on each one.
+Check out the full [Industrial Control (B2B)](/en/categorias/control-industrial-b2b) ranking — there you can compare soft starters, VFDs, and all the panel hardware (DIN rail, protections, wiring) mentioned in this guide, with our technical note on each one. If you're still deciding which type of VFD fits before getting to this specific installation, the [how to choose a VFD](/en/articulos/como-elegir-variador-de-frecuencia-vfd) guide covers the general criteria (single-phase vs. three-phase, V/F vs. vector). For the physical panel build step by step (rail, terminals, end stops, duct), the [how to build an industrial electrical panel](/en/articulos/como-armar-tablero-electrico-industrial) guide goes deeper on each part. And if you'll monitor the VFD over RS485/Modbus like in step 6, the [quick guide to RS485 and Modbus](/en/articulos/guia-rapida-rs485-modbus) covers the most common wiring mistakes before you run into them.
 
 ## Frequently asked questions
 

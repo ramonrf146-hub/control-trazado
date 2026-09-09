@@ -57,7 +57,7 @@ Del otro lado, el [Linkind Matter Smart Plug](/productos/B0C36WXGP1) es justamen
 
 ## Nuestra recomendación del mes
 
-Mirá el ranking de [Automatización y Hogar Inteligente](/categorias/automatizacion-hogar-inteligente) — en cada ficha marcamos explícitamente cuando encontramos inconsistencias de amperaje o falta de protección incorporada, para que no dependas solo de la certificación del título.
+Mirá el ranking de [Automatización y Hogar Inteligente](/categorias/automatizacion-hogar-inteligente) — en cada ficha marcamos explícitamente cuando encontramos inconsistencias de amperaje o falta de protección incorporada, para que no dependas solo de la certificación del título. Si estás armando un tablero con contactores o disyuntores como los de este artículo, la guía [cómo armar un tablero eléctrico industrial](/articulos/como-armar-tablero-electrico-industrial) cubre el resto de las piezas (riel DIN, terminales, canaleta) que van alrededor de esa protección.
 
 ## Preguntas frecuentes
 

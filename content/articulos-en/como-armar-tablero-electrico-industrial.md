@@ -47,7 +47,7 @@ A common case: the panel feeds thermostats, relays, or gas valves in a classic H
 
 ## Our pick this month
 
-If you also need to communicate with this equipment over Modbus/RS485, the [quick guide to RS485 and Modbus](/en/articulos/guia-rapida-rs485-modbus) covers exactly the next step. Check the full [Industrial Control (B2B)](/en/categorias/control-industrial-b2b) ranking to compare current prices for each part.
+If you also need to communicate with this equipment over Modbus/RS485, the [quick guide to RS485 and Modbus](/en/articulos/guia-rapida-rs485-modbus) covers exactly the next step. If the panel you're building controls a motor with a VFD or soft starter, the [installing a 240V VFD for a 15HP pump](/en/articulos/instalar-vfd-240v-bomba-15hp) guide shows a full build example using these same parts. Check the full [Industrial Control (B2B)](/en/categorias/control-industrial-b2b) ranking to compare current prices for each part.
 
 ## Frequently asked questions
 

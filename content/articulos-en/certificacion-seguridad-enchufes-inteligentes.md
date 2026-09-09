@@ -57,7 +57,7 @@ On the other hand, the [Linkind Matter Smart Plug](/en/productos/B0C36WXGP1) is 
 
 ## Our pick of the month
 
-Check out the [Home Automation & Smart Home](/en/categorias/automatizacion-hogar-inteligente) ranking — on every listing we explicitly flag when we find amperage inconsistencies or missing built-in protection, so you don't have to rely on the title's certification alone.
+Check out the [Home Automation & Smart Home](/en/categorias/automatizacion-hogar-inteligente) ranking — on every listing we explicitly flag when we find amperage inconsistencies or missing built-in protection, so you don't have to rely on the title's certification alone. If you're building a panel with contactors or breakers like the ones in this article, the [how to build an industrial electrical panel](/en/articulos/como-armar-tablero-electrico-industrial) guide covers the rest of the parts (DIN rail, terminals, duct) that go around that protection.
 
 ## Frequently asked questions
 

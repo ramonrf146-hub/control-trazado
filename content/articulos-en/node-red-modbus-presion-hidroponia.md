@@ -9,7 +9,7 @@ In a hydroponic system, a pump running dry or a clogged drip line can ruin a cro
 
 ## 1. What Modbus RTU is, in plain terms
 
-Modbus is the "language" most industrial sensors speak to report their data — like a shared phone line where each device has its own extension number. RTU is the variant that travels over an RS485 bus: a pair of wires over which several sensors can talk to a single computer, with no need for a separate cable for each one.
+Modbus is the "language" most industrial sensors speak to report their data — like a shared phone line where each device has its own extension number. RTU is the variant that travels over an RS485 bus: a pair of wires over which several sensors can talk to a single computer, with no need for a separate cable for each one. If you've never built an RS485 bus before, the [quick guide to RS485 and Modbus](/en/articulos/guia-rapida-rs485-modbus) covers the most common wiring mistakes (reversed polarity, missing termination resistor) before you run into them here.
 
 ## 2. Parts list
 

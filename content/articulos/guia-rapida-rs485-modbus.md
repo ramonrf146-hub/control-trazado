@@ -44,7 +44,7 @@ Si necesitás soporte triple RS232/485/422 con alimentación PoE, el [gateway Wa
 
 ## Nuestra recomendación del mes
 
-Mirá el ranking de [Control Industrial B2B](/categorias/control-industrial-b2b): incluimos un gateway con soporte triple RS232/485/422 y alimentación PoE, útil tanto para instalaciones nuevas como para integrar equipo legado.
+Mirá el ranking de [Control Industrial B2B](/categorias/control-industrial-b2b): incluimos un gateway con soporte triple RS232/485/422 y alimentación PoE, útil tanto para instalaciones nuevas como para integrar equipo legado. Para un ejemplo real de lectura Modbus aplicado a un proyecto propio (no solo industrial), la guía de [Node-RED con un sensor de presión para hidroponía](/articulos/node-red-modbus-presion-hidroponia) muestra el mismo protocolo del lado del software.
 
 ## Preguntas frecuentes
 

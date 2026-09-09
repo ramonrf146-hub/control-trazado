@@ -29,7 +29,7 @@ Un VFD que vale la pena debería incluir protección contra sobrecorriente, sobr
 
 ## Nuestra recomendación del mes
 
-Mirá el ranking de [Control Industrial B2B](/categorias/control-industrial-b2b): incluimos modelos de entrada monofásica-a-trifásica para talleres sin acometida trifásica, y modelos con control vectorial para quien necesita torque a bajas RPM.
+Mirá el ranking de [Control Industrial B2B](/categorias/control-industrial-b2b): incluimos modelos de entrada monofásica-a-trifásica para talleres sin acometida trifásica, y modelos con control vectorial para quien necesita torque a bajas RPM. Si ya tenés claro qué VFD necesitás y el siguiente paso es instalarlo, la guía [instalar un VFD a 240V para una bomba de 15HP](/articulos/instalar-vfd-240v-bomba-15hp) muestra el proceso completo, protecciones incluidas.
 
 ## Preguntas frecuentes
 

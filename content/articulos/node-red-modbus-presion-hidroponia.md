@@ -9,7 +9,7 @@ En un sistema hidropónico, una bomba trabajando en seco o un goteo obstruido ar
 
 ## 1. Qué es Modbus RTU, en criollo
 
-Modbus es el "idioma" que hablan la mayoría de los sensores industriales para reportar sus datos — como un cable telefónico compartido donde cada dispositivo tiene su propio número de línea. RTU es la variante que viaja sobre un bus RS485: un par de cables por donde varios sensores pueden conversar con una sola computadora, sin necesitar un cable separado para cada uno.
+Modbus es el "idioma" que hablan la mayoría de los sensores industriales para reportar sus datos — como un cable telefónico compartido donde cada dispositivo tiene su propio número de línea. RTU es la variante que viaja sobre un bus RS485: un par de cables por donde varios sensores pueden conversar con una sola computadora, sin necesitar un cable separado para cada uno. Si nunca armaste un bus RS485 antes, la [guía rápida de RS485 y Modbus](/articulos/guia-rapida-rs485-modbus) cubre los errores de cableado más comunes (polaridad invertida, falta de resistencia de terminación) antes de que te topes con ellos acá.
 
 ## 2. Lista de materiales
 

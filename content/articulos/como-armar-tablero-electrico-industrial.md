@@ -47,7 +47,7 @@ Un caso frecuente: el tablero alimenta termostatos, relés o válvulas de gas de
 
 ## Nuestra recomendación del mes
 
-Si además necesitás comunicar estos equipos por Modbus/RS485, la [guía rápida de RS485 y Modbus](/articulos/guia-rapida-rs485-modbus) cubre justo el siguiente paso. Mirá el ranking completo de [Control Industrial B2B](/categorias/control-industrial-b2b) para comparar precios actuales de cada pieza.
+Si además necesitás comunicar estos equipos por Modbus/RS485, la [guía rápida de RS485 y Modbus](/articulos/guia-rapida-rs485-modbus) cubre justo el siguiente paso. Si el tablero que estás armando controla un motor con VFD o arrancador suave, la guía [instalar un VFD a 240V para una bomba de 15HP](/articulos/instalar-vfd-240v-bomba-15hp) muestra un ejemplo completo de armado con estas mismas piezas. Mirá el ranking completo de [Control Industrial B2B](/categorias/control-industrial-b2b) para comparar precios actuales de cada pieza.
 
 ## Preguntas frecuentes
 

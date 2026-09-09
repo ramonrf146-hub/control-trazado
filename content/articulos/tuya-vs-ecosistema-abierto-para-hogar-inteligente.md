@@ -39,7 +39,7 @@ Si estás recién empezando, tu presupuesto es ajustado, o simplemente no te imp
 
 ## Nuestra recomendación del mes
 
-Mirá el ranking de [Automatización y Hogar Inteligente](/categorias/automatizacion-hogar-inteligente): incluimos tanto opciones Tuya listas para usar como módulos con salida seca compatibles con Matter y el [coordinador Zigbee para Home Assistant](/productos/B0B6P22YJC) si preferís el ecosistema abierto — la nota técnica de cada uno indica explícitamente en cuál ecosistema queda.
+Mirá el ranking de [Automatización y Hogar Inteligente](/categorias/automatizacion-hogar-inteligente): incluimos tanto opciones Tuya listas para usar como módulos con salida seca compatibles con Matter y el [coordinador Zigbee para Home Assistant](/productos/B0B6P22YJC) si preferís el ecosistema abierto — la nota técnica de cada uno indica explícitamente en cuál ecosistema queda. Si querés entender Matter en profundidad antes de decidir, la guía [qué es Matter y por qué te conviene](/articulos/que-es-matter-hogar-inteligente) lo explica sin vueltas.
 
 ## Preguntas frecuentes
 

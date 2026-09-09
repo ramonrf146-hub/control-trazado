@@ -38,7 +38,7 @@ If you need triple RS232/485/422 support with PoE power, the [Waveshare gateway]
 
 ## Our pick of the month
 
-Check out the [Industrial Control (B2B)](/en/categorias/control-industrial-b2b) ranking: we include a gateway with triple RS232/485/422 support and PoE power, useful for both new installations and integrating legacy equipment.
+Check out the [Industrial Control (B2B)](/en/categorias/control-industrial-b2b) ranking: we include a gateway with triple RS232/485/422 support and PoE power, useful for both new installations and integrating legacy equipment. For a real example of reading Modbus applied to a DIY project (not just industrial), the [Node-RED with a hydroponics pressure sensor](/en/articulos/node-red-modbus-presion-hidroponia) guide shows the same protocol from the software side.
 
 ## Frequently asked questions
 

@@ -39,7 +39,7 @@ If you're just starting out, your budget is tight, or you simply don't mind the 
 
 ## Our pick of the month
 
-Check out the [Home Automation & Smart Home](/en/categorias/automatizacion-hogar-inteligente) ranking: we include both ready-to-use Tuya options and dry-contact modules compatible with Matter and the [Zigbee coordinator for Home Assistant](/en/productos/B0B6P22YJC) if you prefer the open ecosystem — the technical note on each one explicitly states which ecosystem it falls under.
+Check out the [Home Automation & Smart Home](/en/categorias/automatizacion-hogar-inteligente) ranking: we include both ready-to-use Tuya options and dry-contact modules compatible with Matter and the [Zigbee coordinator for Home Assistant](/en/productos/B0B6P22YJC) if you prefer the open ecosystem — the technical note on each one explicitly states which ecosystem it falls under. If you want to understand Matter in depth before deciding, the guide on [what Matter is and why it's worth it](/en/articulos/que-es-matter-hogar-inteligente) explains it plainly.
 
 ## Frequently asked questions
 

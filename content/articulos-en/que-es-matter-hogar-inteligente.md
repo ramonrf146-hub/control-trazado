@@ -67,7 +67,7 @@ Think of it as a universal data plug: instead of every brand (Tuya, Alexa, Googl
 
 ## Our pick of the month
 
-Check out the [Home Automation & Smart Home](/en/categorias/automatizacion-hogar-inteligente) ranking — we explicitly flag on every listing whether the product has Matter or depends on a closed ecosystem, so you don't have to guess. If the problem you're solving is more specific (for example, not knowing if you left the garage open), also check out [how to stop asking yourself if you closed the garage](/en/articulos/dejar-de-preguntarte-si-cerraste-el-garaje).
+Check out the [Home Automation & Smart Home](/en/categorias/automatizacion-hogar-inteligente) ranking — we explicitly flag on every listing whether the product has Matter or depends on a closed ecosystem, so you don't have to guess. If the problem you're solving is more specific (for example, not knowing if you left the garage open), also check out [how to stop asking yourself if you closed the garage](/en/articulos/dejar-de-preguntarte-si-cerraste-el-garaje). And if you want to go beyond Matter and build your own system with Home Assistant or Zigbee, the [Tuya vs. open ecosystem](/en/articulos/tuya-vs-ecosistema-abierto-para-hogar-inteligente) comparison is the logical next step.
 
 ## Frequently asked questions
 
