@@ -23,7 +23,7 @@ No alcanza con mirar la certificación — varios productos de este tipo (no sol
 
 1. **Buscá la certificación explícita** (UL, ETL, CE) en el título o las primeras fotos del listado — si no aparece en ningún lado, asumí que no la tiene.
 2. **Comparás el amperaje del título contra la ficha técnica completa** — si hay discrepancia, confiá en el número más bajo y preguntale al vendedor cuál es el correcto antes de instalar algo que dependa de ese límite.
-3. **Revisá si necesita protección aparte.** Varios contactores y relés (como los [contactores BAOMAIN](/productos/B0CGL8J44N) de este ranking) aclaran explícitamente que no traen protección de cortocircuito incorporada — necesitás sumar un fusible o térmica vos, no es opcional aunque no venga mencionado en destacado.
+3. **Revisá si necesita protección aparte.** Varios contactores y relés (como los [contactores BAOMAIN](/productos/B0CGL8J44N) de este ranking) aclaran explícitamente que no traen protección de cortocircuito incorporada — necesitás sumar un fusible o térmica vos, no es opcional aunque no venga mencionado en destacado. El [disyuntor termomagnético Chtaixi](/productos/B09TVS6X1C) de este ranking cubre justo esto — viene en varios amperajes, así que elegí el que corresponda a la carga real.
 
 <div class="not-prose my-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
 <div class="rounded-2xl border border-line-dim/60 bg-ink p-5 text-center">

@@ -2226,5 +2226,55 @@
       "4-pack",
       "Requires hub"
     ]
+  },
+  {
+    "asin": "B09TVS6X1C",
+    "nombre": "Chtaixi Disyuntor Termomagnético 32A Riel DIN (2 Polos, 120V/240V)",
+    "categoria": "control-industrial-b2b",
+    "precio": 12.87,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61fbPll9V3L._SX342_.jpg",
+    "rating": 4.8,
+    "numResenas": 607,
+    "ranking": 31,
+    "notaTecnica": "Disyuntor termomagnético simple para riel DIN — la guía de certificaciones de este catálogo señala explícitamente que varios contactores (como los BAOMAIN de este ranking) no traen protección de cortocircuito incorporada y \"necesitás sumar un fusible o térmica vos\", sin tener hasta ahora un disyuntor simple listado (el DIHOOL de este catálogo es un GFCI para 120V con neutro, un caso de uso distinto). Amazon's Choice, 4.8 estrellas, 607 reseñas, 600+ comprados el último mes. Disponible en varios amperajes (6A a 63A) al mismo precio — elegí el que corresponda a la carga real, no el que venga por defecto.",
+    "idealPara": "Sumar protección contra sobrecarga y cortocircuito a un contactor o relé que no la trae incorporada — el complemento que la guía de certificaciones de este catálogo marca como no opcional.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un disyuntor termomagnético de riel DIN — corta el circuito automáticamente si detecta sobrecarga (protección térmica, más lenta) o cortocircuito (protección magnética, casi instantánea), protegiendo el resto del circuito y el equipo aguas abajo.",
+      "ejemploHogar": "Lo instalás en el mismo riel DIN del tablero, antes del contactor o relé que no trae protección propia — así, si esa carga hace cortocircuito, el disyuntor corta antes de que el daño se extienda al resto del tablero.",
+      "ejemploNegocio": "Un tablero de control industrial lo usa como protección dedicada de cada circuito de salida, para que una falla en un equipo no tumbe todo el tablero ni dañe el cableado común.",
+      "puntosClave": [
+        "Viene en varios amperajes (6A a 63A) al mismo precio — elegí el amperaje según la corriente real de la carga que vas a proteger, no asumas que el que aparece primero es el correcto.",
+        "Es curva C (dispara entre 5 y 10 veces la corriente nominal) — pensado para cargas con pico de arranque moderado (motores chicos, transformadores), no para electrónica sensible que necesitaría curva B.",
+        "No reemplaza al disyuntor GFCI de este catálogo si tu instalación necesita protección de falla a tierra — cubre sobrecarga y cortocircuito únicamente, son protecciones distintas."
+      ],
+      "consejoInversion": "A menos de $13, es una pieza barata frente al costo de un contactor o equipo dañado por una falla sin protección — la guía de certificaciones de este catálogo ya lo marca como \"no opcional\" para contactores que no traen esta protección incorporada."
+    },
+    "tags": [
+      "Riel DIN",
+      "Termomagnético",
+      "Curva C"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B09TVS6X1C?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-08",
+    "nombreEn": "Chtaixi 32A DIN Rail Thermal-Magnetic Circuit Breaker (2-Pole, 120V/240V)",
+    "notaTecnicaEn": "A simple thermal-magnetic DIN-rail breaker — this catalog's certification guide explicitly notes that several contactors (like the BAOMAIN ones in this ranking) don't include built-in short-circuit protection and that you \"need to add a fuse or breaker yourself,\" without a simple breaker listed until now (the DIHOOL in this catalog is a GFCI for 120V with neutral, a different use case). Amazon's Choice, 4.8 stars, 607 reviews, 600+ bought in the past month. Available in several amperages (6A to 63A) at the same price — pick the one that matches your actual load, not whichever comes up first.",
+    "idealParaEn": "Adding overload and short-circuit protection to a contactor or relay that doesn't include it — the add-on this catalog's certification guide flags as not optional.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a thermal-magnetic DIN-rail breaker — it automatically cuts the circuit if it detects an overload (thermal protection, slower) or a short circuit (magnetic protection, nearly instant), protecting the rest of the circuit and the equipment downstream.",
+      "ejemploHogar": "You install it on the same DIN rail in the panel, ahead of the contactor or relay that doesn't have its own protection — that way, if that load short-circuits, the breaker trips before the damage spreads to the rest of the panel.",
+      "ejemploNegocio": "An industrial control panel uses it as dedicated protection for each output circuit, so a fault in one piece of equipment doesn't take down the whole panel or damage shared wiring.",
+      "puntosClave": [
+        "It comes in several amperages (6A to 63A) at the same price — pick the amperage based on the actual current of the load you're protecting, don't assume the first one listed is correct.",
+        "It's curve C (trips between 5 and 10 times rated current) — built for loads with a moderate startup surge (small motors, transformers), not for sensitive electronics, which would need curve B.",
+        "It doesn't replace the GFCI breaker in this catalog if your installation needs ground-fault protection — this only covers overload and short-circuit, which are different protections."
+      ],
+      "consejoInversion": "At under $13, it's a cheap part against the cost of a contactor or piece of equipment damaged by an unprotected fault — this catalog's certification guide already flags it as \"not optional\" for contactors that don't include this protection built in."
+    },
+    "tagsEn": [
+      "DIN rail",
+      "Thermal-magnetic",
+      "Curve C"
+    ]
   }
 ]

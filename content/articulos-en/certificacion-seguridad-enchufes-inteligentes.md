@@ -23,7 +23,7 @@ Certification alone isn't enough — several products of this type (not just in 
 
 1. **Look for explicit certification** (UL, ETL, CE) in the title or the first photos of the listing — if it's nowhere to be found, assume it doesn't have it.
 2. **Compare the title's amperage against the full spec sheet** — if there's a discrepancy, trust the lower number and ask the seller which one is correct before installing anything that depends on that limit.
-3. **Check whether it needs separate protection.** Several contactors and relays (like the [BAOMAIN contactors](/en/productos/B0CGL8J44N) in this ranking) explicitly state they don't include built-in short-circuit protection — you need to add a fuse or breaker yourself, it's not optional even if it isn't called out prominently.
+3. **Check whether it needs separate protection.** Several contactors and relays (like the [BAOMAIN contactors](/en/productos/B0CGL8J44N) in this ranking) explicitly state they don't include built-in short-circuit protection — you need to add a fuse or breaker yourself, it's not optional even if it isn't called out prominently. The [Chtaixi thermal-magnetic breaker](/en/productos/B09TVS6X1C) in this ranking covers exactly this — it comes in several amperages, so pick the one matching your actual load.
 
 <div class="not-prose my-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
 <div class="rounded-2xl border border-line-dim/60 bg-ink p-5 text-center">
