@@ -27,7 +27,7 @@ La curva de aprendizaje es más alta que abrir una app y tocar un botón, pero e
 
 Para entrar a este mundo con dispositivos Zigbee (que suelen ser más baratos y variados que los Matter nativos), necesitás un coordinador conectado a tu servidor de Home Assistant — el [SONOFF Zigbee 3.0 USB Dongle Plus-E](/productos/B0B6P22YJC) de este ranking es exactamente eso: le da a Home Assistant, openHAB o Zigbee2MQTT la capacidad de hablar directo con esos dispositivos sin pasar por la nube de ningún fabricante. Si no querés armar ese servidor propio, el [Linkind Matter Smart Plug](/productos/B0C36WXGP1) te da una versión "lista para usar" del mismo espíritu de ecosistema abierto, sin necesidad de configurar nada técnico — a cambio de menos margen de personalización.
 
-Una vez que tenés el coordinador, sumar sensores Zigbee es directo — por ejemplo el [SONOFF SenseGuard SNZB-03PR2](/productos/B0H2HXRNB7), un sensor de movimiento con sensor de luz que se integra al mismo hub sin agregar otro ecosistema aparte (aunque si usás el hub propio de SONOFF en vez de un coordinador USB, no necesita Home Assistant para funcionar).
+Una vez que tenés el coordinador, sumar sensores Zigbee es directo — por ejemplo el [SONOFF SenseGuard SNZB-03PR2](/productos/B0H2HXRNB7), un sensor de movimiento con sensor de luz que se integra al mismo hub sin agregar otro ecosistema aparte (aunque si usás el hub propio de SONOFF en vez de un coordinador USB, no necesita Home Assistant para funcionar). El [SONOFF SenseGuard SNZB-04PR2](/productos/B0GKFB66JZ) hace lo mismo para puertas y ventanas — viene en pack de 4, así que sirve para cubrir varias aberturas con una sola compra en vez de sumar sensores de a uno.
 
 ## Salida "dry contact" vs. enchufe integrado
 

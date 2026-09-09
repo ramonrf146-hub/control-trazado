@@ -2126,5 +2126,105 @@
       "RS485 Modbus RTU",
       "Optical isolation"
     ]
+  },
+  {
+    "asin": "B0D3H8ZGLT",
+    "nombre": "Tzone Sensor de Temperatura y Humedad Modbus RTU RS485",
+    "categoria": "control-industrial-b2b",
+    "precio": 43.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/51Ewip20hSL._SX342_.jpg",
+    "rating": 5,
+    "numResenas": 9,
+    "ranking": 30,
+    "notaTecnica": "Sensor industrial de temperatura y humedad con salida RS485/Modbus RTU, chip SHT30, carcasa IP54 para exteriores/invernadero y pantalla LCD. Se lee con los mismos nodos Modbus-Read de Node-RED que un sensor de presión, así que sirve para expandir el proyecto de monitoreo de la guía de hidroponía de este catálogo con un segundo tipo de dato (temperatura y humedad ambiente) sin cambiar de protocolo. Todavía tiene pocas reseñas (9), aunque es una marca real con tienda propia, vendida y despachada por Amazon.",
+    "idealPara": "Quien quiere sumar un segundo tipo de dato Modbus (temperatura y humedad ambiente) a un proyecto de Node-RED, además o en lugar de un sensor de presión — útil para invernaderos, cuartos de cultivo o salas de control.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un sensor industrial de temperatura y humedad con salida RS485/Modbus RTU — se lee con el mismo protocolo y los mismos nodos de Node-RED (Modbus-Read) que un sensor de presión, así que sirve para practicar o expandir un proyecto de monitoreo ambiental sin cambiar de protocolo.",
+      "ejemploHogar": "En un cuarto de cultivo o invernadero casero, lo montás en la pared y leés temperatura y humedad del aire por Modbus, en paralelo a cualquier otro sensor RS485 que ya tengas en el mismo bus.",
+      "ejemploNegocio": "Una sala de servidores, depósito o invernadero comercial lo usa para monitorear condiciones ambientales de forma centralizada, integrado al mismo sistema SCADA o Node-RED que ya lee otros equipos Modbus.",
+      "puntosClave": [
+        "Usa el chip industrial SHT30 (no un sensor genérico sin especificar) — con precisión declarada de ±0.3°C y ±2%RH, y rango de -40°C a 125°C.",
+        "Tiene solo 9 reseñas en Amazon todavía — es una marca real con tienda propia (vendido y despachado por Amazon), pero sin el historial de otros productos de este catálogo.",
+        "Permite direccionar varios sensores en el mismo bus RS485 con un switch DIP — útil si vas a sumar más de un sensor de este tipo más adelante."
+      ],
+      "consejoInversion": "A $43.99 es más caro que un sensor DHT genérico para Arduino, pero la diferencia es real: protocolo Modbus RTU industrial (no una librería casera), carcasa IP54 para exteriores/invernadero, y pantalla LCD para leer el valor sin necesitar una computadora conectada. Tiene sentido si tu proyecto ya usa RS485/Modbus para otra cosa (como el conversor USB-RS485 de este catálogo) y querés sumar el mismo protocolo, no uno nuevo."
+    },
+    "tags": [
+      "RS485",
+      "Modbus RTU",
+      "IP54"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0D3H8ZGLT?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-08",
+    "nombreEn": "Tzone Modbus RTU RS485 Temperature & Humidity Sensor",
+    "notaTecnicaEn": "An industrial temperature and humidity sensor with RS485/Modbus RTU output, SHT30 chip, IP54 housing for outdoor/greenhouse use, and an LCD display. It reads with the same Modbus-Read nodes in Node-RED as a pressure sensor, so it's a way to expand this catalog's hydroponics monitoring guide with a second type of data (ambient temperature and humidity) without switching protocols. It still has few reviews (9), though it's a real brand with its own store, sold and shipped by Amazon.",
+    "idealParaEn": "Anyone who wants to add a second type of Modbus data (ambient temperature and humidity) to a Node-RED project, in addition to or instead of a pressure sensor — useful for greenhouses, grow rooms, or control rooms.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's an industrial temperature and humidity sensor with RS485/Modbus RTU output — it reads with the same protocol and the same Node-RED nodes (Modbus-Read) as a pressure sensor, so it works to practice with or expand an environmental monitoring project without switching protocols.",
+      "ejemploHogar": "In a home grow room or greenhouse, you mount it on the wall and read air temperature and humidity over Modbus, alongside any other RS485 sensor you already have on the same bus.",
+      "ejemploNegocio": "A server room, warehouse, or commercial greenhouse uses it to centrally monitor environmental conditions, integrated into the same SCADA system or Node-RED flow that already reads other Modbus equipment.",
+      "puntosClave": [
+        "Uses the industrial SHT30 chip (not an unspecified generic sensor) — with a stated accuracy of ±0.3°C and ±2%RH, and a range of -40°C to 125°C.",
+        "It only has 9 reviews on Amazon so far — it's a real brand with its own store (sold and shipped by Amazon), but without the track record of other products in this catalog.",
+        "Lets you address multiple sensors on the same RS485 bus with a DIP switch — useful if you plan to add more than one of these sensors later."
+      ],
+      "consejoInversion": "At $43.99 it costs more than a generic DHT sensor for Arduino, but the difference is real: an industrial Modbus RTU protocol (not a homemade library), an IP54 housing for outdoor/greenhouse use, and an LCD screen to read the value without needing a connected computer. It makes sense if your project already uses RS485/Modbus for something else (like this catalog's USB-RS485 converter) and you want to add the same protocol, not a new one."
+    },
+    "tagsEn": [
+      "RS485",
+      "Modbus RTU",
+      "IP54"
+    ]
+  },
+  {
+    "asin": "B0GKFB66JZ",
+    "nombre": "SONOFF SenseGuard SNZB-04PR2 — Sensor de Puerta/Ventana Zigbee (4 unidades)",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 39.9,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/517IQkFqwNL._AC_SX425_.jpg",
+    "rating": 4.1,
+    "numResenas": 234,
+    "ranking": 16,
+    "notaTecnica": "Sensor de contacto Zigbee de la misma familia SenseGuard que el sensor de movimiento de este catálogo — se integra al mismo coordinador SONOFF ya listado para Home Assistant, o a un hub compatible para Alexa/SmartThings. Amazon's Choice, 234 reseñas, viene en pack de 4 unidades (no de a una). Requiere sí o sí un hub o coordinador Zigbee — no funciona standalone ni por WiFi directo.",
+    "idealPara": "Quien ya tiene o va a comprar el coordinador Zigbee de este catálogo y quiere monitorear varias puertas/ventanas a la vez — viene en pack de 4, no de a uno.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un sensor de contacto que detecta si una puerta o ventana está abierta o cerrada, y avisa al celular en tiempo real — sirve tanto para seguridad (alguien abrió sin avisar) como para automatización (por ejemplo, apagar el aire acondicionado si una ventana queda abierta).",
+      "ejemploHogar": "Lo instalás en la puerta de entrada o una ventana que se suele dejar abierta sin querer, y programás una alerta al celular o una automatización (como apagar el A/C) si queda abierta más de X minutos.",
+      "ejemploNegocio": "Un local puede monitorear puertas de depósito o accesos secundarios fuera de horario, recibiendo alerta inmediata si alguien las abre cuando no debería haber movimiento.",
+      "puntosClave": [
+        "Necesita un hub o coordinador Zigbee para funcionar — se integra directo con el coordinador SONOFF de este catálogo para Home Assistant, o con un hub compatible para Alexa/SmartThings.",
+        "Viene en pack de 4 unidades, no de a una — pensalo para cubrir varias puertas/ventanas de una sola compra, no como sensor individual.",
+        "Tiene alerta de sabotaje (tamper) además de apertura/cierre — avisa si alguien intenta quitar el sensor de su lugar, no solo si la puerta se abre."
+      ],
+      "consejoInversion": "A $39.90 por 4 unidades (~$10 cada una), es un complemento barato para quien ya invirtió en el coordinador Zigbee de este catálogo — sumás seguridad y automatización de varias aberturas sin pagar por un sistema cerrado de otra marca."
+    },
+    "tags": [
+      "Zigbee",
+      "Pack de 4",
+      "Requiere hub"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0GKFB66JZ?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-08",
+    "nombreEn": "SONOFF SenseGuard SNZB-04PR2 — Zigbee Door/Window Sensor (4-Pack)",
+    "notaTecnicaEn": "A Zigbee contact sensor from the same SenseGuard family as the motion sensor in this catalog — it integrates with the same SONOFF coordinator already listed for Home Assistant, or with a compatible hub for Alexa/SmartThings. Amazon's Choice, 234 reviews, comes in a 4-pack (not sold individually). It requires a Zigbee hub or coordinator to work — it doesn't function standalone or over direct WiFi.",
+    "idealParaEn": "Anyone who already has or is going to buy the Zigbee coordinator in this catalog and wants to monitor several doors/windows at once — it comes in a 4-pack, not individually.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a contact sensor that detects whether a door or window is open or closed, and alerts your phone in real time — useful both for security (someone opened it without you knowing) and automation (for example, turning off the AC if a window is left open).",
+      "ejemploHogar": "You install it on the front door or a window that tends to get left open by accident, and set up a phone alert or an automation (like turning off the AC) if it stays open for more than X minutes.",
+      "ejemploNegocio": "A store can monitor storage room doors or secondary entrances after hours, getting an immediate alert if someone opens them when there shouldn't be any activity.",
+      "puntosClave": [
+        "It needs a Zigbee hub or coordinator to work — it integrates directly with this catalog's SONOFF coordinator for Home Assistant, or with a compatible hub for Alexa/SmartThings.",
+        "It comes in a 4-pack, not individually — think of it as covering several doors/windows in one purchase, not as a single sensor.",
+        "It has tamper-alert on top of open/close detection — it warns you if someone tries to remove the sensor from its spot, not just if the door opens."
+      ],
+      "consejoInversion": "At $39.90 for 4 units (~$10 each), it's a cheap add-on for anyone who's already invested in this catalog's Zigbee coordinator — you add security and automation across several openings without paying for another brand's closed system."
+    },
+    "tagsEn": [
+      "Zigbee",
+      "4-pack",
+      "Requires hub"
+    ]
   }
 ]

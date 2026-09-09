@@ -13,7 +13,8 @@ Modbus is the "language" most industrial sensors speak to report their data — 
 
 ## 2. Parts list
 
-- **Modbus RTU pressure sensor:** this is the one part not currently in our curated catalog — look for one with an RS485/Modbus RTU output and a pressure range that matches your pump (most home hydroponic systems run below 60 PSI). As soon as we add a verified one to the category, you'll find it in the [Industrial Control (B2B)](/en/categorias/control-industrial-b2b) ranking.
+- **Modbus RTU pressure sensor:** this specific part isn't verified in our catalog yet — the options we found on Amazon are from generic brands with no reviews or clear specs, so we'd rather not recommend one blindly. Look for one with an RS485/Modbus RTU output and a pressure range that matches your pump (most home hydroponic systems run below 60 PSI).
+- **If instead you want to monitor ambient temperature and humidity** (useful in a greenhouse or grow room, in addition to or instead of pressure), the [Tzone RS485/Modbus RTU sensor](/en/productos/B0D3H8ZGLT) in this ranking uses the same protocol and the same Node-RED nodes as a pressure sensor — good for practicing the full flow while a reliable pressure option shows up.
 - **USB to RS485 converter:** so your computer (running Node-RED) can talk to the sensor. We use the [Waveshare converter with FT232RL chipset](/en/productos/B0B7MMSQXL) — it avoids the driver issues typical of generic clones.
 - **Power supply (if the sensor needs one separately):** a [DIN-rail 5V supply](/en/productos/B0BY476TB8) is enough for low-consumption sensors.
 

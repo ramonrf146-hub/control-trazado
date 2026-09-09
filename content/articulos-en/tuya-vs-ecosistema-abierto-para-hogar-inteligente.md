@@ -27,7 +27,7 @@ The learning curve is steeper than opening an app and tapping a button, but it's
 
 To get into this world with Zigbee devices (which tend to be cheaper and more varied than native Matter ones), you need a coordinator connected to your Home Assistant server — the [SONOFF Zigbee 3.0 USB Dongle Plus-E](/en/productos/B0B6P22YJC) in this ranking is exactly that: it gives Home Assistant, openHAB, or Zigbee2MQTT the ability to talk directly to those devices without going through any manufacturer's cloud. If you'd rather not build that server yourself, the [Linkind Matter Smart Plug](/en/productos/B0C36WXGP1) gives you a "ready to use" version of that same open-ecosystem spirit, with nothing technical to configure — in exchange for less room to customize.
 
-Once you have the coordinator, adding Zigbee sensors is straightforward — for example the [SONOFF SenseGuard SNZB-03PR2](/en/productos/B0H2HXRNB7), a motion sensor with a light sensor that integrates into the same hub with no extra ecosystem to add (though if you use SONOFF's own hub instead of a USB coordinator, it doesn't need Home Assistant to work).
+Once you have the coordinator, adding Zigbee sensors is straightforward — for example the [SONOFF SenseGuard SNZB-03PR2](/en/productos/B0H2HXRNB7), a motion sensor with a light sensor that integrates into the same hub with no extra ecosystem to add (though if you use SONOFF's own hub instead of a USB coordinator, it doesn't need Home Assistant to work). The [SONOFF SenseGuard SNZB-04PR2](/en/productos/B0GKFB66JZ) does the same for doors and windows — it comes in a 4-pack, so it covers several openings in one purchase instead of adding sensors one at a time.
 
 ## Dry-contact output vs. built-in plug
 

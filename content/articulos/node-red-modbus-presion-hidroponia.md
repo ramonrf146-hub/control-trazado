@@ -13,7 +13,8 @@ Modbus es el "idioma" que hablan la mayoría de los sensores industriales para r
 
 ## 2. Lista de materiales
 
-- **Sensor de presión Modbus RTU:** esta es la única pieza que hoy no tenemos en nuestro catálogo curado — buscá uno con salida RS485/Modbus RTU y rango de presión acorde a tu bomba (la mayoría de sistemas hidropónicos domésticos trabajan por debajo de 60 PSI). Apenas sumemos uno verificado a la categoría, lo vas a encontrar en el [ranking de Control Industrial B2B](/categorias/control-industrial-b2b).
+- **Sensor de presión Modbus RTU:** esta pieza específica todavía no la tenemos verificada en el catálogo — las opciones que encontramos en Amazon son de marcas genéricas sin reseñas ni especificaciones claras, así que preferimos no recomendarte una a ciegas. Buscá uno con salida RS485/Modbus RTU y rango de presión acorde a tu bomba (la mayoría de sistemas hidropónicos domésticos trabajan por debajo de 60 PSI).
+- **Si en cambio querés monitorear temperatura y humedad del ambiente** (útil en un invernadero o cuarto de cultivo, además o en vez de la presión), el [sensor Tzone RS485/Modbus RTU](/productos/B0D3H8ZGLT) de este ranking usa el mismo protocolo y los mismos nodos de Node-RED que un sensor de presión — sirve para practicar el flujo completo mientras aparece una opción de presión confiable.
 - **Conversor USB a RS485:** para que tu computadora (donde corre Node-RED) pueda hablarle al sensor. Usamos el [conversor Waveshare con chipset FT232RL](/productos/B0B7MMSQXL) — evita los problemas de drivers típicos de los clones genéricos.
 - **Fuente de alimentación (si el sensor la necesita aparte):** una [fuente riel DIN 5V](/productos/B0BY476TB8) alcanza para sensores de bajo consumo.
 
