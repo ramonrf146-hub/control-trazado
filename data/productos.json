@@ -2276,5 +2276,56 @@
       "Thermal-magnetic",
       "Curve C"
     ]
+  },
+  {
+    "asin": "B0CWLHSKYC",
+    "nombre": "Aqara Smart Home Hub M3 — Controlador Matter y Thread Border Router",
+    "nombreEn": "Aqara Smart Home Hub M3 — Matter Controller & Thread Border Router",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 143.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61sFQ557qNL._SX342_.jpg",
+    "rating": 4.0,
+    "numResenas": 1679,
+    "ranking": 17,
+    "notaTecnica": "Hub multi-protocolo (Matter, Thread Border Router, Zigbee, WiFi, Bluetooth, IR) — la guía de Matter y la comparación Tuya vs. ecosistema abierto de este catálogo mencionan varias veces que para usar un enchufe Matter con Alexa/Google/Apple Home hace falta 'un hub Matter (HomePod, Echo, Nest)', sin tener hasta ahora una opción propia, neutral, listada. A diferencia de esos hubs de las Big Tech, este además actúa de puente Zigbee (compatible con Home Assistant) e IR. Soporta PoE. 1.679 valoraciones, 4.0 estrellas.",
+    "notaTecnicaEn": "Multi-protocol hub (Matter, Thread Border Router, Zigbee, WiFi, Bluetooth, IR) — this catalog's Matter guide and the Tuya vs. open-ecosystem comparison both mention that using a Matter plug with Alexa/Google/Apple Home requires 'a Matter hub (HomePod, Echo, Nest)', without a neutral, standalone option listed until now. Unlike those Big Tech hubs, this one also bridges Zigbee (works with Home Assistant) and IR. Supports PoE. 1,679 ratings, 4.0 stars.",
+    "idealPara": "Quien ya tiene o va a sumar dispositivos Matter de distintas marcas y no quiere depender de un HomePod, Echo o Nest como único hub, o quiere además integrar dispositivos Zigbee/IR en el mismo lugar.",
+    "idealParaEn": "Anyone who already has, or plans to add, Matter devices from different brands and doesn't want to rely on a HomePod, Echo, or Nest as the only hub, or who also wants to bring Zigbee/IR devices into the same place.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un 'traductor universal' de hogar inteligente: un dispositivo que entiende varios idiomas de comunicación (Matter, Thread, Zigbee, WiFi, Bluetooth, IR) y los conecta entre sí, para que no dependas de que Alexa, Google o Apple sean los únicos que puedan 'traducir' tus dispositivos Matter.",
+      "ejemploHogar": "Lo conectás una vez a tu router y a partir de ahí sumás enchufes, sensores o focos Matter de cualquier marca sin necesitar comprar un altavoz inteligente (HomePod, Echo) solo para que haga de hub.",
+      "ejemploNegocio": "Un integrador de hogar inteligente lo usa en instalaciones donde el cliente no quiere atarse a un ecosistema de Big Tech en particular (Amazon, Google o Apple) — el hub queda neutral y sigue funcionando aunque el cliente cambie de asistente de voz más adelante.",
+      "puntosClave": [
+        "Confirmá que necesitás específicamente un Thread Border Router y no solo un hub Matter — si tus dispositivos son Matter sobre WiFi (como el Linkind de este catálogo), un HomePod, Echo o Nest ya alcanza y este hub sería un gasto de más.",
+        "Soporta Power over Ethernet (PoE) como opción — si tu tablero o rack ya tiene switch PoE, evitás sumar otra fuente de alimentación aparte.",
+        "También hace de coordinador Zigbee, pero no reemplaza al dongle USB de este catálogo si tu proyecto corre 100% sobre Home Assistant/Zigbee2MQTT — ahí el dongle te da más control directo."
+      ],
+      "consejoInversion": "Cuesta más que un Echo o HomePod usado solo como hub, pero no viene con un altavoz que no necesitás ni te ata a comprar todo lo demás de esa misma marca — para quien realmente va a mezclar dispositivos Matter, Zigbee e IR de varios fabricantes, pagar por un hub neutral sale más barato en el tiempo que ir chocando con las limitaciones de un hub cerrado."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a 'universal translator' for the smart home: a device that understands several communication languages (Matter, Thread, Zigbee, WiFi, Bluetooth, IR) and connects them, so you don't have to rely on Alexa, Google, or Apple being the only ones able to 'translate' your Matter devices.",
+      "ejemploHogar": "You connect it once to your router, and from there you add Matter plugs, sensors, or bulbs from any brand without needing to buy a smart speaker (HomePod, Echo) just to act as a hub.",
+      "ejemploNegocio": "A smart-home integrator uses it on installations where the client doesn't want to be locked into one Big Tech ecosystem (Amazon, Google, or Apple) — the hub stays neutral and keeps working even if the client switches voice assistants later.",
+      "puntosClave": [
+        "Confirm you specifically need a Thread Border Router and not just a Matter hub — if your devices are Matter-over-WiFi (like this catalog's Linkind plug), a HomePod, Echo, or Nest is already enough, and this hub would be overkill.",
+        "Supports Power over Ethernet (PoE) as an option — if your panel or rack already has a PoE switch, you skip adding another power supply.",
+        "It also works as a Zigbee coordinator, but it doesn't replace this catalog's USB dongle if your project runs entirely on Home Assistant/Zigbee2MQTT — the dongle gives you more direct control there."
+      ],
+      "consejoInversion": "It costs more than an Echo or HomePod used only as a hub, but it doesn't come with a speaker you don't need, and it doesn't lock you into buying everything else from that same brand — for anyone actually mixing Matter, Zigbee, and IR devices from several manufacturers, paying for a neutral hub ends up cheaper over time than running into a closed hub's limits."
+    },
+    "tags": [
+      "Matter",
+      "Thread Border Router",
+      "Zigbee"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0CWLHSKYC?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-09",
+    "activo": true,
+    "tagsEn": [
+      "Matter",
+      "Thread Border Router",
+      "Zigbee"
+    ]
   }
 ]

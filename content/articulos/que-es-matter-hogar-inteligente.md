@@ -47,11 +47,17 @@ Pensalo como un enchufe universal de datos: en vez de que cada marca (Tuya, Alex
 ## 3. Cuáles de este ranking tienen Matter (y cuáles no)
 
 - El [SONOFF WiFi MINI-D](/productos/B0DGXMZ9GD) sí es compatible con Matter — podés sumarlo a cualquier hub sin depender de la app Tuya/eWeLink, aunque es de salida seca (necesita cablearse dentro de una caja o tablero).
-- El [Linkind Matter Smart Plug](/productos/B0C36WXGP1) es la versión "enchufar y listo": Matter de fábrica, certificado ETL, sin cablear nada — necesitás un hub Matter (HomePod, Echo, Nest) para usarlo con Apple Home/Alexa/Google Home, o la app propia si todavía no tenés uno.
+- El [Linkind Matter Smart Plug](/productos/B0C36WXGP1) es la versión "enchufar y listo": Matter de fábrica, certificado ETL, sin cablear nada — necesitás un hub Matter (HomePod, Echo, Nest) para usarlo con Apple Home/Alexa/Google Home, o la app propia si todavía no tenés uno. Si no querés depender de un altavoz de Amazon, Google o Apple solo para tener ese hub, el [Aqara Hub M3](/productos/B0CWLHSKYC) cumple la misma función de forma neutral — y de paso suma Thread Border Router, Zigbee e IR en el mismo equipo.
 - El [Google Nest Thermostat](/productos/B08HRPDBFF) también soporta Matter, además de Google Assistant nativo.
 - El [GHome Dual Smart Plug](/productos/B0D7MLMCXR) y el [GHome Smart Mini Enchufe](/productos/B0FD6CYBNH) **no** tienen Matter — corren en el ecosistema cerrado de Tuya, así que dependés de esa app.
 - El [roborock Q7 L5](/productos/B0F334DN9J) y la [cerradura Wyze Auto-Lock Bolt](/productos/B09R38VVXF) tampoco tienen Matter — el robot se controla por la app propia de Roborock, y la cerradura es Bluetooth con su propio bridge opcional. Son buenos ejemplos de categorías (aspiradoras, cerraduras) donde Matter todavía no es lo más común, a diferencia de enchufes y sensores.
 - El [foco Amazon Basics](/productos/B0CG5VDC8P) es un caso especial: funciona **exclusivamente** con Alexa, ni siquiera es multi-ecosistema sin Matter — si tu casa usa Google Home o Apple Home, directamente no te sirve.
+
+## El hub neutral, en video
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/JT9Hx3TZqGw" title="Is the Aqara Smart Hub M3 Worth It in 2026?" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## 4. Cómo confirmarlo antes de comprar cualquier otro producto
 
