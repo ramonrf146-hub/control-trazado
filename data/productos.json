@@ -2327,5 +2327,56 @@
       "Thread Border Router",
       "Zigbee"
     ]
+  },
+  {
+    "asin": "B0G25F5XC1",
+    "nombre": "Aqara Smart Thermostat W200 — Con Radar de Presencia y Pantalla Táctil",
+    "nombreEn": "Aqara Smart Thermostat W200 — Built-In Presence Radar & Touchscreen",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 159.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61ZR0xzgXbL._AC_UL320_.jpg",
+    "rating": 4.2,
+    "numResenas": 221,
+    "ranking": 18,
+    "notaTecnica": "A diferencia del Google Nest Thermostat de este ranking, este trae un radar de presencia integrado (detecta si hay alguien en la habitación, no solo usa un horario fijo) y una pantalla táctil de 4\" que además funciona como controlador Matter propio — no depende de un hub externo para servir de traductor Matter, aunque se integra mejor todavía si ya tenés el Aqara Hub M3 de este catálogo. Cuesta más que el Nest, pero suma sensor de presencia y hace de hub por sí mismo.",
+    "notaTecnicaEn": "Unlike this ranking's Google Nest Thermostat, this one has a built-in presence radar (detects if someone's actually in the room, not just a fixed schedule) and a 4\" touchscreen that also works as its own Matter controller — it doesn't need an external hub to act as a Matter translator, though it integrates even better if you already have this catalog's Aqara Hub M3. Costs more than the Nest, but adds a presence sensor and works as a hub on its own.",
+    "idealPara": "Quien quiere climatización basada en presencia real (no solo horario) y no le molesta pagar más por sumar pantalla táctil y un controlador Matter propio en el mismo equipo.",
+    "idealParaEn": "Anyone who wants climate control based on real presence (not just a schedule) and doesn't mind paying more to get a touchscreen and its own Matter controller in the same device.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un termostato inteligente como el Nest de este ranking, pero con dos cosas más: un \"radar de presencia\" (una versión de radar en miniatura, como el que usan los autos para detectar obstáculos, pero acá detecta si hay una persona en el cuarto) y una pantallita táctil de 4 pulgadas para manejarlo sin usar el celular. Además, es \"controlador Matter\": pensalo como un traductor universal incorporado — no necesita otro aparato aparte para hablar el idioma común que entienden Alexa, Google Home y Apple Home.",
+      "ejemploHogar": "En vez de programar \"apagate a las 9am porque ahí me voy a trabajar\" (que falla si un día te quedás en casa), el radar detecta que el cuarto está vacío y ajusta solo — sin depender de que el horario que programaste hace meses siga siendo el real.",
+      "ejemploNegocio": "En una sala de reuniones o un consultorio chico, el radar de presencia evita que el aire acondicionado quede prendido a máquina cuando la sala está vacía entre turnos, sin que nadie tenga que acordarse de apagarlo manualmente.",
+      "puntosClave": [
+        "Igual que el Nest, se conecta al cableado de tu sistema de HVAC (no es plug&play) — revisá la compatibilidad de tu instalación (algunos sistemas piden un cable C adicional) antes de comprar.",
+        "Funciona solo, pero da su mejor versión integrado a un hub Aqara o Matter existente (como el Aqara Hub M3 de este catálogo) para sincronizar automatizaciones entre varios cuartos.",
+        "Es más caro que el Nest de este ranking — el sobreprecio se justifica si valorás el radar de presencia y la pantalla táctil; si no, el Nest resuelve lo básico por menos plata."
+      ],
+      "consejoInversion": "El ahorro de energía de un termostato con horario fijo depende de que ese horario siga siendo verdad todos los días — el radar de presencia ajusta la climatización al uso real del cuarto, así que sigue ahorrando incluso los días en que tu rutina cambia, algo que un termostato programado (o uno genérico sin sensor) no puede hacer."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a smart thermostat like this ranking's Nest, but with two extras: a \"presence radar\" (a miniature version of the radar cars use to detect obstacles, but here it detects whether a person is in the room) and a 4-inch touchscreen so you can control it without your phone. It's also its own \"Matter controller\": think of it as a built-in universal translator — it doesn't need a separate device to speak the common language that Alexa, Google Home, and Apple Home understand.",
+      "ejemploHogar": "Instead of scheduling \"turn off at 9am because that's when I leave for work\" (which fails the day you stay home), the radar detects the room is empty and adjusts on its own — without depending on a schedule you set months ago still being accurate.",
+      "ejemploNegocio": "In a small meeting room or consulting office, the presence radar keeps the AC from running at full blast when the room is empty between appointments, without anyone having to remember to turn it off manually.",
+      "puntosClave": [
+        "Like the Nest, it connects to your HVAC system's wiring (not plug-and-play) — check your system's compatibility (some setups need an extra C-wire) before buying.",
+        "It works standalone, but it's at its best paired with an existing Aqara or Matter hub (like this catalog's Aqara Hub M3) to sync automations across several rooms.",
+        "It costs more than this ranking's Nest — that extra cost is worth it if you value the presence radar and touchscreen; if not, the Nest covers the basics for less money."
+      ],
+      "consejoInversion": "The energy savings from a fixed-schedule thermostat only hold up if that schedule stays accurate every day — presence radar adjusts climate control to the room's actual use, so it keeps saving energy even on days your routine changes, something a scheduled (or sensor-less generic) thermostat can't do."
+    },
+    "tags": [
+      "Matter",
+      "Radar de presencia",
+      "Pantalla táctil"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0G25F5XC1?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-10",
+    "activo": true,
+    "tagsEn": [
+      "Matter",
+      "Presence radar",
+      "Touchscreen"
+    ]
   }
 ]

@@ -48,7 +48,7 @@ Pensalo como un enchufe universal de datos: en vez de que cada marca (Tuya, Alex
 
 - El [SONOFF WiFi MINI-D](/productos/B0DGXMZ9GD) sí es compatible con Matter — podés sumarlo a cualquier hub sin depender de la app Tuya/eWeLink, aunque es de salida seca (necesita cablearse dentro de una caja o tablero).
 - El [Linkind Matter Smart Plug](/productos/B0C36WXGP1) es la versión "enchufar y listo": Matter de fábrica, certificado ETL, sin cablear nada — necesitás un hub Matter (HomePod, Echo, Nest) para usarlo con Apple Home/Alexa/Google Home, o la app propia si todavía no tenés uno. Si no querés depender de un altavoz de Amazon, Google o Apple solo para tener ese hub, el [Aqara Hub M3](/productos/B0CWLHSKYC) cumple la misma función de forma neutral — y de paso suma Thread Border Router, Zigbee e IR en el mismo equipo.
-- El [Google Nest Thermostat](/productos/B08HRPDBFF) también soporta Matter, además de Google Assistant nativo.
+- El [Google Nest Thermostat](/productos/B08HRPDBFF) también soporta Matter, además de Google Assistant nativo. Si te interesa ir más allá del horario fijo, el [Aqara Smart Thermostat W200](/productos/B0G25F5XC1) es la alternativa premium: suma radar de presencia (ajusta la climatización según si hay alguien realmente en el cuarto, no solo según el horario programado) y pantalla táctil, y además es su propio controlador Matter — no necesita un hub aparte, aunque se lleva mejor todavía con el [Aqara Hub M3](/productos/B0CWLHSKYC) si ya lo tenés. Cuesta más que el Nest, así que conviene solo si ese sensor de presencia te resuelve algo real.
 - El [GHome Dual Smart Plug](/productos/B0D7MLMCXR) y el [GHome Smart Mini Enchufe](/productos/B0FD6CYBNH) **no** tienen Matter — corren en el ecosistema cerrado de Tuya, así que dependés de esa app.
 - El [roborock Q7 L5](/productos/B0F334DN9J) y la [cerradura Wyze Auto-Lock Bolt](/productos/B09R38VVXF) tampoco tienen Matter — el robot se controla por la app propia de Roborock, y la cerradura es Bluetooth con su propio bridge opcional. Son buenos ejemplos de categorías (aspiradoras, cerraduras) donde Matter todavía no es lo más común, a diferencia de enchufes y sensores.
 - El [foco Amazon Basics](/productos/B0CG5VDC8P) es un caso especial: funciona **exclusivamente** con Alexa, ni siquiera es multi-ecosistema sin Matter — si tu casa usa Google Home o Apple Home, directamente no te sirve.
@@ -57,6 +57,12 @@ Pensalo como un enchufe universal de datos: en vez de que cada marca (Tuya, Alex
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JT9Hx3TZqGw" title="Is the Aqara Smart Hub M3 Worth It in 2026?" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+## El termostato con radar de presencia, en video
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/o-7qOAGZTd4" title="Aqara W200 Thermostat: More Than Temperature Control" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## 4. Cómo confirmarlo antes de comprar cualquier otro producto
