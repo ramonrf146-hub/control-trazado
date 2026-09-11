@@ -1381,6 +1381,11 @@
     },
     "urlAfiliado": "https://www.amazon.com/dp/B0995V2RM7?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
+    "tags": [
+      "IP67",
+      "Riel DIN",
+      "Gabinete grande"
+    ],
     "nombreEn": "QILIPSU IP67 Junction Box 20x16.1x7.9\" with Mounting Plate",
     "notaTecnicaEn": "Large enclosure (20x16.1x7.9\") IP67 rated with an internal mounting plate, metal inner door, and hinged lid — meant to house a complete control panel (relays, breakers, a router) protected from water and dust, not just a pass-through junction box. Has no pre-drilled knockouts: you drill your own holes for cable glands, which several reviews call an advantage (they land exactly where you need them) rather than a limitation. The ABS plastic is sturdy but not metal — for installations with more weight hanging inside, reinforcing the mount is worth considering.",
     "idealParaEn": "Anyone who needs to house a complete control panel (relays, breakers, a router) protected from water and dust, not just route cables through.",
@@ -1394,7 +1399,12 @@
         "The metal inner door is a safety plus: it separates the live electrical parts from the first thing you touch when opening the outer lid."
       ],
       "consejoInversion": "Compared to building a custom enclosure or reinforcing a generic box, this one already comes with a mounting plate and a safety door — the installation time saved usually justifies the price if the project calls for it (overkill for a single small relay)."
-    }
+    },
+    "tagsEn": [
+      "IP67",
+      "DIN rail",
+      "Large enclosure"
+    ]
   },
   {
     "asin": "B08K8PXYL5",
@@ -1421,6 +1431,11 @@
     },
     "urlAfiliado": "https://www.amazon.com/dp/B08K8PXYL5?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
+    "tags": [
+      "Silicona",
+      "12AWG",
+      "Rojo/Negro"
+    ],
     "nombreEn": "BNTECHGO Silicone Wire 12AWG Red+Black (50ft each)",
     "notaTecnicaEn": "Same silicone wire brand already present in several gauges in this ranking, here in 12AWG (680 strands) for higher-current loads — small motors, batteries, a panel's power feed cables. Unlike the other gauges that only come in red, this one already includes black (50ft of each), so you don't need to buy the return separately. With only 14 reviews it's still a small data point compared to other products from the same brand in the catalog.",
     "idealParaEn": "Higher-current loads (small motors, batteries, a panel's power feed) that need a thicker gauge than the 14-18AWG already in this catalog.",
@@ -1434,7 +1449,12 @@
         "With only 14 reviews it's still a small data point compared to other gauges from the same brand in the catalog — the wire quality itself doesn't change between gauges, but the purchase history is thinner."
       ],
       "consejoInversion": "Picking the right gauge isn't optional for safety — wire too thin for the real current overheats and becomes a fire risk. If your load exceeds what 14-18AWG can handle, this 12AWG is the option in this catalog, not a \"thicker is just better\" upsell."
-    }
+    },
+    "tagsEn": [
+      "Silicone",
+      "12AWG",
+      "Red/Black"
+    ]
   },
   {
     "asin": "B00R1WTT9S",
@@ -1461,6 +1481,11 @@
     },
     "urlAfiliado": "https://www.amazon.com/dp/B00R1WTT9S?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
+    "tags": [
+      "Riel DIN",
+      "Dinkle",
+      "10 polos"
+    ],
     "nombreEn": "Dinkle DSS2.5N-10P 10-Pole DIN Rail Jumper Bridge (10pcs)",
     "notaTecnicaEn": "Note the name: this is NOT a terminal block, it's the 10-pole jumper (bridge) that connects several DK2.5N blocks together — you need the base Dinkle DK2.5N blocks (sold separately) for this to be of any use. It can be cut down to smaller sizes if you don't need all 10 poles. One review notes it snaps in loosely and can come out if not seated firmly — check that it clicks firmly into place when installing.",
     "idealParaEn": "Anyone who already has (or is buying) Dinkle DK2.5N terminal blocks and needs to bridge several channels together (for example, distributing one positive lead across 10 outputs).",
@@ -1474,7 +1499,12 @@
         "One review notes it can snap in loosely — check that it clicks firmly into place, especially if the panel will be exposed to vibration."
       ],
       "consejoInversion": "Compared to hand-wiring each block with individual jumper wires, this bridge saves assembly time and reduces the risk of a loose wire — but it only makes sense if you're already in the Dinkle DK2.5N block ecosystem, it's not compatible with other brands' blocks."
-    }
+    },
+    "tagsEn": [
+      "DIN rail",
+      "Dinkle",
+      "10-pole"
+    ]
   },
   {
     "asin": "B082DKDHBC",
@@ -1501,6 +1531,11 @@
     },
     "urlAfiliado": "https://www.amazon.com/dp/B082DKDHBC?tag=controltrazado-20",
     "actualizadoEn": "2026-08-26",
+    "tags": [
+      "Riel DIN",
+      "Dinkle",
+      "Tope de fin"
+    ],
     "nombreEn": "Dinkle SS2 DIN Rail End Stop (25pcs)",
     "notaTecnicaEn": "This is the end stop missing from several terminal blocks in this ranking — without it, blocks can slide along the 35mm DIN rail. It screws into the rail for extra holding strength instead of just snap-fitting, which makes it sturdier than purely plastic snap-in versions. It's a complementary accessory, it doesn't replace the terminal block itself — buy it along with the blocks if their listing doesn't already include them.",
     "idealParaEn": "Any DIN rail terminal block installation that doesn't have an end stop yet — it's the missing piece, not a nice-to-have.",
@@ -1514,7 +1549,12 @@
         "Comes 25 pieces per pack, enough for several small panels or multiple rail ends in a larger installation."
       ],
       "consejoInversion": "It's a cheap part that's easy to forget until the blocks have already started sliding — worth buying alongside the terminal blocks from the start, not as a fix after the fact."
-    }
+    },
+    "tagsEn": [
+      "DIN rail",
+      "Dinkle",
+      "End stop"
+    ]
   },
   {
     "asin": "B0B6P22YJC",

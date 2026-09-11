@@ -15,6 +15,14 @@ Todo tablero moderno se arma sobre riel DIN — es el estándar que permite que 
 
 Sobre ese riel van los bloques de terminales, que son el punto de conexión entre el cableado de campo y los componentes del tablero. El [Meowlian Bloque de Terminales UK-2.5B (100 piezas)](/productos/B0CW1K4461) de este ranking tiene contacto de cobre puro y sistema de jaula autoblocante — pero **no viene con los topes de fin de carril**, que se compran aparte.
 
+### Cómo se cablean en la práctica, en video
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/DlR_v5ejkKk" title="How To Wire Plug-In DIN-Rail Terminal Blocks | Galco" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+Este video de Galco (proveedor industrial) muestra el cableado real de bloques de terminales tipo plug-in sobre riel DIN, paso a paso — útil para visualizar el sistema de jaula autoblocante antes de encarar tu propio tablero.
+
 ## 3. Topes de fin de carril: la pieza que "falta" en casi todos los kits
 
 Esta es la pieza que más gente olvida y que después nota que falta: sin un tope en cada extremo del riel, los bloques de terminales se deslizan y pierden alineación con el uso y la vibración. El [Dinkle SS2 Soporte de Extremo (25 unidades)](/productos/B082DKDHBC) de este ranking es justamente eso — no es un lujo ni un accesorio opcional, es la pieza que cualquier instalación con bloques sobre riel DIN necesita si todavía no la tiene.

@@ -15,6 +15,14 @@ Every modern panel is built on DIN rail — the standard that lets contactors, t
 
 On that rail go the terminal blocks, which are the connection point between field wiring and panel components. The [Meowlian UK-2.5B Terminal Block (100 pieces)](/en/productos/B0CW1K4461) in this ranking has pure copper contacts and a self-locking cage-clamp system — but **it does not include end stops**, which are sold separately.
 
+### How it's actually wired, on video
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/DlR_v5ejkKk" title="How To Wire Plug-In DIN-Rail Terminal Blocks | Galco" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+This video from Galco (an industrial supplier) shows real-world wiring of plug-in terminal blocks on DIN rail, step by step — useful for visualizing the self-locking cage-clamp system before starting your own panel.
+
 ## 3. End stops: the part almost everyone forgets
 
 This is the part most people forget and then notice is missing: without a stop at each end of the rail, terminal blocks slide and lose alignment with use and vibration. The [Dinkle SS2 End Stop (25 pieces)](/en/productos/B082DKDHBC) in this ranking is exactly that — not a luxury or optional accessory, it's the part any installation with terminal blocks on DIN rail needs if it doesn't already have one.
