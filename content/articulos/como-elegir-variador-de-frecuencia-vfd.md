@@ -27,6 +27,14 @@ Un motor estándar de 60Hz no se beneficia de un VFD que llega a 400Hz — ese r
 
 Un VFD que vale la pena debería incluir protección contra sobrecorriente, sobretemperatura y cortocircuito como mínimo. El frenado dinámico (o la opción de agregar una resistencia de frenado) es relevante si tu aplicación necesita parar el motor rápido, no dejar que se detenga por inercia. En la instalación, mantené el cable entre el VFD y el motor lo más corto posible y considerá cable apantallado — cables largos sin apantallar generan ruido eléctrico (EMI) que puede interferir con otros equipos electrónicos cerca del tablero.
 
+## Video: cómo elegir un VFD, paso a paso
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/51L8izOtqck" title="How to select/choose a VFD (Variable Frequency Drive) — AutomationDirect" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+Este video de AutomationDirect (proveedor industrial) repasa en orden los mismos criterios de esta guía — potencia del motor, tipo de entrada/salida, y qué specs del datasheet importan de verdad vs. cuáles son marketing — antes de elegir un modelo puntual.
+
 ## Nuestra recomendación del mes
 
 Mirá el ranking de [Control Industrial B2B](/categorias/control-industrial-b2b): incluimos modelos de entrada monofásica-a-trifásica para talleres sin acometida trifásica, y modelos con control vectorial para quien necesita torque a bajas RPM. Si ya tenés claro qué VFD necesitás y el siguiente paso es instalarlo, la guía [instalar un VFD a 240V para una bomba de 15HP](/articulos/instalar-vfd-240v-bomba-15hp) muestra el proceso completo, protecciones incluidas.

@@ -27,6 +27,14 @@ A standard 60Hz motor doesn't benefit from a VFD that reaches 400Hz — that ext
 
 A VFD worth buying should include, at minimum, overcurrent, overtemperature, and short-circuit protection. Dynamic braking (or the option to add a braking resistor) matters if your application needs to stop the motor quickly rather than let it coast to a stop by inertia. During installation, keep the cable between the VFD and the motor as short as possible and consider shielded cable — long unshielded cables generate electrical noise (EMI) that can interfere with other electronics near the panel.
 
+## Video: how to choose a VFD, step by step
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/51L8izOtqck" title="How to select/choose a VFD (Variable Frequency Drive) — AutomationDirect" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+This video from AutomationDirect (an industrial supplier) walks through the same criteria covered in this guide, in order — motor power, input/output type, and which datasheet specs actually matter vs. which are just marketing — before picking a specific model.
+
 ## Our pick of the month
 
 Check out the [Industrial Control (B2B)](/en/categorias/control-industrial-b2b) ranking: we include single-phase-to-three-phase entry models for workshops without a three-phase feed, and vector-control models for anyone who needs torque at low RPM. Once you know which VFD you need and the next step is installing it, the [installing a 240V VFD for a 15HP pump](/en/articulos/instalar-vfd-240v-bomba-15hp) guide walks through the full process, protections included.

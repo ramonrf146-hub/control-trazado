@@ -10,6 +10,7 @@ Catálogo en `data/productos.json`, artículos en `content/articulos/` (ES) y `c
 - Ninguna tarea abierta específica de este sitio en este momento.
 
 ## Últimos cambios importantes
+- 2026-09-12: No se agregó producto nuevo. Se intentó llenar de nuevo el hueco declarado en `node-red-modbus-presion-hidroponia.md` (sensor de presión Modbus RTU) — todos los candidatos encontrados en Amazon (PCM380, NURII, AJDFVHJF, Hirsman y similares) son de marca genérica sin trazabilidad real, y además varias de esas fichas ni siquiera cargaron al verificar (error de servidor al hacer fetch) — se descartó de nuevo, mismo motivo que la vez anterior. En su lugar se agregó un video real (AutomationDirect, "How to select/choose a VFD") a `como-elegir-variador-de-frecuencia-vfd.md` (ES y EN), que no tenía ningún video embebido.
 - Chtaixi 32A DIN-rail breaker (B09TVS6X1C) agregado a `control-industrial-b2b`, ranking 31 — linkeado en `certificacion-seguridad-enchufes-inteligentes.md` (reemplazó el texto "necesitás sumar un fusible o térmica vos").
 - Tzone Modbus RTU Temp/Humidity sensor (B0D3H8ZGLT, ranking 30, `control-industrial-b2b`) — linkeado en `node-red-modbus-presion-hidroponia.md`.
 - SONOFF SenseGuard SNZB-04PR2 4-pack (B0GKFB66JZ, ranking 16, `automatizacion-hogar-inteligente`) — linkeado en `tuya-vs-ecosistema-abierto-para-hogar-inteligente.md` junto al sensor de movimiento existente.
