@@ -28,6 +28,14 @@ The [Genie Aladdin Connect](/en/productos/B0GV57H4YQ) solves exactly that: it's 
 
 If you already use a [Matter plug or sensor](/en/articulos/que-es-matter-hogar-inteligente) from this catalog, the logic is the same: instead of replacing devices that already work well, you add the layer of connectivity they're missing. The [Wyze Auto-Lock Bolt lock](/en/productos/B09R38VVXF) follows the same idea for the front door — confirmation that it's locked, without having to go check in person. Between the two (door + garage) you cover the two entry points that most trigger that last-minute doubt as you leave the house.
 
+## Video: how the module actually installs, step by step
+
+If you want to see the real process before deciding, this is an official Genie video showing how the Aladdin Connect control module installs on top of your existing opener — the part that raises the most doubts before buying.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Aq9yv9JKfMs" title="Genie Aladdin Connect: Installing the Door Control Module" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## Before buying: confirm compatibility
 
 Not every universal controller works with every motor brand. Before buying, check the manufacturer's listing to make sure your opener brand is on the compatibility list — most major brands (Chamberlain, LiftMaster, Genie, Craftsman) are covered, but it's worth confirming with your motor's exact model before installing anything.

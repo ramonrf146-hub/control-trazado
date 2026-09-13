@@ -28,6 +28,14 @@ El [Genie Aladdin Connect](/productos/B0GV57H4YQ) resuelve exactamente eso: es u
 
 Si ya usás algún [enchufe o sensor Matter](/articulos/que-es-matter-hogar-inteligente) de este catálogo, la lógica es la misma: en vez de reemplazar dispositivos que funcionan bien, les agregás la capa de conectividad que les falta. La [cerradura Wyze Auto-Lock Bolt](/productos/B09R38VVXF) sigue la misma idea para la puerta principal — confirmación de que está cerrada, sin tener que volver a comprobarlo en persona. Entre las dos (puerta + garaje) cubrís los dos puntos de entrada que más generan esa duda de último momento antes de salir de tu casa.
 
+## Video: cómo se instala el módulo, paso a paso
+
+Si querés ver el proceso real antes de decidir, este es un video oficial de Genie que muestra cómo se instala el módulo de control del Aladdin Connect sobre el abrepuertas existente — la parte que más dudas genera antes de comprar.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Aq9yv9JKfMs" title="Genie Aladdin Connect: Installing the Door Control Module" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## Antes de comprar: confirmá compatibilidad
 
 No todos los controladores universales funcionan con todas las marcas de motor. Antes de comprar, revisá en la ficha del fabricante que tu marca de abrepuertas esté en la lista de compatibilidad — la mayoría de las marcas grandes (Chamberlain, LiftMaster, Genie, Craftsman) están cubiertas, pero vale la pena confirmarlo con el modelo exacto de tu motor antes de instalar nada.
