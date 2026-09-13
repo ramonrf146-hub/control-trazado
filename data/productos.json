@@ -1161,7 +1161,7 @@
     "imagen": "https://m.media-amazon.com/images/I/51QvttkeNuL._AC_UL320_.jpg",
     "rating": 5,
     "numResenas": 1,
-    "ranking": 18,
+    "ranking": 17,
     "notaTecnica": "Mismo concepto que el contactor Wengart de este ranking, pero de menor capacidad (16A vs 25A) y bobina de 110V en vez de 120V — para cargas más chicas como iluminación o calefones menores. El fabricante aclara que es exclusivamente para AC, no sirve para DC, y recomienda usarlo siempre con protección de cortocircuito (fusible o térmica) aparte, porque no la trae incorporada. Con solo 1 reseña, es un listado muy nuevo.",
     "idealPara": "Cargas resistivas más chicas (iluminación, calefones menores) donde el contactor de 25A de este ranking sería sobredimensionado.",
     "guiaCompra": {
@@ -1212,7 +1212,7 @@
     "imagen": "https://m.media-amazon.com/images/I/51QNToUgatL._AC_UL320_.jpg",
     "rating": 4.8,
     "numResenas": 162,
-    "ranking": 19,
+    "ranking": 18,
     "notaTecnica": "Mismo tipo de cable de silicona que los 18AWG y 22AWG de este ranking (aislación de silicona, resiste -60°C a 200°C, 600V), pero en un calibre más grueso (14AWG, 400 hebras estañadas) que soporta más corriente — y a diferencia de esos otros dos, este viene en rojo Y negro (100 pies cada uno), así que no hace falta comprar el negro aparte. Con 162 reseñas y 4.8 de rating, tiene mucho más historial que el resto de este lote.",
     "idealPara": "Cableado de potencia (no solo señal) donde necesitás positivo y negativo del mismo pedido, sin comprar dos productos separados.",
     "guiaCompra": {
@@ -1263,7 +1263,7 @@
     "imagen": "https://m.media-amazon.com/images/I/51wjjyup7YL._AC_UL320_.jpg",
     "rating": 4.5,
     "numResenas": 151,
-    "ranking": 20,
+    "ranking": 19,
     "notaTecnica": "Mismo cable de silicona de la familia BNTECHGO ya presente en este ranking, mismo calibre que la versión roja (18AWG, 150 hebras estañadas, -60°C a 200°C, 600V), pero en blanco — útil como tercer conductor (señal, neutro o identificación) cuando el rojo y el negro ya están ocupados como positivo/negativo. Viene en un solo color, bobina de 50 pies.",
     "idealPara": "Sumar un tercer conductor (señal, neutro, o identificación de un circuito distinto) a un proyecto que ya usa rojo y negro para positivo/negativo.",
     "guiaCompra": {
@@ -1314,7 +1314,7 @@
     "imagen": "https://m.media-amazon.com/images/I/51r05PENyrL._AC_UL320_.jpg",
     "rating": 4.5,
     "numResenas": 166,
-    "ranking": 21,
+    "ranking": 20,
     "notaTecnica": "Mismo fabricante y familia que el contactor BAOMAIN de 16A de este ranking, pero un escalón de capacidad más arriba (20A) — llena el punto medio entre ese y el Wengart de 25A. A diferencia de los otros dos contactores de este lote (2 y 1 reseñas respectivamente), este tiene 166 reseñas y 4.5 de rating: mucho más historial real de otros compradores. Igual que el resto de la familia, es exclusivamente para AC (no DC) y necesita protección de cortocircuito aparte (fusible o térmica), que no viene incluida.",
     "idealPara": "El punto medio entre los otros dos contactores de este ranking (16A y 25A) — y la opción con más historial de compradores reales si preferís no arriesgarte con un listado nuevo.",
     "guiaCompra": {
@@ -1365,7 +1365,7 @@
     "imagen": "https://m.media-amazon.com/images/I/61FF2-0Y3AL._SX522_.jpg",
     "rating": 4.7,
     "numResenas": 2367,
-    "ranking": 22,
+    "ranking": 21,
     "notaTecnica": "Gabinete grande (20x16.1x7.9\") IP67 con placa de montaje interna, puerta interior de metal y tapa con bisagras — pensado para alojar un panel de control completo (relés, breakers, un router) protegido del agua y el polvo, no solo una caja de paso. No trae perforaciones (knockouts) predefinidas: hay que taladrar vos los agujeros para prensaestopas, lo cual varias reseñas señalan como ventaja (quedan exactos donde los necesitás) más que como limitación. El plástico ABS es resistente pero no es metal — para instalaciones con más peso colgando adentro conviene reforzar el montaje.",
     "idealPara": "Quien necesita alojar un panel de control completo (relés, breakers, router) protegido del agua y el polvo, no solo pasar cables.",
     "guiaCompra": {
@@ -1415,7 +1415,7 @@
     "imagen": "https://m.media-amazon.com/images/I/516KOJ4JSQL._SX522_.jpg",
     "rating": 4.9,
     "numResenas": 14,
-    "ranking": 23,
+    "ranking": 22,
     "notaTecnica": "Mismo cable de silicona de la marca que ya está en varios calibres en el ranking, acá en 12AWG (680 hebras) para cargas de más corriente — motores chicos, baterías, cables de alimentación de un panel. A diferencia de los otros calibres que solo vienen en rojo, este ya incluye negro (50ft de cada uno), así que no hace falta comprar el retorno aparte. Con solo 14 reseñas todavía es un dato chico comparado con otros productos de la misma marca en el catálogo.",
     "idealPara": "Cargas de más corriente (motores chicos, baterías, alimentación de un panel) que necesitan un calibre más grueso que el 14-18AWG del resto del catálogo.",
     "guiaCompra": {
@@ -1465,7 +1465,7 @@
     "imagen": "https://m.media-amazon.com/images/I/61U7FMhx4DL._SX522_.jpg",
     "rating": 4.5,
     "numResenas": 90,
-    "ranking": 24,
+    "ranking": 23,
     "notaTecnica": "Ojo con el nombre: esto NO es un bloque de terminales, es el puente (jumper) de 10 polos que conecta varios bloques DK2.5N entre sí — necesitás los bloques base Dinkle DK2.5N (se venden aparte) para que sirva de algo. Se puede cortar a tamaños más chicos si no necesitás los 10 polos. Una reseña señala que encastra con poca firmeza y se puede salir si no quedó bien presionado — revisá que haga clic firme al instalarlo.",
     "idealPara": "Quien ya tiene o va a comprar bloques de terminales Dinkle DK2.5N y necesita puentear varios canales juntos (por ejemplo, distribuir un mismo positivo a 10 salidas).",
     "guiaCompra": {
@@ -1515,7 +1515,7 @@
     "imagen": "https://m.media-amazon.com/images/I/31tcjNb9pvL._SY445_SX342_QL70_FMwebp_.jpg",
     "rating": 4.8,
     "numResenas": 170,
-    "ranking": 25,
+    "ranking": 24,
     "notaTecnica": "Es el tope de fin de carril (end stop) que le falta a varios bloques de terminales de este mismo ranking — sin esto, los bloques pueden deslizarse a lo largo del riel DIN de 35mm. Se atornilla al riel para mayor resistencia en vez de solo trabar a presión, lo que lo hace más firme que las versiones puramente plásticas de encastre. Es un accesorio de complemento, no reemplaza al bloque de terminales en sí — compralo junto con los bloques si el listing de esos no los trae incluidos.",
     "idealPara": "Cualquier instalación con bloques de terminales sobre riel DIN que todavía no tenga un tope de fin de carril — es la pieza que falta, no un lujo.",
     "guiaCompra": {
@@ -1667,7 +1667,7 @@
     "imagen": "https://m.media-amazon.com/images/I/61n67cfLhwL._SX342_.jpg",
     "rating": 4.5,
     "numResenas": 605,
-    "ranking": 26,
+    "ranking": 25,
     "notaTecnica": "Es un controlador PID de temperatura standalone — NO tiene comunicación RS485/Modbus como los gateways y módulos de relé de este ranking, es un equipo local que se programa y lee directo en su propia pantalla. Viene con el relé de estado sólido (SSR) de 40A y la termocupla tipo K incluidos, además de una salida de alarma separada (250V, 3A) para cablear un buzzer. Acepta 100-240V AC. Existe una versión de la misma familia con salida Modbus RS485, pero tiene mucho menos respaldo de reseñas en Amazon.",
     "idealPara": "Quien necesita controlar la temperatura de un proceso (horno, calentador, incubadora, reflow) de forma local, sin necesidad de integrarlo a un sistema SCADA/Modbus centralizado.",
     "guiaCompra": {
@@ -1718,7 +1718,7 @@
     "imagen": "https://m.media-amazon.com/images/I/41uqCPImQXL._AC_SY450_.jpg",
     "rating": 4.5,
     "numResenas": 44,
-    "ranking": 27,
+    "ranking": 26,
     "notaTecnica": "Convierte Modbus RTU (por RS485) a Modbus TCP sobre Ethernet, para montar en riel DIN — es una alternativa de otra marca (PUSR) a los gateways Waveshare de este ranking, y más económica. Soporta modo TCP server/client, UDP server/client y COM virtual. Tiene bastante menos reseñas que los productos más populares del catálogo (44), aunque es \"Amazon's Choice\" en su categoría — este nicho de gateways Modbus en Amazon tiene en general pocas reseñas comparado con productos de consumo masivo.",
     "idealPara": "Quien necesita conectar equipos Modbus RTU (RS485) existentes a una red Ethernet/TCP y busca una opción de riel DIN más económica que los gateways Waveshare de este ranking.",
     "guiaCompra": {
@@ -1769,7 +1769,7 @@
     "imagen": "https://m.media-amazon.com/images/I/419tl3xwZAL._AC_SY450_.jpg",
     "rating": 0,
     "numResenas": 0,
-    "ranking": 28,
+    "ranking": 27,
     "notaTecnica": "ADVERTENCIA: este producto todavía no tiene ninguna reseña en Amazon (0 compradores lo calificaron) — no hay track record de terceros que lo respalde, a diferencia del resto del catálogo. Además, es un sensor LoRaWAN (radio de largo alcance), un protocolo distinto al WiFi/RS485/Zigbee del resto de este ranking: para que funcione necesitás tener ya instalado un gateway/servidor de red LoRaWAN (por ejemplo The Things Network o un gateway propio) — el sensor solo no sirve de nada. Usa el sensor SHT31 (marca reconocida para temperatura/humedad), carcasa resistente al agua y anti-condensación, y viene en variantes de frecuencia según región (US915, EU868, AU915, KR920, AS923) — confirmá que elegís la banda correcta para tu país antes de comprar.",
     "idealPara": "Quien ya tiene un gateway LoRaWAN funcionando (o está armando uno) y necesita monitorear temperatura/humedad a larga distancia sin depender de WiFi — por ejemplo en un galpón, invernadero o predio grande donde el WiFi no llega. No comprar si no tenés (o no vas a instalar) infraestructura LoRaWAN.",
     "guiaCompra": {
@@ -2126,7 +2126,7 @@
     "imagen": "https://m.media-amazon.com/images/I/61T10dJIEdL._SX425_.jpg",
     "rating": 4.8,
     "numResenas": 28,
-    "ranking": 29,
+    "ranking": 28,
     "notaTecnica": "Misma familia que los módulos de 16 y 32 canales de este ranking (aislamiento óptico, magnético y TVS, relé de hasta 10A 250VAC/30VDC), pero en la versión más chica de la línea — para instalaciones pequeñas donde ni 16 ni 32 canales tienen sentido. Es el único de los tres con reseñas reales en Amazon (4.8 estrellas, 28 reseñas). La ficha no especifica el rango de voltaje de alimentación del módulo (otros Waveshare de esta familia usan DC 7-36V) — conviene confirmarlo con el vendedor antes de comprar si tu instalación tiene una fuente fija.",
     "idealPara": "Instalaciones chicas (hasta 8 salidas) donde los módulos de 16 o 32 canales de este ranking serían un gasto innecesario.",
     "guiaCompra": {
@@ -2176,7 +2176,7 @@
     "imagen": "https://m.media-amazon.com/images/I/51Ewip20hSL._SX342_.jpg",
     "rating": 5,
     "numResenas": 9,
-    "ranking": 30,
+    "ranking": 29,
     "notaTecnica": "Sensor industrial de temperatura y humedad con salida RS485/Modbus RTU, chip SHT30, carcasa IP54 para exteriores/invernadero y pantalla LCD. Se lee con los mismos nodos Modbus-Read de Node-RED que un sensor de presión, así que sirve para expandir el proyecto de monitoreo de la guía de hidroponía de este catálogo con un segundo tipo de dato (temperatura y humedad ambiente) sin cambiar de protocolo. Todavía tiene pocas reseñas (9), aunque es una marca real con tienda propia, vendida y despachada por Amazon.",
     "idealPara": "Quien quiere sumar un segundo tipo de dato Modbus (temperatura y humedad ambiente) a un proyecto de Node-RED, además o en lugar de un sensor de presión — útil para invernaderos, cuartos de cultivo o salas de control.",
     "guiaCompra": {
@@ -2276,7 +2276,7 @@
     "imagen": "https://m.media-amazon.com/images/I/61fbPll9V3L._SX342_.jpg",
     "rating": 4.8,
     "numResenas": 607,
-    "ranking": 31,
+    "ranking": 30,
     "notaTecnica": "Disyuntor termomagnético simple para riel DIN — la guía de certificaciones de este catálogo señala explícitamente que varios contactores (como los BAOMAIN de este ranking) no traen protección de cortocircuito incorporada y \"necesitás sumar un fusible o térmica vos\", sin tener hasta ahora un disyuntor simple listado (el DIHOOL de este catálogo es un GFCI para 120V con neutro, un caso de uso distinto). Amazon's Choice, 4.8 estrellas, 607 reseñas, 600+ comprados el último mes. Disponible en varios amperajes (6A a 63A) al mismo precio — elegí el que corresponda a la carga real, no el que venga por defecto.",
     "idealPara": "Sumar protección contra sobrecarga y cortocircuito a un contactor o relé que no la trae incorporada — el complemento que la guía de certificaciones de este catálogo marca como no opcional.",
     "guiaCompra": {
@@ -2325,7 +2325,7 @@
     "precio": 143.99,
     "moneda": "USD",
     "imagen": "https://m.media-amazon.com/images/I/61sFQ557qNL._SX342_.jpg",
-    "rating": 4.0,
+    "rating": 4,
     "numResenas": 1679,
     "ranking": 17,
     "notaTecnica": "Hub multi-protocolo (Matter, Thread Border Router, Zigbee, WiFi, Bluetooth, IR) — la guía de Matter y la comparación Tuya vs. ecosistema abierto de este catálogo mencionan varias veces que para usar un enchufe Matter con Alexa/Google/Apple Home hace falta 'un hub Matter (HomePod, Echo, Nest)', sin tener hasta ahora una opción propia, neutral, listada. A diferencia de esos hubs de las Big Tech, este además actúa de puente Zigbee (compatible con Home Assistant) e IR. Soporta PoE. 1.679 valoraciones, 4.0 estrellas.",
