@@ -2470,5 +2470,57 @@
       "SwitchBot",
       "hub"
     ]
+  },
+  {
+    "asin": "B0D9W2JRWF",
+    "nombre": "Waveshare Módulo de Relé Ethernet 30 Canales — Modbus TCP/RTU, PoE",
+    "categoria": "control-industrial-b2b",
+    "precio": 98.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61mXfWFUiaL._SX425_.jpg",
+    "rating": 4.2,
+    "numResenas": 20,
+    "ranking": 31,
+    "notaTecnica": "A diferencia de los módulos de relé Modbus RTU de este catálogo (16 y 32 canales, ambos por RS485), este Waveshare se controla por Ethernet con protocolo Modbus TCP — se conecta directo a la red del edificio, sin necesitar un maestro RS485 dedicado, y además soporta alimentación PoE (un solo cable de red alimenta y comunica el módulo). 'Overall Pick' de Amazon. Limitación real: solo 20 reseñas — mucho menos historial que los módulos RS485 ya listados, así que conviene tenerlo en cuenta si tu prioridad es un producto ampliamente probado en el mercado.",
+    "idealPara": "Instalaciones industriales o de automatización de edificios que ya tienen red Ethernet tendida y prefieren controlar relés por Modbus TCP en vez de armar un bus RS485 dedicado.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Un módulo de 30 relés controlado por Ethernet (Modbus TCP o RTU), con opción de alimentación PoE, para automatizar cargas industriales desde la misma red de datos del edificio.",
+      "ejemploHogar": "No aplica — este es un producto de uso industrial/B2B, pensado para tableros eléctricos y automatización de instalaciones, no para el hogar.",
+      "ejemploNegocio": "Una planta o edificio con múltiples cargas a conmutar (iluminación de galpón, bombas, ventilación) donde ya existe cableado de red Ethernet y se prefiere evitar tender un bus RS485 aparte.",
+      "puntosClave": [
+        "Control por Ethernet (Modbus TCP) en vez de RS485 — aprovecha la infraestructura de red ya instalada del edificio.",
+        "Soporta alimentación PoE — un solo cable de red alimenta y comunica el módulo, sin necesidad de una fuente aparte.",
+        "Solo 20 reseñas — bastante menos historial de mercado que los módulos RS485 de 16 y 32 canales de este catálogo."
+      ],
+      "consejoInversion": "Tiene sentido específicamente cuando la instalación ya cuenta con red Ethernet y se quiere evitar el cableado adicional de un bus RS485. Si tu instalación ya usa RS485 o preferís un producto con más historial de reseñas, los módulos Modbus RTU de 16 o 32 canales de este catálogo son la opción más probada."
+    },
+    "tags": [
+      "Ethernet",
+      "Modbus TCP",
+      "PoE",
+      "Waveshare"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0D9W2JRWF?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-13",
+    "nombreEn": "Waveshare 30-Channel Ethernet Relay Module — Modbus TCP/RTU, PoE",
+    "notaTecnicaEn": "Unlike this catalog's Modbus RTU relay modules (16- and 32-channel, both over RS485), this Waveshare is controlled over Ethernet with Modbus TCP — it plugs directly into the building's network without needing a dedicated RS485 master, and it also supports PoE power (a single network cable both powers and communicates with the module). Amazon's 'Overall Pick'. Real limitation: only 20 reviews — much less market track record than this catalog's existing RS485 modules, worth weighing if a widely proven product matters to you.",
+    "idealParaEn": "Industrial or building-automation installs that already have Ethernet wiring in place and prefer controlling relays over Modbus TCP instead of building a dedicated RS485 bus.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A 30-relay module controlled over Ethernet (Modbus TCP or RTU), with optional PoE power, for automating industrial loads from the building's existing data network.",
+      "ejemploHogar": "Not applicable — this is an industrial/B2B product meant for electrical panels and facility automation, not home use.",
+      "ejemploNegocio": "A plant or building with multiple loads to switch (warehouse lighting, pumps, ventilation) where Ethernet wiring already exists and running a separate RS485 bus is something to avoid.",
+      "puntosClave": [
+        "Ethernet control (Modbus TCP) instead of RS485 — leverages the building's already-installed network infrastructure.",
+        "Supports PoE power — a single network cable both powers and communicates with the module, no separate power supply needed.",
+        "Only 20 reviews — noticeably less market track record than this catalog's 16- and 32-channel RS485 modules."
+      ],
+      "consejoInversion": "Makes sense specifically when the install already has Ethernet and you want to avoid the extra wiring of an RS485 bus. If your install already uses RS485 or you prefer a product with a longer review history, this catalog's 16- or 32-channel Modbus RTU modules are the more proven pick."
+    },
+    "tagsEn": [
+      "Ethernet",
+      "Modbus TCP",
+      "PoE",
+      "Waveshare"
+    ]
   }
 ]
