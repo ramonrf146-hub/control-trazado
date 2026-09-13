@@ -2418,5 +2418,57 @@
       "Presence radar",
       "Touchscreen"
     ]
+  },
+  {
+    "asin": "B07TTH5TMW",
+    "nombre": "SwitchBot Hub Mini — Control Remoto IR por WiFi, Puente al Ecosistema SwitchBot",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 36.1,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/51tRWOlsF+L._AC_SY355_.jpg",
+    "rating": 4.2,
+    "numResenas": 55755,
+    "ranking": 19,
+    "notaTecnica": "A diferencia de los enchufes y bombillas inteligentes de este catálogo, que ya vienen con WiFi propio, este Hub Mini resuelve un problema distinto: dispositivos que solo tienen control remoto infrarrojo (aire acondicionado, TV, equipos de audio) y no tienen forma nativa de conectarse a WiFi ni a Alexa/Google. El Hub Mini 'aprende' la señal del control remoto original en 5 segundos y la retransmite por WiFi — convierte cualquier aparato con IR en un dispositivo controlable por voz o app. 500+ comprados el último mes, 55.755 reseñas. Limitación real: solo WiFi de 2.4GHz (no 5GHz) y no es compatible con Matter — si buscás un hub con Matter, el Aqara Smart Home Hub M3 de este catálogo sí lo soporta.",
+    "idealPara": "Aires acondicionados, TVs y equipos de audio con control remoto IR tradicional que no tienen ninguna forma nativa de conectarse a WiFi o a un asistente de voz.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Un hub USB que aprende la señal infrarroja de cualquier control remoto y la retransmite por WiFi, permitiendo controlar por app o voz aparatos que de otra forma no tienen ninguna conectividad inteligente.",
+      "ejemploHogar": "Un aire acondicionado split viejo con control remoto IR que querés poder apagar desde el celular o con un comando de voz a Alexa sin cambiar el equipo entero.",
+      "ejemploNegocio": "Una oficina con varios equipos de aire acondicionado o proyectores IR que se quieren integrar a un panel de control central sin reemplazar el hardware existente.",
+      "puntosClave": [
+        "Aprende cualquier control remoto IR existente en unos 5 segundos — no requiere buscar códigos de fabricante en una base de datos.",
+        "Es la puerta de entrada al ecosistema SwitchBot — sin este hub, otros dispositivos SwitchBot de la marca (sensores, enchufes) no se conectan a internet.",
+        "Solo WiFi 2.4GHz y sin Matter — si tu red es dual-band, asegurate de conectarlo específicamente a la banda de 2.4GHz durante la configuración."
+      ],
+      "consejoInversion": "Tiene sentido específicamente para aparatos que solo tienen control IR y ninguna otra forma de conectividad inteligente — no reemplaza un enchufe o bombilla WiFi nativos de este catálogo, que ya se conectan directo sin necesitar este hub intermedio."
+    },
+    "tags": [
+      "control IR",
+      "WiFi",
+      "SwitchBot",
+      "hub"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B07TTH5TMW?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-13",
+    "nombreEn": "SwitchBot Hub Mini — WiFi IR Remote Bridge, Gateway to the SwitchBot Ecosystem",
+    "notaTecnicaEn": "Unlike this catalog's smart plugs and bulbs, which already ship with their own WiFi, this Hub Mini solves a different problem: devices that only have an infrared remote (air conditioners, TVs, audio equipment) with no native way to connect to WiFi or Alexa/Google. The Hub Mini 'learns' the original remote's signal in 5 seconds and retransmits it over WiFi — turning any IR appliance into something controllable by voice or app. 500+ bought in the past month, 55,755 reviews. Real limitation: only 2.4GHz WiFi (no 5GHz) and no Matter support — if you need a Matter-enabled hub, this catalog's Aqara Smart Home Hub M3 supports it.",
+    "idealParaEn": "Air conditioners, TVs, and audio equipment with a traditional IR remote that have no native way to connect to WiFi or a voice assistant.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A USB hub that learns any remote control's infrared signal and retransmits it over WiFi, letting you control by app or voice appliances that otherwise have no smart connectivity at all.",
+      "ejemploHogar": "An old split air conditioner with an IR remote that you want to turn off from your phone or with an Alexa voice command, without replacing the whole unit.",
+      "ejemploNegocio": "An office with several IR air conditioning units or projectors that need to be integrated into a central control panel without replacing the existing hardware.",
+      "puntosClave": [
+        "Learns any existing IR remote in about 5 seconds — no need to search a manufacturer code database.",
+        "It's the gateway into the SwitchBot ecosystem — without this hub, other SwitchBot-brand devices (sensors, plugs) can't connect to the internet.",
+        "2.4GHz WiFi only, no Matter — if your router is dual-band, make sure to connect it specifically to the 2.4GHz band during setup."
+      ],
+      "consejoInversion": "Makes sense specifically for appliances that only have IR control and no other smart connectivity — it doesn't replace this catalog's native WiFi plugs or bulbs, which already connect directly without needing this intermediate hub."
+    },
+    "tagsEn": [
+      "IR control",
+      "WiFi",
+      "SwitchBot",
+      "hub"
+    ]
   }
 ]
