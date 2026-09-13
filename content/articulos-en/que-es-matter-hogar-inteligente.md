@@ -52,6 +52,7 @@ Think of it as a universal data plug: instead of every brand (Tuya, Alexa, Googl
 - The [GHome Dual Smart Plug](/en/productos/B0D7MLMCXR) and the [GHome Smart Mini Plug](/en/productos/B0FD6CYBNH) do **not** have Matter — they run on the closed Tuya ecosystem, so you depend on that app.
 - The [roborock Q7 L5](/en/productos/B0F334DN9J) and the [Wyze Auto-Lock Bolt lock](/en/productos/B09R38VVXF) don't have Matter either — the robot is controlled by Roborock's own app, and the lock is Bluetooth with its own optional bridge. They're good examples of categories (vacuums, locks) where Matter still isn't the norm, unlike plugs and sensors.
 - The [Amazon Basics bulb](/en/productos/B0CG5VDC8P) is a special case: it works **exclusively** with Alexa, it's not even multi-ecosystem without Matter — if your home uses Google Home or Apple Home, it simply won't work for you.
+- The [SwitchBot Hub Mini](/en/productos/B07TTH5TMW) doesn't have Matter either, but it solves a different problem than the devices above: it's not a plug or a bulb, it's a bridge for appliances with an infrared remote (air conditioners, TVs) that otherwise have no smart connectivity at all. If you specifically want a Matter-enabled hub that also has IR input, this same ranking's [Aqara Hub M3](/en/productos/B0CWLHSKYC) does both.
 
 ## The neutral hub, on video
 

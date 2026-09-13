@@ -42,6 +42,8 @@ El caso típico: tenés equipo industrial (un medidor de energía, un PLC viejo,
 
 Si necesitás soporte triple RS232/485/422 con alimentación PoE, el [gateway Waveshare](/productos/B0BN61G4VF) de este ranking lo cubre. Si tu caso es más simple — solo Modbus RTU a Modbus TCP, sin necesidad de PoE — el [PUSR DR302](/productos/B0BR4ZRJGM) hace exactamente eso en formato riel DIN por menos precio, aunque con bastante menos reseñas respaldándolo en Amazon.
 
+Ahora, si lo que necesitás no es traducir de RS485 a Ethernet sino conmutar cargas directamente por Ethernet, no hace falta el gateway intermedio: el [Waveshare de 30 canales](/productos/B0D9W2JRWF) de este ranking habla Modbus TCP de forma nativa (con opción PoE) — a diferencia de los módulos de relé Modbus RTU de 16 y 32 canales de este mismo catálogo, que solo se controlan por bus RS485. Tiene sentido específicamente cuando la instalación ya tiene red Ethernet tendida; si ya usás RS485 o preferís un producto con más historial de reseñas, los módulos RS485 son la opción más probada.
+
 ## Nuestra recomendación del mes
 
 Mirá el ranking de [Control Industrial B2B](/categorias/control-industrial-b2b): incluimos un gateway con soporte triple RS232/485/422 y alimentación PoE, útil tanto para instalaciones nuevas como para integrar equipo legado. Para un ejemplo real de lectura Modbus aplicado a un proyecto propio (no solo industrial), la guía de [Node-RED con un sensor de presión para hidroponía](/articulos/node-red-modbus-presion-hidroponia) muestra el mismo protocolo del lado del software.

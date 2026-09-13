@@ -52,6 +52,7 @@ Pensalo como un enchufe universal de datos: en vez de que cada marca (Tuya, Alex
 - El [GHome Dual Smart Plug](/productos/B0D7MLMCXR) y el [GHome Smart Mini Enchufe](/productos/B0FD6CYBNH) **no** tienen Matter — corren en el ecosistema cerrado de Tuya, así que dependés de esa app.
 - El [roborock Q7 L5](/productos/B0F334DN9J) y la [cerradura Wyze Auto-Lock Bolt](/productos/B09R38VVXF) tampoco tienen Matter — el robot se controla por la app propia de Roborock, y la cerradura es Bluetooth con su propio bridge opcional. Son buenos ejemplos de categorías (aspiradoras, cerraduras) donde Matter todavía no es lo más común, a diferencia de enchufes y sensores.
 - El [foco Amazon Basics](/productos/B0CG5VDC8P) es un caso especial: funciona **exclusivamente** con Alexa, ni siquiera es multi-ecosistema sin Matter — si tu casa usa Google Home o Apple Home, directamente no te sirve.
+- El [SwitchBot Hub Mini](/productos/B07TTH5TMW) tampoco tiene Matter, pero resuelve un problema distinto al de los dispositivos de arriba: no es un enchufe ni un foco, es un puente para aparatos con control remoto infrarrojo (aire acondicionado, TV) que de otra forma no tienen ninguna conectividad inteligente. Si buscás específicamente un hub con Matter que además tenga entrada IR, el [Aqara Hub M3](/productos/B0CWLHSKYC) de este mismo ranking cumple las dos funciones.
 
 ## El hub neutral, en video
 
