@@ -2522,5 +2522,58 @@
       "PoE",
       "Waveshare"
     ]
+  },
+  {
+    "asin": "B0FPG9SGLJ",
+    "nombre": "Shelly Flood Gen4 — Sensor de Fuga de Agua WiFi/Zigbee/Matter con Cable Detector",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 39.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/715R3exmYOL._AC_UL320_.jpg",
+    "rating": 4.3,
+    "numResenas": 262,
+    "ranking": 20,
+    "notaTecnica": "Sensor de fuga de agua con cable detector de 2 metros (no solo un punto), compatible nativo con WiFi, Bluetooth, Zigbee y Matter — a diferencia de una alarma de agua genérica que solo hace ruido en el lugar, este manda la alerta al celular apenas detecta agua, estés donde estés. Usa 2 pilas AA con autonomía declarada de hasta 2 años. Certificación IP44 (resiste salpicaduras, no inmersión) — pensado para detectar antes de que se forme un charco, no para quedar sumergido. 262 reseñas, 4.3★, \"300+ comprados en el último mes\" según Amazon. Si lo vas a usar por Zigbee o como parte de una red Thread/Matter local, necesitás un hub o coordinador compatible — el Aqara Hub M3 o el dongle Zigbee SONOFF de este catálogo cumplen esa función; por WiFi o Bluetooth funciona standalone, sin hub adicional.",
+    "idealPara": "Detectar una pérdida de agua (debajo de un termotanque, lavarropas o bajo mesada de cocina) antes de que se convierta en un charco — manda alerta al celular sin importar dónde estés.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es una alarma de agua con teléfono propio: apenas el cable sensor (o la base) toca agua, no solo suena una sirena local — te manda una notificación al celular, estés en el trabajo o de viaje. Pensalo como un detector de humo, pero para agua: la idea no es escuchar la alarma parado al lado, es enterarte a tiempo aunque no estés en la casa.",
+      "ejemploHogar": "Lo colocás debajo del termotanque, la bomba de la pileta o el lavarropas — si empieza a gotear o pierde, te llega la alerta al celular antes de que el agua llegue a mojar el piso o filtrar a otro ambiente.",
+      "ejemploNegocio": "Un local con freezers o heladeras comerciales (carnicería, pescadería, bar) puede colocarlo cerca de la bandeja de desagüe o la conexión de agua del equipo — una pérdida no detectada a tiempo en un negocio puede significar horas de limpieza y mercadería perdida, no solo una molestia doméstica.",
+      "puntosClave": [
+        "El cable sensor detecta en toda su longitud (2 metros), no solo en un punto — sirve para cubrir el perímetro de un electrodoméstico entero, no solo debajo de un caño puntual.",
+        "Es IP44: resiste salpicaduras, pero no está pensado para quedar sumergido — colocalo donde pueda detectar el agua apenas empieza a acumularse, no en el fondo de un pozo.",
+        "Si querés usarlo por Zigbee o como parte de una red Thread, necesitás un hub o coordinador compatible en casa; por WiFi/Bluetooth funciona standalone, sin hub adicional."
+      ],
+      "consejoInversion": "Frente a una alarma de agua genérica de $10 que solo hace ruido si estás al lado escuchándola, este sensor te avisa al celular estés donde estés — la diferencia entre enterarte de una pérdida a los 5 minutos o a los 3 días cuando volvés de viaje. Frente a lo que puede costar reparar un piso de madera o un techo dañado por agua, los $40 de este sensor son baratos como seguro."
+    },
+    "tags": [
+      "Matter",
+      "Zigbee",
+      "WiFi/Bluetooth",
+      "Sensor de fuga"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0FPG9SGLJ?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-14",
+    "activo": true,
+    "nombreEn": "Shelly Flood Gen4 — WiFi/Zigbee/Matter Water Leak Sensor with Detection Cable",
+    "notaTecnicaEn": "Water leak sensor with a 2-meter detection cable (not just a single point), natively compatible with WiFi, Bluetooth, Zigbee, and Matter — unlike a generic water alarm that only makes noise on the spot, this one sends an alert to your phone the moment it detects water, wherever you are. Runs on 2 AA batteries with a claimed battery life of up to 2 years. IP44 rated (splash-resistant, not submersible) — built to catch a leak before it turns into a puddle, not to sit underwater. 262 reviews, 4.3 stars, \"300+ bought in the past month\" per Amazon. If you plan to use it over Zigbee or as part of a local Thread/Matter network, you need a compatible hub or coordinator — this catalog's Aqara Hub M3 or SONOFF Zigbee dongle cover that; over WiFi or Bluetooth it works standalone, no extra hub needed.",
+    "idealParaEn": "Catching a water leak (under a water heater, washing machine, or kitchen sink) before it turns into a puddle — sends an alert to your phone no matter where you are.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a water alarm with its own phone line: the moment the sensor cable (or the base) touches water, it doesn't just sound a local siren — it sends a notification to your phone, whether you're at work or traveling. Think of it like a smoke detector, but for water: the point isn't to hear the alarm standing next to it, it's to find out in time even when you're not home.",
+      "ejemploHogar": "You place it under the water heater, the pool pump, or the washing machine — if it starts dripping or fails, the alert reaches your phone before the water reaches the floor or seeps into another room.",
+      "ejemploNegocio": "A shop with commercial fridges or freezers (a butcher shop, fish market, bar) can place it near the drain tray or the unit's water connection — an undetected leak in a business can mean hours of cleanup and lost inventory, not just a household nuisance.",
+      "puntosClave": [
+        "The sensor cable detects along its full 2-meter length, not just at one point — useful for covering the whole perimeter of an appliance, not just under one specific pipe.",
+        "It's IP44: splash-resistant, but not meant to sit underwater — place it where it can catch water as it starts pooling, not at the bottom of a sump.",
+        "If you want to use it over Zigbee or as part of a Thread network, you need a compatible hub or coordinator at home; over WiFi/Bluetooth it works standalone, no extra hub needed."
+      ],
+      "consejoInversion": "Compared to a generic $10 water alarm that only makes noise if you're standing right next to it, this sensor alerts your phone wherever you are — the difference between finding out about a leak in 5 minutes versus 3 days later when you get back from a trip. Next to what it can cost to repair a wood floor or a ceiling damaged by water, this sensor's $40 is cheap as insurance."
+    },
+    "tagsEn": [
+      "Matter",
+      "Zigbee",
+      "WiFi/Bluetooth",
+      "Leak sensor"
+    ]
   }
 ]
