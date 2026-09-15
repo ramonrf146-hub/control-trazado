@@ -16,8 +16,16 @@ For 15HP, most entry-level VFDs top out at 2-5HP — at that power, the market g
 ## 2. Before buying anything: the electrical checklist
 
 - **Feed type:** is your installation single-phase or three-phase 240V? Single-phase-to-three-phase equipment exists, but not every model supports it — confirm before buying.
-- **Bypass contactor:** several soft starters (including the ATO 15HP) don't include one — it's a separate part you need to add to your budget.
+- **Bypass contactor:** several soft starters (including the ATO 15HP) don't include one — it's a separate part you need to add to your budget. The [Electrodepot 4-pole NO contactor](/en/productos/B07H7TJ595) in this ranking covers exactly this function: it closes only once the motor is already at full speed, so its 60A AC-1 rating (steady-state load) covers it with room to spare — heads up, it's not meant for directly starting the motor, since its 40A AC-3 rating falls short of the ~45A nominal current of a 15HP motor.
 - **Available amperage:** a 15HP motor at 240V draws around 40-45A rated — your panel and existing wiring need to handle that with margin.
+
+### How the bypass contactor gets wired
+
+If you've never seen how a bypass contactor connects in parallel with a soft starter, this short video from ATO (the same brand as the 15HP starter in this ranking) shows it in practice: the three-phase input feeds the starter, the contactor's output goes straight to the motor, and the contactor only closes once the starter has already finished its acceleration ramp.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/9qYIfI6EaE8" title="How to connect bypass contactor to soft starter" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## 3. Building the panel: the physical base
 

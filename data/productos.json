@@ -2575,5 +2575,58 @@
       "WiFi/Bluetooth",
       "Leak sensor"
     ]
+  },
+  {
+    "asin": "B07H7TJ595",
+    "nombre": "Electrodepot Contactor AC 60A 4 Polos NA — Bobina 110-120V, Riel DIN",
+    "categoria": "control-industrial-b2b",
+    "precio": 66.89,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/51m6V8ZRNML._AC_SL1300_.jpg",
+    "rating": 4.5,
+    "numResenas": 39,
+    "ranking": 32,
+    "activo": true,
+    "notaTecnica": "Contactor normalmente abierto (NA) de 4 polos para riel DIN — 40A en régimen AC-3 (arranque de motor) y 60A en AC-1 (carga resistiva/corriente continua). Cubre el hueco declarado en la guía de instalación de VFD/arrancador suave de este catálogo: varios arrancadores suaves de 15HP (incluido el ATO de este ranking) no traen incluido el contactor de derivación que se cierra recién después de que el arrancador ya llevó el motor a velocidad plena. Justo ahí está la aclaración honesta: no es un contactor para arranque directo de un motor de 15HP (para eso, 40A en AC-3 queda corto frente a los ~45A nominales) — es específicamente para la función de derivación, donde cierra sin carga de arranque y después solo sostiene corriente continua, terreno donde el régimen AC-1 de 60A sí alcanza con margen. 4 polos en vez de 3 (el cuarto queda libre o sirve para otra señal). Bobina 110-120V, igual que los contactores BAOMAIN ya listados en este catálogo. Vendido y despachado por Amazon, 4.5★ con 39 reseñas.",
+    "idealPara": "El contactor de derivación (bypass) que varios arrancadores suaves de 15HP no traen incluido — se cierra solo después de que el motor ya alcanzó velocidad plena, no para arranque directo.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Un contactor es básicamente un interruptor grande que se acciona a control remoto: una bobina de baja corriente (acá, 110-120V) cierra un juego de contactos que sí soportan la corriente fuerte del equipo real. En un arrancador suave, el contactor de derivación cumple un trabajo puntual: una vez que el arrancador ya llevó el motor a velocidad plena de forma progresiva, este contactor se cierra y deja que la corriente circule directo, sin pasar más por la electrónica del arrancador — así el arrancador no tiene que sostener la carga las 24 horas y se calienta menos.",
+      "ejemploHogar": "En un tablero doméstico más simple (un contactor de 40A para un calefón grande o un horno eléctrico), este mismo tipo de pieza conecta la carga completa cuando el termostato manda la señal, sin que el termostato tenga que bancarse esa corriente.",
+      "ejemploNegocio": "En la instalación de una bomba de 15HP a 240V con arrancador suave (como la que describe la guía de VFD de este catálogo), este contactor se cablea en paralelo al arrancador y se cierra recién cuando el motor ya está a régimen — reduce el calor generado dentro del tablero durante el funcionamiento continuo de la bomba.",
+      "puntosClave": [
+        "Es normalmente abierto (NA/NO) — confirmá que no estás comprando por error la versión normalmente cerrada (NC), que es para otra función y no sirve para esto.",
+        "Su rating de 40A es en régimen AC-3 (arranque de motor); para la función de derivación lo que importa es el régimen AC-1 de 60A, porque cierra sin carga de arranque — no lo uses para arrancar un motor de 15HP en forma directa.",
+        "Tiene 4 polos en vez de 3 — para un bypass trifásico usás 3 y el cuarto queda libre (o lo aprovechás para una señal auxiliar de confirmación)."
+      ],
+      "consejoInversion": "Un contactor de derivación sin historial de reseñas es una apuesta cara si falla en un tablero de 15HP que corre horas seguidas — a diferencia de las opciones de marca genérica que se descartaron en revisiones anteriores de este catálogo (sin reseñas o con una sola), este viene con 39 reseñas reales y 4.5 estrellas. La diferencia de precio frente a un contactor sin trazabilidad se paga sola la primera vez que evita un rearranque de emergencia por un contacto que se pegó o no cerró bien."
+    },
+    "tags": [
+      "60A AC-1 / 40A AC-3",
+      "Normalmente Abierto",
+      "4 Polos",
+      "Riel DIN"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B07H7TJ595?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-15",
+    "nombreEn": "Electrodepot 60A 4-Pole NO AC Contactor — 110-120V Coil, DIN Rail",
+    "notaTecnicaEn": "A normally open (NO) 4-pole DIN-rail contactor — 40A under AC-3 duty (motor starting) and 60A under AC-1 duty (resistive/steady-state current). It fills the gap this catalog's VFD/soft-starter install guide explicitly flags: several 15HP soft starters (including the ATO one in this ranking) don't include the bypass contactor that closes only after the starter has already ramped the motor up to full speed. That's exactly where the honest caveat lives: this isn't a contactor for directly starting a 15HP motor (for that, 40A AC-3 falls short of the ~45A nominal current) — it's specifically for the bypass function, where it closes with no starting load and then just carries steady-state current, which is where the 60A AC-1 rating comfortably covers it. 4 poles instead of 3 (the fourth is left unused or free for another signal). 110-120V coil, same as the BAOMAIN contactors already listed in this catalog. Sold and shipped by Amazon, 4.5 stars with 39 reviews.",
+    "idealParaEn": "The bypass contactor several 15HP soft starters don't include — it closes only after the motor has already reached full speed, not for direct motor starting.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A contactor is basically a big remote-controlled switch: a low-current coil (here, 110-120V) closes a set of contacts rated for the equipment's actual heavy current. In a soft starter setup, the bypass contactor has one specific job: once the starter has already brought the motor up to full speed gradually, this contactor closes and lets current flow directly, no longer routing through the starter's electronics — so the starter doesn't have to carry the load around the clock and runs cooler.",
+      "ejemploHogar": "In a simpler home panel (a 40A contactor for a large water heater or electric oven), this same type of part connects the full load when the thermostat sends the signal, without the thermostat having to handle that current itself.",
+      "ejemploNegocio": "In a 15HP, 240V pump installation with a soft starter (like the one this catalog's VFD guide describes), this contactor wires in parallel with the starter and closes only once the motor is already up to speed — reducing the heat generated inside the panel during the pump's continuous operation.",
+      "puntosClave": [
+        "It's normally open (NO) — confirm you're not accidentally buying the normally closed (NC) version, which serves a different purpose and won't work for this.",
+        "Its 40A rating is under AC-3 duty (motor starting); for the bypass function what matters is the 60A AC-1 rating, since it closes with no starting load — don't use it to directly start a 15HP motor.",
+        "It has 4 poles instead of 3 — for a three-phase bypass you use 3 and the fourth is left free (or used for an auxiliary confirmation signal)."
+      ],
+      "consejoInversion": "A bypass contactor with no review history is an expensive gamble in a 15HP panel that runs for hours at a stretch — unlike the generic-brand options ruled out in earlier reviews of this catalog (with no reviews, or just one), this one comes with 39 real reviews and 4.5 stars. The price difference over an untraceable contactor pays for itself the first time it avoids an emergency restart from a contact that stuck or didn't close properly."
+    },
+    "tagsEn": [
+      "60A AC-1 / 40A AC-3",
+      "Normally Open",
+      "4-Pole",
+      "DIN Rail"
+    ]
   }
 ]

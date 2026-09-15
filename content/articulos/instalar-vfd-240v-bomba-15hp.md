@@ -16,8 +16,16 @@ Para 15HP, la mayoría de los VFDs de entrada terminan en 2-5HP — a esa potenc
 ## 2. Antes de comprar nada: el checklist eléctrico
 
 - **Tipo de acometida:** ¿tu instalación es monofásica o trifásica de 240V? Los equipos de entrada monofásica-a-trifásica existen, pero no todos los modelos lo soportan — confirmalo antes de comprar.
-- **Contactor de derivación:** varios arrancadores suaves (incluido el ATO de 15HP) no lo traen incluido — es una pieza aparte que hay que sumar al presupuesto.
+- **Contactor de derivación:** varios arrancadores suaves (incluido el ATO de 15HP) no lo traen incluido — es una pieza aparte que hay que sumar al presupuesto. El [contactor NA 4 polos Electrodepot](/productos/B07H7TJ595) de este ranking cubre justo esta función: se cierra recién cuando el motor ya está a velocidad plena, así que su régimen de 60A AC-1 (carga sostenida) alcanza de sobra — ojo, no es para arrancar el motor de forma directa, para eso su rating de 40A AC-3 queda corto frente a los ~45A nominales de un motor de 15HP.
 - **Amperaje disponible:** un motor de 15HP a 240V ronda los 40-45A nominales — tu tablero y tu cableado existente tienen que soportar eso con margen.
+
+### Cómo se cablea el contactor de derivación
+
+Si nunca viste cómo se conecta un contactor de derivación en paralelo al arrancador suave, este video corto de ATO (la misma marca del arrancador de 15HP de este ranking) lo muestra en la práctica: la entrada trifásica va al arrancador, la salida del contactor va directo al motor, y el contactor recién cierra cuando el arrancador ya terminó la rampa de aceleración.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/9qYIfI6EaE8" title="How to connect bypass contactor to soft starter" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## 3. Armar el tablero: la base física
 
