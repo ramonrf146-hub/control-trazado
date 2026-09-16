@@ -31,6 +31,14 @@ Arrastrá un nodo `Modbus-Read` al flujo y configurá:
 - **Registro y cantidad:** el registro Holding/Input donde el sensor publica el valor de presión — este dato es específico de cada sensor, está en su hoja técnica.
 - **Frecuencia de lectura:** cada 1-5 segundos alcanza para monitoreo de presión; leer más rápido no aporta nada y satura el bus si tenés varios sensores.
 
+### Cómo se ve la configuración en la práctica, en video
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/P-hBLbYIm_Y" title="Modbus RTU on Node-RED" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+Este video muestra el armado real del nodo `Modbus-Read` sobre RTU (puerto serie, dirección de esclavo, registro) dentro del editor de Node-RED — útil para comparar tu propia configuración contra una que ya funciona antes de conectar el sensor real.
+
 ## 5. Armar el flujo: leer, convertir y alertar
 
 El flujo mínimo funcional tiene esta forma:

@@ -31,6 +31,14 @@ Drag a `Modbus-Read` node onto the flow and configure:
 - **Register and quantity:** the Holding/Input register where the sensor publishes the pressure value — this is specific to each sensor, it's in its data sheet.
 - **Poll rate:** every 1-5 seconds is enough for pressure monitoring; polling faster adds nothing and saturates the bus if you have several sensors.
 
+### What the setup looks like in practice, on video
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/P-hBLbYIm_Y" title="Modbus RTU on Node-RED" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+This video shows the actual setup of the `Modbus-Read` node over RTU (serial port, slave address, register) inside the Node-RED editor — useful for comparing your own configuration against one that already works before you wire up the real sensor.
+
 ## 5. Building the flow: read, convert, and alert
 
 The minimal working flow looks like this:
