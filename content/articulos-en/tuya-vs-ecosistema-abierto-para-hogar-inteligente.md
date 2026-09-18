@@ -27,6 +27,14 @@ The learning curve is steeper than opening an app and tapping a button, but it's
 
 To get into this world with Zigbee devices (which tend to be cheaper and more varied than native Matter ones), you need a coordinator connected to your Home Assistant server — the [SONOFF Zigbee 3.0 USB Dongle Plus-E](/en/productos/B0B6P22YJC) in this ranking is exactly that: it gives Home Assistant, openHAB, or Zigbee2MQTT the ability to talk directly to those devices without going through any manufacturer's cloud. If you'd rather not build that server yourself, the [Linkind Matter Smart Plug](/en/productos/B0C36WXGP1) gives you a "ready to use" version of that same open-ecosystem spirit, with nothing technical to configure — in exchange for less room to customize.
 
+### What the real coordinator install looks like
+
+If you've never connected a Zigbee dongle to Home Assistant, this video shows the actual unboxing and install of the SONOFF Zigbee 3.0 USB Dongle Plus from this ranking — from plugging it in to Home Assistant detecting it and being ready to add devices.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/oc1ga2FLO1U" title="Sonoff Zigbee 3.0 USB Dongle Plus Unboxing and Installation on Home Assistant" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 Once you have the coordinator, adding Zigbee sensors is straightforward — for example the [SONOFF SenseGuard SNZB-03PR2](/en/productos/B0H2HXRNB7), a motion sensor with a light sensor that integrates into the same hub with no extra ecosystem to add (though if you use SONOFF's own hub instead of a USB coordinator, it doesn't need Home Assistant to work). The [SONOFF SenseGuard SNZB-04PR2](/en/productos/B0GKFB66JZ) does the same for doors and windows — it comes in a 4-pack, so it covers several openings in one purchase instead of adding sensors one at a time. If what you need isn't motion or openings but catching a water leak, the [Shelly Flood Gen4](/en/productos/B0FPG9SGLJ) adds one more real open-ecosystem case: it speaks Zigbee (joins the same coordinator you already set up) but also native WiFi and Bluetooth, so you don't even need the coordinator if you'd rather run it standalone.
 
 ## Dry-contact output vs. built-in plug

@@ -27,6 +27,14 @@ La curva de aprendizaje es más alta que abrir una app y tocar un botón, pero e
 
 Para entrar a este mundo con dispositivos Zigbee (que suelen ser más baratos y variados que los Matter nativos), necesitás un coordinador conectado a tu servidor de Home Assistant — el [SONOFF Zigbee 3.0 USB Dongle Plus-E](/productos/B0B6P22YJC) de este ranking es exactamente eso: le da a Home Assistant, openHAB o Zigbee2MQTT la capacidad de hablar directo con esos dispositivos sin pasar por la nube de ningún fabricante. Si no querés armar ese servidor propio, el [Linkind Matter Smart Plug](/productos/B0C36WXGP1) te da una versión "lista para usar" del mismo espíritu de ecosistema abierto, sin necesidad de configurar nada técnico — a cambio de menos margen de personalización.
 
+### Cómo se ve la instalación real del coordinador
+
+Si nunca conectaste un dongle Zigbee a Home Assistant, este video muestra el desembalaje y la instalación real del SONOFF Zigbee 3.0 USB Dongle Plus de este ranking — desde enchufarlo hasta que Home Assistant lo detecta y queda listo para sumar dispositivos.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/oc1ga2FLO1U" title="Sonoff Zigbee 3.0 USB Dongle Plus Unboxing and Installation on Home Assistant" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 Una vez que tenés el coordinador, sumar sensores Zigbee es directo — por ejemplo el [SONOFF SenseGuard SNZB-03PR2](/productos/B0H2HXRNB7), un sensor de movimiento con sensor de luz que se integra al mismo hub sin agregar otro ecosistema aparte (aunque si usás el hub propio de SONOFF en vez de un coordinador USB, no necesita Home Assistant para funcionar). El [SONOFF SenseGuard SNZB-04PR2](/productos/B0GKFB66JZ) hace lo mismo para puertas y ventanas — viene en pack de 4, así que sirve para cubrir varias aberturas con una sola compra en vez de sumar sensores de a uno. Si lo que necesitás no es movimiento ni aperturas sino detectar una pérdida de agua, el [Shelly Flood Gen4](/productos/B0FPG9SGLJ) suma un caso más de ecosistema abierto real: habla Zigbee (se integra al mismo coordinador que ya armaste) pero también WiFi y Bluetooth de forma nativa, así que ni siquiera necesitás el coordinador si preferís que funcione standalone.
 
 ## Salida "dry contact" vs. enchufe integrado
