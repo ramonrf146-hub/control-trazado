@@ -53,12 +53,18 @@ Think of it as a universal data plug: instead of every brand (Tuya, Alexa, Googl
 - The [roborock Q7 L5](/en/productos/B0F334DN9J) and the [Wyze Auto-Lock Bolt lock](/en/productos/B09R38VVXF) don't have Matter either — the robot is controlled by Roborock's own app, and the lock is Bluetooth with its own optional bridge. They're good examples of categories (vacuums, locks) where Matter still isn't the norm, unlike plugs and sensors.
 - The [Amazon Basics bulb](/en/productos/B0CG5VDC8P) is a special case: it works **exclusively** with Alexa, it's not even multi-ecosystem without Matter — if your home uses Google Home or Apple Home, it simply won't work for you.
 - The [SwitchBot Hub Mini](/en/productos/B07TTH5TMW) doesn't have Matter either, but it solves a different problem than the devices above: it's not a plug or a bulb, it's a bridge for appliances with an infrared remote (air conditioners, TVs) that otherwise have no smart connectivity at all. If you specifically want a Matter-enabled hub that also has IR input, this same ranking's [Aqara Hub M3](/en/productos/B0CWLHSKYC) does both.
-- The [Shelly Flood Gen4](/en/productos/B0FPG9SGLJ) is Matter out of the box and also speaks WiFi, Bluetooth, and Zigbee — it's a water leak sensor, not a plug or a motion sensor, so it covers a category this ranking didn't have yet. Over WiFi or Bluetooth it works standalone with no hub; if you'd rather add it over Zigbee or Thread to the network you already built with the [Aqara Hub M3](/en/productos/B0CWLHSKYC) or the [SONOFF Zigbee dongle](/en/productos/B0B6P22YJC), you can do that too.
+- The [Shelly Flood Gen4](/en/productos/B0FPG9SGLJ) is Matter out of the box and also speaks WiFi, Bluetooth, and Zigbee — it's a water leak sensor, not a plug or a motion sensor, so it covers a category this ranking didn't have yet. Over WiFi or Bluetooth it works standalone with no hub; if you'd rather add it over Zigbee or Thread to the network you already built with the [Aqara Hub M3](/en/productos/B0CWLHSKYC) or the [SONOFF Zigbee dongle](/en/productos/B0B6P22YJC), you can do that too. The Shelly only **warns** you there's water — if you also want it to **act**, the [Aqara Smart Valve Controller T1](/en/productos/B0DB8KS8Q3) is Matter "over bridge" (through a Zigbee hub, not natively like the Shelly) and mounts on your existing shutoff valve to close it on its own the moment the sensor detects a leak, with nobody needing to be home.
 
 ## The water leak sensor, on video
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Tc7y1hETfBQ" title="New Shelly Flood Gen4 Review | Unboxing & Real Setup — TecTimmy" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+## The valve that shuts itself off, on video
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/4sWNrb7Tu-c" title="Home Assistant Smart Home Ideas | Aqara Valve Controller T1 Review — Paul Hibbert" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## The neutral hub, on video

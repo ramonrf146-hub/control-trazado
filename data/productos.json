@@ -2628,5 +2628,56 @@
       "4-Pole",
       "DIN Rail"
     ]
+  },
+  {
+    "asin": "B0DB8KS8Q3",
+    "nombre": "Aqara Smart Valve Controller T1 — Válvula de Agua Zigbee con Cierre Automático",
+    "nombreEn": "Aqara Smart Valve Controller T1 — Zigbee Water Valve with Automatic Shutoff",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 69.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61BakT-Hj7L._AC_SL1500_.jpg",
+    "rating": 3.8,
+    "numResenas": 399,
+    "ranking": 21,
+    "notaTecnica": "Actuador retrofit que se instala sobre una llave de paso de agua existente (DN15/DN20/DN25, es decir 1/2\", 3/4\" o 1\") y la abre/cierra a control remoto — no reemplaza la llave, gira la manija de la que ya tenés. Requiere un hub Zigbee 3.0 de Aqara (el Aqara Hub M3 de este catálogo cumple esa función); funciona con Matter solo \"over bridge\", es decir a través de ese hub, no de forma nativa. Corre con 4 pilas AA, autonomía declarada de hasta 2 años, sin cableado eléctrico en el punto de instalación. Aclaración importante: no tiene protección contra ingreso de agua (no es IP-rated para exterior ni para zonas con salpicaduras directas) — está pensado para instalarse en un ambiente seco (sótano, placard de servicios, debajo de una mesada), no a la intemperie. Combinado con un sensor de fuga como el Shelly Flood Gen4 de este catálogo, el cierre puede automatizarse: el sensor detecta el agua y el actuador cierra la llave solo, sin que nadie tenga que estar en casa. 399 reseñas, 3.8★.",
+    "notaTecnicaEn": "A retrofit actuator that mounts on an existing water shutoff valve (DN15/DN20/DN25 — 1/2\", 3/4\", or 1\") and opens/closes it remotely — it doesn't replace the valve, it turns the handle you already have. Requires an Aqara Zigbee 3.0 hub (this catalog's Aqara Hub M3 covers that); it supports Matter only \"over bridge\", meaning through that hub, not natively. Runs on 4 AA batteries, claimed battery life of up to 2 years, no electrical wiring needed at the install point. Important note: it has no water-ingress protection (not IP-rated for outdoor or direct-splash areas) — it's meant for a dry space (basement, utility closet, under a sink cabinet), not outdoors. Paired with a leak sensor like this catalog's Shelly Flood Gen4, the shutoff can be automated: the sensor detects water and the actuator closes the valve on its own, with nobody needing to be home. 399 reviews, 3.8 stars.",
+    "idealPara": "Cerrar el agua automáticamente cuando un sensor de fuga detecta una pérdida, sin que nadie tenga que estar en casa para cortarla a tiempo.",
+    "idealParaEn": "Automatically shutting off the water when a leak sensor detects a problem, without anyone needing to be home to close it in time.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es una mano robótica que gira la llave de paso de agua por vos: se sujeta sobre la llave que ya tenés instalada (no hace falta cortar caños ni llamar a un plomero) y la abre o cierra a control remoto o de forma automática. Pensalo como el actuador de un portón automático, pero aplicado a una válvula de agua en vez de a una puerta.",
+      "ejemploHogar": "Lo instalás en la llave de paso general o en la de un termotanque, lo emparejás con un sensor de fuga de agua, y armás una regla simple: si el sensor detecta agua, la válvula se cierra sola. Te vas de viaje una semana y, si algo pierde, el agua se corta aunque no haya nadie para hacerlo a mano.",
+      "ejemploNegocio": "En un local con varios artefactos de agua (bachas, freezers con desagüe, máquina de hielo), un integrador lo instala en la llave general del comercio y lo conecta a sensores de fuga en los puntos críticos — si hay una pérdida fuera de horario, el corte automático evita horas de daño antes de que alguien lo note al abrir al día siguiente.",
+      "puntosClave": [
+        "Medí el diámetro de tu llave de paso antes de comprar: cubre DN15/DN20/DN25 (1/2\", 3/4\" y 1\"), pero cada diámetro necesita su propio accesorio de instalación — no asumas que el mismo kit sirve para cualquier tamaño.",
+        "No funciona solo: necesitás un hub Zigbee 3.0 de Aqara en casa (el Aqara Hub M3 de este catálogo sirve) para controlarlo y para que el cierre automático con un sensor de fuga funcione.",
+        "No tiene protección contra ingreso de agua — se instala en un ambiente seco, no a la intemperie ni en una zona que reciba salpicaduras directas."
+      ],
+      "consejoInversion": "Frente a una llave de paso manual común (que solo se cierra si hay alguien ahí para girarla), este actuador convierte esa misma llave en algo que reacciona solo ante una fuga — la diferencia entre una pérdida que se corta en segundos y una que sigue corriendo agua durante horas o días porque nadie estaba en casa. Al lado de lo que cuesta secar un piso, cambiar un contrapiso mojado o reparar un cielorraso dañado, los $70 de este actuador son un seguro barato, sobre todo si ya tenés el sensor de fuga y el hub Zigbee para aprovecharlo."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a robotic hand that turns your water shutoff valve for you: it clamps onto the valve you already have installed (no cutting pipes or calling a plumber) and opens or closes it remotely or automatically. Think of it like a gate opener's actuator, but applied to a water valve instead of a door.",
+      "ejemploHogar": "You install it on the main shutoff or on a water heater's valve, pair it with a water leak sensor, and set a simple rule: if the sensor detects water, the valve closes itself. You leave for a week-long trip and, if something leaks, the water shuts off even with nobody home to do it by hand.",
+      "ejemploNegocio": "In a shop with several water fixtures (sinks, drained freezers, an ice machine), an integrator installs it on the shop's main shutoff and connects it to leak sensors at the critical points — if there's a leak after hours, the automatic shutoff prevents hours of damage before anyone notices it the next morning.",
+      "puntosClave": [
+        "Measure your shutoff valve's diameter before buying: it covers DN15/DN20/DN25 (1/2\", 3/4\", and 1\"), but each diameter needs its own installation accessory — don't assume the same kit fits any size.",
+        "It doesn't work alone: you need an Aqara Zigbee 3.0 hub at home (this catalog's Aqara Hub M3 works) to control it and to make automatic shutoff with a leak sensor work.",
+        "It has no water-ingress protection — install it in a dry space, not outdoors or anywhere it could get directly splashed."
+      ],
+      "consejoInversion": "Compared to a plain manual shutoff valve (which only closes if someone's there to turn it), this actuator turns that same valve into something that reacts on its own to a leak — the difference between a leak that's shut off in seconds versus one that keeps running for hours or days because nobody was home. Next to what it costs to dry out a floor, replace a soaked subfloor, or repair a damaged ceiling, this actuator's $70 is cheap insurance, especially if you already have the leak sensor and Zigbee hub to make it work."
+    },
+    "tags": [
+      "Zigbee",
+      "Matter (over bridge)",
+      "Válvula de cierre automático"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0DB8KS8Q3?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-19",
+    "activo": true,
+    "tagsEn": [
+      "Zigbee",
+      "Matter (over bridge)",
+      "Automatic shutoff valve"
+    ]
   }
 ]
