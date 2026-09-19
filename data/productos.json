@@ -2679,5 +2679,58 @@
       "Matter (over bridge)",
       "Automatic shutoff valve"
     ]
+  },
+  {
+    "asin": "B012IR9YMW",
+    "nombre": "ASI ASISP180-1P — Protector de Sobretensión Modular 1 Polo 120V, Riel DIN",
+    "nombreEn": "ASI ASISP180-1P — Modular Surge Protector 1-Pole 120V, DIN Rail",
+    "categoria": "control-industrial-b2b",
+    "precio": 43.68,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71wvNhh6p3L._SX342_.jpg",
+    "rating": 5,
+    "numResenas": 2,
+    "ranking": 33,
+    "notaTecnica": "Protector de sobretensión (SPD) modular para riel DIN — 1 polo, 120 Vac, con módulo MOV enchufable que se reemplaza sin desconectar el cableado de la base. Certificado UL1449 4ª edición Tipo 4 (para uso dentro de instalaciones Tipo 1, 2 y 3), con tensión máxima continua de 180 Vac y SCCR de 200 kA probado en fábrica — más robusto que el disyuntor GFCI con protección de sobretensión combinada ya listado en este catálogo, donde la sobretensión es una función secundaria de un módulo pensado principalmente para falla a tierra. A diferencia de ese disyuntor, este SPD no requiere neutro disponible en el circuito y suma un contacto de alarma remota para monitorear su estado sin abrir el tablero. Es solo 1 polo a 120 Vac — para trifásico o 240V hace falta otro modelo de la misma línea ASI — y con apenas 2 reseñas en Amazon todavía tiene poco historial de uso real pese al 5.0 de rating.",
+    "notaTecnicaEn": "Modular DIN-rail surge protection device (SPD) — 1 pole, 120 Vac, with a pluggable MOV module that swaps out without disconnecting the base wiring. UL1449 4th Edition Type 4 listed (for use within Type 1, 2, and 3 installations), rated for 180 Vac max continuous operating voltage and a factory-tested 200 kA SCCR — more robust than the GFCI breaker with combined surge protection already listed in this catalog, where surge protection is a secondary function of a module built mainly for ground-fault protection. Unlike that breaker, this SPD doesn't require a neutral in the circuit and adds a remote alarm contact for status monitoring without opening the panel. It's only 1 pole at 120 Vac — three-phase or 240V circuits need a different model in the same ASI line — and with only 2 Amazon reviews it still has a thin real-world track record despite the 5.0 rating.",
+    "idealPara": "Sumar protección contra sobretensión dedicada a un tablero que ya tiene su propio disyuntor — no lo reemplaza, se agrega en paralelo con contacto de alarma remota.",
+    "idealParaEn": "Adding dedicated surge protection to a panel that already has its own breaker — it doesn't replace it, it adds in parallel with a remote alarm contact.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Un SPD (protector de sobretensión) no es un disyuntor: no corta la corriente normal del circuito, su trabajo es desviar picos de tensión (un rayo cercano, una maniobra de arranque de un motor grande en la misma instalación) antes de que lleguen a dañar el equipo conectado más abajo en el tablero. Este modelo usa un módulo MOV enchufable — si el módulo absorbe una sobretensión grande y se degrada, se reemplaza solo el módulo (sin recablear la base) y el contacto de alarma remota avisa cuándo eso pasó.",
+      "ejemploHogar": "En un tablero doméstico, un SPD como este se instala junto al disyuntor principal para proteger electrodomésticos sensibles (heladera con compresor inverter, electrónica de un termostato WiFi) de picos de tensión que un disyuntor normal no detecta porque no representan sobrecorriente sostenida.",
+      "ejemploNegocio": "En el tablero industrial de este catálogo, este SPD se monta en el mismo riel DIN, en paralelo con el disyuntor GFCI ya listado (que no cubre trifásico ni cargas más allá de 120V) — protege específicamente los circuitos de control de 120V (PLC, fuente 24V, transformador HVAC) que son los que más se dañan con un pico transitorio.",
+      "puntosClave": [
+        "Es 1 polo a 120 Vac — no sirve para líneas trifásicas ni 240V; para eso, ASI tiene otros modelos de la misma línea con distinta tensión y cantidad de polos.",
+        "No reemplaza al disyuntor térmico ni al GFCI — se instala en paralelo, es protección adicional contra picos, no contra sobrecorriente sostenida ni falla a tierra.",
+        "El módulo MOV es reemplazable sin recablear la base, pero eso también significa que después de una sobretensión grande hay que revisar el indicador visual o el contacto de alarma para saber si sigue protegiendo o ya se degradó."
+      ],
+      "consejoInversion": "Con solo 2 reseñas en Amazon, este SPD puntual todavía tiene poco historial de uso real pese al 5.0 de rating — a diferencia del contactor Electrodepot o el disyuntor DIHOOL ya listados en este catálogo, que superan las 30 reseñas. Aun así, ASI (Automation Systems Interconnect) es una marca establecida en protección industrial, y el precio ($43.68) es razonable frente al costo de reemplazar electrónica de control dañada por un pico de tensión sin protección dedicada."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "An SPD (surge protection device) isn't a breaker: it doesn't interrupt normal circuit current — its job is to divert voltage spikes (a nearby lightning strike, a large motor starting elsewhere on the same system) before they reach and damage equipment further down the panel. This model uses a pluggable MOV module — if the module absorbs a large surge and degrades, you replace just the module (no rewiring the base) and the remote alarm contact flags when that happened.",
+      "ejemploHogar": "In a home panel, an SPD like this mounts next to the main breaker to protect sensitive appliances (an inverter-compressor fridge, a WiFi thermostat's electronics) from voltage spikes that a normal breaker doesn't catch because they aren't sustained overcurrent.",
+      "ejemploNegocio": "In the industrial panel this catalog's build guide walks through, this SPD mounts on the same DIN rail, in parallel with the GFCI breaker already listed (which doesn't cover three-phase current or loads beyond 120V) — it specifically protects the 120V control circuits (a PLC, a 24V supply, an HVAC transformer) that are the most vulnerable to a transient spike.",
+      "puntosClave": [
+        "It's 1 pole at 120 Vac — it won't work on three-phase or 240V lines; for that, ASI has other models in the same line with different voltage and pole counts.",
+        "It doesn't replace a thermal breaker or a GFCI — it installs in parallel, as additional protection against spikes, not against sustained overcurrent or ground faults.",
+        "The MOV module swaps out without rewiring the base, but that also means that after a large surge you need to check the visual indicator or the alarm contact to know whether it's still protecting or already degraded."
+      ],
+      "consejoInversion": "With just 2 Amazon reviews, this particular SPD still has a thin real-world track record despite the 5.0 rating — unlike the Electrodepot contactor or the DIHOOL breaker already listed in this catalog, both past 30 reviews. Even so, ASI (Automation Systems Interconnect) is an established brand in industrial surge protection, and the price ($43.68) is reasonable against the cost of replacing control electronics damaged by an unprotected voltage spike."
+    },
+    "tags": [
+      "Protección de Sobretensión",
+      "1 Polo / 120V",
+      "Riel DIN",
+      "Alarma Remota"
+    ],
+    "tagsEn": [
+      "Surge Protection",
+      "1-Pole / 120V",
+      "DIN Rail",
+      "Remote Alarm"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B012IR9YMW?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-19",
+    "activo": true
   }
 ]

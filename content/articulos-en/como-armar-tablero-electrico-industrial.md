@@ -39,6 +39,8 @@ Once the rail and blocks are in place, the wiring running between them needs som
 
 With wiring organized, the panel needs protection. The [DIHOOL GFCI Breaker with Surge Protection (20A)](/en/productos/B0CRKN96TB) in this ranking combines a thermal breaker, ground fault protection, and surge protection in one module for 120V panels with a neutral — confirm your installation's wiring diagram before energizing it if your system doesn't have a neutral available, because a GFCI wired without a neutral reference doesn't protect the way it should.
 
+If the panel has no neutral available, or you already have a breaker and just need dedicated surge protection, the [ASI ASISP180-1P](/en/productos/B012IR9YMW) in this ranking is a standalone modular DIN-rail SPD — it mounts in parallel with the breaker (it doesn't replace it), doesn't need a neutral, and flags via a remote alarm contact when the MOV module has degraded and needs replacing. It's 1 pole at 120 Vac, so it only covers control circuits (a PLC, a 24V supply), not the panel's three-phase lines.
+
 If the panel also controls a load that switches on and off frequently (not just passive protection), a contactor like the [BAOMAIN AC 16A 2-Pole (110V coil)](/en/productos/B0CGL8J44N) in this ranking is the right part for smaller resistive loads — lighting, small water heaters. For bigger loads, this catalog also carries higher-amperage contactors.
 
 ## 7. If the panel controls HVAC equipment

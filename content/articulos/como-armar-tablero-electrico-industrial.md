@@ -39,6 +39,8 @@ Una vez que el riel y los bloques están puestos, el cableado que corre entre el
 
 Con el cableado ya organizado, el tablero necesita protección. El [DIHOOL Disyuntor GFCI con Protección de Sobretensión (20A)](/productos/B0CRKN96TB) de este ranking combina disyuntor térmico, falla a tierra y sobretensión en un solo módulo para tableros 120V con neutro — confirmá el diagrama de tu instalación antes de energizar si tu sistema no tiene neutro disponible, porque un GFCI mal cableado sin referencia de neutro no protege como debería.
 
+Si el tablero no tiene neutro disponible, o si ya tenés disyuntor y solo te falta protección de sobretensión dedicada, el [ASI ASISP180-1P](/productos/B012IR9YMW) de este ranking es un SPD modular independiente para riel DIN — se monta en paralelo con el disyuntor (no lo reemplaza), no necesita neutro, y avisa por contacto de alarma remota cuándo el módulo MOV se degradó y hay que reemplazarlo. Es 1 polo a 120 Vac, así que solo cubre los circuitos de control (PLC, fuente 24V), no las líneas trifásicas del tablero.
+
 Si además el tablero controla una carga que se enciende/apaga con frecuencia (no solo protección pasiva), un contactor como el [BAOMAIN AC 16A 2 Polos (bobina 110V)](/productos/B0CGL8J44N) de este ranking es la pieza para cargas resistivas chicas — iluminación, calefones menores. Para cargas más grandes, este catálogo también tiene contactores de mayor amperaje.
 
 ## 7. Si el tablero controla equipo HVAC
