@@ -15,6 +15,8 @@ Every modern panel is built on DIN rail — the standard that lets contactors, t
 
 On that rail go the terminal blocks, which are the connection point between field wiring and panel components. The [Meowlian UK-2.5B Terminal Block (100 pieces)](/en/productos/B0CW1K4461) in this ranking has pure copper contacts and a self-locking cage-clamp system — but **it does not include end stops**, which are sold separately.
 
+If the circuit carries heavier wire (10 AWG instead of thin signal gauges), the [Dinkle DK4N (100 pieces)](/en/productos/B00R1WU348) in this ranking is the screw-type alternative, UL 600V/30A — it accepts 10 to 22 AWG, heavier than what the Meowlian handles, whose own listing also contradicts itself between the title (20A) and the spec sheet (32A). It's the same Dinkle/International Connector line as the end stop and jumper already listed in this catalog, so those accessories are cross-compatible without mixing brands.
+
 ### How it's actually wired, on video
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">

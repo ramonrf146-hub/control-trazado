@@ -2785,5 +2785,58 @@
     "urlAfiliado": "https://www.amazon.com/dp/B00NTT91Y0?tag=controltrazado-20",
     "actualizadoEn": "2026-09-20",
     "activo": true
+  },
+  {
+    "asin": "B00R1WU348",
+    "nombre": "Dinkle DK4N Bloque de Terminales Riel DIN 100pzs — Tornillo, 30A/600V UL",
+    "nombreEn": "Dinkle DK4N DIN Rail Terminal Block 100pcs — Screw Type, 30A/600V UL",
+    "categoria": "control-industrial-b2b",
+    "precio": 59.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61lRI5Zvc+L._SX342_.jpg",
+    "rating": 4.6,
+    "numResenas": 78,
+    "ranking": 35,
+    "notaTecnica": "Bloque de terminales para riel DIN a tornillo, UL 600V/30A, acepta cables de 10 a 22 AWG — soporta calibres bastante más gruesos que el Meowlian de este catálogo, cuya propia ficha es inconsistente entre título (20A) y specs (32A). Es tornillo tradicional, no jaula autoblocante como el Meowlian: se ajusta con destornillador plano y hay que cuidar el torque de apriete, no empuja el cable a presión. Amazon's Choice, marca International Connector/Dinkle — la misma línea del tope de fin de carril y el puente de riel ya listados en este catálogo, así que esos accesorios (topes SS2, puentes DSS2.5N) son compatibles entre sí. No trae topes de fin de carril ni riel incluido, igual que el resto de los bloques de este catálogo.",
+    "notaTecnicaEn": "Screw-type DIN rail terminal block, UL 600V/30A, accepts 10 to 22 AWG wire — handles noticeably heavier gauge than the Meowlian block already in this catalog, whose own listing is inconsistent between the title (20A) and the spec sheet (32A). It's a traditional screw clamp, not the Meowlian's cage-clamp: you tighten it with a flat screwdriver and need to watch torque, it doesn't push-fit the wire. Amazon's Choice, International Connector/Dinkle brand — the same line as the end stop and rail jumper already listed in this catalog, so those accessories (SS2 end stops, DSS2.5N jumpers) are cross-compatible. Doesn't include end stops or rail, same as the rest of the blocks in this catalog.",
+    "idealPara": "Terminales para cables más gruesos (hasta 10 AWG) en un tablero donde el bloque Meowlian de menor calibre no alcanza, y donde conviene mantener todo en la misma línea Dinkle que los topes y puentes ya listados.",
+    "idealParaEn": "Terminals for heavier gauge wire (up to 10 AWG) in a panel where the smaller-gauge Meowlian block falls short, and where it's worth staying on the same Dinkle line as the end stops and jumpers already listed.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Un bloque de terminales de riel DIN es el punto donde el cableado de campo (lo que llega del motor, del sensor, del disyuntor) se conecta a los componentes del tablero sin empalmes sueltos ni cinta aisladora. Este modelo usa terminal a tornillo: se afloja el tornillo, se inserta el cable pelado, se aprieta — más lento que un sistema de jaula autoblocante, pero más tolerante a cables de calibre grueso y a vibración si se aprieta al torque correcto.",
+      "ejemploHogar": "En un tablero doméstico más simple, este mismo tipo de bloque conecta el cable grueso que viene del medidor o del breaker principal hacia el resto del circuito, donde el calibre 10-8 AWG es demasiado grueso para un bloque de jaula autoblocante como el Meowlian.",
+      "ejemploNegocio": "En el tablero industrial de este catálogo, este bloque reemplaza al Meowlian específicamente en los circuitos de mayor corriente (la alimentación de un contactor o de un VFD), donde conviene un terminal a tornillo con rating UL claro (30A) en vez de una ficha con especificaciones contradictorias entre título y datos técnicos.",
+      "puntosClave": [
+        "Es a tornillo, no de jaula autoblocante — necesitás destornillador plano y cuidar el torque de apriete; no se ajusta a presión como el Meowlian.",
+        "Acepta 10-22 AWG — calibre más grueso que el Meowlian; no lo uses para cables finos de señal donde el Meowlian ya alcanza y es más rápido de instalar.",
+        "Es de la misma línea Dinkle/International Connector que el tope de fin de carril (SS2) y el puente (DSS2.5N) ya listados — comprá esos accesorios de esta misma marca, no del Meowlian, para asegurar compatibilidad física."
+      ],
+      "consejoInversion": "Con 78 reseñas reales y 4.6★, además de la insignia Amazon's Choice, tiene mejor trazabilidad que el Meowlian de este catálogo (cuya propia ficha se contradice en el amperaje). La diferencia de precio por unidad es mínima — la decisión real es tornillo vs. jaula autoblocante y el calibre de cable que vas a usar, no la marca."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A DIN rail terminal block is where field wiring (from the motor, the sensor, the breaker) connects to the panel's components without loose splices or electrical tape. This model uses a screw terminal: loosen the screw, insert the stripped wire, tighten — slower than a cage-clamp system, but more tolerant of heavier-gauge wire and vibration when tightened to the correct torque.",
+      "ejemploHogar": "In a simpler home panel, this same type of block connects the thick cable coming from the meter or the main breaker to the rest of the circuit, where 10-8 AWG gauge is too thick for a cage-clamp block like the Meowlian.",
+      "ejemploNegocio": "In the industrial panel this catalog's build guide covers, this block replaces the Meowlian specifically on higher-current circuits (feeding a contactor or a VFD), where a screw terminal with a clear UL rating (30A) beats a listing with contradictory specs between the title and the data sheet.",
+      "puntosClave": [
+        "It's screw type, not cage-clamp — you need a flat screwdriver and have to watch tightening torque; it doesn't push-fit like the Meowlian.",
+        "Accepts 10-22 AWG — heavier gauge than the Meowlian; don't use it for thin signal wires where the Meowlian is already enough and faster to install.",
+        "It's the same Dinkle/International Connector line as the end stop (SS2) and jumper (DSS2.5N) already listed — buy those accessories from this same brand, not the Meowlian, to ensure physical compatibility."
+      ],
+      "consejoInversion": "With 78 real reviews and 4.6 stars, plus the Amazon's Choice badge, it has a better track record than the Meowlian block already in this catalog (whose own listing contradicts itself on amperage). The per-unit price difference is minimal — the real decision is screw vs. cage-clamp and the wire gauge you'll actually use, not the brand."
+    },
+    "tags": [
+      "Riel DIN",
+      "Tornillo",
+      "30A/600V UL",
+      "100 pzs"
+    ],
+    "tagsEn": [
+      "DIN Rail",
+      "Screw Type",
+      "30A/600V UL",
+      "100 pcs"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B00R1WU348?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-20",
+    "activo": true
   }
 ]

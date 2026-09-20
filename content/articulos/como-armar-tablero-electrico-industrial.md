@@ -15,6 +15,8 @@ Todo tablero moderno se arma sobre riel DIN — es el estándar que permite que 
 
 Sobre ese riel van los bloques de terminales, que son el punto de conexión entre el cableado de campo y los componentes del tablero. El [Meowlian Bloque de Terminales UK-2.5B (100 piezas)](/productos/B0CW1K4461) de este ranking tiene contacto de cobre puro y sistema de jaula autoblocante — pero **no viene con los topes de fin de carril**, que se compran aparte.
 
+Si el circuito lleva cable más grueso (10 AWG en vez de los calibres finos de señal), el [Dinkle DK4N (100 piezas)](/productos/B00R1WU348) de este ranking es la alternativa a tornillo, UL 600V/30A — acepta 10 a 22 AWG, más grueso que lo que soporta el Meowlian, cuya propia ficha además se contradice entre el título (20A) y la especificación técnica (32A). Es de la misma línea Dinkle/International Connector que el tope de fin de carril y el puente ya listados en este catálogo, así que esos accesorios son compatibles entre sí sin mezclar marcas.
+
 ### Cómo se cablean en la práctica, en video
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
