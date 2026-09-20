@@ -35,6 +35,8 @@ All the control equipment (starter or VFD, protections, terminals) mounts on a [
 
 A motor of this power needs overload, ground fault, and surge protection. A [GFCI breaker with surge protection](/en/productos/B0CRKN96TB) covers all three in one module — but be careful: several real installations (documented in reviews of this type of equipment, including one case that ended in fire) fail because the wiring diagram for 208V/240V without a neutral gets misread. Before energizing anything, confirm the exact diagram for your voltage configuration — if you're unsure, that's the part where an electrician is worth it, not a tutorial.
 
+All of that protects the equipment, but it doesn't replace an accessible manual cutoff for the person standing in front of the panel. An [IP65 emergency stop button](/en/productos/B00NTT91Y0) wired in series with the bypass contactor's coil (not with the motor's power side) lets you stop everything with one hit if something jams during startup — it's a cheap part that's often missing from DIY installations like this one, precisely because it doesn't protect the equipment, it protects whoever's operating it.
+
 ## 5. Power wiring
 
 For internal panel connections near heat-generating components (like the starter or VFD itself working at full load), [silicone wire](/en/productos/B08GFQP2MG) doesn't stiffen or crack over time like standard PVC — worth it on the short runs near the power equipment, though you don't need it throughout the whole panel.

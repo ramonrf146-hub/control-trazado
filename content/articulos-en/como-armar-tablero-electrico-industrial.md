@@ -47,6 +47,18 @@ If the panel also controls a load that switches on and off frequently (not just 
 
 A common case: the panel feeds thermostats, relays, or gas valves in a classic HVAC system, which run on 24V, not 120V. That requires stepping down voltage with a control transformer like the [WUYELIN 24V 40VA](/en/productos/B0B8Z2XV7V) in this ranking — built for circuits fed from 120V with a neutral; check your wiring diagram if your installation starts from a different voltage.
 
+## 8. Emergency stop: the safety part nobody asks for until they need it
+
+Everything above protects the equipment. This part protects the person standing in front of the panel. A [BAOMAIN IP65 emergency stop button](/en/productos/B00NTT91Y0) in this ranking doesn't sit on DIN rail like the rest of the parts in this guide — it bolts on separately, on the wall or enclosure, somewhere visible where the operator can hit it with an open palm without looking. Its 1NO+1NC contacts don't cut power current directly: they wire in series with the coil of the contactor or soft starter (like the one used in the [installing a 240V VFD](/en/articulos/instalar-vfd-240v-bomba-15hp) guide), so interrupting that control circuit is enough to de-energize the whole equipment at once.
+
+### How it's actually wired, on video
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/1xo7ViiTrvc" title="How to wire Emergency stop push button with contactor" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+This video shows exactly that wiring: the button's normally-closed contact in series with the contactor's coil, so pressing the button opens the control circuit and the contactor drops the load without the cutoff ever touching the motor's power side. One detail that trips people up: the button's rating (660V/10A) is for the control coil, never wired directly across the power lines to the motor.
+
 ## The recommended build order
 
 1. Mount the DIN rail to the enclosure.
@@ -66,6 +78,9 @@ The rail itself is a standard, so physically almost anything fits — but jumper
 
 **Is an end stop mandatory?**
 It's not "mandatory" in the sense of a code requirement on its own, but without it, blocks shift with use and vibration — in practice, it's a part every panel ends up needing sooner or later.
+
+**Does the emergency stop button replace the breaker?**
+No — they do different jobs. The breaker protects the circuit (it trips automatically on overcurrent or a ground fault); the emergency stop button protects the person (it cuts the control circuit on demand, when someone presses it). A complete panel needs both, not one instead of the other.
 
 **Does a GFCI breaker replace a regular thermal breaker?**
 The one in this ranking combines both functions (thermal + ground fault + surge) in a single module, so yes it replaces it — but confirm your installation has a neutral available before installing it.

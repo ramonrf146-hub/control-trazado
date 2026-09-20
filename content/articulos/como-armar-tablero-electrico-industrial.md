@@ -47,6 +47,18 @@ Si además el tablero controla una carga que se enciende/apaga con frecuencia (n
 
 Un caso frecuente: el tablero alimenta termostatos, relés o válvulas de gas de un sistema HVAC clásico, que trabajan a 24V, no a 120V. Para eso hace falta bajar la tensión con un transformador de control como el [WUYELIN 24V 40VA](/productos/B0B8Z2XV7V) de este ranking — pensado para circuitos alimentados a 120V con neutro; revisá el diagrama si tu instalación parte de otra tensión.
 
+## 8. Parada de emergencia: la pieza de seguridad que nadie pide hasta que hace falta
+
+Todo lo anterior protege al equipo. Esta pieza protege a la persona parada frente al tablero. Un [botón de parada de emergencia BAOMAIN IP65](/productos/B00NTT91Y0) de este ranking no va sobre el riel DIN como el resto de las piezas de esta guía — se atornilla aparte, en la pared o el gabinete, en un lugar visible donde el operador lo pueda golpear con la palma sin tener que mirar. Sus contactos 1NO+1NC no cortan la corriente de potencia directamente: se cablean en serie con la bobina del contactor o del arrancador suave (como el del ranking usado en la guía de [instalar un VFD a 240V](/articulos/instalar-vfd-240v-bomba-15hp)), así que cortar ese circuito de control basta para des-energizar todo el equipo de golpe.
+
+### Cómo se cablea en la práctica, en video
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/1xo7ViiTrvc" title="How to wire Emergency stop push button with contactor" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+Este video muestra exactamente ese cableado: el contacto normalmente cerrado del botón en serie con la bobina del contactor, de forma que al apretar el botón se abre el circuito de control y el contactor suelta la carga sin que el corte pase por la potencia del motor. Ojo con un detalle que suele confundir: el amperaje del botón (660V/10A) es el de la bobina de control, no el del motor — jamás se cablea directo sobre las líneas de potencia.
+
 ## El orden recomendado de armado
 
 1. Fijar el riel DIN al gabinete.
@@ -66,6 +78,9 @@ El riel en sí es un estándar, así que físicamente casi todos entran — pero
 
 **¿Es obligatorio el tope de fin de carril?**
 No es "obligatorio" en el sentido de una norma que lo exija por sí solo, pero sin él los bloques se desplazan con el uso y la vibración — en la práctica, es una pieza que todo tablero termina necesitando tarde o temprano.
+
+**¿El botón de parada de emergencia reemplaza al disyuntor?**
+No — cumplen funciones distintas. El disyuntor protege el circuito (corta ante sobrecorriente o falla a tierra, automáticamente); el botón de parada de emergencia protege a la persona (corta el circuito de control a demanda, cuando alguien lo acciona). Un tablero completo necesita las dos cosas, no una en lugar de la otra.
 
 **¿El disyuntor GFCI reemplaza al disyuntor térmico normal?**
 El que está en este ranking combina ambas funciones (térmico + falla a tierra + sobretensión) en un solo módulo, así que sí lo reemplaza — pero confirmá que tu instalación tenga neutro disponible antes de instalarlo.

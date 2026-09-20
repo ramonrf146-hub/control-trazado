@@ -2732,5 +2732,58 @@
     "urlAfiliado": "https://www.amazon.com/dp/B012IR9YMW?tag=controltrazado-20",
     "actualizadoEn": "2026-09-19",
     "activo": true
+  },
+  {
+    "asin": "B00NTT91Y0",
+    "nombre": "BAOMAIN Red Sign E-Stop — Botón de Parada de Emergencia IP65 con Caja Estanca, 1NO+1NC",
+    "nombreEn": "BAOMAIN Red Sign E-Stop — IP65 Emergency Stop Button with Weatherproof Box, 1NO+1NC",
+    "categoria": "control-industrial-b2b",
+    "precio": 9.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61OgnXnZOQL._AC_UL320_.jpg",
+    "rating": 4.4,
+    "numResenas": 422,
+    "ranking": 34,
+    "notaTecnica": "Botón de parada de emergencia tipo hongo, montado en una caja amarilla y negra IP65 con junta de sellado — a diferencia de los contactores y disyuntores de este ranking que van sobre riel DIN, esta pieza se atornilla aparte, en un lugar visible cerca del operador, no dentro del tablero cerrado. Contactos 1NO+1NC a 660V/10A: no corta la corriente del motor directamente, corta la bobina del contactor o arrancador que sí la maneja, así que se cablea en serie con el circuito de control. Con 422 reseñas y 4.4★ tiene uno de los historiales más sólidos de este catálogo, a la par del contactor Electrodepot y el disyuntor DIHOOL. Limitación real: este listado puntual no menciona certificación UL/CSA explícita (a diferencia de otros productos BAOMAIN de este catálogo) — confirmá con el vendedor si tu instalación la exige formalmente.",
+    "notaTecnicaEn": "A mushroom-head emergency stop button mounted in a yellow-and-black IP65 box with a sealing gasket — unlike the contactors and breakers in this ranking that sit on DIN rail, this piece bolts on separately, in a visible spot near the operator, not inside the closed panel. 1NO+1NC contacts rated 660V/10A: it doesn't cut motor current directly, it cuts the coil of the contactor or starter that does, so it wires in series with the control circuit. With 422 reviews and a 4.4★ rating, it has one of the strongest track records in this catalog, right alongside the Electrodepot contactor and the DIHOOL breaker. Real limitation: this specific listing doesn't call out explicit UL/CSA certification (unlike some other BAOMAIN products in this catalog) — confirm with the seller if your installation formally requires it.",
+    "idealPara": "Agregar un botón de parada de emergencia visible y accesible a un tablero o puesto de trabajo — se cablea en serie con la bobina de un contactor o arrancador existente, no reemplaza el disyuntor ni el contactor.",
+    "idealParaEn": "Adding a visible, easy-to-reach emergency stop button to a panel or workstation — it wires in series with an existing contactor's or starter's coil, it doesn't replace the breaker or the contactor.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es el botón rojo de hongo que corta todo de un solo golpe en una emergencia — pensalo como el freno de mano de un tablero eléctrico: no hace nada en el uso normal, está ahí para el momento en que algo se traba, alguien mete la mano donde no debe, o el equipo empieza a comportarse mal y necesitás parar todo ya, sin pensar qué botón tocar. Se instala en un lugar visible y accesible, no adentro del tablero cerrado, sino donde el operador lo pueda golpear con la palma de la mano sin mirar.",
+      "ejemploHogar": "En un taller casero con un torno, una sierra de mesa o cualquier máquina con motor, este botón se atornilla a la pared cerca del puesto de trabajo — un golpe corta la alimentación del contactor que alimenta el motor, sin tener que correr hasta el tablero ni desenchufar nada a mano.",
+      "ejemploNegocio": "En el tablero industrial que arma la guía de cómo armar un tablero eléctrico de este sitio, este botón se cablea en serie con la bobina del contactor de derivación o del arrancador suave — si algo falla durante el arranque de un motor de 15HP, cortar la bobina de control es mucho más rápido y seguro que intentar interrumpir la corriente de potencia directamente.",
+      "puntosClave": [
+        "Revisá la configuración de contactos antes de comprar: esta versión es 1NO+1NC, lo que te deja cablear tanto el corte (contacto NC) como una señal de aviso remota (contacto NO) al mismo tiempo — otras variantes del mismo listado en Amazon solo traen 1NC.",
+        "No confundas el amperaje del botón (660V/10A) con el amperaje del motor: este botón corta la bobina de control, no la corriente de potencia del motor — va en serie con el contactor o arrancador, nunca directo sobre las líneas del motor.",
+        "Es de montaje en superficie con caja IP65, no en riel DIN — necesitás espacio de pared o gabinete aparte, no un lugar más en el mismo riel donde van el contactor y el disyuntor de este ranking."
+      ],
+      "consejoInversion": "A $9.99 no hace falta buscar ahorrar más comprando un botón genérico sin marca ni historial — con 422 reseñas y 4.4★, tiene mucho más respaldo real que casi cualquier alternativa sin nombre en la misma franja de precio, y la caja IP65 con junta de sellado es la diferencia real entre un botón que sigue funcionando después de meses de polvo y grasa de taller y uno que se traba a los pocos meses. La limitación honesta: este listado puntual no muestra certificación UL/CSA explícita como sí la tienen otros contactores BAOMAIN de este catálogo — para una instalación que necesite esa certificación formal, confirmalo con el vendedor antes de comprar."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the red mushroom-head button that shuts everything down with one hit in an emergency — think of it as a panel's emergency brake: it does nothing during normal operation, it's there for the moment something jams, someone reaches where they shouldn't, or the equipment starts misbehaving and you need to stop everything right now, without thinking about which button to press. It mounts somewhere visible and reachable, not inside the closed panel, but wherever the operator can hit it with an open palm without looking.",
+      "ejemploHogar": "In a home shop with a lathe, a table saw, or any motor-driven machine, this button bolts to the wall near the workstation — one hit cuts power to the contactor feeding the motor, without having to run to the panel or unplug anything by hand.",
+      "ejemploNegocio": "In the industrial panel this site's panel-building guide walks through, this button wires in series with the bypass contactor's or soft starter's coil — if something goes wrong while a 15HP motor is starting, cutting the control coil is far faster and safer than trying to interrupt power current directly.",
+      "puntosClave": [
+        "Check the contact configuration before buying: this version is 1NO+1NC, letting you wire both the cutoff (NC contact) and a remote alarm signal (NO contact) at once — other variants of the same Amazon listing only ship with 1NC.",
+        "Don't confuse the button's rating (660V/10A) with the motor's amperage: this button cuts the control-circuit coil, not the motor's power current — it wires in series with the contactor or starter, never directly across the motor lines.",
+        "It's a surface-mount unit in an IP65 box, not a DIN-rail part — you need separate wall or enclosure space, not one more slot on the same rail as the contactor and breaker in this ranking."
+      ],
+      "consejoInversion": "At $9.99 there's no reason to try to save further with an unbranded, no-history generic button — with 422 reviews and a 4.4★ rating, it has far more real-world backing than almost any no-name alternative in the same price range, and the IP65 box with sealing gasket is the real difference between a button that still works after months of shop dust and grease and one that jams within a few months. The honest limitation: this specific listing doesn't show explicit UL/CSA certification the way some other BAOMAIN contactors in this catalog do — if your installation formally requires that certification, confirm it with the seller before buying."
+    },
+    "tags": [
+      "Parada de Emergencia",
+      "IP65",
+      "1NO+1NC",
+      "660V/10A"
+    ],
+    "tagsEn": [
+      "Emergency Stop",
+      "IP65",
+      "1NO+1NC",
+      "660V/10A"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B00NTT91Y0?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-20",
+    "activo": true
   }
 ]

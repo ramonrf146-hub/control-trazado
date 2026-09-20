@@ -35,6 +35,8 @@ Todo el equipo de control (arrancador o VFD, protecciones, terminales) va montad
 
 Un motor de esta potencia necesita protección contra sobrecarga, falla a tierra y sobretensión. Un [disyuntor GFCI con protección de sobretensión](/productos/B0CRKN96TB) cubre las tres en un solo módulo — pero ojo: varias instalaciones reales (documentadas en reseñas de este tipo de equipo, incluyendo un caso que terminó en incendio) fallan porque el diagrama de cableado para 208V/240V sin neutro se interpreta mal. Antes de energizar cualquier cosa, confirmá el diagrama exacto para tu configuración de voltaje — si tenés dudas, esa es la parte donde conviene un electricista, no un tutorial.
 
+Todo eso protege al equipo, pero no reemplaza un corte manual accesible para la persona parada frente al tablero. Un [botón de parada de emergencia IP65](/productos/B00NTT91Y0) cableado en serie con la bobina del contactor de derivación (no con la potencia del motor) permite frenar todo con un solo golpe si algo se traba durante el arranque — es una pieza barata que suele faltar en instalaciones caseras de este tipo, justamente porque no protege al equipo, protege a quien lo opera.
+
 ## 5. Cableado de potencia
 
 Para las conexiones internas del tablero que quedan cerca de componentes que generan calor (como el propio arrancador o VFD trabajando a full carga), un [cable de silicona](/productos/B08GFQP2MG) no se pone rígido ni se raja con el tiempo como el PVC común — vale la pena en los tramos cortos cerca del equipo de potencia, aunque no hace falta usarlo en todo el tablero.
