@@ -2838,5 +2838,58 @@
     "urlAfiliado": "https://www.amazon.com/dp/B00R1WU348?tag=controltrazado-20",
     "actualizadoEn": "2026-09-20",
     "activo": true
+  },
+  {
+    "asin": "B09WF4692D",
+    "nombre": "Chtaixi Disyuntor Termomagnético 20A Riel DIN (1 Polo, 120V/240V)",
+    "nombreEn": "Chtaixi 20A Thermal-Magnetic DIN Rail Breaker (1-Pole, 120V/240V)",
+    "categoria": "control-industrial-b2b",
+    "precio": 7.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/5154cTwbCTL._SY445_.jpg",
+    "rating": 4.6,
+    "numResenas": 281,
+    "ranking": 36,
+    "notaTecnica": "Disyuntor termomagnético de 1 polo para riel DIN, curva C (dispara entre 5 y 10 veces la corriente nominal), contactos de aleación de plata, montaje en riel de 35mm — la versión de un solo polo del Chtaixi de 2 polos ya listado en este catálogo. La diferencia importa: 1 polo corta un solo conductor vivo (para circuitos 120V de una sola línea, como la bobina de un contactor o un circuito de control chico); el de 2 polos corta ambas líneas a la vez (para cargas 120V/240V que requieren desconexión de ambos conductores). Es una ficha de Amazon separada, no una variante dentro del mismo listado del de 2 polos — aunque esta ficha en particular sí ofrece variantes de amperaje (6A a 63A) al mismo precio ($7.99), así que confirmá que elegiste el amperaje correcto para tu carga real antes de comprar.",
+    "notaTecnicaEn": "1-pole thermal-magnetic DIN rail breaker, Curve C (trips at 5-10x rated current), silver alloy contacts, 35mm rail mount — the single-pole version of the 2-pole Chtaixi already listed in this catalog. The difference matters: 1-pole interrupts a single live conductor (for single-leg 120V circuits, like a contactor coil or a small control circuit); the 2-pole version interrupts both lines at once (for 120V/240V loads that require disconnecting both conductors). It's a separate Amazon listing, not a variant within the same listing as the 2-pole one — though this particular listing does offer amperage variants (6A to 63A) at the same price ($7.99), so confirm you picked the right amperage for your actual load before buying.",
+    "idealPara": "Proteger un circuito de control de 120V de un solo hot leg (la bobina de un contactor, un PLC, una fuente 24V) sin sobredimensionar con un disyuntor de 2 polos que no hace falta ahí.",
+    "idealParaEn": "Protecting a single-leg 120V control circuit (a contactor coil, a PLC, a 24V supply) without overkilling it with a 2-pole breaker that isn't needed there.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Un disyuntor termomagnético corta la corriente automáticamente ante una sobrecarga sostenida (protección térmica) o un cortocircuito (protección magnética, casi instantánea). La curva C de este modelo dispara entre 5 y 10 veces la corriente nominal — un punto intermedio pensado para cargas con arranque moderado, ni tan sensible como la curva B (motores/transformadores chicos) ni tan tolerante como la curva D (motores grandes con arranque fuerte).",
+      "ejemploHogar": "En un tablero doméstico, un disyuntor de 1 polo como este protege un circuito individual de 120V (un tomacorriente, un circuito de iluminación) sin afectar el resto de la instalación si se dispara.",
+      "ejemploNegocio": "En el tablero industrial de este catálogo, este disyuntor de 1 polo protege específicamente los circuitos de control de 120V (la bobina de un contactor, la alimentación de un PLC) — para la línea de potencia trifásica o 240V del motor mismo, hace falta el disyuntor de 2 o 3 polos correspondiente, no este.",
+      "puntosClave": [
+        "Es 1 polo — corta un solo conductor vivo. No lo uses en una carga 240V que necesita desconectar ambas líneas; para eso está el Chtaixi de 2 polos ya listado en este catálogo.",
+        "El listado ofrece variantes de amperaje de 6A a 63A al mismo precio — el amperaje por defecto que aparece puede no ser el que necesitás, confirmá cuál elegiste antes de pagar.",
+        "Curva C: no es la mejor opción para arrancar motores grandes (ahí conviene curva D) ni para proteger transformadores chicos sensibles (curva B) — es de uso general."
+      ],
+      "consejoInversion": "A $7.99 con 281 reseñas reales y 4.6★, además de Amazon's Choice y más de 200 compras el último mes, es una pieza de bajo riesgo y bajo costo — el error más caro posible no es el precio, es comprar el amperaje o el número de polos equivocado y no darse cuenta hasta que el disyuntor no protege como debería (o dispara todo el tiempo por estar subdimensionado)."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A thermal-magnetic breaker cuts current automatically on a sustained overload (thermal protection) or a short circuit (magnetic protection, near-instant). This model's Curve C trips at 5-10x rated current — a middle ground meant for loads with moderate startup surge, not as sensitive as Curve B (small motors/transformers) nor as tolerant as Curve D (large motors with heavy startup surge).",
+      "ejemploHogar": "In a home panel, a 1-pole breaker like this protects an individual 120V circuit (an outlet, a lighting circuit) without affecting the rest of the installation if it trips.",
+      "ejemploNegocio": "In the industrial panel this catalog's build guide covers, this 1-pole breaker specifically protects 120V control circuits (a contactor coil, a PLC's power feed) — for the motor's own three-phase or 240V power line, you need the matching 2- or 3-pole breaker, not this one.",
+      "puntosClave": [
+        "It's 1-pole — it interrupts a single live conductor. Don't use it on a 240V load that needs both lines disconnected; that's what the 2-pole Chtaixi already listed in this catalog is for.",
+        "The listing offers amperage variants from 6A to 63A at the same price — the default amperage shown may not be the one you need, confirm which you picked before checking out.",
+        "Curve C: not the best fit for starting large motors (Curve D is better there) or protecting small sensitive transformers (Curve B) — this is a general-purpose curve."
+      ],
+      "consejoInversion": "At $7.99 with 281 real reviews and 4.6 stars, plus Amazon's Choice and 200+ bought in the past month, it's a low-risk, low-cost part — the most expensive mistake here isn't the price, it's buying the wrong amperage or pole count and not realizing until the breaker either doesn't protect as it should, or trips constantly from being undersized."
+    },
+    "tags": [
+      "Riel DIN",
+      "1 Polo",
+      "Curva C",
+      "6-63A"
+    ],
+    "tagsEn": [
+      "DIN Rail",
+      "1-Pole",
+      "Curve C",
+      "6-63A"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B09WF4692D?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-20",
+    "activo": true
   }
 ]
