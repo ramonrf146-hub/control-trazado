@@ -61,6 +61,12 @@ Everything above protects the equipment. This part protects the person standing 
 
 This video shows exactly that wiring: the button's normally-closed contact in series with the contactor's coil, so pressing the button opens the control circuit and the contactor drops the load without the cutoff ever touching the motor's power side. One detail that trips people up: the button's rating (660V/10A) is for the control coil, never wired directly across the power lines to the motor.
 
+### If instead you're building a control panel door
+
+The BAOMAIN above comes in its own weatherproof box, bolted separately from the enclosure. If instead you're building a panel door with its own operator interface (not a standalone stop station), DIN-rail components don't work there — you need direct 22mm panel-mount parts. The [mxuteuk 22mm mushroom button (2NC)](/en/productos/B08ZK91DLS) in this ranking is the emergency stop for that case: it bolts directly into a 22mm hole in the front panel, push-twist type (releases by twisting, not pulling) — the same series-with-the-coil wiring principle as the BAOMAIN, but built into the panel door instead of a separate box. It has a thinner track record (87 reviews) than the BAOMAIN (422), so if traceability matters more than mounting format, stick with the BAOMAIN.
+
+Alongside the stop button, the [APIELE 3-position selector (pack of 2)](/en/productos/B088PQW5DY) in this ranking — also 22mm, maintained, ON-OFF-ON with 2NO — is the typical part for choosing an operating mode (for example, Manual-Off-Auto in the VFD system from the [installing a 240V VFD](/en/articulos/instalar-vfd-240v-bomba-15hp) guide): each extreme position closes a different contact and the middle one closes neither, so the wiring for which mode goes on which side depends on how you connect it — don't assume a fixed logic without checking your starter's diagram.
+
 ## The recommended build order
 
 1. Mount the DIN rail to the enclosure.

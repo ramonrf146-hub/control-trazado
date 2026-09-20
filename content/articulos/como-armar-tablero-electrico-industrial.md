@@ -61,6 +61,12 @@ Todo lo anterior protege al equipo. Esta pieza protege a la persona parada frent
 
 Este video muestra exactamente ese cableado: el contacto normalmente cerrado del botón en serie con la bobina del contactor, de forma que al apretar el botón se abre el circuito de control y el contactor suelta la carga sin que el corte pase por la potencia del motor. Ojo con un detalle que suele confundir: el amperaje del botón (660V/10A) es el de la bobina de control, no el del motor — jamás se cablea directo sobre las líneas de potencia.
 
+### Si en cambio estás armando la puerta de un panel de control
+
+El BAOMAIN de arriba viene en su propia caja estanca, para atornillar aparte del gabinete. Si en cambio estás armando una puerta de panel con su propia interfaz de operador (no una estación de parada separada), los componentes de riel DIN no sirven ahí — necesitás piezas de montaje directo de 22mm. El [botón hongo mxuteuk 22mm (2NC)](/productos/B08ZK91DLS) de este ranking es la versión de parada de emergencia para ese caso: se atornilla directo en un agujero de 22mm en la chapa frontal, tipo push-twist (se libera girando, no tirando) — mismo principio de cablear en serie con la bobina de control que el BAOMAIN, pero integrado a la puerta del panel en vez de una caja separada. Tiene menos historial (87 reseñas) que el BAOMAIN (422), así que si la trazabilidad importa más que el formato, quedate con el BAOMAIN.
+
+Junto al botón de parada, el [selector de 3 posiciones APIELE (pack de 2)](/productos/B088PQW5DY) de este ranking — también de 22mm, enclavado, ON-OFF-ON con 2NA — es la pieza típica para elegir el modo de operación (por ejemplo, Manual-Apagado-Automático en el sistema de VFD de la guía de [instalar un VFD a 240V](/articulos/instalar-vfd-240v-bomba-15hp)): cada posición extrema cierra un contacto distinto y la del medio no cierra ninguno, así que el cableado de qué modo corresponde a cada lado depende de cómo lo conectes — no asumas una lógica fija sin revisar el diagrama de tu arrancador.
+
 ## El orden recomendado de armado
 
 1. Fijar el riel DIN al gabinete.

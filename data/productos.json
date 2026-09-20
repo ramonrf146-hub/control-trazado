@@ -2891,5 +2891,111 @@
     "urlAfiliado": "https://www.amazon.com/dp/B09WF4692D?tag=controltrazado-20",
     "actualizadoEn": "2026-09-20",
     "activo": true
+  },
+  {
+    "asin": "B088PQW5DY",
+    "nombre": "APIELE Selector de 3 Posiciones 22mm (Pack de 2) — Enclavado, ON-OFF-ON, 2NA",
+    "nombreEn": "APIELE 22mm 3-Position Selector Switch (Pack of 2) — Maintained, ON-OFF-ON, 2NO",
+    "categoria": "control-industrial-b2b",
+    "precio": 14.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71qDgoBM1TL._AC_SX425_PIbundle-2,TopRight,0,0_SH20_.jpg",
+    "rating": 4.6,
+    "numResenas": 146,
+    "ranking": 37,
+    "notaTecnica": "Selector rotativo de 3 posiciones para montaje en panel, 22mm, tipo enclavado (mantiene la posición, sin resorte de retorno) — ON-OFF-ON con 2 contactos normalmente abiertos (2NA), 660VAC/10A. Cuerpo de nylon, cabezal de aluminio, contactos de plata, conductor de bronce. Viene de a 2 unidades. Es la pieza típica para elegir modo de operación (Manual/Apagado/Automático) en la puerta de un panel de control — a diferencia de los contactores y relés de este catálogo que van sobre riel DIN dentro del gabinete, este se atornilla directo en un agujero de 22mm en la chapa frontal. Ojo: al ser ON-OFF-ON con 2NA, cada posición extrema cierra un contacto distinto y la del medio no cierra ninguno — la lógica de cableado (qué modo corresponde a cada lado) depende de cómo lo conectes, no viene predefinida por el fabricante.",
+    "notaTecnicaEn": "Panel-mount rotary selector switch, 22mm, maintained (latching, no spring return) — ON-OFF-ON with 2 normally-open (2NO) contacts, 660VAC/10A. Nylon body, aluminum head, silver contacts, brass conductor. Sold as a pack of 2. It's the typical part for choosing an operating mode (Manual/Off/Auto) on a control panel's door — unlike the contactors and relays in this catalog that mount on DIN rail inside the enclosure, this one bolts directly into a 22mm hole in the front panel. Watch out: being ON-OFF-ON with 2NO, each extreme position closes a different contact and the middle position closes neither — the wiring logic (which mode goes on which side) depends entirely on how you wire it, it isn't predefined by the manufacturer.",
+    "idealPara": "Elegir el modo de operación (Manual/Apagado/Automático, por ejemplo) desde la puerta de un panel de control, sin depender de una pantalla o software — mismo principio mecánico simple que el resto de este catálogo.",
+    "idealParaEn": "Choosing an operating mode (Manual/Off/Auto, for example) right from a control panel's door, without depending on a screen or software — the same simple mechanical approach as the rest of this catalog.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Un selector de panel es, mecánicamente, un interruptor rotativo: girás la perilla y en cada posición se cierran (o no) distintos contactos internos. En este modelo 'enclavado' la perilla se queda donde la dejás, no vuelve sola al centro como pasaría con un selector de resorte.",
+      "ejemploHogar": "En un tablero doméstico rara vez aparece esto — es más típico de equipos con varios modos de trabajo (una bomba con control manual/automático, un portón con selector local/remoto), no de un circuito de iluminación simple.",
+      "ejemploNegocio": "En el sistema de VFD de la guía de este catálogo, un selector como este en la puerta del panel deja elegir entre operar la bomba en modo Manual (el operador la prende y apaga a mano) o Automático (el VFD/PLC decide según la señal del sensor de presión), sin tener que abrir el tablero ni tocar el cableado interno cada vez.",
+      "puntosClave": [
+        "Es enclavado (maintained), no de resorte — si necesitás que vuelva solo al centro al soltarlo, este no es el modelo correcto.",
+        "2NA significa 2 contactos normalmente abiertos — la posición central no cierra ninguno; verificá el diagrama de tu arrancador/VFD antes de decidir qué posición usás para cada modo.",
+        "Es de 22mm — mismo estándar de montaje que el botón de parada de emergencia de este catálogo, así que combinan en la misma puerta de panel sin adaptadores."
+      ],
+      "consejoInversion": "Con 146 reseñas y 4.6★, además de Amazon's Choice, tiene buen historial para una pieza de bajo costo ($14.99 el pack de 2) — el riesgo real no es la calidad del componente sino cablear la lógica de posiciones sin verificarla primero contra el diagrama del equipo que va a controlar."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A panel selector is, mechanically, a rotary switch: you turn the knob and each position closes (or doesn't) different internal contacts. In this 'maintained' model the knob stays wherever you leave it, it doesn't spring back to center like a spring-return selector would.",
+      "ejemploHogar": "In a home panel this rarely shows up — it's more typical of equipment with several operating modes (a pump with manual/auto control, a gate with local/remote selection), not a simple lighting circuit.",
+      "ejemploNegocio": "In this catalog's VFD system guide, a selector like this on the panel door lets you choose between running the pump in Manual mode (the operator switches it on and off by hand) or Auto (the VFD/PLC decides based on the pressure sensor's signal), without having to open the panel or touch the internal wiring every time.",
+      "puntosClave": [
+        "It's maintained, not spring-return — if you need it to snap back to center on release, this isn't the right model.",
+        "2NO means 2 normally-open contacts — the center position closes neither; check your starter/VFD's wiring diagram before deciding which position maps to which mode.",
+        "It's 22mm — the same mounting standard as the emergency stop button in this catalog, so they combine on the same panel door without adapters."
+      ],
+      "consejoInversion": "With 146 reviews and 4.6 stars, plus Amazon's Choice, it has a solid track record for a low-cost part ($14.99 for the pack of 2) — the real risk isn't component quality, it's wiring the position logic without checking it against the diagram of the equipment it will control first."
+    },
+    "tags": [
+      "Montaje en Panel 22mm",
+      "Enclavado",
+      "ON-OFF-ON",
+      "660V/10A"
+    ],
+    "tagsEn": [
+      "22mm Panel Mount",
+      "Maintained",
+      "ON-OFF-ON",
+      "660V/10A"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B088PQW5DY?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-20",
+    "activo": true
+  },
+  {
+    "asin": "B08ZK91DLS",
+    "nombre": "mxuteuk Botón Hongo de Parada de Emergencia 22mm — 2NC, 660V/10A",
+    "nombreEn": "mxuteuk 22mm Mushroom E-Stop Push Button — 2NC, 660V/10A",
+    "categoria": "control-industrial-b2b",
+    "precio": 9.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71NqOBEgiSL._SX342_.jpg",
+    "rating": 4.3,
+    "numResenas": 87,
+    "ranking": 38,
+    "notaTecnica": "Botón hongo de parada de emergencia para montaje en panel, 22mm, tipo push-twist (se traba al presionar, se libera girando) — 2 contactos normalmente cerrados (2NC), 660VAC/10A, cuerpo de bronce, cabezal de 40mm de diámetro. A diferencia del BAOMAIN de este catálogo — que viene en una caja estanca IP65 de montaje en superficie, para atornillar aparte del tablero —, este va directo en un agujero de 22mm en la puerta o chapa frontal del gabinete, para paneles que ya tienen su propia interfaz de control en vez de una estación de parada separada. Igual que el BAOMAIN, no corta la potencia del motor directamente: se cablea en serie con la bobina del contactor o arrancador. Con 4.3★ y 87 reseñas tiene un historial más chico que el BAOMAIN de este catálogo (422 reseñas) — confirmá la certificación con el vendedor si tu instalación la exige formalmente, este listado tampoco la menciona explícitamente.",
+    "notaTecnicaEn": "Panel-mount mushroom-head emergency stop button, 22mm, push-twist type (locks when pressed, releases by twisting) — 2 normally-closed (2NC) contacts, 660VAC/10A, brass body, 40mm mushroom head. Unlike the BAOMAIN one in this catalog — which comes in a surface-mount IP65 weatherproof station box, bolted separately from the panel —, this one goes directly into a 22mm hole in the enclosure's door or front panel, for setups that already have their own control interface instead of a standalone stop station. Like the BAOMAIN, it doesn't cut motor power directly: it wires in series with the contactor's or starter's coil. At 4.3 stars and 87 reviews it has a thinner track record than the BAOMAIN in this catalog (422 reviews) — confirm certification with the seller if your installation formally requires it, since this listing doesn't call it out explicitly either.",
+    "idealPara": "Integrar la parada de emergencia directamente en la puerta de un panel de control que ya estás armando con otros componentes de 22mm (como el selector de este mismo ranking), en vez de una estación de parada separada.",
+    "idealParaEn": "Building the emergency stop directly into a control panel's door you're already assembling with other 22mm components (like the selector switch in this same ranking), instead of a separate stop station.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es el mismo principio que cualquier parada de emergencia: un botón que, al presionarse, abre un contacto normalmente cerrado en serie con la bobina del contactor o arrancador, cortando el circuito de control (no la potencia del motor) para des-energizar todo de golpe. La diferencia de este modelo es el tipo de reset: push-twist, hay que girar el cabezal (no solo tirar) para liberarlo después de una parada, lo que evita que alguien lo reactive por accidente al rozarlo.",
+      "ejemploHogar": "En un contexto doméstico esto casi no aparece — es una pieza de seguridad para equipos con partes móviles o motores, no para electrodomésticos comunes.",
+      "ejemploNegocio": "En el panel de control del sistema de VFD de este catálogo, este botón (o el BAOMAIN de caja separada, según el layout del gabinete) se cablea en serie con la bobina de arranque del arrancador suave — presionarlo corta el circuito de control sin importar en qué posición esté el selector de modo de este mismo ranking.",
+      "puntosClave": [
+        "Es 2NC (normalmente cerrado) — verificá que tu arrancador/contactor espere un contacto normalmente cerrado en el circuito de parada, no uno normalmente abierto.",
+        "El reset es push-twist, no push-pull — algunos operadores esperan tirar del cabezal para liberarlo; este modelo se libera girando, aclaralo en la capacitación del equipo.",
+        "Con menos reseñas que el BAOMAIN de este catálogo, no es la primera opción si la trazabilidad importa más que el formato de montaje — elegí este solo si específicamente necesitás la versión de panel de 22mm."
+      ],
+      "consejoInversion": "A $9.99 es la opción más barata de parada de emergencia de este catálogo, pero con menos historial (87 reseñas, 4.3★) que el BAOMAIN (422 reseñas, 4.4★) — la diferencia de precio no compensa si tu instalación no necesita específicamente el formato de panel de 22mm en vez de la caja separada."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the same principle as any emergency stop: a button that, when pressed, opens a normally-closed contact wired in series with the contactor's or starter's coil, cutting the control circuit (not motor power) to de-energize everything at once. This model's difference is the reset style: push-twist, you have to turn the head (not just pull it) to release it after a stop, which keeps someone from accidentally reactivating it by brushing against it.",
+      "ejemploHogar": "In a home context this almost never comes up — it's a safety part for equipment with moving parts or motors, not common appliances.",
+      "ejemploNegocio": "In this catalog's VFD control panel, this button (or the BAOMAIN separate-box one, depending on the enclosure layout) wires in series with the soft starter's start coil — pressing it cuts the control circuit regardless of which position the mode selector in this same ranking is set to.",
+      "puntosClave": [
+        "It's 2NC (normally closed) — check that your starter/contactor expects a normally-closed contact in the stop circuit, not a normally-open one.",
+        "The reset is push-twist, not push-pull — some operators expect to pull the head to release it; this model releases by twisting, so call that out in equipment training.",
+        "With fewer reviews than the BAOMAIN in this catalog, it isn't the first choice if track record matters more than mounting format — pick this only if you specifically need the 22mm panel-mount version."
+      ],
+      "consejoInversion": "At $9.99 it's the cheapest emergency stop in this catalog, but with a thinner track record (87 reviews, 4.3 stars) than the BAOMAIN (422 reviews, 4.4 stars) — the price difference doesn't pay off unless your installation specifically needs the 22mm panel-mount format instead of the separate box."
+    },
+    "tags": [
+      "Montaje en Panel 22mm",
+      "Hongo",
+      "2NC",
+      "660V/10A"
+    ],
+    "tagsEn": [
+      "22mm Panel Mount",
+      "Mushroom Head",
+      "2NC",
+      "660V/10A"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B08ZK91DLS?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-20",
+    "activo": true
   }
 ]
