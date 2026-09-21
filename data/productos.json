@@ -2997,5 +2997,58 @@
     "urlAfiliado": "https://www.amazon.com/dp/B08ZK91DLS?tag=controltrazado-20",
     "actualizadoEn": "2026-09-20",
     "activo": true
+  },
+  {
+    "asin": "B01I90JG6Q",
+    "nombre": "BAOMAIN Kit de Terminales Ferrule 450 Piezas — AWG 22-14, 5 Tamaños",
+    "nombreEn": "BAOMAIN 450-Piece Ferrule Wire Connector Kit — AWG 22-14, 5 Sizes",
+    "categoria": "control-industrial-b2b",
+    "precio": 7.49,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61NDwUnkkFL._SL1500_.jpg",
+    "rating": 4.3,
+    "numResenas": 41,
+    "ranking": 39,
+    "notaTecnica": "Kit de 450 terminales tipo ferrule (virola) para puntas de cable — pensá en la ferrule como un dedal metálico que se calza en la punta de un cable de hilos finos (cable flexible/trenzado) antes de meterlo en un tornillo o bloque de terminales, para que los hilos no se abran ni se escapen bajo presión. Trae 5 tamaños (AWG 22/20/18/16/14) codificados por color, cobre estañado (resiste corrosión mejor que el cobre desnudo) y collar aislante acampanado que evita que los hilos se salgan por los costados. Es la pieza complementaria que le faltaba al catálogo: los bloques de terminales a tornillo como el Dinkle DK4N ya listado aceptan cable trenzado desnudo, pero la conexión queda más firme y resistente a vibración si primero le ponés una ferrule — el propio Dinkle acepta hasta 22 AWG, justo el calibre más fino de este kit. Ojo: no trae herramienta de crimpado incluida — hace falta una pinza ferrule dedicada (no un pelacables común) para que el aplastado quede parejo; a mano con un alicate común no queda garantizado el contacto ni la sujeción.",
+    "notaTecnicaEn": "450-piece kit of ferrule terminals (also called wire end sleeves) for stranded wire — think of a ferrule as a small metal thimble that slides onto the end of a flexible/stranded cable before it goes into a screw terminal or terminal block, so the individual strands don't splay out or work loose under pressure. It includes 5 sizes (AWG 22/20/18/16/14) color-coded for quick identification, tinned copper (more corrosion-resistant than bare copper) and a flared insulation collar that keeps strands from escaping sideways. It's the missing companion piece in this catalog: screw-type terminal blocks like the Dinkle DK4N already listed accept bare stranded wire, but the connection stays tighter and more vibration-resistant with a ferrule crimped on first — the Dinkle itself accepts down to 22 AWG, right at this kit's finest gauge. Heads up: it doesn't include a crimping tool — you need a dedicated ferrule crimper (not a regular wire stripper) to get an even compression; hand-crimping with regular pliers doesn't guarantee correct contact or grip.",
+    "idealPara": "Terminar cable trenzado/flexible antes de conectarlo a bloques de terminales a tornillo (como el Dinkle DK4N de este catálogo) o a bornes de contactores y arrancadores, evitando hilos sueltos que se escapan o hacen falso contacto.",
+    "idealParaEn": "Terminating stranded/flexible wire before landing it on screw-type terminal blocks (like the Dinkle DK4N in this catalog) or on contactor/starter terminals, avoiding loose strands that escape or cause a poor contact.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Cuando un cable no es un alambre macizo sino un manojo de hilos finos trenzados (cable \"flexible\"), esos hilos sueltos se abren en abanico o se escapan si los metés directo bajo un tornillo — como intentar atornillar un cepillo en vez de un clavo. Una ferrule es una funda metálica chiquita que se calza en la punta del cable y se aprieta (se \"crimpa\") con una herramienta especial, compactando todos los hilos en un solo cilindro sólido. Ese cilindro sí entra prolijo bajo un tornillo o en un bloque de terminales, sin hilos sueltos que se escapen, hagan cortocircuito con el borne de al lado o pierdan contacto con las vibraciones.",
+      "ejemploHogar": "En un tablero doméstico casi no hace falta — ahí predomina el cable macizo (THHN) que entra derecho bajo el tornillo sin necesitar nada extra. Pero si armás algo con cable flexible, como el cableado interno de un gabinete de audio o un proyecto de electrónica en casa, una ferrule evita el clásico problema de un hilito suelto tocando donde no debe.",
+      "ejemploNegocio": "En el tablero industrial de este catálogo es donde realmente rinde: cualquier cable flexible que termine en el Dinkle DK4N (a tornillo) o directo en el borne de un contactor o arrancador suave gana una conexión más firme y resistente a la vibración de motores y bombas trabajando — justo el tipo de falla lenta (un hilo que se afloja con el uso) que después es difícil de diagnosticar, porque el tablero 'funciona, pero mal' antes de fallar del todo.",
+      "puntosClave": [
+        "No trae herramienta de crimpado — necesitás una pinza ferrule dedicada (no un pelacables común) para que el aplastado quede parejo; sin la herramienta correcta, la ferrule queda floja y no cumple su función.",
+        "Vienen 5 tamaños en el mismo kit (AWG 22 a 14) — confirmá el calibre real de tu cable antes de crimpar, una ferrule de tamaño incorrecto no sujeta bien aunque entre a presión.",
+        "Con 41 reseñas tiene un historial más chico que otros BAOMAIN de este catálogo (422 reseñas el E-Stop, por ejemplo) — alcanza para un kit de consumibles de bajo riesgo, pero no es la pieza con más trazabilidad del catálogo."
+      ],
+      "consejoInversion": "A $7.49 por 450 piezas, el costo por conexión es prácticamente nulo frente al problema que evita: un hilo suelto que hace falso contacto o cortocircuito en un tablero industrial no es solo una molestia, es un punto de falla que puede parar un motor o, peor, generar un arco eléctrico. Frente a cablear directo sin ferrule por ahorrarte este paso, la inversión es mínima y la diferencia en confiabilidad de la conexión — sobre todo en equipos con vibración constante como motores y bombas — vale mucho más que los centavos que cuesta cada terminal."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "When a cable isn't solid wire but a bundle of thin twisted strands (\"flexible\" or stranded wire), those loose strands fan out or slip free if you land them straight under a screw — like trying to screw down a paintbrush instead of a nail. A ferrule is a small metal sleeve that slides onto the wire's end and gets squeezed (\"crimped\") with a dedicated tool, compacting all the strands into one solid cylinder. That cylinder fits cleanly under a screw or into a terminal block, with no loose strands to escape, short against the neighboring terminal, or lose contact from vibration.",
+      "ejemploHogar": "In a home panel this rarely matters — solid THHN wire is the norm there, and it lands straight under a screw with nothing extra needed. But if you're working with stranded wire, like the internal wiring of an audio cabinet or a home electronics project, a ferrule prevents the classic problem of one stray strand touching somewhere it shouldn't.",
+      "ejemploNegocio": "This is where it actually pays off in this catalog's industrial panel: any stranded wire landing on the Dinkle DK4N (screw-type) or directly on a contactor's or soft starter's terminal gets a tighter connection that holds up better against the vibration of motors and pumps running — exactly the kind of slow failure (a strand working loose over time) that's hard to diagnose later, because the panel 'still works, just poorly' before it fails outright.",
+      "puntosClave": [
+        "It doesn't include a crimping tool — you need a dedicated ferrule crimper (not a regular wire stripper) for an even compression; without the right tool the ferrule stays loose and defeats its own purpose.",
+        "The kit covers 5 sizes in one box (AWG 22 to 14) — confirm your wire's actual gauge before crimping; a wrong-sized ferrule won't grip properly even if it slides on.",
+        "At 41 reviews, it has a thinner track record than other BAOMAIN parts in this catalog (422 reviews on the E-Stop, for example) — fine for a low-risk consumable kit, but not the most-reviewed part here."
+      ],
+      "consejoInversion": "At $7.49 for 450 pieces, the cost per connection is close to nothing next to the problem it prevents: a loose strand causing a false contact or short in an industrial panel isn't just an annoyance, it's a failure point that can stop a motor or, worse, cause an electrical arc. Compared to skipping this step and wiring stranded cable straight into a screw terminal, the investment is minimal — and the reliability gain, especially on equipment with constant vibration like motors and pumps, is worth far more than the few cents each terminal costs."
+    },
+    "tags": [
+      "Ferrule",
+      "AWG 22-14",
+      "Cobre Estañado",
+      "450 piezas"
+    ],
+    "tagsEn": [
+      "Ferrule",
+      "AWG 22-14",
+      "Tinned Copper",
+      "450-Piece"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B01I90JG6Q?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-21",
+    "activo": true
   }
 ]

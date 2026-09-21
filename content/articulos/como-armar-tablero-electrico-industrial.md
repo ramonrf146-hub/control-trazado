@@ -17,6 +17,8 @@ Sobre ese riel van los bloques de terminales, que son el punto de conexión entr
 
 Si el circuito lleva cable más grueso (10 AWG en vez de los calibres finos de señal), el [Dinkle DK4N (100 piezas)](/productos/B00R1WU348) de este ranking es la alternativa a tornillo, UL 600V/30A — acepta 10 a 22 AWG, más grueso que lo que soporta el Meowlian, cuya propia ficha además se contradice entre el título (20A) y la especificación técnica (32A). Es de la misma línea Dinkle/International Connector que el tope de fin de carril y el puente ya listados en este catálogo, así que esos accesorios son compatibles entre sí sin mezclar marcas.
 
+Si el cable que vas a conectar en cualquiera de los dos bloques no es macizo sino trenzado (cable "flexible", el más común en instalaciones que se arman a mano), conviene terminarlo con una ferrule antes de meterlo bajo el tornillo o la jaula — una funda metálica chiquita que se crimpa en la punta del cable y compacta todos los hilos sueltos en un solo cilindro sólido, para que no se abran en abanico ni se escapen con la vibración. El [kit de ferrules BAOMAIN (450 piezas, AWG 22-14)](/productos/B01I90JG6Q) de este ranking cubre justo eso. La diferencia entre los dos bloques importa acá: el sistema de jaula autoblocante del Meowlian ya está pensado para aceptar cable trenzado desnudo sin ferrule, mientras que en el Dinkle DK4N, al ser a tornillo, la ferrule hace más diferencia — evita que el tornillo aplaste algunos hilos y deje otros sueltos, la falla lenta típica de una conexión a tornillo con cable trenzado sin terminar.
+
 ### Cómo se cablean en la práctica, en video
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">

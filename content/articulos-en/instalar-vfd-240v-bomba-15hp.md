@@ -41,6 +41,8 @@ All of that protects the equipment, but it doesn't replace an accessible manual 
 
 For internal panel connections near heat-generating components (like the starter or VFD itself working at full load), [silicone wire](/en/productos/B08GFQP2MG) doesn't stiffen or crack over time like standard PVC — worth it on the short runs near the power equipment, though you don't need it throughout the whole panel.
 
+That wire lands on screw terminals — the starter's input, the output to the motor, the bypass contactor's coil — and that's where a [BAOMAIN ferrule kit (450 pieces)](/en/productos/B01I90JG6Q) prevents the classic problem of stranded wire under a screw: strands that crush evenly at first but work loose over time from a 15HP motor's constant vibration, ending in a false contact you only notice once the equipment starts failing intermittently. It's a cheap accessory next to the rest of the system, but exactly the kind of detail that separates a clean install from one that causes problems six months later.
+
 ## Video: sizing, wiring, and programming a single-phase-to-three-phase VFD
 
 If you'd rather watch the full process before touching a wire, this tutorial walks through exactly the three critical steps in this guide — choosing the right VFD size, wiring the single-phase input and three-phase output, and programming the basic parameters before energizing the motor.

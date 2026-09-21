@@ -41,6 +41,8 @@ Todo eso protege al equipo, pero no reemplaza un corte manual accesible para la 
 
 Para las conexiones internas del tablero que quedan cerca de componentes que generan calor (como el propio arrancador o VFD trabajando a full carga), un [cable de silicona](/productos/B08GFQP2MG) no se pone rígido ni se raja con el tiempo como el PVC común — vale la pena en los tramos cortos cerca del equipo de potencia, aunque no hace falta usarlo en todo el tablero.
 
+Ese cable termina en bornes a tornillo — la entrada del arrancador, la salida al motor, la bobina del contactor de derivación — y ahí un [kit de ferrules BAOMAIN (450 piezas)](/productos/B01I90JG6Q) evita el problema típico de cable trenzado bajo tornillo: hilos que se aplastan de forma pareja al principio pero se aflojan con la vibración constante de un motor de 15HP trabajando, hasta terminar en un falso contacto que recién se nota cuando el equipo empieza a fallar de forma intermitente. Es un accesorio barato comparado con el resto del sistema, pero justo el tipo de detalle que separa una instalación prolija de una que da problemas seis meses después.
+
 ## Video: dimensionar, cablear y programar un VFD monofásico-a-trifásico
 
 Si preferís ver el proceso completo antes de tocar un cable, este tutorial repasa exactamente los tres pasos críticos de esta guía — cómo elegir el tamaño correcto del VFD, cómo cablear la entrada monofásica y la salida trifásica, y cómo programar los parámetros básicos antes de energizar el motor.

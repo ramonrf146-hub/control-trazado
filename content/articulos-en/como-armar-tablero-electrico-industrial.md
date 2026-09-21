@@ -17,6 +17,8 @@ On that rail go the terminal blocks, which are the connection point between fiel
 
 If the circuit carries heavier wire (10 AWG instead of thin signal gauges), the [Dinkle DK4N (100 pieces)](/en/productos/B00R1WU348) in this ranking is the screw-type alternative, UL 600V/30A — it accepts 10 to 22 AWG, heavier than what the Meowlian handles, whose own listing also contradicts itself between the title (20A) and the spec sheet (32A). It's the same Dinkle/International Connector line as the end stop and jumper already listed in this catalog, so those accessories are cross-compatible without mixing brands.
 
+If the wire going into either block isn't solid but stranded ("flexible" wire, the most common kind in hand-built installs), it's worth terminating it with a ferrule before landing it under the screw or in the cage — a small metal sleeve that crimps onto the wire's end and compacts all the loose strands into one solid cylinder, so they don't fan out or work loose from vibration. The [BAOMAIN ferrule kit (450 pieces, AWG 22-14)](/en/productos/B01I90JG6Q) in this ranking covers exactly that. The difference between the two blocks matters here: the Meowlian's self-locking cage-clamp system is already designed to accept bare stranded wire without a ferrule, while on the screw-type Dinkle DK4N a ferrule makes more of a difference — it keeps the screw from crushing some strands while leaving others loose, the typical slow failure of a screw connection on unterminated stranded wire.
+
 ### How it's actually wired, on video
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
