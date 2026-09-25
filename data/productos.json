@@ -3050,5 +3050,58 @@
     "urlAfiliado": "https://www.amazon.com/dp/B01I90JG6Q?tag=controltrazado-20",
     "actualizadoEn": "2026-09-21",
     "activo": true
+  },
+  {
+    "asin": "B0DZVLKMJF",
+    "nombre": "QCG Prensaestopa de Acero Inoxidable 1\" NPT — IP68, para cables de 18-25mm",
+    "nombreEn": "QCG 1\" NPT Stainless Steel Cable Gland — IP68, for 18-25mm Cables",
+    "categoria": "control-industrial-b2b",
+    "precio": 15.69,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61ijWLOIfBL._AC_SL1500_.jpg",
+    "rating": 4.1,
+    "numResenas": 21,
+    "ranking": 40,
+    "notaTecnica": "Prensaestopa (cable gland) de acero inoxidable, rosca 1\" NPT, ajustable para cables de 18 a 25mm de diámetro, con junta de goma y grado IP68. Pensá en él como un puño ajustable: se enrosca en el agujero de un gabinete, el cable pasa por el medio, y al apretar la tuerca la junta de goma se comprime contra el cable y contra el borde del agujero al mismo tiempo, sellando el paso sin aplastar los conductores internos. Cubre un hueco real de este catálogo: el gabinete grande QILIPSU IP67 (también de este ranking) no viene con perforaciones predefinidas — hay que taladrar cada agujero por donde entra un cable y sellarlo aparte, y este prensaestopa es justo la pieza que falta para eso. Es de acero inoxidable, no nylon, así que resiste mejor la corrosión y los ciclos de calor/frío a la intemperie. Ojo: viene una sola unidad por compra, no un kit — si tu gabinete necesita varias entradas de cable (alimentación, señal, salida), vas a necesitar varias unidades.",
+    "notaTecnicaEn": "Stainless steel cable gland, 1\" NPT thread, adjustable for cables 18 to 25mm in diameter, with a rubber gasket and IP68 rating. Think of it as an adjustable fist: it screws into a hole in an enclosure, the cable passes through the middle, and tightening the nut compresses the rubber gasket against both the cable and the edge of the hole at the same time, sealing the opening without crushing the internal conductors. It covers a real gap in this catalog: the large QILIPSU IP67 enclosure (also in this ranking) doesn't come with pre-drilled knockouts — you have to drill each hole a cable enters through and seal it separately, and this gland is exactly the missing piece for that. It's stainless steel, not nylon, so it holds up better against corrosion and heat/cold cycling outdoors. Heads up: it ships as a single unit, not a kit — if your enclosure needs several cable entries (power, signal, output), you'll need to buy more than one.",
+    "idealPara": "Sellar el punto donde un cable grueso (18-25mm de diámetro) entra a un gabinete IP67/IP68 como el QILIPSU de este ranking, sin dejar un camino para que entre agua o polvo.",
+    "idealParaEn": "Sealing the point where a thick cable (18-25mm in diameter) enters an IP67/IP68 enclosure like the QILIPSU in this ranking, without leaving a path for water or dust to get in.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Cuando un cable entra a un gabinete sellado, el agujero por donde pasa es el punto débil de toda la instalación — ahí es por donde se filtra el agua, el polvo o los insectos si no se sella bien. Un prensaestopa es una pieza roscada con una junta de goma adentro: se enrosca en el agujero del gabinete, el cable pasa por el centro, y al apretar la tuerca la goma se comprime contra el cable como un puño cerrándose alrededor de una manguera — sellando el paso sin aplastar ni dañar los conductores de adentro.",
+      "ejemploHogar": "En una instalación doméstica esto aparece cuando montás algo a la intemperie — un temporizador de riego, un controlador de bomba, una fuente de alimentación — dentro de una caja estanca en el patio o el garage, y necesitás que el cable de alimentación entre sin que la lluvia se filtre por ese mismo agujero.",
+      "ejemploNegocio": "En el gabinete QILIPSU IP67 grande de este catálogo, pensado para alojar un panel de control completo a la intemperie (breakers, relés, fuente de alimentación), cada cable que entra —alimentación, señal de sensores, salida a los actuadores— necesita su propio prensaestopa sellado; sin esto, el gabinete deja de cumplir su grado IP67 en la práctica desde el primer agujero que se taladra.",
+      "puntosClave": [
+        "Es de 1\" NPT para cables de 18 a 25mm de diámetro — medí tu cable antes de comprar, uno muy holgado o muy ajustado no sella bien aunque la rosca entre en el agujero.",
+        "Viene de a una unidad, no en kit — si tu gabinete necesita varias entradas de cable, calculá cuántas unidades vas a necesitar antes de pedir.",
+        "Con 21 reseñas tiene un historial más chico que otros productos de este catálogo — alcanza para un accesorio de bajo riesgo, pero conviene revisar el sellado (una prueba simple con agua) antes de dar por terminada una instalación crítica a la intemperie."
+      ],
+      "consejoInversion": "A $15.69 por unidad de acero inoxidable, la diferencia frente a un prensaestopa de nylon genérico está en la resistencia a la intemperie a largo plazo: el nylon se pone rígido y se agrieta con los ciclos de calor y frío y la exposición UV, justo el tipo de falla lenta que aparece meses después de instalado, cuando ya es tarde para notar la fisura antes de que entre agua. Para un gabinete que se queda afuera todo el año, esa diferencia de material vale más que ahorrarse un par de dólares por unidad."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "When a cable enters a sealed enclosure, the hole it passes through is the weak point of the whole installation — that's where water, dust, or insects get in if it isn't sealed properly. A cable gland is a threaded fitting with a rubber gasket inside: it screws into the enclosure's hole, the cable runs through the center, and tightening the nut compresses the rubber against both the cable and the hole's edge — like a fist closing around a hose — sealing the opening without crushing or damaging the wires inside.",
+      "ejemploHogar": "In a home setup this comes up when you're mounting something outdoors — an irrigation timer, a pump controller, a power supply — inside a weatherproof box in the yard or garage, and you need the power cable to enter without rain leaking in through that same hole.",
+      "ejemploNegocio": "In this catalog's large QILIPSU IP67 enclosure, built to house a complete outdoor control panel (breakers, relays, a power supply), every cable entering it — power, sensor signals, output to actuators — needs its own sealed cable gland; without this, the enclosure stops meeting its IP67 rating in practice from the first hole you drill.",
+      "puntosClave": [
+        "It's 1\" NPT for cables 18 to 25mm in diameter — measure your cable before buying; one that's too loose or too tight won't seal properly even if the thread fits the hole.",
+        "It ships as a single unit, not a kit — if your enclosure needs several cable entries, figure out how many you'll need before ordering.",
+        "At 21 reviews it has a thinner track record than other products in this catalog — fine for a low-risk accessory, but worth checking the seal (a simple water test) before calling a critical outdoor installation done."
+      ],
+      "consejoInversion": "At $15.69 per stainless steel unit, the difference versus a generic nylon gland is long-term weather resistance: nylon stiffens and cracks under heat/cold cycling and UV exposure, exactly the kind of slow failure that shows up months after installation, once it's too late to notice the crack before water gets in. For an enclosure that stays outdoors year-round, that material difference is worth more than saving a couple of dollars per unit."
+    },
+    "tags": [
+      "Prensaestopa",
+      "IP68",
+      "Acero Inoxidable",
+      "1\" NPT"
+    ],
+    "tagsEn": [
+      "Cable Gland",
+      "IP68",
+      "Stainless Steel",
+      "1\" NPT"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0DZVLKMJF?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-25",
+    "activo": true
   }
 ]

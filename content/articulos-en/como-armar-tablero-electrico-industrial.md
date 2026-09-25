@@ -69,6 +69,20 @@ The BAOMAIN above comes in its own weatherproof box, bolted separately from the 
 
 Alongside the stop button, the [APIELE 3-position selector (pack of 2)](/en/productos/B088PQW5DY) in this ranking — also 22mm, maintained, ON-OFF-ON with 2NO — is the typical part for choosing an operating mode (for example, Manual-Off-Auto in the VFD system from the [installing a 240V VFD](/en/articulos/instalar-vfd-240v-bomba-15hp) guide): each extreme position closes a different contact and the middle one closes neither, so the wiring for which mode goes on which side depends on how you connect it — don't assume a fixed logic without checking your starter's diagram.
 
+## 9. If the whole panel is going outdoors: weatherproof enclosure and cable glands
+
+Everything above assumes the panel lives inside a space that's already protected (an electrical room, a closed cabinet). But if the whole project — rail, blocks, contactors, protection — has to be installed outdoors, you need to start from a weatherproof enclosure instead of a generic box. The [QILIPSU IP67 Enclosure 20x16.1x7.9" with Mounting Plate](/en/productos/B0995V2RM7) in this ranking is built exactly for that: it has an internal mounting plate for bolting down the same DIN-rail components from this guide, a metal inner door as an extra safety layer, and a hinged lid — but **it doesn't come with pre-drilled knockouts**. You have to drill every hole a cable enters through yourself, and seal it separately with a cable gland; otherwise the enclosure stops meeting its IP67 rating in practice from the first hole you drill.
+
+The [QCG stainless steel 1" NPT cable gland](/en/productos/B0DZVLKMJF) in this ranking covers exactly that missing piece: it screws into the hole you drilled, a cable up to 25mm in diameter passes through the center, and tightening the nut seals the opening without crushing the wires inside. It's stainless steel (not nylon), so it holds up better outdoors long-term — exactly the kind of part that, if it fails, fails silently months after installation. You'll need one unit per cable entering the enclosure (power, sensor signals, output to actuators), so figure out how many before you start drilling.
+
+### How it's actually installed, on video
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-brH-TWxPfQ" title="IP68 Waterproof Stainless Steel Cable Gland Installation and Applications" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+This video shows the real-world assembly of a stainless steel IP68 cable gland — feeding the cable through, tightening the nut, and sealing the assembly, the same principle as the QCG in this ranking.
+
 ## The recommended build order
 
 1. Mount the DIN rail to the enclosure.

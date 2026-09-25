@@ -69,6 +69,20 @@ El BAOMAIN de arriba viene en su propia caja estanca, para atornillar aparte del
 
 Junto al botón de parada, el [selector de 3 posiciones APIELE (pack de 2)](/productos/B088PQW5DY) de este ranking — también de 22mm, enclavado, ON-OFF-ON con 2NA — es la pieza típica para elegir el modo de operación (por ejemplo, Manual-Apagado-Automático en el sistema de VFD de la guía de [instalar un VFD a 240V](/articulos/instalar-vfd-240v-bomba-15hp)): cada posición extrema cierra un contacto distinto y la del medio no cierra ninguno, así que el cableado de qué modo corresponde a cada lado depende de cómo lo conectes — no asumas una lógica fija sin revisar el diagrama de tu arrancador.
 
+## 9. Si el tablero completo va a la intemperie: gabinete estanco y prensaestopas
+
+Todo lo anterior asume que el tablero vive dentro de un espacio ya protegido (una sala eléctrica, un armario cerrado). Pero si el proyecto entero —riel, bloques, contactores, protección— tiene que instalarse afuera, a la intemperie, necesitás partir de un gabinete estanco en vez de una caja genérica. El [QILIPSU Gabinete IP67 20x16.1x7.9" con Placa de Montaje](/productos/B0995V2RM7) de este ranking está pensado justo para eso: tiene placa de montaje interna para atornillar los mismos componentes de riel DIN de esta guía, puerta interior de metal como capa extra de seguridad, y tapa con bisagras — pero **no viene con perforaciones (knockouts) predefinidas**. Hay que taladrar vos cada agujero por donde entra un cable, y sellarlo aparte con un prensaestopa; si no, el gabinete deja de cumplir su grado IP67 en la práctica desde el primer agujero que hagas.
+
+El [prensaestopa QCG de acero inoxidable 1" NPT](/productos/B0DZVLKMJF) de este ranking cubre justo esa pieza que falta: se enrosca en el agujero que taladraste, el cable de hasta 25mm de diámetro pasa por el centro, y al apretar la tuerca la junta de goma sella el paso sin aplastar los conductores de adentro. Es de acero inoxidable (no nylon), así que resiste mejor la intemperie a largo plazo — justo el tipo de pieza que, si falla, falla en silencio meses después de instalada. Necesitás una unidad por cada cable que entre al gabinete (alimentación, señal de sensores, salida a actuadores), así que calculá cuántas antes de taladrar.
+
+### Cómo se instala, en video
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-brH-TWxPfQ" title="IP68 Waterproof Stainless Steel Cable Gland Installation and Applications" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+Este video muestra el armado real de un prensaestopa de acero inoxidable IP68 — cómo se pasa el cable, se ajusta la tuerca y queda sellado el conjunto, el mismo principio del QCG de este ranking.
+
 ## El orden recomendado de armado
 
 1. Fijar el riel DIN al gabinete.
