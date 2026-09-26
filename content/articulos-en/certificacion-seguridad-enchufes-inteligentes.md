@@ -47,7 +47,7 @@ Certification alone isn't enough — several products of this type (not just in 
 
 The [DIHOOL GFCI breaker](/en/productos/B0CRKN96TB) combines three protections in one module, but several reviews (including one reported case of fire) note that the wiring instructions for 208V/240V without a neutral cause real confusion — the product's certification doesn't replace carefully confirming the diagram for your specific installation before energizing it.
 
-On the other hand, the [Linkind Matter Smart Plug](/en/productos/B0C36WXGP1) is exactly the kind of listing we recommend looking for: explicit ETL certification right in the title, no need to dig for it in the fine print. The [Wyze Auto-Lock Bolt lock](/en/productos/B09R38VVXF) goes a step further and adds BHMA certification and 20-minute UL fire resistance — relevant on a home-security product, not just an electrical one.
+On the other hand, the [Linkind Matter Smart Plug](/en/productos/B0C36WXGP1) is exactly the kind of listing we recommend looking for: explicit ETL certification right in the title, no need to dig for it in the fine print. The [Wyze Auto-Lock Bolt lock](/en/productos/B09R38VVXF) goes a step further and adds BHMA certification and 20-minute UL fire resistance — relevant on a home-security product, not just an electrical one. The [Kidde Smart Smoke & CO Alarm with Ring](/en/productos/B0F7N7WGWY) is another example of a rubro-specific safety certification: UL 217 (the specific standard for smoke alarms, distinct from the generic UL on a plug) plus FCC — look for that exact standard, not just any "UL", when the product is a smoke or CO detector.
 
 ## Video: UL vs. ETL explained
 

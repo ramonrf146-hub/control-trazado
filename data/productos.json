@@ -3103,5 +3103,58 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0DZVLKMJF?tag=controltrazado-20",
     "actualizadoEn": "2026-09-25",
     "activo": true
+  },
+  {
+    "asin": "B0F7N7WGWY",
+    "nombre": "Kidde Smart Smoke & CO Alarm con Ring — Cableado 120V + Respaldo Pila AA, RGCUAR-RW",
+    "nombreEn": "Kidde Smart Smoke & CO Alarm with Ring — Hardwired 120V + AA Battery Backup, RGCUAR-RW",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 59.8,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61ot21QFMfL._AC_SL1500_.jpg",
+    "rating": 4.2,
+    "numResenas": 420,
+    "ranking": 22,
+    "notaTecnica": "Detector de humo y monóxido de carbono (CO) para instalar cableado a 120V AC, como cualquier detector de humo residencial, con una pila AA de respaldo para seguir funcionando aunque se corte la luz. La parte \"inteligente\" es que, además de la sirena local, manda una notificación a tu celular a través de la app gratuita de Ring — pensalo como un vecino atento que, si ve humo saliendo de tu casa, no se queda gritando en la puerta sino que además te llama aunque no estés ahí. Cubre un hueco real de este catálogo: hasta ahora había sensor de fuga de agua (Shelly Flood Gen4) y sensores de movimiento/puerta (SONOFF), pero nada que vigile fuego o monóxido de carbono. Ojo con dos cosas: es del ecosistema Ring/Alexa, no Matter ni Zigbee como buena parte de este ranking, así que no se integra directo con el hub Aqara M3 ni el dongle Zigbee SONOFF ya listados; y aunque los avisos básicos (humo, CO, pila baja) son gratis, el monitoreo profesional 24/7 con despacho de emergencia es un plan opcional de Ring a $5/mes, no viene incluido.",
+    "notaTecnicaEn": "Smoke and carbon monoxide (CO) detector that hardwires to 120V AC, like any residential smoke detector, with an AA battery backup so it keeps working through a power outage. The \"smart\" part is that besides the local siren, it sends a notification to your phone through the free Ring app — think of it as an alert neighbor who, if they see smoke coming from your house, doesn't just shout at the door but also calls you even if you're not there. It covers a real gap in this catalog: until now there was a water leak sensor (Shelly Flood Gen4) and motion/door sensors (SONOFF), but nothing watching for fire or carbon monoxide. Two things to watch for: it's a Ring/Alexa ecosystem device, not Matter or Zigbee like much of this ranking, so it doesn't integrate directly with the Aqara M3 hub or the SONOFF Zigbee dongle already listed here; and while basic alerts (smoke, CO, low battery) are free, 24/7 professional monitoring with emergency dispatch is a separate optional Ring plan at $5/month, not included by default.",
+    "idealPara": "Detectar humo y monóxido de carbono en el hogar con aviso al celular vía la app Ring aunque no estés en casa, en una instalación cableada a 120V con respaldo de pila AA.",
+    "idealParaEn": "Detecting smoke and carbon monoxide at home with a phone alert through the Ring app even when you're away, in a 120V hardwired install with AA battery backup.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un detector de humo y monóxido de carbono (CO) para instalar en el techo o la pared, cableado a la corriente de 120V como cualquier detector residencial, con una pila AA de respaldo por si se corta la luz. La parte \"inteligente\" es que, además de la sirena local, manda una notificación a tu celular a través de la app gratuita de Ring — pensalo como un vecino atento que, si ve humo saliendo de tu casa, no solo grita sino que también te avisa aunque no estés ahí.",
+      "ejemploHogar": "En una casa o departamento, reemplaza al detector de humo básico que solo suena en el lugar: si salta mientras estás en el trabajo o de viaje, te enterás al instante por el celular en vez de descubrir el problema recién al volver.",
+      "ejemploNegocio": "En un local comercial chico, un taller o una oficina fuera de horario (donde nadie escucha la sirena de noche), la notificación remota es la diferencia entre reaccionar en minutos o enterarte al otro día — sobre todo si ya tenés otros equipos de este catálogo corriendo en el mismo tablero, como el transformador de control [WUYELIN 24V](/productos/B0B8Z2XV7V) si el circuito es de baja tensión.",
+      "puntosClave": [
+        "Es cableado a 120V AC, no un dispositivo a pilas de instalación libre — necesitás el cableado eléctrico ya llegando al punto de montaje, o vas a tener que tirarlo antes de instalar.",
+        "Los avisos básicos (humo, CO, pila baja) son gratis con la app Ring, pero el monitoreo profesional 24/7 con despacho de emergencia es un plan opcional aparte, a $5/mes — no asumas que viene incluido.",
+        "Es ecosistema Ring/Alexa, no Matter ni Zigbee — no se integra directo con el hub Aqara M3 ni el dongle Zigbee SONOFF de este catálogo; si tu casa ya es 100% Home Assistant/Matter, revisá si te alcanza con eso antes de comprar."
+      ],
+      "consejoInversion": "A $59.80, cuesta más que un detector de humo básico a pilas, pero la diferencia no es detectar el humo en sí — es enterarte del problema estando lejos de casa. Un detector local avisa a quien esté ahí para escucharlo; este manda el aviso a tu celular estés donde estés, justo el escenario donde más importa (de viaje, en el trabajo, durmiendo con la puerta cerrada). Para una alarma de seguridad de vida, con certificación UL 217 y FCC, esa diferencia vale más que ahorrarse unos dólares en un modelo sin conectividad."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a smoke and carbon monoxide (CO) detector you mount on the ceiling or wall, hardwired to your home's 120V power like any residential smoke detector, with an AA battery backup in case the power goes out. The \"smart\" part is that besides the local siren, it sends a notification to your phone through the free Ring app — think of it as an alert neighbor who, if they see smoke coming from your house, doesn't just shout but also lets you know even if you're not there.",
+      "ejemploHogar": "In a house or apartment, it replaces the basic smoke detector that only sounds locally: if it goes off while you're at work or traveling, you find out instantly on your phone instead of discovering the problem only when you get back.",
+      "ejemploNegocio": "In a small shop, workshop, or an office after hours (where nobody hears the siren at night), the remote alert is the difference between reacting in minutes and finding out the next day — especially if you already have other gear from this catalog running in the same panel, like the [WUYELIN 24V control transformer](/productos/B0B8Z2XV7V) if the circuit runs on low voltage.",
+      "puntosClave": [
+        "It's hardwired to 120V AC, not a battery-only device you can mount anywhere — you need existing electrical wiring at the mounting point, or you'll need to run it before installing.",
+        "Basic alerts (smoke, CO, low battery) are free with the Ring app, but 24/7 professional monitoring with emergency dispatch is a separate optional plan at $5/month — don't assume it's included.",
+        "It's a Ring/Alexa ecosystem device, not Matter or Zigbee — it doesn't integrate directly with this catalog's Aqara M3 hub or SONOFF Zigbee dongle; if your home is already 100% Home Assistant/Matter, check whether that already covers you before buying."
+      ],
+      "consejoInversion": "At $59.80, it costs more than a basic battery smoke detector, but the difference isn't detecting smoke itself — it's finding out about the problem while you're away from home. A local detector alerts whoever's there to hear it; this one sends the alert to your phone wherever you are, exactly the scenario where it matters most (traveling, at work, asleep behind a closed door). For a life-safety alarm carrying UL 217 and FCC certification, that difference is worth more than saving a few dollars on a model with no connectivity."
+    },
+    "tags": [
+      "Detector de Humo",
+      "Monóxido de Carbono",
+      "Ring",
+      "Alexa"
+    ],
+    "tagsEn": [
+      "Smoke Detector",
+      "Carbon Monoxide",
+      "Ring",
+      "Alexa"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0F7N7WGWY?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-26",
+    "activo": true
   }
 ]

@@ -54,6 +54,7 @@ Think of it as a universal data plug: instead of every brand (Tuya, Alexa, Googl
 - The [Amazon Basics bulb](/en/productos/B0CG5VDC8P) is a special case: it works **exclusively** with Alexa, it's not even multi-ecosystem without Matter — if your home uses Google Home or Apple Home, it simply won't work for you.
 - The [SwitchBot Hub Mini](/en/productos/B07TTH5TMW) doesn't have Matter either, but it solves a different problem than the devices above: it's not a plug or a bulb, it's a bridge for appliances with an infrared remote (air conditioners, TVs) that otherwise have no smart connectivity at all. If you specifically want a Matter-enabled hub that also has IR input, this same ranking's [Aqara Hub M3](/en/productos/B0CWLHSKYC) does both.
 - The [Shelly Flood Gen4](/en/productos/B0FPG9SGLJ) is Matter out of the box and also speaks WiFi, Bluetooth, and Zigbee — it's a water leak sensor, not a plug or a motion sensor, so it covers a category this ranking didn't have yet. Over WiFi or Bluetooth it works standalone with no hub; if you'd rather add it over Zigbee or Thread to the network you already built with the [Aqara Hub M3](/en/productos/B0CWLHSKYC) or the [SONOFF Zigbee dongle](/en/productos/B0B6P22YJC), you can do that too. The Shelly only **warns** you there's water — if you also want it to **act**, the [Aqara Smart Valve Controller T1](/en/productos/B0DB8KS8Q3) is Matter "over bridge" (through a Zigbee hub, not natively like the Shelly) and mounts on your existing shutoff valve to close it on its own the moment the sensor detects a leak, with nobody needing to be home.
+- The [Kidde Smart Smoke & CO Alarm with Ring](/en/productos/B0F7N7WGWY) does **not** have Matter, and it's a good example of why "no Matter" doesn't always mean "skip it": it's a 120V hardwired smoke and carbon monoxide detector on the closed Ring/Alexa ecosystem, with no bridge into this ranking's [Aqara Hub M3](/en/productos/B0CWLHSKYC) or [SONOFF Zigbee dongle](/en/productos/B0B6P22YJC). Unlike the Shelly Flood (which watches for water) or the SONOFF sensors (motion and door), this one covers the category the ranking was missing: fire and CO. If your home is already 100% Matter/Zigbee and you don't want one more app, that's the price of getting life-safety detection with a remote alert — there still isn't a mature Matter alternative for this specific category in this catalog.
 
 ## The water leak sensor, on video
 
@@ -65,6 +66,12 @@ Think of it as a universal data plug: instead of every brand (Tuya, Alexa, Googl
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/4sWNrb7Tu-c" title="Home Assistant Smart Home Ideas | Aqara Valve Controller T1 Review — Paul Hibbert" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+## The smoke and CO detector, on video
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/XZSCkixCjUM" title="How to Install Hardwired Smoke & CO Alarms (Step-by-Step) | Kidde Ring Smoke Detector Review — Eric DIY" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## The neutral hub, on video

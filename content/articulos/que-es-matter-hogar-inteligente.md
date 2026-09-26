@@ -54,6 +54,7 @@ Pensalo como un enchufe universal de datos: en vez de que cada marca (Tuya, Alex
 - El [foco Amazon Basics](/productos/B0CG5VDC8P) es un caso especial: funciona **exclusivamente** con Alexa, ni siquiera es multi-ecosistema sin Matter — si tu casa usa Google Home o Apple Home, directamente no te sirve.
 - El [SwitchBot Hub Mini](/productos/B07TTH5TMW) tampoco tiene Matter, pero resuelve un problema distinto al de los dispositivos de arriba: no es un enchufe ni un foco, es un puente para aparatos con control remoto infrarrojo (aire acondicionado, TV) que de otra forma no tienen ninguna conectividad inteligente. Si buscás específicamente un hub con Matter que además tenga entrada IR, el [Aqara Hub M3](/productos/B0CWLHSKYC) de este mismo ranking cumple las dos funciones.
 - El [Shelly Flood Gen4](/productos/B0FPG9SGLJ) es Matter de fábrica y además habla WiFi, Bluetooth y Zigbee — es un sensor de fuga de agua, no un enchufe ni un sensor de movimiento, así que cubre una categoría que este ranking todavía no tenía. Por WiFi o Bluetooth funciona standalone sin hub; si preferís sumarlo por Zigbee o Thread a la misma red que ya armaste con el [Aqara Hub M3](/productos/B0CWLHSKYC) o el [dongle Zigbee SONOFF](/productos/B0B6P22YJC), también podés. El Shelly solo **avisa** que hay agua — si querés que además **actúe**, el [Aqara Smart Valve Controller T1](/productos/B0DB8KS8Q3) es Matter "over bridge" (a través de un hub Zigbee, no de forma nativa como el Shelly) y se instala sobre tu llave de paso existente para cerrarla sola apenas el sensor detecta la fuga, sin que nadie tenga que estar en casa.
+- El [Kidde Smart Smoke & CO Alarm con Ring](/productos/B0F7N7WGWY) **no** tiene Matter, y es un buen ejemplo de por qué "sin Matter" no siempre significa "no lo compres": es un detector de humo y monóxido de carbono cableado a 120V, del ecosistema cerrado de Ring/Alexa, sin ningún puente hacia el [Aqara Hub M3](/productos/B0CWLHSKYC) ni el [dongle Zigbee SONOFF](/productos/B0B6P22YJC) de este ranking. A diferencia del Shelly Flood (que avisa de agua) o los sensores SONOFF (movimiento y puerta), este cubre la categoría que faltaba en el ranking: fuego y CO. Si tu casa ya es 100% Matter/Zigbee y no querés sumar una app más, es el precio a pagar por tener detección de vida con aviso remoto — todavía no existe una alternativa Matter madura para esta categoría específica en este catálogo.
 
 ## El sensor de fuga de agua, en video
 
@@ -65,6 +66,12 @@ Pensalo como un enchufe universal de datos: en vez de que cada marca (Tuya, Alex
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/4sWNrb7Tu-c" title="Home Assistant Smart Home Ideas | Aqara Valve Controller T1 Review — Paul Hibbert" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+## El detector de humo y CO, en video
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/XZSCkixCjUM" title="How to Install Hardwired Smoke & CO Alarms (Step-by-Step) | Kidde Ring Smoke Detector Review — Eric DIY" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## El hub neutral, en video
