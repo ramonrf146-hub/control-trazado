@@ -3156,5 +3156,56 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0F7N7WGWY?tag=controltrazado-20",
     "actualizadoEn": "2026-09-26",
     "activo": true
+  },
+  {
+    "asin": "B0C6XVXPCC",
+    "nombre": "SwitchBot Curtain 3 (Rod) — Motor para Cortinas, Compatible Matter vía Hub",
+    "nombreEn": "SwitchBot Curtain 3 (Rod) — Automatic Curtain Motor, Matter via Hub",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 79.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61AobBeE3fL._AC_SL1500_.jpg",
+    "rating": 4.0,
+    "numResenas": 1620,
+    "ranking": 23,
+    "notaTecnica": "Motor que se sujeta directo al riel de cortina existente (sin herramientas ni perforar la pared) y la abre/cierra por Bluetooth desde la app, con horarios programados. Soporta cortinas de hasta 15kg y trae un imán de posicionamiento para no perder la calibración con el uso diario. Por sí solo funciona por Bluetooth/app local; para comandos de voz (Alexa, Google Home, Siri) y para que aparezca como dispositivo Matter en Apple Home necesita sumarse a un hub SwitchBot — el [Hub Mini](/productos/B07TTH5TMW) de este catálogo cumple esa función. Cubre un hueco real: el catálogo tenía enchufes, luces y sensores, pero ningún actuador para cortinas. Ojo con dos límites reales: viene una sola unidad por compra (si la cortina se abre desde el medio en dos paños, hacen falta dos motores) y no calza en rieles extensibles cuya sección extendida mida menos de 5/8\" de diámetro. 1.620 reseñas, 4.0★.",
+    "notaTecnicaEn": "A motor that clamps directly onto your existing curtain rod (no tools, no wall drilling) and opens/closes it over Bluetooth from the app, with scheduled timers. Rated for curtains up to 15kg (33lb) and includes a positioning magnet so it doesn't lose calibration with daily use. On its own it works over local Bluetooth/app; for voice commands (Alexa, Google Home, Siri) and to show up as a Matter device in Apple Home, it needs to join a SwitchBot hub — this catalog's [Hub Mini](/productos/B07TTH5TMW) covers that. It fills a real gap: the catalog had plugs, lights and sensors, but no curtain actuator. Two real limits to watch: only one unit ships per purchase (if the curtain opens from the middle in two panels, you need two motors), and it won't fit an extendable rod whose extended section is thinner than 5/8\" in diameter. 1,620 reviews, 4.0 stars.",
+    "idealPara": "Automatizar cortinas existentes sin cambiar el riel ni cablear nada, y sumarlas al mismo ecosistema Matter que ya usás con el Hub Mini.",
+    "idealParaEn": "Automating curtains you already have without changing the rod or wiring anything, and adding them to the same Matter ecosystem you already use with the Hub Mini.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un motor pequeño que se abraza al mismo riel donde ya cuelga tu cortina — no reemplaza el riel ni la tela, solo le agrega un \"brazo robótico\" que la desliza para abrirla o cerrarla. Pensalo como el motor de un portón de garaje, pero en miniatura y aplicado a la ventana en vez de a una puerta pesada.",
+      "ejemploHogar": "En un dormitorio, programás que la cortina se abra sola a la hora en que sonaría el despertador, dejando entrar luz natural en vez de una alarma — o la cerrás con un comando de voz desde la cama sin tener que levantarte.",
+      "ejemploNegocio": "En una oficina o showroom con ventanales grandes, se usa para bajar la cortina automáticamente en las horas de más sol (reduciendo la carga del aire acondicionado) y volver a abrirla al final del día, sin que nadie tenga que hacerlo a mano todos los días.",
+      "puntosClave": [
+        "Medí el diámetro de la parte extensible de tu riel: si es menor a 5/8 pulgada en esa sección, este motor no calza — revisá esa medida antes de comprar, no después de que llegue.",
+        "Por sí solo funciona por Bluetooth y la app propia; si querés comandos de voz (Alexa, Google Home, Siri) o que aparezca como dispositivo Matter en Apple Home, necesitás sumarle un hub SwitchBot aparte (el Hub Mini de este catálogo sirve para eso).",
+        "Viene una sola unidad por compra: si tu cortina se abre desde el centro en dos paños, vas a necesitar dos motores, uno de cada lado."
+      ],
+      "consejoInversion": "Frente a instalar un riel motorizado completo nuevo (lo que implica sacar el que ya tenés y a veces perforar la pared), este motor se agrega al riel existente en minutos y sin herramientas. Más allá de la comodidad, cerrar la cortina sola en las horas de más sol reduce la carga del aire acondicionado en verano — un ahorro que se nota mes a mes en la boleta de luz, no una sola vez, y que con el tiempo cubre buena parte de lo que costó el motor."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a small motor that clamps onto the same rod your curtain already hangs from — it doesn't replace the rod or the fabric, it just adds a \"robotic arm\" that slides it open or closed. Think of it like a garage door opener's motor, but miniature and applied to a window instead of a heavy door.",
+      "ejemploHogar": "In a bedroom, you schedule the curtain to open by itself at the time your alarm would normally go off, letting in natural light instead of a buzzer — or you close it with a voice command from bed without having to get up.",
+      "ejemploNegocio": "In an office or showroom with large windows, it's used to lower the curtain automatically during peak-sun hours (cutting the AC load) and open it back up at the end of the day, without anyone having to do it by hand every day.",
+      "puntosClave": [
+        "Measure the diameter of your rod's extendable section: if it's thinner than 5/8 inch there, this motor won't fit — check that measurement before buying, not after it arrives.",
+        "On its own it only works over Bluetooth and its own app; if you want voice commands (Alexa, Google Home, Siri) or to have it show up as a Matter device in Apple Home, you need to add a separate SwitchBot hub (this catalog's Hub Mini works for that).",
+        "Only one unit ships per purchase: if your curtain opens from the center in two panels, you'll need two motors, one per side."
+      ],
+      "consejoInversion": "Compared to installing a whole new motorized rod (which means removing the one you have and sometimes drilling into the wall), this motor attaches to your existing rod in minutes with no tools. Beyond convenience, closing the curtain by itself during peak-sun hours cuts the AC load in summer — a saving that shows up month after month on the power bill, not just once, and over time covers a good chunk of what the motor cost."
+    },
+    "tags": [
+      "Bluetooth",
+      "Matter (vía Hub)",
+      "Motor de cortina"
+    ],
+    "tagsEn": [
+      "Bluetooth",
+      "Matter (via Hub)",
+      "Curtain motor"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0C6XVXPCC?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-27",
+    "activo": true
   }
 ]
