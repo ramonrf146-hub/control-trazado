@@ -35,6 +35,14 @@ All the control equipment (starter or VFD, protections, terminals) mounts on a [
 
 A motor of this power needs overload, ground fault, and surge protection. A [GFCI breaker with surge protection](/en/productos/B0CRKN96TB) covers all three in one module — but be careful: several real installations (documented in reviews of this type of equipment, including one case that ended in fire) fail because the wiring diagram for 208V/240V without a neutral gets misread. Before energizing anything, confirm the exact diagram for your voltage configuration — if you're unsure, that's the part where an electrician is worth it, not a tutorial.
 
+None of that protection catches whether your three-phase supply drops a phase or arrives unbalanced across the three lines — exactly the fault that burns out motors this size most often, since the motor keeps trying to turn forced on a single phase until it overheats. The [Nannday 3-Phase Voltage Monitor Relay](/en/productos/B08521B38X) covers that gap: it installs on the incoming supply (never on the VFD's output, something the manufacturer's own listing explicitly warns against) and trips the control circuit the moment it detects phase loss, reversed phase, or imbalance — the same principle of wiring in series with the contactor coil as the emergency stop button below.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/rGC_pj8JQbk" title="Phase Monitoring Relay Explained | Working, Wiring & Protection (3 Phase Systems)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+This video explains how a phase monitoring relay like the Nannday works and wires up: where the three incoming lines connect, and how its control output trips the contactor circuit on a phase fault.
+
 All of that protects the equipment, but it doesn't replace an accessible manual cutoff for the person standing in front of the panel. An [IP65 emergency stop button](/en/productos/B00NTT91Y0) wired in series with the bypass contactor's coil (not with the motor's power side) lets you stop everything with one hit if something jams during startup — it's a cheap part that's often missing from DIY installations like this one, precisely because it doesn't protect the equipment, it protects whoever's operating it.
 
 ## 5. Power wiring

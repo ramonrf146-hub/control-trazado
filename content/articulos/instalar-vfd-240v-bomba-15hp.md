@@ -35,6 +35,14 @@ Todo el equipo de control (arrancador o VFD, protecciones, terminales) va montad
 
 Un motor de esta potencia necesita protección contra sobrecarga, falla a tierra y sobretensión. Un [disyuntor GFCI con protección de sobretensión](/productos/B0CRKN96TB) cubre las tres en un solo módulo — pero ojo: varias instalaciones reales (documentadas en reseñas de este tipo de equipo, incluyendo un caso que terminó en incendio) fallan porque el diagrama de cableado para 208V/240V sin neutro se interpreta mal. Antes de energizar cualquier cosa, confirmá el diagrama exacto para tu configuración de voltaje — si tenés dudas, esa es la parte donde conviene un electricista, no un tutorial.
 
+Ninguna de esas protecciones detecta si tu instalación es trifásica y una fase se corta o llega desbalanceada respecto a las otras dos — justo la falla que más quema motores de este porte, porque el motor sigue intentando girar forzado con una sola fase hasta que se recalienta. El [Nannday Monitor de Tensión Trifásico](/productos/B08521B38X) cubre ese hueco: se instala sobre la alimentación de entrada (nunca en la salida del VFD, algo que la propia ficha del fabricante advierte explícitamente) y corta el circuito de control apenas detecta falla de fase, fase invertida o desbalance — el mismo principio de cablear en serie con la bobina del contactor que el botón de parada de emergencia de más abajo.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/rGC_pj8JQbk" title="Phase Monitoring Relay Explained | Working, Wiring & Protection (3 Phase Systems)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+Este video explica el funcionamiento y el cableado de un relé de monitoreo de fase como el Nannday: dónde se conectan las tres líneas de entrada y cómo su salida de control corta el circuito del contactor ante una falla de fase.
+
 Todo eso protege al equipo, pero no reemplaza un corte manual accesible para la persona parada frente al tablero. Un [botón de parada de emergencia IP65](/productos/B00NTT91Y0) cableado en serie con la bobina del contactor de derivación (no con la potencia del motor) permite frenar todo con un solo golpe si algo se traba durante el arranque — es una pieza barata que suele faltar en instalaciones caseras de este tipo, justamente porque no protege al equipo, protege a quien lo opera.
 
 ## 5. Cableado de potencia

@@ -45,6 +45,8 @@ With wiring organized, the panel needs protection. The [DIHOOL GFCI Breaker with
 
 If the panel has no neutral available, or you already have a breaker and just need dedicated surge protection, the [ASI ASISP180-1P](/en/productos/B012IR9YMW) in this ranking is a standalone modular DIN-rail SPD — it mounts in parallel with the breaker (it doesn't replace it), doesn't need a neutral, and flags via a remote alarm contact when the MOV module has degraded and needs replacing. It's 1 pole at 120 Vac, so it only covers control circuits (a PLC, a 24V supply), not the panel's three-phase lines.
 
+Watch out for something neither the SPD nor the GFCI catches: on a three-phase panel, neither one detects a lost phase or the three lines arriving unbalanced — the most common fault behind a burned-out three-phase motor. For that you need a dedicated relay like the [Nannday 3-Phase Voltage Monitor Relay](/en/productos/B08521B38X) in this ranking: it installs on the incoming supply side (never on a VFD's output, per the manufacturer's own warning) and trips the control circuit — in series with the contactor coil, just like this ranking's E-stop button — the moment it detects phase loss, reversed phase, or imbalance. It covers the 200-500VAC range, so it works for both 240V and 480V.
+
 If the panel also controls a load that switches on and off frequently (not just passive protection), a contactor like the [BAOMAIN AC 16A 2-Pole (110V coil)](/en/productos/B0CGL8J44N) in this ranking is the right part for smaller resistive loads — lighting, small water heaters. For bigger loads, this catalog also carries higher-amperage contactors.
 
 ## 7. If the panel controls HVAC equipment

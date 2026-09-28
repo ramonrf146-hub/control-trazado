@@ -3207,5 +3207,58 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0C6XVXPCC?tag=controltrazado-20",
     "actualizadoEn": "2026-09-27",
     "activo": true
+  },
+  {
+    "asin": "B08521B38X",
+    "nombre": "Nannday Relé Monitor de Tensión Trifásico — Protección de Falla y Secuencia de Fase",
+    "nombreEn": "Nannday 3-Phase Voltage Monitor Relay — Phase Failure & Sequence Protection",
+    "categoria": "control-industrial-b2b",
+    "precio": 20.11,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61RR3a8YoGL.jpg",
+    "rating": 4.1,
+    "numResenas": 399,
+    "ranking": 41,
+    "notaTecnica": "Relé de monitoreo de tensión trifásico que se conecta antes del arrancador, VFD o contactor y corta el circuito de control (no la potencia del motor) si detecta falla de fase, secuencia de fase invertida o desbalance de tensión entre las tres líneas — las tres causas más comunes de que un motor trifásico se queme por trabajar forzado con una sola fase. Rango de tensión 200-500VAC 50/60Hz (cubre tanto 240V como 480V), montaje en riel DIN de 35mm o atornillado suelto, con 2 juegos de contactos NA/NC de 6A a 250V — nivel de control, no de potencia, se cablea en serie con la bobina del contactor igual que el botón de parada de emergencia BAOMAIN ya listado en este catálogo. Aclaración importante que trae la propia ficha del fabricante, incluida acá sin recortes: está pensado para instalarse del lado de la alimentación de entrada (la red trifásica que llega al tablero), NO en la salida de un variador de frecuencia — la salida de un VFD no es una onda senoidal limpia y el relé puede dar falsos disparos ahí. 399 reseñas, 4.1★.",
+    "notaTecnicaEn": "A three-phase voltage monitoring relay that wires ahead of a soft starter, VFD or contactor and trips the control circuit (not the motor's power lines) when it detects a lost phase, reversed phase sequence, or voltage imbalance between the three lines — the three most common reasons a three-phase motor burns out from running forced on a single phase. Rated 200-500VAC 50/60Hz (covers both 240V and 480V systems), mounts on 35mm DIN rail or bolts down loose, with 2 sets of NO/NC contacts rated 6A at 250V — control-circuit level, not power level, wired in series with the contactor coil just like this catalog's BAOMAIN E-stop button. Important limitation straight from the manufacturer's own listing, included here without editing it down: it's meant to be installed on the incoming supply side (the three-phase feed reaching the panel), NOT on a variable-frequency drive's output — a VFD's output isn't a clean sine wave and the relay can false-trip there. 399 reviews, 4.1 stars.",
+    "idealPara": "Sumar protección real contra falla de fase, fase invertida o desbalance de tensión a un tablero trifásico — el tipo de falla que ni el disyuntor GFCI ni el SPD de este catálogo detectan, y que suele quemar motores en silencio.",
+    "idealParaEn": "Adding real protection against phase loss, reversed phase, or voltage imbalance to a three-phase panel — the kind of fault neither this catalog's GFCI breaker nor its SPD can detect, and that quietly burns out motors.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un vigilante eléctrico que se sienta entre la red trifásica y tu equipo, y controla todo el tiempo que las tres líneas de corriente (L1, L2, L3) estén presentes, en el orden correcto y con una tensión pareja entre sí. Pensalo como un guardia que cuenta cabezas en la puerta de un evento: si entran las tres personas juntas todo bien, pero si falta una o llegan en el orden equivocado, hace sonar la alarma antes de que el problema crezca adentro. Acá 'la alarma' es abrir un contacto que corta el circuito de control del contactor o arrancador, deteniendo el motor antes de que trabaje forzado con una sola fase — lo que lo recalienta y quema en minutos, no en horas.",
+      "ejemploHogar": "En un taller o garage con acometida trifásica (algo común si hay una máquina de carpintería grande o un compresor industrial chico alimentado por un convertidor de fase), este relé corta el circuito de arranque si el convertidor pierde una fase — evitando que el motor de la sierra o el compresor se queme trabajando monofásico sin que nadie se dé cuenta hasta que empieza a oler a quemado.",
+      "ejemploNegocio": "En el tablero de una bomba de 15HP como el de nuestra guía de instalación de VFD, este relé se monta antes del arrancador suave o del VFD, sobre la alimentación trifásica de entrada — si una fase se corta (un fusible volado en el tablero de distribución del edificio, un cable flojo) el relé abre el circuito de control antes de que el motor intente arrancar o siga girando con una sola fase, la causa número uno de motores trifásicos quemados en la industria.",
+      "puntosClave": [
+        "Se instala del lado de la alimentación de entrada (la red trifásica que llega al tablero), nunca en la salida de un VFD — la propia ficha del fabricante lo advierte: la salida de un variador no es una onda limpia y ahí el relé puede dar falsos disparos o no funcionar como corresponde.",
+        "Confirmá que tu tensión de línea entra en el rango 200-500VAC — cubre tanto instalaciones de 240V como de 480V, pero no sirve para líneas de menor tensión.",
+        "Sus contactos son de 6A a 250V, nivel de control, no de potencia — se cablea en serie con la bobina del contactor o del arrancador suave, igual que el botón de parada de emergencia de este catálogo, nunca directo sobre los cables de potencia del motor."
+      ],
+      "consejoInversion": "Frente a no tener ninguna protección de fase (la opción más común, porque el disyuntor y el GFCI no detectan esta falla), este relé cuesta menos que una sola visita de un técnico y muchísimo menos que rebobinar o reemplazar un motor de 15HP quemado por trabajar meses con una sola fase sin que nadie lo note hasta que el olor a quemado avisa tarde. Con 399 reseñas y 4.1★ tiene mejor trazabilidad que el SPD ASI de este mismo catálogo (apenas 2 reseñas), y a $20.11 es una de las piezas de protección más baratas de todo el ranking — barato de comprar, carísimo de no tener el día que falta una fase."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's an electrical watchman that sits between the three-phase feed and your equipment, constantly checking that all three power lines (L1, L2, L3) are present, in the right order, and roughly even in voltage with each other. Think of it like a guard counting heads at an event's door: if three people walk in together, fine — but if one is missing or they arrive out of order, the guard sounds the alarm before the problem grows inside. Here, 'the alarm' is opening a contact that cuts the contactor or starter's control circuit, stopping the motor before it runs forced on a single phase — which overheats and burns it out in minutes, not hours.",
+      "ejemploHogar": "In a home workshop or garage with a three-phase feed (common if there's a big woodworking machine or a small industrial compressor fed through a phase converter), this relay trips the start circuit if the converter drops a phase — keeping the saw's or compressor's motor from cooking itself running single-phase without anyone noticing until it starts smelling burnt.",
+      "ejemploNegocio": "On a 15HP pump panel like the one in our VFD installation guide, this relay mounts ahead of the soft starter or VFD, on the incoming three-phase supply — if one phase drops (a blown fuse in the building's distribution panel, a loose lug), the relay opens the control circuit before the motor tries to start or keep spinning on a single phase, which is the number-one cause of burned-out three-phase motors in industry.",
+      "puntosClave": [
+        "It installs on the incoming supply side (the three-phase feed reaching the panel), never on a VFD's output — the manufacturer's own listing warns about this: a drive's output isn't a clean waveform and the relay can false-trip or misbehave there.",
+        "Confirm your line voltage falls inside the 200-500VAC range — it covers both 240V and 480V installations, but won't work on lower-voltage lines.",
+        "Its contacts are rated 6A at 250V, control level, not power level — wire it in series with the contactor or soft-starter coil, just like this catalog's E-stop button, never directly across the motor's power leads."
+      ],
+      "consejoInversion": "Compared to having no phase protection at all (the most common setup, since neither a breaker nor a GFCI catches this fault), this relay costs less than a single service call and far less than rewinding or replacing a 15HP motor that ran for months on a single phase before anyone noticed the smell. With 399 reviews and 4.1 stars it has a stronger track record than this same catalog's ASI SPD (just 2 reviews), and at $20.11 it's one of the cheapest protection pieces in the whole ranking — cheap to buy, brutally expensive not to have the day a phase drops."
+    },
+    "tags": [
+      "Falla de Fase",
+      "Trifásico",
+      "200-500VAC",
+      "Riel DIN"
+    ],
+    "tagsEn": [
+      "Phase Failure",
+      "3-Phase",
+      "200-500VAC",
+      "DIN Rail"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B08521B38X?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-28",
+    "activo": true
   }
 ]
