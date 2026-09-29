@@ -23,7 +23,7 @@ No alcanza con mirar la certificación — varios productos de este tipo (no sol
 
 1. **Buscá la certificación explícita** (UL, ETL, CE) en el título o las primeras fotos del listado — si no aparece en ningún lado, asumí que no la tiene.
 2. **Comparás el amperaje del título contra la ficha técnica completa** — si hay discrepancia, confiá en el número más bajo y preguntale al vendedor cuál es el correcto antes de instalar algo que dependa de ese límite.
-3. **Revisá si necesita protección aparte.** Varios contactores y relés (como los [contactores BAOMAIN](/productos/B0CGL8J44N) de este ranking) aclaran explícitamente que no traen protección de cortocircuito incorporada — necesitás sumar un fusible o térmica vos, no es opcional aunque no venga mencionado en destacado. El [disyuntor termomagnético Chtaixi de 2 polos](/productos/B09TVS6X1C) de este ranking cubre justo esto para cargas 120V/240V que necesitan cortar ambas líneas — viene en varios amperajes, así que elegí el que corresponda a la carga real. Si el circuito es de un solo hot leg a 120V (la bobina de un contactor, un circuito de control chico), el 2 polos es sobredimensionado: el [Chtaixi de 1 polo](/productos/B09WF4692D) de este ranking es la versión correcta — misma marca, pero es una ficha de Amazon distinta, no una variante dentro del mismo listado, así que confirmá el número de polos en el título antes de comprar.
+3. **Revisá si necesita protección aparte.** Varios contactores y relés (como los [contactores BAOMAIN](/productos/B0CGL8J44N) de este ranking) aclaran explícitamente que no traen protección de cortocircuito incorporada — necesitás sumar un fusible o térmica vos, no es opcional aunque no venga mencionado en destacado. El [disyuntor termomagnético Chtaixi de 2 polos](/productos/B09TVS6X1C) de este ranking cubre la opción de "térmica" para cargas 120V/240V que necesitan cortar ambas líneas — viene en varios amperajes, así que elegí el que corresponda a la carga real. Si el circuito es de un solo hot leg a 120V (la bobina de un contactor, un circuito de control chico), el 2 polos es sobredimensionado: el [Chtaixi de 1 polo](/productos/B09WF4692D) de este ranking es la versión correcta — misma marca, pero es una ficha de Amazon distinta, no una variante dentro del mismo listado, así que confirmá el número de polos en el título antes de comprar. Si en cambio preferís (o el fabricante del equipo pide específicamente) la opción de "fusible" en vez de térmica, la [base de fusible riel DIN BAOMAIN (pack de 5)](/productos/B08NYVPYCQ) de este mismo ranking cumple esa función para 1 polo, 32A y 690VAC — a diferencia del disyuntor, que se resetea solo, acá el cartucho de fusible se sacrifica una sola vez y hay que reemplazarlo (no viene incluido, se compra aparte según el amperaje real de la carga), pero corta más rápido frente a un cortocircuito franco, algo relevante si lo que estás protegiendo es la electrónica sensible de un VFD o un arrancador suave.
 
 <div class="not-prose my-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
 <div class="rounded-2xl border border-line-dim/60 bg-ink p-5 text-center">
@@ -54,6 +54,14 @@ Del otro lado, el [Linkind Matter Smart Plug](/productos/B0C36WXGP1) es justamen
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/NasHm-6astI" title="UL vs ETL, Understanding Safety Certifications — OnLogic" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+## Video: cómo funcionan las bases de fusible en riel DIN
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/9Q4MU1aCKLo" title="Din Rail Mounted Fuse Holders — American Electrical Incorporated" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+Este video repasa las variantes más comunes de bases de fusible para riel DIN — útil para ver la diferencia física entre la opción de "fusible" y la de "térmica" del punto 3 antes de elegir una para tu tablero.
 
 ## Nuestra recomendación del mes
 

@@ -3165,7 +3165,7 @@
     "precio": 79.99,
     "moneda": "USD",
     "imagen": "https://m.media-amazon.com/images/I/61AobBeE3fL._AC_SL1500_.jpg",
-    "rating": 4.0,
+    "rating": 4,
     "numResenas": 1620,
     "ranking": 23,
     "notaTecnica": "Motor que se sujeta directo al riel de cortina existente (sin herramientas ni perforar la pared) y la abre/cierra por Bluetooth desde la app, con horarios programados. Soporta cortinas de hasta 15kg y trae un imán de posicionamiento para no perder la calibración con el uso diario. Por sí solo funciona por Bluetooth/app local; para comandos de voz (Alexa, Google Home, Siri) y para que aparezca como dispositivo Matter en Apple Home necesita sumarse a un hub SwitchBot — el [Hub Mini](/productos/B07TTH5TMW) de este catálogo cumple esa función. Cubre un hueco real: el catálogo tenía enchufes, luces y sensores, pero ningún actuador para cortinas. Ojo con dos límites reales: viene una sola unidad por compra (si la cortina se abre desde el medio en dos paños, hacen falta dos motores) y no calza en rieles extensibles cuya sección extendida mida menos de 5/8\" de diámetro. 1.620 reseñas, 4.0★.",
@@ -3259,6 +3259,59 @@
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B08521B38X?tag=controltrazado-20",
     "actualizadoEn": "2026-09-28",
+    "activo": true
+  },
+  {
+    "asin": "B08NYVPYCQ",
+    "nombre": "BAOMAIN Base de Fusible Riel DIN 1 Polo 32A 690V — Pack de 5, con Indicador LED de Fusible Quemado",
+    "nombreEn": "BAOMAIN DIN Rail Fuse Holder Base 1-Pole 32A 690V — 5-Pack, with Blown-Fuse LED Indicator",
+    "categoria": "control-industrial-b2b",
+    "precio": 15.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71Doo4w+2mL.jpg",
+    "rating": 4.5,
+    "numResenas": 82,
+    "ranking": 42,
+    "notaTecnica": "Base de fusible para riel DIN 35mm (1 módulo, 17.5mm de ancho) que aloja un cartucho de fusible cilíndrico de 10x38mm reemplazable — 1 polo, hasta 32A y 690VAC, capacidad de ruptura de 50kA y 3W de potencia disipada. Trae un indicador LED rojo integrado que se enciende apenas el fusible se quema, para detectar el módulo fallado sin tener que desarmar cada base para revisarla. Terminales a tornillo con torque especificado de 2.5Nm, cuerpo de ABS retardante de llama y contactos de cobre, certificación cURus (UL) y CE. La propia ficha advierte explícitamente 'Do not open under load' (no abrir la tapa con el circuito energizado). Viene en pack de 5 unidades — son solo las bases, NO incluye los cartuchos de fusible, que se compran aparte según el amperaje y la curva (gG para uso general, aM para arranque de motores) que corresponda a la carga real. 82 reseñas, 4.5★.",
+    "notaTecnicaEn": "A DIN rail fuse holder base (35mm rail, 1 module wide at 17.5mm) that houses a replaceable 10x38mm cylindrical fuse cartridge — single pole, rated up to 32A and 690VAC, with a 50kA breaking capacity and 3W of dissipated power. It has a built-in red LED that lights up the moment the fuse blows, so you can spot the failed module without pulling apart every base to check it. Screw terminals rated to a specified 2.5Nm torque, flame-retardant ABS housing, copper contacts, and cURus (UL) plus CE certification. The listing itself explicitly warns 'Do not open under load' (never open the cover while the circuit is energized). Sold in a 5-pack — these are just the bases, fuse cartridges are NOT included and need to be bought separately, matched to the real load's amperage and curve (gG for general use, aM for motor starting). 82 reviews, 4.5 stars.",
+    "idealPara": "Sumar protección de fusible dedicada y reemplazable a un circuito de control o de derivación en un tablero — la opción de 'fusible' (en vez de térmica) que este catálogo todavía no tenía con un producto propio.",
+    "idealParaEn": "Adding dedicated, replaceable fuse protection to a control or branch circuit on a panel — the 'fuse' option (as opposed to a breaker) this catalog didn't yet have a dedicated product for.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Pensá en esta pieza como el portalámparas de un fusible: no es el fusible en sí, es la base donde se enrosca o encastra el cartucho reemplazable, y la que conecta ese cartucho al cableado del circuito. La diferencia con un disyuntor (que se resetea con un click cuando corta) es que un fusible se sacrifica una sola vez: cuando pasa más corriente de la que aguanta, el hilo interno del cartucho se derrite y corta el circuito — y para volver a energizar hay que cambiar el cartucho por uno nuevo, no alcanza con 'resetear' nada. Esta base en particular además trae un chivato: un LED rojo que se enciende apenas ese cartucho se quema, así no hay que sacar cada uno de los módulos del tablero para adivinar cuál fue.",
+      "ejemploHogar": "En un taller o garage con tablero propio (el mismo tipo de instalación con acometida trifásica de la que hablan otras fichas de este catálogo), esta base protege puntualmente el circuito de control de un contactor o de una fuente 24V — si ese circuito chico sufre un cortocircuito, se quema el fusible de $1-2 en vez de dañar el resto del cableado o quedar sin ninguna protección dedicada más allá del disyuntor general de toda la instalación.",
+      "ejemploNegocio": "En un tablero como el de nuestra guía de instalación de VFD, montar una de estas bases sobre la alimentación de entrada de un arrancador suave o VFD da una capa de protección con un tiempo de corte típicamente más rápido que el de una térmica común frente a un cortocircuito franco — útil específicamente para proteger la electrónica de potencia sensible del variador. Ojo con un límite real: esta base acepta fusibles cilíndricos gG/aM de propósito general, no es una base de fusibles semiconductores tipo aR (los que algunos fabricantes de VFD piden puntualmente para proteger los IGBT del drive) — para esa protección específica hay que revisar el manual del variador y comprar la base aR que indique el fabricante.",
+      "puntosClave": [
+        "No trae los fusibles incluidos, son solo las 5 bases — hay que comprar los cartuchos cilíndricos de 10x38mm aparte, y elegir el amperaje y la curva (gG para uso general, aM para arranque de motores) según la carga real, no el máximo de 32A que soporta la base.",
+        "Es de 1 polo — para proteger las tres líneas de un circuito trifásico hacen falta 3 unidades (o la versión de 3 o 4 polos de la misma marca), y la ficha del fabricante advierte explícitamente no abrir la tapa con el circuito energizado.",
+        "Los contactos son a tornillo con torque especificado de 2.5Nm — apretalos con cuidado (ni flojos ni pasados de fuerza) para que la conexión no se afloje con la vibración de un motor o un contactor ciclando seguido."
+      ],
+      "consejoInversion": "Frente a depender solo del disyuntor general del tablero para todo (la opción más común, y la que deja sin protección dedicada al circuito de control específico), estas bases cuestan poco más de $3 cada una dentro del pack de 5 — mucho menos que el tiempo de diagnóstico a ciegas que ahorra el LED cuando algo falla en un tablero con varios circuitos de control. Con 82 reseñas y 4.5★ tiene mejor trazabilidad que otras piezas de protección de este mismo catálogo (el SPD ASI, con apenas 2 reseñas), y viene de BAOMAIN, la misma marca del botón de parada de emergencia mejor calificado de este ranking (422 reseñas)."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of this part as a fuse's lamp socket: it isn't the fuse itself, it's the base that the replaceable cartridge screws or clips into, and that connects that cartridge to the circuit's wiring. The difference from a breaker (which resets with a click when it trips) is that a fuse sacrifices itself exactly once: when more current flows than it can handle, the cartridge's internal wire melts and opens the circuit — and to re-energize it you have to swap in a new cartridge, there's no 'reset' involved. This particular base also has a tattletale built in: a red LED that lights up the instant that cartridge blows, so you don't have to pull every module off the panel to guess which one failed.",
+      "ejemploHogar": "In a home workshop or garage with its own panel (the same kind of three-phase-fed setup other listings in this catalog describe), this base protects the control circuit for a contactor or a 24V supply specifically — if that small circuit short-circuits, the $1-2 fuse blows instead of the rest of the wiring taking the damage, or the circuit being left with no dedicated protection beyond the installation's main breaker.",
+      "ejemploNegocio": "On a panel like the one in our VFD installation guide, mounting one of these bases on the incoming supply to a soft starter or VFD adds a layer of protection with a typically faster clearing time than a standard thermal breaker against a dead short — useful specifically for protecting the drive's sensitive power electronics. Watch out for a real limit here: this base takes general-purpose gG/aM cylindrical fuses, it is not a semiconductor-rated aR fuse base (the type some VFD manufacturers specifically call for to protect the drive's IGBTs) — for that specific protection, check the drive's manual and buy the exact aR base the manufacturer specifies.",
+      "puntosClave": [
+        "Fuses are not included, these are just the 5 bases — you need to buy the 10x38mm cylindrical cartridges separately, and pick the amperage and curve (gG for general use, aM for motor starting) that matches the real load, not the base's 32A maximum.",
+        "It's single-pole — protecting all three lines of a three-phase circuit takes 3 units (or this same brand's 3- or 4-pole version), and the manufacturer's listing explicitly warns against opening the cover while the circuit is energized.",
+        "The contacts are screw-type with a specified 2.5Nm torque — tighten them carefully (neither loose nor over-torqued) so the connection doesn't work loose from a motor's or a cycling contactor's vibration."
+      ],
+      "consejoInversion": "Compared to relying only on the panel's main breaker for everything (the most common setup, and the one that leaves the specific control circuit with no dedicated protection), these bases cost a little over $3 each in the 5-pack — far less than the blind-diagnosis time the LED saves when something fails on a panel with several control circuits. With 82 reviews and 4.5 stars it has a stronger track record than other protection pieces in this same catalog (the ASI SPD, with just 2 reviews), and it comes from BAOMAIN, the same brand behind this ranking's best-reviewed E-stop button (422 reviews)."
+    },
+    "tags": [
+      "Fusible",
+      "Riel DIN",
+      "32A 690VAC",
+      "Indicador LED"
+    ],
+    "tagsEn": [
+      "Fuse Holder",
+      "DIN Rail",
+      "32A 690VAC",
+      "LED Indicator"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B08NYVPYCQ?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-29",
     "activo": true
   }
 ]
