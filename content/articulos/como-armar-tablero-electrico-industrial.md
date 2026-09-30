@@ -53,7 +53,21 @@ Si además el tablero controla una carga que se enciende/apaga con frecuencia (n
 
 Un caso frecuente: el tablero alimenta termostatos, relés o válvulas de gas de un sistema HVAC clásico, que trabajan a 24V, no a 120V. Para eso hace falta bajar la tensión con un transformador de control como el [WUYELIN 24V 40VA](/productos/B0B8Z2XV7V) de este ranking — pensado para circuitos alimentados a 120V con neutro; revisá el diagrama si tu instalación parte de otra tensión.
 
-## 8. Parada de emergencia: la pieza de seguridad que nadie pide hasta que hace falta
+Ojo con no confundir esto con el próximo punto: el WUYELIN entrega 24V, pero **corriente alterna** — sirve para termostatos y válvulas de HVAC, no para alimentar electrónica de control.
+
+## 8. Si el tablero necesita 24V DC para su electrónica (PLC, sensores, relés Modbus)
+
+Distinto del transformador HVAC de arriba: si el tablero tiene un PLC, sensores de campo, o los módulos de relé Modbus RTU de este mismo catálogo, esos equipos no corren con 24V AC — necesitan 24V **DC**, corriente continua regulada. Es la tensión de control más común en automatización industrial, y hasta ahora este catálogo solo tenía una fuente de 5V DC (para electrónica chica de bajo consumo) sin ninguna opción de 24V DC para el resto. La [fuente MEAN WELL EDR-120-24](/productos/B00UR98FSS) de este ranking cubre ese hueco: riel DIN, entrada universal 90-264VAC (cualquier tensión de red sirve, sin selector), salida 24V DC hasta 5A/120W, con protección de cortocircuito, sobretensión, sobrecarga y sobretemperatura.
+
+En la práctica, esta fuente es la que alimenta desde un solo punto los módulos de relé Modbus RTU de [8](/productos/B083J24HCM), [16](/productos/B0CMH47846) o [32 canales](/productos/B0CC5P8NC2) de este catálogo, además de un PLC y sus sensores — en vez de una fuente de pared distinta por cada equipo. Se enfría por convección natural (sin ventilador), así que si el gabinete queda muy cerrado y con poca ventilación en un ambiente caluroso, conviene dejarle espacio alrededor o no exigirle el 100% de su potencia nominal.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/T445BPCXvE0" title="DIN Rail Introduction: Why &amp; How to choose MEAN WELL DIN Rail PSU" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+Video oficial del propio fabricante (canal MEAN WELL Group) explicando cómo elegir entre sus distintas series de fuentes riel DIN según potencia y forma de montaje — útil para confirmar que la EDR-120-24 de arriba es la que corresponde a tu caso antes de comprar.
+
+## 9. Parada de emergencia: la pieza de seguridad que nadie pide hasta que hace falta
 
 Todo lo anterior protege al equipo. Esta pieza protege a la persona parada frente al tablero. Un [botón de parada de emergencia BAOMAIN IP65](/productos/B00NTT91Y0) de este ranking no va sobre el riel DIN como el resto de las piezas de esta guía — se atornilla aparte, en la pared o el gabinete, en un lugar visible donde el operador lo pueda golpear con la palma sin tener que mirar. Sus contactos 1NO+1NC no cortan la corriente de potencia directamente: se cablean en serie con la bobina del contactor o del arrancador suave (como el del ranking usado en la guía de [instalar un VFD a 240V](/articulos/instalar-vfd-240v-bomba-15hp)), así que cortar ese circuito de control basta para des-energizar todo el equipo de golpe.
 
@@ -71,7 +85,7 @@ El BAOMAIN de arriba viene en su propia caja estanca, para atornillar aparte del
 
 Junto al botón de parada, el [selector de 3 posiciones APIELE (pack de 2)](/productos/B088PQW5DY) de este ranking — también de 22mm, enclavado, ON-OFF-ON con 2NA — es la pieza típica para elegir el modo de operación (por ejemplo, Manual-Apagado-Automático en el sistema de VFD de la guía de [instalar un VFD a 240V](/articulos/instalar-vfd-240v-bomba-15hp)): cada posición extrema cierra un contacto distinto y la del medio no cierra ninguno, así que el cableado de qué modo corresponde a cada lado depende de cómo lo conectes — no asumas una lógica fija sin revisar el diagrama de tu arrancador.
 
-## 9. Si el tablero completo va a la intemperie: gabinete estanco y prensaestopas
+## 10. Si el tablero completo va a la intemperie: gabinete estanco y prensaestopas
 
 Todo lo anterior asume que el tablero vive dentro de un espacio ya protegido (una sala eléctrica, un armario cerrado). Pero si el proyecto entero —riel, bloques, contactores, protección— tiene que instalarse afuera, a la intemperie, necesitás partir de un gabinete estanco en vez de una caja genérica. El [QILIPSU Gabinete IP67 20x16.1x7.9" con Placa de Montaje](/productos/B0995V2RM7) de este ranking está pensado justo para eso: tiene placa de montaje interna para atornillar los mismos componentes de riel DIN de esta guía, puerta interior de metal como capa extra de seguridad, y tapa con bisagras — pero **no viene con perforaciones (knockouts) predefinidas**. Hay que taladrar vos cada agujero por donde entra un cable, y sellarlo aparte con un prensaestopa; si no, el gabinete deja de cumplir su grado IP67 en la práctica desde el primer agujero que hagas.
 

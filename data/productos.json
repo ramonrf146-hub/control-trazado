@@ -3313,5 +3313,58 @@
     "urlAfiliado": "https://www.amazon.com/dp/B08NYVPYCQ?tag=controltrazado-20",
     "actualizadoEn": "2026-09-29",
     "activo": true
+  },
+  {
+    "asin": "B00UR98FSS",
+    "nombre": "MEAN WELL EDR-120-24 — Fuente de Alimentación Riel DIN 24V DC 5A 120W",
+    "nombreEn": "MEAN WELL EDR-120-24 — DIN Rail Power Supply 24V DC 5A 120W",
+    "categoria": "control-industrial-b2b",
+    "precio": 30.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71JDQ+d0dML.jpg",
+    "rating": 4.8,
+    "numResenas": 471,
+    "ranking": 43,
+    "notaTecnica": "Fuente de alimentación conmutada (switching) para riel DIN 35mm que convierte 90-264VAC de entrada — cualquier tensión de red del mundo, sin selector manual — en una salida limpia y regulada de 24V DC, hasta 5A / 120W continuos. Trae PFC activo (corrección de factor de potencia), protecciones contra cortocircuito, sobretensión, sobrecarga y sobretemperatura, y se enfría por convección de aire libre, sin ventilador. Salida por terminales a tornillo, rango de temperatura de operación de -20°C a 60°C, certificaciones UL/cUL/TUV/CB/CE, eficiencia de 87.5% y 2 años de garantía del fabricante. Mean Well es una de las marcas más establecidas de fuentes conmutadas industriales — sus PSU de riel DIN son el estándar de facto en tableros de automatización de todo el mundo. Mide 4.5 x 1.6 x 4.9 pulgadas y se monta con el clip integrado, igual que el resto de los componentes de riel DIN de este catálogo. 471 reseñas, 4.8★.",
+    "notaTecnicaEn": "A switching power supply for 35mm DIN rail that converts 90-264VAC input — any wall voltage worldwide, no manual selector needed — into a clean, regulated 24V DC output, up to 5A / 120W continuous. It has active PFC (power factor correction), protection against short circuit, over-voltage, overload and over-temperature, and cools by free air convection, no fan. Screw-terminal output, -20°C to 60°C operating temperature range, UL/cUL/TUV/CB/CE certifications, 87.5% efficiency, and a 2-year manufacturer warranty. Mean Well is one of the most established brands in industrial switching power supplies — their DIN rail PSUs are the de facto standard in automation panels worldwide. It measures 4.5 x 1.6 x 4.9 inches and mounts with its built-in clip, just like the rest of this catalog's DIN rail parts. 471 reviews, 4.8 stars.",
+    "idealPara": "Alimentar con 24V DC estable la electrónica de un tablero — PLCs, sensores, módulos de relé Modbus RTU y bobinas de contactores de 24VDC — algo que este catálogo todavía no tenía cubierto: solo había una fuente de 5V DC (para electrónica de bajo consumo) y un transformador de 24V AC (para HVAC), pero ninguna fuente de 24V DC, la tensión de control más común en automatización industrial.",
+    "idealParaEn": "Powering a panel's electronics with a stable 24V DC supply — PLCs, sensors, Modbus RTU relay modules and 24VDC contactor coils — something this catalog didn't have covered yet: it only had a 5V DC supply (for low-power electronics) and a 24V AC transformer (for HVAC), but no 24V DC supply, the most common control voltage in industrial automation.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Pensalo como un cargador industrial atornillado permanentemente al tablero en vez de un transformador enchufado a un tomacorriente: entra la corriente alterna de la red (120V o 220V, no importa cuál, la acepta cualquiera de las dos) y sale corriente continua estable de 24V, la tensión con la que 'hablan' la mayoría de los PLCs, sensores y relés de control industrial — así como el celular necesita un cargador que baje la tensión de la pared a algo que la batería pueda usar, estos equipos necesitan esta fuente para bajar de la red a los 24V DC que su electrónica espera.",
+      "ejemploHogar": "En un taller o garage con un PLC chico o un controlador tipo Arduino/ESP32 industrial armado en un tablero propio (el mismo tipo de proyecto de la guía de Node-RED con Modbus de este sitio), esta fuente alimenta de forma centralizada el controlador, sus sensores y cualquier módulo de relé Modbus RTU conectado, en vez de depender de cargadores USB o fuentes de pared sueltas que no se sujetan a ningún lado.",
+      "ejemploNegocio": "En un tablero industrial más cargado — como el de la guía de armado de tablero eléctrico de este catálogo — esta fuente alcanza para energizar varios módulos de relé Modbus RTU (los de 8, 16 y 32 canales de este mismo ranking) más un PLC y sus sensores de campo desde un solo punto centralizado, en vez de una fuente distinta por cada dispositivo. Los 5A de margen importan acá: sumá el consumo real de cada equipo antes de dar por hecho que 120W alcanza sin problema.",
+      "puntosClave": [
+        "Confirmá que necesitás 24V DC y no 24V AC antes de comprar: el transformador WUYELIN de este mismo catálogo también es de '24V', pero es corriente alterna para circuitos de HVAC (termostatos, válvulas de gas) — no sirve para alimentar electrónica DC, y viceversa.",
+        "Sumá el consumo real de todo lo que vas a conectar (PLC, sensores, bobinas de relé) antes de asumir que el 120W/5A alcanza sin margen — varios módulos Modbus RTU y un PLC pueden acercarse a ese límite más rápido de lo que parece a simple vista.",
+        "Se enfría por convección de aire libre, sin ventilador: si la vas a montar en un gabinete muy cerrado y con poca ventilación en un ambiente caluroso, dejá espacio libre alrededor o considerá derratearla (no exigirle el 100% de su potencia nominal) según indica la hoja de datos del fabricante."
+      ],
+      "consejoInversion": "Frente a una fuente 24V DC genérica sin marca (bastante más barata en Amazon), Mean Well es de las marcas más establecidas del rubro: cada unidad pasa un burn-in test al 100% de carga antes de salir de fábrica, trae 2 años de garantía del fabricante y protecciones reales contra cortocircuito, sobretensión y sobrecarga — no solo en el papel. Si esta fuente falla en un tablero real, se cae de golpe todo lo que alimenta (PLC, sensores, relés), así que el sobreprecio frente a una opción genérica es barato comparado con el tiempo de planta parada que evita. Con 471 reseñas y 4.8★ tiene mejor trazabilidad que la mayoría de las piezas de protección y control de este mismo catálogo."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of it as an industrial charger permanently screwed into the panel instead of a wall-plugged transformer: AC power from the grid goes in (120V or 220V, either works, no selector needed) and stable 24V DC comes out — the voltage most PLCs, sensors and industrial control relays 'speak'. The same way a phone needs a charger to step wall voltage down to something the battery can use, this equipment needs this supply to step grid power down to the 24V DC its electronics expect.",
+      "ejemploHogar": "In a home workshop or garage with a small PLC or an industrial Arduino/ESP32-based controller built into its own panel (the same kind of project as this site's Node-RED with Modbus guide), this supply centrally powers the controller, its sensors, and any connected Modbus RTU relay module, instead of relying on loose USB chargers or wall adapters that don't mount anywhere.",
+      "ejemploNegocio": "In a busier industrial panel — like the one in this catalog's electrical panel build guide — this supply is enough to power several Modbus RTU relay modules (the 8-, 16- and 32-channel ones in this same ranking) plus a PLC and its field sensors from a single centralized point, instead of a separate supply per device. The 5A of headroom matters here: add up the real draw of each device before assuming 120W covers it comfortably.",
+      "puntosClave": [
+        "Confirm you need 24V DC, not 24V AC, before buying: this catalog's WUYELIN transformer is also labeled '24V', but it's alternating current for HVAC circuits (thermostats, gas valves) — it won't power DC electronics, and this supply won't run AC control circuits either.",
+        "Add up the real draw of everything you plan to connect (PLC, sensors, relay coils) before assuming 120W/5A covers it with margin — several Modbus RTU modules plus a PLC can get closer to that limit than it looks at first glance.",
+        "It cools by free air convection, no fan: if you're mounting it in a tightly packed, poorly ventilated enclosure in a hot environment, leave clearance around it or derate it (don't run it at 100% of rated output) per the manufacturer's datasheet."
+      ],
+      "consejoInversion": "Against a generic unbranded 24V DC supply (noticeably cheaper on Amazon), Mean Well is one of the most established names in the field: every unit goes through a 100%-load burn-in test before leaving the factory, it carries a 2-year manufacturer warranty, and its short-circuit, over-voltage and overload protections are real, not just spec-sheet claims. If this supply fails on a live panel, everything it feeds (PLC, sensors, relays) goes down with it, so the premium over a generic option is cheap compared to the downtime it prevents. With 471 reviews and 4.8 stars, it has a stronger track record than most of the protection and control parts already in this catalog."
+    },
+    "tags": [
+      "Fuente 24V DC",
+      "Riel DIN",
+      "120W / 5A",
+      "PFC Activo"
+    ],
+    "tagsEn": [
+      "24V DC Power Supply",
+      "DIN Rail",
+      "120W / 5A",
+      "Active PFC"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B00UR98FSS?tag=controltrazado-20",
+    "actualizadoEn": "2026-09-30",
+    "activo": true
   }
 ]

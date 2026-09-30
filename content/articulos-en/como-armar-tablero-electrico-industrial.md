@@ -53,7 +53,21 @@ If the panel also controls a load that switches on and off frequently (not just 
 
 A common case: the panel feeds thermostats, relays, or gas valves in a classic HVAC system, which run on 24V, not 120V. That requires stepping down voltage with a control transformer like the [WUYELIN 24V 40VA](/en/productos/B0B8Z2XV7V) in this ranking — built for circuits fed from 120V with a neutral; check your wiring diagram if your installation starts from a different voltage.
 
-## 8. Emergency stop: the safety part nobody asks for until they need it
+Don't mix this up with the next point: the WUYELIN puts out 24V, but **alternating current** — it's for HVAC thermostats and valves, not for powering control electronics.
+
+## 8. If the panel needs 24V DC for its electronics (PLC, sensors, Modbus relays)
+
+Different from the HVAC transformer above: if the panel has a PLC, field sensors, or this catalog's Modbus RTU relay modules, those don't run on 24V AC — they need 24V **DC**, regulated direct current. It's the most common control voltage in industrial automation, and until now this catalog only had a 5V DC supply (for small, low-power electronics) with no 24V DC option for everything else. The [MEAN WELL EDR-120-24 supply](/en/productos/B00UR98FSS) in this ranking covers that gap: DIN rail mount, universal 90-264VAC input (any grid voltage works, no selector needed), 24V DC output up to 5A/120W, with short-circuit, over-voltage, overload and over-temperature protection.
+
+In practice, this is the supply that powers this catalog's [8-](/en/productos/B083J24HCM), [16-](/en/productos/B0CMH47846) or [32-channel](/en/productos/B0CC5P8NC2) Modbus RTU relay modules from a single point, plus a PLC and its sensors — instead of a separate wall adapter per device. It cools by natural convection (no fan), so if the enclosure ends up tightly closed with poor airflow in a hot environment, leave clearance around it or avoid running it at 100% of rated output.
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/T445BPCXvE0" title="DIN Rail Introduction: Why &amp; How to choose MEAN WELL DIN Rail PSU" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+Official video straight from the manufacturer (MEAN WELL Group's channel) explaining how to choose between their DIN rail supply series by power and mounting style — useful for confirming the EDR-120-24 above is the right fit for your case before buying.
+
+## 9. Emergency stop: the safety part nobody asks for until they need it
 
 Everything above protects the equipment. This part protects the person standing in front of the panel. A [BAOMAIN IP65 emergency stop button](/en/productos/B00NTT91Y0) in this ranking doesn't sit on DIN rail like the rest of the parts in this guide — it bolts on separately, on the wall or enclosure, somewhere visible where the operator can hit it with an open palm without looking. Its 1NO+1NC contacts don't cut power current directly: they wire in series with the coil of the contactor or soft starter (like the one used in the [installing a 240V VFD](/en/articulos/instalar-vfd-240v-bomba-15hp) guide), so interrupting that control circuit is enough to de-energize the whole equipment at once.
 
@@ -71,7 +85,7 @@ The BAOMAIN above comes in its own weatherproof box, bolted separately from the 
 
 Alongside the stop button, the [APIELE 3-position selector (pack of 2)](/en/productos/B088PQW5DY) in this ranking — also 22mm, maintained, ON-OFF-ON with 2NO — is the typical part for choosing an operating mode (for example, Manual-Off-Auto in the VFD system from the [installing a 240V VFD](/en/articulos/instalar-vfd-240v-bomba-15hp) guide): each extreme position closes a different contact and the middle one closes neither, so the wiring for which mode goes on which side depends on how you connect it — don't assume a fixed logic without checking your starter's diagram.
 
-## 9. If the whole panel is going outdoors: weatherproof enclosure and cable glands
+## 10. If the whole panel is going outdoors: weatherproof enclosure and cable glands
 
 Everything above assumes the panel lives inside a space that's already protected (an electrical room, a closed cabinet). But if the whole project — rail, blocks, contactors, protection — has to be installed outdoors, you need to start from a weatherproof enclosure instead of a generic box. The [QILIPSU IP67 Enclosure 20x16.1x7.9" with Mounting Plate](/en/productos/B0995V2RM7) in this ranking is built exactly for that: it has an internal mounting plate for bolting down the same DIN-rail components from this guide, a metal inner door as an extra safety layer, and a hinged lid — but **it doesn't come with pre-drilled knockouts**. You have to drill every hole a cable enters through yourself, and seal it separately with a cable gland; otherwise the enclosure stops meeting its IP67 rating in practice from the first hole you drill.
 
