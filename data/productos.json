@@ -3366,5 +3366,58 @@
     "urlAfiliado": "https://www.amazon.com/dp/B00UR98FSS?tag=controltrazado-20",
     "actualizadoEn": "2026-09-30",
     "activo": true
+  },
+  {
+    "asin": "B0CVN3CNCD",
+    "nombre": "TP-Link Tapo P400M — Enchufe Exterior Inteligente Matter, 2 Salidas Independientes, IP65",
+    "nombreEn": "TP-Link Tapo P400M — Outdoor Matter Smart Plug, 2 Independent Outlets, IP65",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 25.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/41HfVRGSfEL.jpg",
+    "rating": 4.5,
+    "numResenas": 1082,
+    "ranking": 24,
+    "notaTecnica": "Enchufe inteligente para exterior con 2 salidas AC controlables de forma independiente (podés prender una y dejar la otra apagada), grado de resistencia al agua IP65 y rango de temperatura de operación de -20°C a 50°C — pensado para quedar instalado a la intemperie todo el año, a diferencia de los enchufes de este catálogo que son de interior. Nativo Matter (funciona con Apple Home, Alexa, Google Home y SmartThings sin depender de la nube de un solo fabricante) con WiFi 2.4GHz de doble antena (hasta 300 pies en campo abierto). Certificado ETL, 15A/125V por salida, se sujeta a la toma de pared con el tornillo y poste estabilizador incluidos. Elegido Mejor Enchufe Exterior Inteligente por Wirecutter en 2026. 1,082 reseñas, 4.5★.",
+    "notaTecnicaEn": "Outdoor smart plug with 2 independently controllable AC outlets (turn one on and leave the other off), IP65 water resistance rating, and a -20°C to 50°C operating temperature range — built to stay installed outdoors year-round, unlike this catalog's indoor-only plugs. Native Matter (works with Apple Home, Alexa, Google Home, and SmartThings without depending on a single manufacturer's cloud) with dual-antenna 2.4GHz WiFi (up to 300 ft in open field). ETL certified, 15A/125V per outlet, secures to the wall outlet with the included mounting screw and stabilizing post. Named Best Outdoor Smart Plug by Wirecutter in 2026. 1,082 reviews, 4.5 stars.",
+    "idealPara": "Automatizar algo que vive afuera — luces de jardín/patio, guirnaldas de fin de año, una bomba chica de fuente de agua, un ventilador de galería — con el mismo estándar Matter que ya usan los enchufes de interior de este catálogo, pero en un cuerpo realmente apto para intemperie (IP65), algo que ningún otro enchufe de este ranking cubre todavía.",
+    "idealParaEn": "Automating something that lives outside — garden/patio lights, holiday string lights, a small fountain pump, a porch fan — with the same Matter standard this catalog's indoor plugs already use, but in a body actually built for the outdoors (IP65), something no other plug in this ranking covers yet.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es la misma idea que un enchufe inteligente de interior — un intermediario entre el tomacorriente y el aparato que programás o controlás desde el celular — pero con una carcasa sellada, como un paraguas permanente para el enchufe: la tapa y las juntas de goma impiden que entre lluvia o humedad mientras el aparato sigue enchufado. El estándar Matter funciona acá igual que en los enchufes de interior de este catálogo: es el 'idioma común' que le permite a este enchufe hablar con Apple Home, Alexa o Google Home sin pasar por la app propia del fabricante.",
+      "ejemploHogar": "Conectás las luces del patio o una guirnalda de luces de fin de año a una de las dos salidas y programás que se prendan solas al atardecer — mientras la otra salida queda libre para una bomba de fuente de agua o un ventilador de galería, cada una con su propio horario, sin que una dependa de la otra.",
+      "ejemploNegocio": "En un local con vidriera o cartel iluminado desde afuera, o en una oficina con jardín/galería compartida, sirve para automatizar la iluminación exterior decorativa o de señalización sin tirar un circuito dedicado con temporizador mecánico — el control queda centralizado en la misma app o hub Matter que ya maneja el resto de los enchufes de interior.",
+      "puntosClave": [
+        "IP65 cubre lluvia, nieve y polvo con el enchufe ya conectado, pero no es sumergible — no sirve para una instalación bajo agua o en un pozo, solo para exposición a la intemperie normal de un patio o jardín.",
+        "Para usarlo con Apple Home, Alexa, Google Home o SmartThings necesitás un hub Matter (HomePod, Echo, Nest o hub SmartThings) — mismo requisito que el Linkind Matter Smart Plug de interior de este ranking; sin hub, se controla igual desde la app propia Tapo.",
+        "Solo WiFi 2.4GHz (no 5GHz) — confirmá que tu router tenga banda de 2.4GHz disponible y con buena señal hasta el punto de instalación exterior antes de comprar."
+      ],
+      "consejoInversion": "Frente a un enchufe exterior genérico sin certificación (bastante más barato), este tiene certificación ETL explícita, dos salidas que se controlan por separado en vez de una sola salida compartida, y viene de una marca (TP-Link/Tapo) con historial largo en el rubro — 1.082 reseñas y 4.5★ es mucha más trazabilidad que la mayoría de los enchufes exterior sin marca reconocida. Un enchufe exterior mal sellado que deja pasar humedad a la red eléctrica no es solo una falla de producto: es un riesgo real de cortocircuito a la intemperie, así que la certificación y el IP65 real importan más acá que en un enchufe de interior."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's the same idea as an indoor smart plug — a middleman between the outlet and whatever you're scheduling or controlling from your phone — but in a sealed housing, like a permanent umbrella for the outlet: the cover and rubber gaskets keep rain and moisture out while the device stays plugged in. Matter works the same way here as on this catalog's indoor plugs: it's the 'common language' that lets this plug talk to Apple Home, Alexa, or Google Home without going through the manufacturer's own app.",
+      "ejemploHogar": "You plug patio lights or holiday string lights into one of the two outlets and schedule them to turn on by themselves at dusk — while the other outlet stays free for a fountain pump or porch fan, each on its own schedule, independent of the other.",
+      "ejemploNegocio": "At a storefront with window or sign lighting controlled from outside, or an office with a shared garden/patio, it automates decorative or signage lighting without running a dedicated circuit with a mechanical timer — control stays centralized in the same app or Matter hub already managing the rest of the indoor plugs.",
+      "puntosClave": [
+        "IP65 covers rain, snow, and dust while the plug stays connected, but it's not submersible — it's not meant for an underwater or pit installation, just normal outdoor exposure in a yard or patio.",
+        "To use it with Apple Home, Alexa, Google Home, or SmartThings you need a Matter hub (HomePod, Echo, Nest, or a SmartThings hub) — the same requirement as this catalog's indoor Linkind Matter Smart Plug; without a hub, it's controlled the same way from the Tapo app.",
+        "2.4GHz WiFi only (no 5GHz) — confirm your router has a 2.4GHz band available with good signal reaching the outdoor install spot before buying."
+      ],
+      "consejoInversion": "Against a generic uncertified outdoor plug (noticeably cheaper), this one carries explicit ETL certification, two independently switched outlets instead of one shared outlet, and comes from a brand (TP-Link/Tapo) with a long track record in the category — 1,082 reviews and 4.5 stars is far more traceability than most unbranded outdoor plugs. A poorly sealed outdoor plug that lets moisture into the wiring isn't just a product flaw, it's a real short-circuit risk outdoors, so real certification and real IP65 matter more here than on an indoor plug."
+    },
+    "tags": [
+      "Matter",
+      "IP65 Exterior",
+      "2 Salidas Independientes",
+      "ETL"
+    ],
+    "tagsEn": [
+      "Matter",
+      "IP65 Outdoor",
+      "2 Independent Outlets",
+      "ETL"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0CVN3CNCD?tag=controltrazado-20",
+    "actualizadoEn": "2026-10-01",
+    "activo": true
   }
 ]

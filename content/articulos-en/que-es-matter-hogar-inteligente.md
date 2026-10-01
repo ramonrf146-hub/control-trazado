@@ -47,7 +47,7 @@ Think of it as a universal data plug: instead of every brand (Tuya, Alexa, Googl
 ## 3. Which ones in this ranking have Matter (and which don't)
 
 - The [SONOFF WiFi MINI-D](/en/productos/B0DGXMZ9GD) is Matter compatible — you can add it to any hub without depending on the Tuya/eWeLink app, though it's a dry-contact device (needs to be wired inside a box or panel).
-- The [Linkind Matter Smart Plug](/en/productos/B0C36WXGP1) is the "plug and go" version: Matter out of the box, ETL certified, no wiring — you need a Matter hub (HomePod, Echo, Nest) to use it with Apple Home/Alexa/Google Home, or its own app if you don't have one yet. If you'd rather not depend on an Amazon, Google, or Apple speaker just to get that hub, the [Aqara Hub M3](/en/productos/B0CWLHSKYC) does the same job in a neutral way — and adds a Thread Border Router, Zigbee, and IR in the same device.
+- The [Linkind Matter Smart Plug](/en/productos/B0C36WXGP1) is the "plug and go" version: Matter out of the box, ETL certified, no wiring — you need a Matter hub (HomePod, Echo, Nest) to use it with Apple Home/Alexa/Google Home, or its own app if you don't have one yet. If you'd rather not depend on an Amazon, Google, or Apple speaker just to get that hub, the [Aqara Hub M3](/en/productos/B0CWLHSKYC) does the same job in a neutral way — and adds a Thread Border Router, Zigbee, and IR in the same device. Heads up, the Linkind is indoor-only: if what you want to automate lives outside (patio lights, string lights, a fountain pump), the [TP-Link Tapo P400M](/en/productos/B0CVN3CNCD) is the outdoor version — same native Matter and same hub requirement, but in an IP65 body with two independently switched outlets instead of one shared outlet.
 - The [Google Nest Thermostat](/en/productos/B08HRPDBFF) also supports Matter, in addition to native Google Assistant.
 - The [GHome Dual Smart Plug](/en/productos/B0D7MLMCXR) and the [GHome Smart Mini Plug](/en/productos/B0FD6CYBNH) do **not** have Matter — they run on the closed Tuya ecosystem, so you depend on that app.
 - The [roborock Q7 L5](/en/productos/B0F334DN9J) and the [Wyze Auto-Lock Bolt lock](/en/productos/B09R38VVXF) don't have Matter either — the robot is controlled by Roborock's own app, and the lock is Bluetooth with its own optional bridge. They're good examples of categories (vacuums, locks) where Matter still isn't the norm, unlike plugs and sensors.
@@ -72,6 +72,12 @@ Think of it as a universal data plug: instead of every brand (Tuya, Alexa, Googl
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XZSCkixCjUM" title="How to Install Hardwired Smoke & CO Alarms (Step-by-Step) | Kidde Ring Smoke Detector Review — Eric DIY" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+## The outdoor plug, on video
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Stcg5Gqaak4" title="Tapo P400M Smart Plug Review - Take Control of Your Outdoor Space — Wanderer001 Reviews" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## The curtain motor, on video
