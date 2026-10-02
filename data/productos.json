@@ -3419,5 +3419,58 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0CVN3CNCD?tag=controltrazado-20",
     "actualizadoEn": "2026-10-01",
     "activo": true
+  },
+  {
+    "asin": "B07578W7KY",
+    "nombre": "Zooz Z-Wave Plus Power Switch ZEN15 — Enchufe Robusto 15A para Electrodomésticos Pesados",
+    "nombreEn": "Zooz Z-Wave Plus Power Switch ZEN15 — Heavy-Duty 15A Smart Switch for Appliances",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 48.95,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/419sR-5G-jL.jpg",
+    "rating": 4.6,
+    "numResenas": 675,
+    "ranking": 25,
+    "notaTecnica": "Interruptor/enchufe inteligente Z-Wave Plus (chip de 800 series, seguridad S2 con cifrado AES) pensado para electrodomésticos pesados de 110V — heladeras, deshumidificadores/humidificadores, aires acondicionados de ventana, ventiladores o hasta una secadora a gas — con capacidad real de 15A, algo que la mayoría de los enchufes WiFi de este catálogo no garantiza. Funciona además como repetidor de señal Z-Wave Plus (extiende el alcance de toda la red mientras está enchufado) e incluye monitoreo de energía en vivo (W, kWh, A, V) si el hub lo soporta. Requiere un hub/controlador Z-Wave aparte — Home Assistant con un dongle Z-Wave, Hubitat, HomeSeer o SmartThings con driver personalizado — no incluido, y no compatible con los coordinadores Zigbee de este catálogo (protocolo de radio distinto). Certificado ETL, uso en interior (14°F a 104°F), cable extra-flexible reforzado y enchufe en ángulo de 45° para no tapar la toma vecina. $48.95, 4.6★, 675 reseñas.",
+    "notaTecnicaEn": "Z-Wave Plus smart switch (800 series chip, S2 security with AES encryption) built for heavy-duty 110V appliances — refrigerators, humidifiers/dehumidifiers, window AC units, fans, or even a gas dryer — with a real 15A rating that most WiFi plugs in this catalog don't guarantee. It also works as a Z-Wave Plus signal repeater (extends the whole network's range while it's plugged in) and includes live energy monitoring (W, kWh, A, V) when the hub supports it. Requires a separate Z-Wave hub/controller — Home Assistant with a Z-Wave USB stick, Hubitat, HomeSeer, or SmartThings with a custom driver — not included, and not compatible with this catalog's Zigbee coordinators (a different radio protocol). ETL certified, indoor use only (14°F to 104°F), extra-flexible reinforced cord, and a 45° angled plug so it doesn't block the neighboring outlet. $48.95, 4.6 stars, 675 reviews.",
+    "idealPara": "Controlar y monitorear de forma remota electrodomésticos de carga pesada (heladera, deshumidificador, AC de ventana, bomba de sótano) con un protocolo Z-Wave de malla que ningún otro producto de este catálogo ofrece todavía — pensado para quien ya tiene o está dispuesto a armar un hub Z-Wave (Home Assistant, Hubitat, SmartThings) en vez de depender de la nube de Tuya o de un coordinador Zigbee.",
+    "idealParaEn": "Remotely controlling and monitoring heavy-load appliances (a refrigerator, dehumidifier, window AC, basement sump pump) with a Z-Wave mesh protocol that no other product in this catalog offers yet — built for anyone who already has, or is willing to set up, a Z-Wave hub (Home Assistant, Hubitat, SmartThings) instead of relying on Tuya's cloud or a Zigbee coordinator.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Imaginate que WiFi y Zigbee (el dongle SONOFF de este catálogo) son dos idiomas distintos que un dispositivo puede hablar para conectarse a tu casa inteligente. Z-Wave es un tercer idioma: una frecuencia de radio separada, pensada específicamente para domótica, que no compite con el WiFi del router y que arma su propia red de malla — cada dispositivo Z-Wave enchufado ayuda a pasar la señal al siguiente, como una posta de corredores, así que cuantos más sumás, más lejos y más confiable llega la red completa. Este producto en particular no es un enchufe chico para una lámpara: es un interruptor robusto de 15A pensado para electrodomésticos grandes, la clase de carga que un enchufe inteligente genérico no siempre soporta con seguridad a largo plazo.",
+      "ejemploHogar": "Conectás un deshumidificador de sótano o un aire acondicionado de ventana y lo programás para que se apague solo de madrugada o se encienda antes de que llegues — con el plus de ver cuánta electricidad consume ese equipo específico en el panel de tu hub, algo que la mayoría de los enchufes de este catálogo no reporta con ese nivel de detalle.",
+      "ejemploNegocio": "En un local, depósito o taller con equipos auxiliares de 110V que corren todo el día — una heladera comercial chica, un extractor de aire, una bomba sumidero — sirve como paso intermedio entre \"enchufe doméstico\" y \"contactor industrial\": controlás el encendido/apagado remoto y medís consumo energético de cada equipo sin cablear un contactor dedicado para cargas que no llegan a ese nivel.",
+      "puntosClave": [
+        "Necesita un hub/controlador Z-Wave aparte, que no viene incluido ni se vende en este catálogo — por ejemplo Home Assistant con un dongle Z-Wave USB, Hubitat o HomeSeer; con SmartThings funciona pero requiere instalar un driver personalizado, no es plug-and-play. El dongle Zigbee SONOFF o el hub Aqara M3 de este mismo ranking NO sirven para este producto — Z-Wave y Zigbee son protocolos de radio distintos e incompatibles entre sí.",
+        "Es de uso en interior únicamente (14°F a 104°F) — a diferencia del enchufe exterior Tapo P400M de este catálogo, no está pensado para quedar a la intemperie ni en un pozo de bomba sin protección.",
+        "El monitoreo de energía (W, kWh, A, V) depende de que tu hub lo soporte, y ojo: no es un monitor de corte de luz — solo reporta el estado on/off y recupera el último estado guardado cuando vuelve la energía, no manda una alerta si hay un apagón."
+      ],
+      "consejoInversion": "Frente a un enchufe WiFi genérico de 10A para controlar un electrodoméstico pesado, este sale más caro ($48.95 contra los $10-15 de un Tuya genérico) pero resuelve un problema de seguridad real: un enchufe subdimensionado sosteniendo la corriente de arranque de una heladera o un AC de ventana puede recalentarse con los meses. La certificación ETL, los 15A reales y la función de repetidor de malla (cada unidad que sumás fortalece toda la red Z-Wave de la casa, no solo agrega un nodo aislado) hacen que valga la pena específicamente para cargas pesadas — para una lámpara o un ventilador chico, cualquier enchufe Tuya de este mismo ranking alcanza y sobra."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Think of WiFi and Zigbee (this catalog's SONOFF dongle) as two different languages a device can speak to join your smart home. Z-Wave is a third language: a separate radio frequency built specifically for home automation, which doesn't compete with your router's WiFi and builds its own mesh network — every plugged-in Z-Wave device helps relay the signal to the next one, like a relay race, so the more you add, the farther and more reliable the whole network gets. This particular product isn't a small plug for a lamp — it's a rugged 15A switch built for large appliances, the kind of load a generic smart plug doesn't always handle safely over the long run.",
+      "ejemploHogar": "You connect a basement dehumidifier or a window AC unit and schedule it to turn off overnight or turn on before you get home — with the bonus of seeing exactly how much electricity that specific appliance uses in your hub's dashboard, something most plugs in this catalog don't report in that much detail.",
+      "ejemploNegocio": "In a storefront, warehouse, or workshop with auxiliary 110V equipment running all day — a small commercial fridge, an exhaust fan, a sump pump — it works as a middle ground between a \"household plug\" and an \"industrial contactor\": you get remote on/off control and per-device energy monitoring without wiring a dedicated contactor for loads that don't need to go that far.",
+      "puntosClave": [
+        "Needs a separate Z-Wave hub/controller, not included and not sold in this catalog — for example Home Assistant with a Z-Wave USB stick, Hubitat, or HomeSeer; it works with SmartThings too, but that requires installing a custom driver, it's not plug-and-play. This catalog's SONOFF Zigbee dongle or Aqara M3 hub do NOT work with this product — Z-Wave and Zigbee are different, incompatible radio protocols.",
+        "Indoor use only (14°F to 104°F) — unlike this catalog's outdoor Tapo P400M plug, it's not built to sit outside or in an unprotected sump pit.",
+        "Energy monitoring (W, kWh, A, V) depends on your hub supporting it, and note: it's not a power-outage monitor — it only reports on/off state and restores its last saved state when power comes back, it doesn't send an alert if there's a blackout."
+      ],
+      "consejoInversion": "Compared to a generic 10A WiFi plug used to control a heavy appliance, this one costs more ($48.95 versus $10-15 for a generic Tuya plug) but solves a real safety problem: an undersized plug carrying the startup current of a refrigerator or window AC can overheat over months of use. ETL certification, a genuine 15A rating, and the mesh-repeater function (every unit you add strengthens the whole house's Z-Wave network, not just adds an isolated node) make it worth it specifically for heavy loads — for a lamp or a small fan, any Tuya plug already in this ranking is more than enough."
+    },
+    "tags": [
+      "Z-Wave Plus",
+      "15A Carga Pesada",
+      "Repetidor de Señal",
+      "ETL"
+    ],
+    "tagsEn": [
+      "Z-Wave Plus",
+      "15A Heavy Load",
+      "Signal Repeater",
+      "ETL"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B07578W7KY?tag=controltrazado-20",
+    "actualizadoEn": "2026-10-02",
+    "activo": true
   }
 ]
