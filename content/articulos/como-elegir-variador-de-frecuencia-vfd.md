@@ -21,7 +21,7 @@ El control V/F (voltios por hertz) es el método más simple y económico: manti
 
 ## 4. Rango de frecuencia de salida
 
-Un motor estándar de 60Hz no se beneficia de un VFD que llega a 400Hz — ese rango extendido solo importa si tenés un husillo de alta velocidad diseñado específicamente para aprovecharlo (típico en routers CNC de precisión). Para la gran mayoría de aplicaciones de taller, un rango de 0-60Hz o 0-120Hz es más que suficiente; no pagues de más por un rango que no vas a usar.
+Un motor estándar de 60Hz no se beneficia de un VFD que llega a 400Hz — ese rango extendido solo importa si tenés un husillo de alta velocidad diseñado específicamente para aprovecharlo (típico en routers CNC de precisión). Para la gran mayoría de aplicaciones de taller, un rango de 0-60Hz o 0-120Hz es más que suficiente; no pagues de más por un rango que no vas a usar. El [MOLLOM de 2HP (1.5kW)](/productos/B0BM5JPXVY) de este ranking es un ejemplo concreto de cuándo sí conviene pagar por ese extra: entrada monofásica a salida trifásica igual que los modelos más grandes de este catálogo, pero con rango de salida hasta 3000Hz — pensado puntualmente para husillos chicos de CNC de hasta 2HP que sí aprovechan esa frecuencia, no para un motor estándar de taller donde ese rango sería un gasto de más.
 
 ## 5. Protecciones y instalación básica
 

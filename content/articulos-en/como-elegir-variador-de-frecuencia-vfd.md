@@ -21,7 +21,7 @@ V/F (volts per hertz) control is the simplest, cheapest method: it keeps a fixed
 
 ## 4. Output frequency range
 
-A standard 60Hz motor doesn't benefit from a VFD that reaches 400Hz — that extended range only matters if you have a high-speed spindle specifically designed to take advantage of it (typical in precision CNC routers). For the vast majority of workshop applications, a 0-60Hz or 0-120Hz range is more than enough; don't overpay for a range you won't use.
+A standard 60Hz motor doesn't benefit from a VFD that reaches 400Hz — that extended range only matters if you have a high-speed spindle specifically designed to take advantage of it (typical in precision CNC routers). For the vast majority of workshop applications, a 0-60Hz or 0-120Hz range is more than enough; don't overpay for a range you won't use. This ranking's [MOLLOM 2HP (1.5kW)](/en/productos/B0BM5JPXVY) is a concrete example of when paying for that extra range does make sense: single-phase input to three-phase output just like this catalog's bigger models, but with an output range up to 3000Hz — built specifically for small CNC spindles up to 2HP that actually use that frequency, not for a standard workshop motor where that range would just be money spent for nothing.
 
 ## 5. Protections and basic installation
 
