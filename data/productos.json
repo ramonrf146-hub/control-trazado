@@ -3472,5 +3472,58 @@
     "urlAfiliado": "https://www.amazon.com/dp/B07578W7KY?tag=controltrazado-20",
     "actualizadoEn": "2026-10-02",
     "activo": true
+  },
+  {
+    "asin": "B0BZSD2L1W",
+    "nombre": "Aqara Smart Lock U100 — Cerradura con Matter over Thread, Huella y Apple Home Key",
+    "nombreEn": "Aqara Smart Lock U100 — Matter over Thread Smart Lock with Fingerprint & Apple Home Key",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 139.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61jiNvQ0X7L.jpg",
+    "rating": 4.1,
+    "numResenas": 2570,
+    "ranking": 26,
+    "notaTecnica": "Cerradura inteligente con huella digital, teclado táctil, tarjeta NFC y soporte para Apple Home Key (abrir con el iPhone/Apple Watch como una tarjeta de transporte, sin abrir ninguna app) — a diferencia de la cerradura Wyze Bluetooth ya en este catálogo, esta habla nativamente Matter sobre Thread: para sumarse a Alexa/Google Home/Apple Home vía Matter y para abrir o recibir avisos a distancia necesita un hub que haga de Thread Border Router, como el Aqara Smart Home Hub M3 de este mismo catálogo (o un HomePod mini/Apple TV si el ecosistema es 100% Apple). Certificación IP65 (lluvia/polvo, no apta para quedar sumergida), BHMA Grado 2, funciona a pilas AA reemplazables (no batería recargable incorporada). $139.99, 4.1★, 2.570 reseñas.",
+    "notaTecnicaEn": "Smart lock with fingerprint, touchscreen keypad, NFC card, and Apple Home Key support (unlock by tapping an iPhone/Apple Watch like a transit card, no app needed) — unlike this catalog's Bluetooth-only Wyze lock, this one speaks Matter over Thread natively: to join Alexa/Google Home/Apple Home via Matter and to unlock or get alerts remotely, it needs a hub acting as a Thread Border Router, such as this catalog's Aqara Smart Home Hub M3 (or a HomePod mini/Apple TV if the home is already all-Apple). IP65 rated (rain/dust, not submersible), BHMA Grade 2, runs on replaceable AA batteries (no built-in rechargeable battery). $139.99, 4.1 stars, 2,570 reviews.",
+    "idealPara": "Quien ya tiene o está dispuesto a sumar un hub Thread/Matter como el Aqara Hub M3 de este catálogo y quiere una cerradura con huella, código, NFC y Apple Home Key, en vez de depender solo de Bluetooth como la Wyze ya listada.",
+    "idealParaEn": "Anyone who already has, or is willing to add, a Thread/Matter hub like this catalog's Aqara Hub M3 and wants a lock with fingerprint, code, NFC, and Apple Home Key, instead of relying only on Bluetooth like the Wyze lock already listed.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es una cerradura que reemplaza la llave de tu puerta por varias formas de entrar sin llave: huella digital, código en el teclado táctil, una tarjeta NFC (como la de un hotel) o directamente acercando el iPhone o el Apple Watch (función 'Apple Home Key', que funciona igual que una tarjeta de transporte, sin necesidad de abrir ninguna app). La parte técnica para entender es 'Matter over Thread': Matter es el idioma común que hoy hablan Alexa, Google Home y Apple Home para entenderse con cualquier marca, y Thread es la red de radio de bajo consumo sobre la que viaja ese idioma en este caso — pero Thread necesita un 'traductor' fijo enchufado en tu casa, llamado Thread Border Router, para conectarse a tu WiFi. Sin ese traductor (que puede ser el Aqara Hub M3 de este catálogo, un HomePod mini o un Apple TV 4K), la cerradura funciona perfecto con huella/código/NFC en la puerta, pero no te avisa ni te deja abrirla desde el celular estando lejos de casa.",
+      "ejemploHogar": "La instalás en la puerta principal y le das su propia huella o código a cada integrante de la familia; con el Aqara Hub M3 ya conectado, además podés chequear en la app que quedó bien cerrada antes de salir de viaje, y recibir un aviso si alguien la abre mientras no estás.",
+      "ejemploNegocio": "Un Airbnb o alquiler temporario le asigna una tarjeta NFC o un código temporal a cada huésped, que se desactiva solo al terminar la estadía — la misma idea que la Wyze ya listada en este catálogo, pero sumando Apple Home Key para huéspedes que viajan solo con el iPhone, y Matter para quien administra varias propiedades desde Alexa o Google Home en vez de la app propia de cada marca.",
+      "puntosClave": [
+        "Para usar Matter (y por lo tanto Alexa, Google Home o Apple Home, más el control/aviso remoto) necesitás un Thread Border Router aparte — el Aqara Hub M3 de este catálogo cumple esa función, igual que un HomePod mini o un Apple TV 4K si tu casa ya es 100% Apple. Sin ese hub, la cerradura funciona offline con huella/código/NFC en la puerta nomás.",
+        "Funciona con pilas AA reemplazables, no con batería recargable incorporada — a favor, es más fácil conseguir pilas en cualquier lado si te quedás sin batería de un día para el otro; en contra, hay que tener el hábito de revisar el nivel en la app antes de que se agoten del todo.",
+        "La certificación IP65 cubre lluvia y polvo en una puerta de entrada expuesta, pero no es apta para quedar sumergida ni para una puerta que recibe manguerazo directo con frecuencia — confirmá además el grosor de tu puerta (necesita encajar el mecanismo) antes de comprar."
+      ],
+      "consejoInversion": "Cuesta bastante más que la Wyze Bluetooth ya lista en este catálogo ($139.99 contra $79.98), y no es solo por capricho: sumar huella + NFC + Apple Home Key + Matter en una sola cerradura certificada IP65 y BHMA Grado 2 evita terminar comprando el bridge aparte (como pasa con la Wyze si querés control remoto) y deja la puerta lista para cualquier asistente de voz que uses hoy o cambies en el futuro. Si lo único que te importa es huella/código sin salir de casa, la Wyze todavía alcanza y cuesta menos; si además querés Matter, Apple Home Key o avisos remotos reales, esta cerradura amortiza la diferencia evitando compras futuras para llegar a lo mismo."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a lock that replaces your door's key with several keyless ways in: a fingerprint, a code on the touch keypad, an NFC card (like a hotel key), or simply tapping your iPhone or Apple Watch against it ('Apple Home Key', which works just like a transit card, no app needed). The technical piece worth understanding is 'Matter over Thread': Matter is the common language Alexa, Google Home, and Apple Home now speak to understand any brand, and Thread is the low-power radio network that language travels over here — but Thread needs a fixed 'translator' plugged in at home, called a Thread Border Router, to bridge it to your WiFi. Without that translator (which can be this catalog's Aqara Hub M3, a HomePod mini, or an Apple TV 4K), the lock still works perfectly with fingerprint/code/NFC at the door, but it won't notify you or let you unlock it remotely from your phone.",
+      "ejemploHogar": "You install it on the front door and give each family member their own fingerprint or code; with the Aqara Hub M3 already connected, you can also check in the app that it locked properly before leaving on a trip, and get notified if someone opens it while you're away.",
+      "ejemploNegocio": "An Airbnb or short-term rental assigns each guest their own NFC card or temporary code that deactivates automatically at checkout — the same idea as this catalog's Wyze lock, but adding Apple Home Key for guests traveling with just an iPhone, and Matter for anyone managing several properties from Alexa or Google Home instead of each brand's own app.",
+      "puntosClave": [
+        "To use Matter (and therefore Alexa, Google Home, or Apple Home, plus remote control/alerts) you need a separate Thread Border Router — this catalog's Aqara Hub M3 does that job, same as a HomePod mini or an Apple TV 4K if your home is already all-Apple. Without that hub, the lock still works offline with fingerprint/code/NFC at the door.",
+        "It runs on replaceable AA batteries, not a built-in rechargeable one — on the plus side, you can find AA batteries almost anywhere if it runs out unexpectedly; on the downside, you need to get in the habit of checking the level in the app before they run all the way out.",
+        "IP65 covers rain and dust on an exposed front door, but it's not rated to be submerged or regularly hit with a direct hose spray — also confirm your door's thickness fits the mechanism before buying."
+      ],
+      "consejoInversion": "It costs noticeably more than this catalog's Bluetooth Wyze lock ($139.99 versus $79.98), and that's not just for show: packing fingerprint, NFC, Apple Home Key, and Matter into one IP65-rated, BHMA Grade 2 lock means you skip buying a separate bridge later (which is what happens with the Wyze if you want remote control), and it leaves the door ready for whichever voice assistant you use today or switch to later. If all you care about is fingerprint/code access without leaving home, the Wyze is still enough and costs less; if you also want Matter, Apple Home Key, or real remote alerts, this lock earns back the price difference by avoiding future purchases to get to the same place."
+    },
+    "tags": [
+      "Matter over Thread",
+      "Huella Digital",
+      "Apple Home Key",
+      "IP65"
+    ],
+    "tagsEn": [
+      "Matter over Thread",
+      "Fingerprint",
+      "Apple Home Key",
+      "IP65"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0BZSD2L1W?tag=controltrazado-20",
+    "actualizadoEn": "2026-10-04",
+    "activo": true
   }
 ]
