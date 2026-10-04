@@ -1,7 +1,14 @@
 import type { Metadata } from "next";
 import { getProductos, getEstadisticas } from "@/lib/productos";
-import { getDictionary, type Locale } from "@/lib/i18n";
-import HeroDiagrama from "@/components/HeroDiagrama";
+import { getDictionary, t, withLocale, type Locale } from "@/lib/i18n";
+import { CATEGORIAS } from "@/lib/categorias";
+import {
+  ContainerAnimated,
+  ContainerInset,
+  ContainerScroll,
+  ContainerSticky,
+} from "@/components/ui/scroll-reveal-hero";
+import HeroSistema, { type ItemSistema } from "@/components/HeroSistema";
 import StatsGrid from "@/components/StatsGrid";
 import BuscadorDeProducto from "@/components/BuscadorDeProducto";
 import RankingConFiltros from "@/components/RankingConFiltros";
@@ -43,22 +50,67 @@ export default async function HomePage({ params }: Props) {
     getEstadisticas(),
   ]);
 
+  const topPorCategoria = (slug: string): ItemSistema[] =>
+    productos
+      .filter((p) => p.categoria === slug)
+      .slice(0, 3)
+      .map((p) => ({
+        asin: p.asin,
+        nombre: t(p.nombre, p.nombreEn, locale).split(" — ")[0],
+        imagen: p.imagen,
+        precio: p.precio,
+        rating: p.rating,
+        ranking: p.ranking,
+        href: withLocale(`/productos/${p.asin}`, locale),
+      }));
+  const sistemaHogar = topPorCategoria("automatizacion-hogar-inteligente");
+  const sistemaIndustrial = topPorCategoria("control-industrial-b2b");
+  const nombreCategoria = (slug: string) => {
+    const c = CATEGORIAS.find((x) => x.slug === slug);
+    return c ? t(c.nombre, c.nombreEn, locale) : slug;
+  };
+  const textosSistema = {
+    etiquetaHogar: nombreCategoria("automatizacion-hogar-inteligente"),
+    etiquetaIndustrial: nombreCategoria("control-industrial-b2b"),
+    tuSistema: d["home.sistema.tuSistema"],
+    operativo: d["home.sistema.operativo"],
+    sensores: d["home.sistema.sensores"],
+    temperatura: d["home.sistema.temperatura"],
+    humedad: d["home.sistema.humedad"],
+    presion: d["home.sistema.presion"],
+    corriente: d["home.sistema.corriente"],
+    energia: d["home.sistema.energia"],
+    aria: d["home.sistema.aria"],
+  };
+
   return (
     <>
-      <section className="relative overflow-hidden border-b border-line-dim/40">
-        <div className="blueprint-grid pointer-events-none absolute inset-0" aria-hidden="true" />
-        <div className="relative mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:items-center lg:py-24">
-          <div>
-            <p className="font-mono text-xs uppercase tracking-wide text-line">
-              {d["home.eyebrow"]}
-            </p>
-            <h1 className="mt-3 text-3xl font-semibold leading-tight text-text-light sm:text-4xl lg:text-5xl">
-              {d["home.heroTitulo"]}
-            </h1>
-            <p className="mt-5 max-w-lg text-base leading-relaxed text-text-dim">
-              {d["home.heroDescripcion"]}
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
+      <section className="border-b border-line-dim/40">
+        <ContainerScroll className="h-[160vh]">
+          <ContainerSticky className="overflow-hidden px-4 pb-10 pt-24 text-text-light sm:px-6">
+            <div className="blueprint-grid pointer-events-none absolute inset-0" aria-hidden="true" />
+            <ContainerAnimated className="relative mx-auto max-w-3xl text-center">
+              <p className="font-mono text-xs uppercase tracking-wide text-line">
+                {d["home.eyebrow"]}
+              </p>
+              <h1 className="mt-3 text-3xl font-semibold leading-tight text-text-light sm:text-4xl lg:text-5xl">
+                {d["home.heroTitulo"]}
+              </h1>
+              <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-text-dim">
+                {d["home.heroDescripcion"]}
+              </p>
+            </ContainerAnimated>
+
+            <ContainerInset className="relative mx-auto my-6 w-full max-w-5xl">
+              <HeroSistema hogar={sistemaHogar} industrial={sistemaIndustrial} textos={textosSistema} />
+            </ContainerInset>
+
+            <ContainerAnimated
+              transition={{ delay: 0.4 }}
+              outputRange={[-120, 0]}
+              inputRange={[0, 0.7]}
+              className="relative mx-auto flex w-fit flex-wrap justify-center gap-3"
+            >
               <a
                 href="#ranking"
                 className="rounded-full bg-accent px-6 py-3 text-sm font-bold text-ink shadow-lg shadow-accent/30 transition-opacity hover:opacity-90"
@@ -67,15 +119,13 @@ export default async function HomePage({ params }: Props) {
               </a>
               <a
                 href="#metodologia"
-                className="rounded-full border border-line-dim px-6 py-3 text-sm font-semibold text-text-light transition-colors hover:border-line"
+                className="rounded-full border border-line-dim bg-ink/70 px-6 py-3 text-sm font-semibold text-text-light transition-colors hover:border-line"
               >
                 {d["home.comoEvaluamos"]}
               </a>
-            </div>
-          </div>
-
-          <HeroDiagrama locale={locale} />
-        </div>
+            </ContainerAnimated>
+          </ContainerSticky>
+        </ContainerScroll>
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
