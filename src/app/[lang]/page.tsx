@@ -50,10 +50,10 @@ export default async function HomePage({ params }: Props) {
     getEstadisticas(),
   ]);
 
-  const topPorCategoria = (slug: string): ItemSistema[] =>
+  const productosParaHero = (slug: string): ItemSistema[] =>
     productos
       .filter((p) => p.categoria === slug)
-      .slice(0, 3)
+      .slice(0, 12)
       .map((p) => ({
         asin: p.asin,
         nombre: t(p.nombre, p.nombreEn, locale).split(" — ")[0],
@@ -63,8 +63,8 @@ export default async function HomePage({ params }: Props) {
         ranking: p.ranking,
         href: withLocale(`/productos/${p.asin}`, locale),
       }));
-  const sistemaHogar = topPorCategoria("automatizacion-hogar-inteligente");
-  const sistemaIndustrial = topPorCategoria("control-industrial-b2b");
+  const sistemaHogar = productosParaHero("automatizacion-hogar-inteligente");
+  const sistemaIndustrial = productosParaHero("control-industrial-b2b");
   const nombreCategoria = (slug: string) => {
     const c = CATEGORIAS.find((x) => x.slug === slug);
     return c ? t(c.nombre, c.nombreEn, locale) : slug;
