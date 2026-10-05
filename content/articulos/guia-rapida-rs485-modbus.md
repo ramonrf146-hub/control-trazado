@@ -1,9 +1,11 @@
 ---
-titulo: "RS485 y Modbus: guía rápida para integrar equipos industriales"
+titulo: "RS485 vs Modbus: la diferencia y cómo integrar equipos industriales"
 fecha: "2026-08-25"
-descripcion: "Qué es RS485, la diferencia entre Modbus RTU y Modbus TCP, y cómo elegir un gateway/conversor para conectar equipo serial viejo a una red Ethernet."
+descripcion: "RS485 es el cable; Modbus es el idioma. Qué es RS485, qué son Modbus RTU y Modbus TCP, y cómo elegir un gateway para conectar equipo serial viejo a una red Ethernet."
 categoria: "control-industrial-b2b"
 ---
+
+> **RS485 vs Modbus, en una línea:** RS485 es la capa física (cómo viajan las señales por el cable) y Modbus es el protocolo (qué significan los mensajes). No compiten: Modbus RTU suele correr sobre RS485, y Modbus TCP corre sobre Ethernet.
 
 RS485 tiene más de 40 años y sigue siendo el estándar de facto en equipos industriales — PLCs, medidores de energía, variadores de frecuencia, sensores de proceso. No es porque nadie haya inventado algo mejor: es porque es simple, robusto ante ruido eléctrico, soporta distancias largas (hasta 1200 metros) y permite múltiples dispositivos en el mismo bus con muy poco cableado. Reemplazarlo no compensa cuando ya funciona.
 
@@ -53,6 +55,15 @@ Antes de sumar un gateway o un sensor Modbus a un proyecto, vale la pena confirm
 Mirá el ranking de [Control Industrial B2B](/categorias/control-industrial-b2b): incluimos un gateway con soporte triple RS232/485/422 y alimentación PoE, útil tanto para instalaciones nuevas como para integrar equipo legado. Para un ejemplo real de lectura Modbus aplicado a un proyecto propio (no solo industrial), la guía de [Node-RED con un sensor de presión para hidroponía](/articulos/node-red-modbus-presion-hidroponia) muestra el mismo protocolo del lado del software.
 
 ## Preguntas frecuentes
+
+**¿Cuál es la diferencia entre RS485 y Modbus?**
+RS485 es el estándar eléctrico: define cómo viajan las señales por el cable (par diferencial A/B, hasta 1200 metros, hasta 32 dispositivos estándar en el bus). Modbus es el protocolo: define el formato de los mensajes — quién pregunta, qué registro lee, cómo responde. Uno es el medio y el otro es el idioma, y suelen usarse juntos.
+
+**¿Modbus RTU usa RS485?**
+Casi siempre. Modbus RTU es la variante serial de Modbus y lo más común es que corra sobre un bus RS485, aunque también puede ir sobre RS232 en una conexión punto a punto. Modbus TCP, en cambio, viaja por Ethernet y no necesita RS485.
+
+**¿Puedo usar Modbus sin RS485?**
+Sí. Modbus TCP funciona sobre una red Ethernet normal, y Modbus RTU puede usar RS232 o RS422 en vez de RS485. RS485 es solo la opción más popular cuando hay varios equipos en el mismo bus o distancias largas.
 
 **¿Necesito saber programar para usar un gateway Modbus?**
 No para la instalación básica — la mayoría se configuran desde una interfaz web simple. Sí ayuda entender conceptos de direcciones de registro Modbus si vas a mapear variables específicas del equipo.
