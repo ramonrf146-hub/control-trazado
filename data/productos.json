@@ -3525,5 +3525,56 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0BZSD2L1W?tag=controltrazado-20",
     "actualizadoEn": "2026-10-04",
     "activo": true
+  },
+  {
+    "asin": "B0D52DR4ZD",
+    "nombre": "TP-Link Tapo C402 — Cámara de Seguridad Exterior Inalámbrica, Batería 180 Días",
+    "nombreEn": "TP-Link Tapo C402 — Wireless Outdoor Security Camera, 180-Day Battery",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 49.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/51acoEfantL.jpg",
+    "rating": 4,
+    "numResenas": 853,
+    "ranking": 27,
+    "notaTecnica": "Cámara de seguridad exterior con batería recargable de hasta 180 días de autonomía, sin necesidad de cableado ni hub — se conecta directo por WiFi 2.4GHz y se controla desde la app Tapo, con integración a Alexa/Google Assistant solo para mostrar el video en pantalla (no tiene Matter, a diferencia del enchufe exterior Tapo P400M de este catálogo). Detección de movimiento/personas/vehículos por zonas, visión nocturna a color con luz spot integrada, audio bidireccional, sirena y alarma de luz activables a distancia, certificación IP65, grabación en microSD local (hasta 512GB, no incluida) o en la nube con suscripción Tapo Care opcional. $49.99, 4.0★, 853 reseñas.",
+    "notaTecnicaEn": "Outdoor security camera with a rechargeable battery rated for up to 180 days, no wiring or hub required — connects directly over 2.4GHz WiFi and is controlled from the Tapo app, with Alexa/Google Assistant integration limited to showing the video feed on a screen (no Matter support, unlike this catalog's Tapo P400M outdoor plug). Zone-based motion/person/vehicle detection, color night vision with a built-in spotlight, two-way audio, a remotely triggered siren and light alarm, IP65 rating, and recording to a local microSD card (up to 512GB, not included) or the cloud via an optional Tapo Care subscription. $49.99, 4.0 stars, 853 reviews.",
+    "idealPara": "Sumar vigilancia de video a la parte exterior de la casa o negocio (entrada, patio, cochera, depósito) sin cablear corriente nueva, complementando la cámara indoor Tapo C100 y el enchufe exterior Tapo P400M ya listados en este catálogo.",
+    "idealParaEn": "Adding video surveillance to the outside of a home or business (entryway, yard, driveway, storeroom) without running new power wiring, complementing this catalog's indoor Tapo C100 camera and outdoor Tapo P400M plug.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es una cámara de seguridad para el exterior de la casa o el negocio — pensala como un guardia que nunca se cansa de mirar la puerta, el patio o la cochera. No necesita cable de corriente: trae una batería recargable que dura hasta 180 días con uso normal, y se atornilla a la pared con el soporte incluido. Avisa al celular apenas detecta movimiento, y podés elegir que solo te avise si lo que se mueve es una persona o un vehículo (así no se llena de notificaciones por una hoja que vuela o un gato que pasa).",
+      "ejemploHogar": "La instalás apuntando a la entrada de tu casa o al garaje: cuando llega un repartidor le hablás por el micrófono/parlante de la cámara sin abrir la puerta, y si alguien intenta forzar algo de noche, la luz y la sirena integradas se activan solas para espantarlo.",
+      "ejemploNegocio": "Un local chico, depósito o taller la usa para vigilar la entrada trasera o el estacionamiento fuera de horario — al no depender de un enchufe cercano, se puede instalar en un poste o un rincón del predio donde tender un cable nuevo saldría más caro que la cámara misma.",
+      "puntosClave": [
+        "Funciona sola por WiFi, sin necesidad de un hub — a diferencia del enchufe exterior Tapo P400M de este catálogo (que sí suma Matter), esta cámara usa la app Tapo propia y se integra a Alexa/Google Assistant solo para mostrar el video en una pantalla, no por voz ni vía Matter.",
+        "El rating IP65 cubre lluvia, nieve y polvo, pero no es apta para quedar sumergida — confirmá que el lugar elegido no reciba agua a presión directa (como un lavado a manguera) antes de instalarla.",
+        "Para repasar grabaciones viejas (no solo ver en vivo) hace falta sumar una tarjeta microSD de hasta 512GB (no incluida) o pagar la suscripción Tapo Care — sin ninguna de las dos, la cámara solo deja ver lo que está pasando en el momento."
+      ],
+      "consejoInversion": "Cuesta más del doble que la Tapo C100 indoor ya lista en este catálogo ($49.99 contra $19.99), y la diferencia no es casualidad: la batería de 180 días, el sello IP65 contra lluvia/polvo y la detección de personas/vehículos por zonas son justamente lo que hace falta para que una cámara aguante a la intemperie sin fallar ni generar alertas falsas todo el día. Comprar una cámara indoor barata y 'forzarla' afuera es la receta típica para que se arruine con la primera lluvia fuerte o deje de funcionar por falta de alimentación — en seguridad perimetral, la diferencia de precio se traduce directamente en menos fallas y menos horas perdidas revisando alarmas falsas."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a security camera for the outside of your home or business — think of it as a guard who never gets tired of watching the door, the yard, or the driveway. It needs no power cable: it has a rechargeable battery rated for up to 180 days of normal use, and it screws onto the wall with the included mount. It alerts your phone the moment it detects motion, and you can set it to only alert you when what's moving is a person or a vehicle (so you don't get flooded with notifications over a blowing leaf or a passing cat).",
+      "ejemploHogar": "You aim it at your front door or garage: when a delivery driver arrives, you talk to them through the camera's mic/speaker without opening the door, and if someone tries to tamper with something at night, the built-in light and siren trigger on their own to scare them off.",
+      "ejemploNegocio": "A small shop, storeroom, or workshop uses it to watch the back entrance or parking area after hours — since it doesn't need a nearby outlet, it can go on a post or a corner of the property where running new wiring would cost more than the camera itself.",
+      "puntosClave": [
+        "It works on its own over WiFi, no hub required — unlike this catalog's Tapo P400M outdoor plug (which does add Matter), this camera runs on the standalone Tapo app and only integrates with Alexa/Google Assistant to show the video on a screen, not for voice control or Matter.",
+        "The IP65 rating covers rain, snow, and dust, but it isn't rated to be submerged — confirm the spot you pick won't take a direct pressure-washer blast before installing it.",
+        "To review old footage (not just watch live) you need to add a microSD card of up to 512GB (not included) or pay for the Tapo Care subscription — without either one, the camera only lets you see what's happening right now."
+      ],
+      "consejoInversion": "It costs more than double this catalog's indoor Tapo C100 ($49.99 versus $19.99), and that difference isn't an accident: the 180-day battery, the IP65 seal against rain/dust, and zone-based person/vehicle detection are exactly what it takes for a camera to survive outdoors without failing or triggering false alerts all day. Buying a cheap indoor camera and forcing it outside is the usual recipe for it to die in the first heavy rain or stop working for lack of power — in perimeter security, that price difference translates directly into fewer failures and fewer hours wasted checking false alarms."
+    },
+    "tags": [
+      "Cámara exterior",
+      "App Tapo",
+      "Batería 180 días"
+    ],
+    "tagsEn": [
+      "Outdoor camera",
+      "Tapo app",
+      "180-day battery"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0D52DR4ZD?tag=controltrazado-20",
+    "actualizadoEn": "2026-10-05",
+    "activo": true
   }
 ]
