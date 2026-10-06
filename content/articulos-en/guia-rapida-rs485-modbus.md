@@ -31,7 +31,7 @@ The typical case: you have industrial equipment (a power meter, an old PLC, a VF
 ## 5. Common wiring mistakes
 
 1. **Reversed A/B polarity:** RS485 uses a differential pair (A and B, sometimes labeled D+/D-). Reversing the polarity on one device on the bus is the most common cause of "no communication" in a new installation.
-2. **Missing termination resistor:** a long RS485 bus needs a 120Ω resistor at each physical end of the cable (not on each device). Skipping it causes signal reflections that lead to intermittent errors, hard to diagnose because it sometimes "still works" over short distances.
+2. **Missing termination resistor:** a long RS485 bus needs a 120Ω resistor at each physical end of the cable (not on each device). Skipping it causes signal reflections that lead to intermittent errors, hard to diagnose because it sometimes "still works" over short distances. To fix it without hand-splicing a loose resistor, this [Jienk DIN rail terminator block](/en/productos/B0BBQHMGJG) turns the RS485 cable into tidy screw terminals with the 120Ω resistor already built in (with a selector to switch it in or out) — you need two units per bus, one at each physical end, never on the devices in between.
 3. **Missing common ground:** although RS485 is differential and fairly noise-tolerant, a very different ground reference between distant devices can still cause errors — on long runs, a third signal-reference conductor (GND) alongside the A/B pair is recommended.
 
 ## Real options from this ranking

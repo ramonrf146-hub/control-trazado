@@ -37,7 +37,7 @@ El caso típico: tenés equipo industrial (un medidor de energía, un PLC viejo,
 ## 5. Errores comunes de cableado
 
 1. **Polaridad A/B invertida:** RS485 usa un par diferencial (A y B, a veces etiquetado D+/D-). Invertir la polaridad en un dispositivo del bus es la causa más común de "no comunica" en una instalación nueva.
-2. **Falta de resistencia de terminación:** un bus RS485 largo necesita una resistencia de 120Ω en cada extremo físico del cable (no en cada dispositivo). Omitirla genera reflexiones de señal que causan errores intermitentes, difíciles de diagnosticar porque a veces "funciona igual" a corta distancia.
+2. **Falta de resistencia de terminación:** un bus RS485 largo necesita una resistencia de 120Ω en cada extremo físico del cable (no en cada dispositivo). Omitirla genera reflexiones de señal que causan errores intermitentes, difíciles de diagnosticar porque a veces "funciona igual" a corta distancia. Para resolverlo sin empalmar una resistencia suelta a mano, el [bloque terminador Jienk de riel DIN](/productos/B0BBQHMGJG) convierte el cable RS485 en bornes a tornillo prolijos con la resistencia de 120Ω ya integrada (con selector para activarla o no) — hacen falta dos unidades por bus, una en cada extremo físico, nunca en los dispositivos del medio.
 3. **Tierra común faltante:** aunque RS485 es diferencial y tolera bastante ruido, una referencia de tierra muy distinta entre dispositivos alejados puede seguir causando errores — en instalaciones largas, se recomienda un tercer conductor de referencia de señal (GND) además del par A/B.
 
 ## Opciones reales de este ranking

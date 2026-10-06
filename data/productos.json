@@ -3576,5 +3576,56 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0D52DR4ZD?tag=controltrazado-20",
     "actualizadoEn": "2026-10-05",
     "activo": true
+  },
+  {
+    "asin": "B0BBQHMGJG",
+    "nombre": "Jienk Bloque Terminador RS485 120Ω Riel DIN — Breakout RJ45 2 Vías",
+    "nombreEn": "Jienk RS485 120Ω Terminator DIN Rail Block — 2-Way RJ45 Breakout",
+    "categoria": "control-industrial-b2b",
+    "precio": 19.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/618diA1Rm5L._AC_UL320_.jpg",
+    "rating": 5.0,
+    "numResenas": 10,
+    "ranking": 44,
+    "notaTecnica": "Placa de montaje en riel DIN (35mm) que convierte un conector RJ45 8P8C en 9 bornes a tornillo, con una resistencia de 120Ω incorporada que se puede sumar o dejar afuera del circuito según un puente/selector de la propia placa — pensada para Ethernet/DMX512/RS485/RS422/RS232. No es un cable de potencia: está clasificada para 0,5A/100V, nivel de señal, no de carga. Confirmado en vivo: ASIN B0BBQHMGJG, $19.99, 5.0★ con 10 reseñas (bloque propio acrCustomerReviewLink ligado al ASIN correcto, sin contaminación cruzada — se descartó un histograma de 2/1/4/7/86 estrellas que aparecía en el mismo HTML porque pertenecía a un producto de ad totalmente distinto, ASIN B0CY3DFWX2).",
+    "notaTecnicaEn": "A DIN rail (35mm) mounting board that turns an RJ45 8P8C connector into 9 screw terminals, with a built-in 120Ω resistor that can be switched in or out of the circuit via a jumper/selector on the board itself — made for Ethernet/DMX512/RS485/RS422/RS232. It's not a power cable: it's rated for 0.5A/100V, signal level, not load level. Verified live: ASIN B0BBQHMGJG, $19.99, 5.0 stars with 10 reviews (its own acrCustomerReviewLink block tied to the correct ASIN, no cross-contamination — a 2/1/4/7/86-star histogram that appeared in the same HTML was discarded because it belonged to a completely different ad product, ASIN B0CY3DFWX2).",
+    "idealPara": "Terminar correctamente un bus RS485 largo en cada uno de sus dos extremos físicos, evitando los errores intermitentes por reflexión de señal que ninguna otra pieza de este catálogo resuelve todavía.",
+    "idealParaEn": "Properly terminating a long RS485 bus at each of its two physical ends, avoiding the intermittent errors from signal reflection that nothing else in this catalog solves yet.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Pensá un bus RS485 largo como un pasillo angosto con un montón de gente hablando de punta a punta: si el pasillo termina en una pared dura, el eco de las voces se mezcla con las nuevas y se hace difícil entender. Una resistencia de 120Ω en cada extremo del cable es como poner una cortina gruesa en esas dos paredes — absorbe el eco (la reflexión de la señal eléctrica) en vez de dejarlo rebotar. Esta placa no es la resistencia sola suelta: es un bloque prolijo de riel DIN que toma el cable RS485 por tornillo y trae la resistencia de 120Ω ya integrada, con un selector para activarla o no.",
+      "ejemploHogar": "Un entusiasta que armó un proyecto de automatización con varios sensores RS485 conectados en cadena en su taller o garaje empieza a tener lecturas erráticas apenas estira el cable más de unos metros — agregar este terminador en los dos extremos físicos del bus (no en cada sensor) resuelve ese tipo de falla intermitente.",
+      "ejemploNegocio": "En una planta con un bus RS485 que recorre varios tableros para leer medidores de energía o variadores de frecuencia, este bloque se instala en el gabinete más alejado del maestro Modbus (el otro extremo ya suele estar en el gateway o el PLC) para cerrar la terminación del lado que falta, sin necesitar herramientas de soldadura ni resistencias sueltas.",
+      "puntosClave": [
+        "Hacen falta dos unidades por bus: una en cada extremo físico del cable, nunca en los dispositivos intermedios — poner más de dos en el mismo bus empeora la señal en vez de mejorarla.",
+        "Es un accesorio de señal (0,5A/100V), no de potencia — no reemplaza ningún disyuntor, fusible o protección de este catálogo, solo cierra eléctricamente el bus de datos.",
+        "Solo 10 reseñas en Amazon pese al 5.0★ — historial real pero todavía corto; si este hueco te preocupa por volumen, convine usarlo junto con otro proveedor como respaldo en instalaciones críticas."
+      ],
+      "consejoInversion": "Frente a comprar una resistencia de 120Ω suelta y empalmarla a mano con cinta aisladora en la punta del cable, esta placa te da un punto de conexión prolijo en riel DIN, con tornillo y selector para desactivar la resistencia si en algún momento cambiás la topología del bus — por $19.99 evitás horas de diagnóstico de errores intermitentes que, en un bus RS485 largo de planta, pueden tardar semanas en aparecer y mucho más en diagnosticarse bien."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Picture a long RS485 bus as a narrow hallway full of people talking from one end to the other: if the hallway ends in a bare hard wall, the echo of the voices mixes with new ones and it gets hard to understand anything. A 120Ω resistor at each end of the cable is like hanging a thick curtain on those two walls — it absorbs the echo (the electrical signal reflection) instead of letting it bounce back. This board isn't a loose standalone resistor: it's a tidy DIN rail block that takes the RS485 cable by screw terminal and already has the 120Ω resistor built in, with a selector to switch it in or out.",
+      "ejemploHogar": "A hobbyist who built an automation setup with several RS485 sensors daisy-chained in their workshop or garage starts getting erratic readings as soon as the cable run gets past a few meters — adding this terminator at the two physical ends of the bus (not on each sensor) fixes that kind of intermittent failure.",
+      "ejemploNegocio": "In a plant with an RS485 bus running across several panels to read power meters or variable frequency drives, this block gets installed in the panel farthest from the Modbus master (the other end is usually already at the gateway or PLC) to close off the termination on the end that's missing, with no soldering tools or loose resistors needed.",
+      "puntosClave": [
+        "You need two units per bus: one at each physical end of the cable, never on devices in between — adding more than two on the same bus makes the signal worse, not better.",
+        "It's a signal-level accessory (0.5A/100V), not a power one — it doesn't replace any breaker, fuse, or protection device in this catalog, it just closes the data bus electrically.",
+        "Only 10 reviews on Amazon despite the 5.0-star rating — a real track record, but still a short one; if that volume concerns you, it's worth pairing it with another supplier as a backup on critical installs."
+      ],
+      "consejoInversion": "Compared to buying a loose 120Ω resistor and hand-splicing it with electrical tape at the end of the cable, this board gives you a tidy DIN rail connection point, with a screw terminal and a selector to disable the resistor if you ever change the bus topology — for $19.99 you avoid hours of chasing intermittent errors that, on a long plant RS485 bus, can take weeks to even show up and much longer to diagnose correctly."
+    },
+    "tags": [
+      "RS485",
+      "Terminador 120Ω",
+      "Riel DIN"
+    ],
+    "tagsEn": [
+      "RS485",
+      "120Ω terminator",
+      "DIN rail"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0BBQHMGJG?tag=controltrazado-20",
+    "actualizadoEn": "2026-10-06",
+    "activo": true
   }
 ]
