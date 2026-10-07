@@ -107,42 +107,42 @@
     "precio": 22.49,
     "moneda": "USD",
     "imagen": "https://m.media-amazon.com/images/I/616y-89sq-L._AC_UL320_.jpg",
-    "rating": 4.4,
-    "numResenas": 157,
+    "rating": 4.3,
+    "numResenas": 170,
     "ranking": 3,
-    "notaTecnica": "El monitoreo de consumo (watts en tiempo real) es el diferencial frente a un enchufe simple — sirve para automatizaciones basadas en consumo, por ejemplo apagar un equipo cuando termina un ciclo. El pack de 4 lo hace conveniente para equipar varios puntos de una vez, pero seguís dependiendo de la app Tuya para configurarlos.",
+    "notaTecnica": "El monitoreo de consumo (watts en tiempo real) es el diferencial frente a un enchufe simple — sirve para automatizaciones basadas en consumo, por ejemplo apagar un equipo cuando termina un ciclo. Es de la marca AiSeek: 1800W/15A reales con protección de cortocircuito y sobrecarga incorporada, certificado ETL y FCC, pero solo WiFi 2.4GHz (no 5GHz). El pack de 4 lo hace conveniente para equipar varios puntos de una vez, pero seguís dependiendo de la app SmartLife (basada en Tuya) para configurarlos — y no se vincula directo con Alexa: primero hay que conectarlo a SmartLife y desde ahí enlazarlo como servicio de terceros a Alexa o Google Assistant.",
     "idealPara": "Automatizaciones basadas en consumo real (apagar un equipo al terminar un ciclo) y equipar varios puntos de una vez con el pack de 4.",
     "guiaCompra": {
-      "queEsYParaQueSirve": "Es un enchufe inteligente que además de prender/apagar, te dice cuánta energía (en watts) está consumiendo el aparato conectado en tiempo real — como tener un medidor de luz individual para cada enchufe.",
+      "queEsYParaQueSirve": "Es un enchufe inteligente que además de prender/apagar, te dice cuánta energía (en watts) está consumiendo el aparato conectado en tiempo real — como tener un medidor de luz individual para cada enchufe. Lo fabrica AiSeek, con capacidad real de 1800W/15A y protección de cortocircuito/sobrecarga incorporada.",
       "ejemploHogar": "Conectás la lavadora y programás que el enchufe se apague solo cuando el consumo baja a cero (señal de que terminó el ciclo), ahorrándote dejarla en standby consumiendo de más.",
-      "ejemploNegocio": "Un taller puede monitorear cuánta energía consume cada máquina conectada a estos enchufes, para detectar cuál está gastando de más o cuándo termina un proceso automático.",
+      "ejemploNegocio": "Un taller puede monitorear cuánta energía consume cada máquina conectada a estos enchufes, para detectar cuál está gastando de más o cuándo termina un proceso automático — el control por grupos permite prender/apagar varios enchufes a la vez con un solo toque.",
       "puntosClave": [
         "El diferencial frente a un enchufe simple es el monitoreo de consumo — si no te interesa ese dato, un enchufe básico más barato te alcanza.",
-        "Viene en pack de 4, conveniente si necesitás equipar varios puntos de una sola compra.",
-        "Seguís dependiendo de la app Tuya para configurarlos y ver los datos de consumo."
+        "Es WiFi 2.4GHz únicamente (no 5GHz) y no se conecta directo a Alexa: primero hay que vincularlo a la app SmartLife (basada en Tuya) y desde ahí enlazarlo como servicio de terceros a Alexa o Google Assistant.",
+        "Soporta 1800W/15A reales con protección de cortocircuito y sobrecarga, certificado ETL y FCC — relevante si vas a conectar algo más que electrónica chica."
       ],
-      "consejoInversion": "El dato de consumo en tiempo real te permite automatizar decisiones basadas en el comportamiento real del aparato (no solo un horario fijo), y comprar el pack de 4 sale más conveniente por unidad que comprarlos sueltos."
+      "consejoInversion": "El dato de consumo en tiempo real te permite automatizar decisiones basadas en el comportamiento real del aparato (no solo un horario fijo), y comprar el pack de 4 sale más conveniente por unidad que comprarlos sueltos. A diferencia del Zooz ZEN15 Z-Wave también listado en este catálogo (donde el monitoreo de energía depende de que tu hub lo soporte), en este enchufe el dato aparece directo en la app sin armar nada aparte — el costo de esa comodidad es seguir atado 100% a los servidores de Tuya."
     },
     "urlAfiliado": "https://www.amazon.com/dp/B0FZJ8Y54Q?tag=controltrazado-20",
-    "actualizadoEn": "2026-08-25",
+    "actualizadoEn": "2026-10-07",
     "tags": [
       "Monitoreo consumo",
       "Tuya",
       "4-pack"
     ],
     "nombreEn": "Smart Plug with Energy Monitoring 15A (4-pack)",
-    "notaTecnicaEn": "Real-time power monitoring (watts) is the differentiator over a simple plug — useful for consumption-based automations, like turning off a device when a cycle finishes. The 4-pack makes it convenient to equip several points at once, but you're still dependent on the Tuya app to configure them.",
+    "notaTecnicaEn": "Real-time power monitoring (watts) is the differentiator over a simple plug — useful for consumption-based automations, like turning off a device when a cycle finishes. It's made by AiSeek: a real 1800W/15A rating with built-in short-circuit and overload protection, ETL and FCC certified, but 2.4GHz WiFi only (no 5GHz). The 4-pack makes it convenient to equip several points at once, but you're still dependent on the SmartLife app (Tuya-based) to configure them — and it doesn't pair directly with Alexa: you first connect it to SmartLife and link it from there as a third-party service to Alexa or Google Assistant.",
     "idealParaEn": "Consumption-based automations (turning off a device when a cycle ends) and equipping several points at once with the 4-pack.",
     "guiaCompraEn": {
-      "queEsYParaQueSirve": "It's a smart plug that, besides turning on/off, tells you how much energy (in watts) the connected device is drawing in real time — like having an individual power meter for each outlet.",
+      "queEsYParaQueSirve": "It's a smart plug that, besides turning on/off, tells you how much energy (in watts) the connected device is drawing in real time — like having an individual power meter for each outlet. It's made by AiSeek, with a real 1800W/15A rating and built-in short-circuit/overload protection.",
       "ejemploHogar": "You plug in the washing machine and set the outlet to turn off by itself once consumption drops to zero (a sign the cycle finished), saving you from leaving it on standby drawing extra power.",
-      "ejemploNegocio": "A workshop can monitor how much energy each machine plugged into these outlets is drawing, to spot which one is using too much or when an automatic process finishes.",
+      "ejemploNegocio": "A workshop can monitor how much energy each machine plugged into these outlets is drawing, to spot which one is using too much or when an automatic process finishes — group control lets you turn several plugs on/off at once with a single tap.",
       "puntosClave": [
         "The differentiator over a simple plug is consumption monitoring — if that data doesn't matter to you, a cheaper basic plug is enough.",
-        "Comes in a 4-pack, convenient if you need to equip several points in a single purchase.",
-        "You're still dependent on the Tuya app to configure them and see the consumption data."
+        "It's 2.4GHz WiFi only (no 5GHz) and doesn't pair directly with Alexa: you first link it to the SmartLife app (Tuya-based) and connect it from there as a third-party service to Alexa or Google Assistant.",
+        "Handles a real 1800W/15A with built-in short-circuit and overload protection, ETL and FCC certified — relevant if you're plugging in more than small electronics."
       ],
-      "consejoInversion": "Real-time consumption data lets you automate decisions based on the device's actual behavior (not just a fixed schedule), and buying the 4-pack works out cheaper per unit than buying them separately."
+      "consejoInversion": "Real-time consumption data lets you automate decisions based on the device's actual behavior (not just a fixed schedule), and buying the 4-pack works out cheaper per unit than buying them separately. Unlike the Zooz ZEN15 Z-Wave switch also listed in this catalog (where energy monitoring depends on your hub supporting it), this plug surfaces the data directly in the app with nothing extra to set up — the cost of that convenience is staying 100% tied to Tuya's servers."
     },
     "tagsEn": [
       "Consumption monitoring",
