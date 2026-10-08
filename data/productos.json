@@ -1162,45 +1162,45 @@
     "rating": 5,
     "numResenas": 1,
     "ranking": 17,
-    "notaTecnica": "Mismo concepto que el contactor Wengart de este ranking, pero de menor capacidad (16A vs 25A) y bobina de 110V en vez de 120V — para cargas más chicas como iluminación o calefones menores. El fabricante aclara que es exclusivamente para AC, no sirve para DC, y recomienda usarlo siempre con protección de cortocircuito (fusible o térmica) aparte, porque no la trae incorporada. Con solo 1 reseña, es un listado muy nuevo.",
-    "idealPara": "Cargas resistivas más chicas (iluminación, calefones menores) donde el contactor de 25A de este ranking sería sobredimensionado.",
+    "notaTecnica": "DESCONTINUADO: reverificado en vivo el 2026-10-08 y la ficha de Amazon ya no tiene buybox — el mensaje de disponibilidad dice textualmente \"Currently unavailable. We don't know when or if this item will be back in stock.\", no el falso positivo de string de traducción ya documentado en este catálogo. Queda documentado por transparencia (precio y reseña históricos), pero ya no es una opción de compra activa. Para esta misma familia de contactores BAOMAIN AC de 2 polos, el de 20A de este ranking sigue en stock y es ahora la opción más chica disponible — mismo concepto: exclusivamente AC (no DC), sin protección de cortocircuito incorporada.",
+    "idealPara": "Descontinuado en Amazon (verificado 2026-10-08, sin fecha de reposición) — para cargas resistivas chicas, usá el BAOMAIN de 20A de este ranking, la opción equivalente que sigue disponible.",
     "guiaCompra": {
-      "queEsYParaQueSirve": "Es la versión más chica del mismo concepto que el contactor Wengart de este ranking: un \"relé grande\" que hace el trabajo pesado de manejar corriente fuerte, mientras un control chico (termostato, smart switch, PLC) solo le manda la orden de prender o apagar.",
-      "ejemploHogar": "Automatizar el encendido de un calefón chico o un panel de iluminación desde un control de bajo amperaje, sin que ese control tenga que bancarse la corriente real del equipo.",
-      "ejemploNegocio": "Un panel de iluminación comercial o un equipo resistivo (no motor) de un taller puede controlarse de forma automatizada usando este contactor como intermediario seguro.",
+      "queEsYParaQueSirve": "Era la versión más chica de este tipo de contactor: un \"relé grande\" que hace el trabajo pesado de manejar corriente fuerte, mientras un control chico (termostato, smart switch, PLC) solo le manda la orden de prender o apagar. Hoy esa pieza puntual ya no se puede comprar en Amazon.",
+      "ejemploHogar": "Automatizar el encendido de un calefón chico o un panel de iluminación desde un control de bajo amperaje, sin que ese control tenga que bancarse la corriente real del equipo — el caso de uso sigue siendo válido, solo que ahora lo cubre el BAOMAIN de 20A de este ranking en vez de este listado.",
+      "ejemploNegocio": "Un panel de iluminación comercial o un equipo resistivo (no motor) de un taller puede controlarse de forma automatizada usando un contactor como intermediario seguro.",
       "puntosClave": [
-        "Es exclusivamente para corriente alterna (AC) — el fabricante aclara que NO sirve para corriente continua (DC).",
-        "Siempre hay que instalarlo con protección de cortocircuito aparte (fusible o térmica) — no la trae incorporada.",
-        "Con 16A de capacidad, es para cargas más chicas que el contactor de 25A de este ranking — confirmá el consumo real de tu equipo antes de elegir."
+        "DESCONTINUADO (verificado 2026-10-08): \"Currently unavailable\", sin fecha de reposición — no lo compres, usá el BAOMAIN de 20A de este ranking.",
+        "Mientras existió, era exclusivamente para corriente alterna (AC) — el fabricante aclaraba que NO servía para corriente continua (DC), igual que el resto de la familia.",
+        "Nunca trajo protección de cortocircuito incorporada — esa parte sigue siendo verdad para el reemplazo: hace falta sumar fusible o térmica aparte."
       ],
-      "consejoInversion": "Para una carga chica y puramente resistiva, este contactor cuesta lo mismo que el de 25A pero es la opción correcta si tu equipo no necesita esa capacidad — comprar de más no da ningún beneficio, y el amperaje menor no es una desventaja si tu carga real está por debajo."
+      "consejoInversion": "Con esta referencia descontinuada, el BAOMAIN de 20A de este ranking cuesta lo mismo y es la opción real disponible — algo de capacidad de más para una carga puramente chica no es una desventaja, y tiene además 166 reseñas de respaldo, mucho más historial que esta ficha agotada."
     },
     "tags": [
+      "Descontinuado",
       "16A",
-      "110V bobina AC",
-      "Solo AC (no DC)"
+      "110V bobina AC"
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B0CGL8J44N?tag=controltrazado-20",
-    "actualizadoEn": "2026-08-27",
-    "activo": true,
+    "actualizadoEn": "2026-10-08",
+    "activo": false,
     "nombreEn": "BAOMAIN AC Contactor 16A 2-Pole, 110V Coil (DIN Rail)",
-    "notaTecnicaEn": "Same concept as the Wengart contactor in this ranking, but lower capacity (16A vs 25A) and a 110V coil instead of 120V — for smaller loads like lighting or minor water heaters. The manufacturer states it's AC only, not for DC, and recommends always using it with separate short-circuit protection (a fuse or breaker), since it doesn't include one. With only 1 review, it's a very new listing.",
-    "idealParaEn": "Smaller resistive loads (lighting, minor water heaters) where the 25A contactor in this ranking would be overkill.",
+    "notaTecnicaEn": "DISCONTINUED: re-verified live on 2026-10-08 and the Amazon listing no longer has a buybox — the availability message literally reads \"Currently unavailable. We don't know when or if this item will be back in stock,\" not the UI-string false positive already documented in this catalog. Kept here for transparency (historical price and review), but it's no longer an active purchase option. For this same family of BAOMAIN 2-pole AC contactors, the 20A one in this ranking is still in stock and is now the smallest available option — same concept: AC only (not DC), no built-in short-circuit protection.",
+    "idealParaEn": "Discontinued on Amazon (verified 2026-10-08, no restock date) — for small resistive loads, use the BAOMAIN 20A one in this ranking, the equivalent option still available.",
     "guiaCompraEn": {
-      "queEsYParaQueSirve": "It's the smaller version of the same concept as the Wengart contactor in this ranking: a \"big relay\" that does the heavy lifting of handling strong current, while a small control (thermostat, smart switch, PLC) just sends it the on/off command.",
-      "ejemploHogar": "Automating a small water heater or a lighting panel from a low-amperage control, without that control having to handle the device's real current.",
-      "ejemploNegocio": "A commercial lighting panel or a resistive (non-motor) piece of shop equipment can be controlled in an automated way using this contactor as a safe intermediary.",
+      "queEsYParaQueSirve": "It used to be the smaller version of this type of contactor: a \"big relay\" that does the heavy lifting of handling strong current, while a small control (thermostat, smart switch, PLC) just sends it the on/off command. That specific part can no longer be bought on Amazon.",
+      "ejemploHogar": "Automating a small water heater or a lighting panel from a low-amperage control, without that control having to handle the device's real current — the use case still holds, it's just covered by the 20A BAOMAIN in this ranking instead of this listing now.",
+      "ejemploNegocio": "A commercial lighting panel or a resistive (non-motor) piece of shop equipment can be controlled in an automated way using a contactor as a safe intermediary.",
       "puntosClave": [
-        "It's AC only — the manufacturer states it does NOT work for direct current (DC).",
-        "Always needs separate short-circuit protection (a fuse or breaker) — it doesn't come with one built in.",
-        "At 16A capacity, it's for smaller loads than the 25A contactor in this ranking — confirm your equipment's actual draw before choosing."
+        "DISCONTINUED (verified 2026-10-08): \"Currently unavailable,\" no restock date — don't buy this one, use the 20A BAOMAIN in this ranking.",
+        "While it existed, it was AC only — the manufacturer stated it did NOT work for direct current (DC), same as the rest of the family.",
+        "It never included built-in short-circuit protection — that part still holds for the replacement: you still need to add a separate fuse or breaker."
       ],
-      "consejoInversion": "For a small, purely resistive load, this contactor costs the same as the 25A one but is the right choice if your equipment doesn't need that capacity — buying more capacity than you need gives no benefit, and the lower amperage isn't a downside if your actual load is below it."
+      "consejoInversion": "With this listing discontinued, the 20A BAOMAIN in this ranking costs the same and is the real option available — a bit more capacity than a purely small load needs isn't a downside, and it also has 166 reviews backing it, far more track record than this sold-out listing."
     },
     "tagsEn": [
+      "Discontinued",
       "16A",
-      "110V AC coil",
-      "AC only (not DC)"
+      "110V AC coil"
     ]
   },
   {
@@ -1315,8 +1315,8 @@
     "rating": 4.5,
     "numResenas": 166,
     "ranking": 20,
-    "notaTecnica": "Mismo fabricante y familia que el contactor BAOMAIN de 16A de este ranking, pero un escalón de capacidad más arriba (20A) — llena el punto medio entre ese y el Wengart de 25A. A diferencia de los otros dos contactores de este lote (2 y 1 reseñas respectivamente), este tiene 166 reseñas y 4.5 de rating: mucho más historial real de otros compradores. Igual que el resto de la familia, es exclusivamente para AC (no DC) y necesita protección de cortocircuito aparte (fusible o térmica), que no viene incluida.",
-    "idealPara": "El punto medio entre los otros dos contactores de este ranking (16A y 25A) — y la opción con más historial de compradores reales si preferís no arriesgarte con un listado nuevo.",
+    "notaTecnica": "Mismo fabricante y familia que el contactor BAOMAIN de 16A de este ranking — desde que esa ficha de 16A se descontinuó en Amazon (verificado 2026-10-08), este de 20A pasó a ser la opción más chica disponible de la familia. Con 166 reseñas y 4.5 de rating, tiene mucho más historial real de compradores que el resto de este lote. Igual que el resto de la familia, es exclusivamente para AC (no DC) y necesita protección de cortocircuito aparte (fusible o térmica), que no viene incluida.",
+    "idealPara": "La opción disponible de esta familia BAOMAIN tanto para cargas chicas (desde que el de 16A se descontinuó) como medias — y la que tiene más historial de compradores reales si preferís no arriesgarte con un listado nuevo.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es el mismo tipo de \"relé grande\" que los otros contactores de este ranking: separa el control chico (un smart switch, un termostato, un PLC) de la corriente real que consume un equipo pesado, para que el control no se queme manejando esa carga directamente.",
       "ejemploHogar": "Automatizar un calefón, una bomba o un equipo de iluminación de consumo medio, sin que el smart switch o termostato tenga que bancarse la corriente completa del equipo.",
@@ -1324,9 +1324,9 @@
       "puntosClave": [
         "Es exclusivamente para corriente alterna (AC) — no sirve para DC, aclaración del propio fabricante.",
         "No trae protección de cortocircuito incorporada — hay que instalarlo siempre con un fusible o térmica aparte.",
-        "Confirmá el amperaje real de tu equipo: si está más cerca de 16A, ese modelo de este ranking sale igual de precio; si supera los 20A, andá directo al de 25A."
+        "Confirmá el amperaje real de tu equipo: si tu carga es bien chica (iluminación, un calefón menor) este modelo de 20A sale igual de precio que la opción chica que ya no está disponible; si tu carga supera ampliamente los 20A, revisá los contactores de mayor amperaje de este mismo catálogo."
       ],
-      "consejoInversion": "Con 166 reseñas frente a las 1-2 de los otros contactores de este ranking, esta es la opción con más respaldo real si no querés arriesgarte con un listado nuevo — al mismo precio que los otros dos, el historial de compradores es una garantía extra que no cuesta nada de más."
+      "consejoInversion": "Con 166 reseñas frente a las 1-2 de otras fichas nuevas de este catálogo, esta es la opción con más respaldo real — al mismo precio de siempre, el historial de compradores es una garantía extra que no cuesta nada de más, y hoy es además la única de esta familia específica que sigue en stock."
     },
     "tags": [
       "20A",
@@ -1334,11 +1334,11 @@
       "166 reseñas"
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B01J1R0RTG?tag=controltrazado-20",
-    "actualizadoEn": "2026-08-27",
+    "actualizadoEn": "2026-10-08",
     "activo": true,
     "nombreEn": "BAOMAIN AC Contactor 20A 2-Pole, 110V Coil (DIN Rail)",
-    "notaTecnicaEn": "Same manufacturer and family as the 16A BAOMAIN contactor in this ranking, but one capacity step up (20A) — filling the middle ground between that one and the 25A Wengart. Unlike the other two contactors in this batch (2 and 1 reviews respectively), this one has 166 reviews and a 4.5 rating: far more real track record from other buyers. Like the rest of the family, it's AC only (not DC) and needs separate short-circuit protection (a fuse or breaker), which isn't included.",
-    "idealParaEn": "The middle ground between the other two contactors in this ranking (16A and 25A) — and the option with the most buyer track record if you'd rather not risk a brand-new listing.",
+    "notaTecnicaEn": "Same manufacturer and family as the 16A BAOMAIN contactor in this ranking — since that 16A listing was discontinued on Amazon (verified 2026-10-08), this 20A one became the smallest available option in the family. With 166 reviews and a 4.5 rating, it has far more real buyer track record than the rest of this batch. Like the rest of the family, it's AC only (not DC) and needs separate short-circuit protection (a fuse or breaker), which isn't included.",
+    "idealParaEn": "The available option in this BAOMAIN family for both small loads (since the 16A one was discontinued) and medium loads — and the one with the most real buyer track record if you'd rather not risk a brand-new listing.",
     "guiaCompraEn": {
       "queEsYParaQueSirve": "It's the same type of \"big relay\" as the other contactors in this ranking: it separates the small control (a smart switch, a thermostat, a PLC) from the actual current a heavy device draws, so the control doesn't burn out handling that load directly.",
       "ejemploHogar": "Automating a water heater, a pump, or a medium-consumption lighting fixture, without the smart switch or thermostat having to handle the device's full current.",
@@ -1346,9 +1346,9 @@
       "puntosClave": [
         "It's AC only — doesn't work for DC, per the manufacturer's own note.",
         "Doesn't include built-in short-circuit protection — always install it with a separate fuse or breaker.",
-        "Confirm your equipment's real amperage: if it's closer to 16A, that model in this ranking costs the same; if it's over 20A, go straight to the 25A one."
+        "Confirm your equipment's real amperage: if your load is small (lighting, a minor water heater), this 20A model costs the same as the smaller option that's no longer available; if your load is well above 20A, check the higher-amperage contactors elsewhere in this same catalog."
       ],
-      "consejoInversion": "With 166 reviews versus the 1-2 of the other contactors in this ranking, this is the option with the most real backing if you'd rather not risk a brand-new listing — at the same price as the other two, the buyer track record is extra assurance that costs nothing more."
+      "consejoInversion": "With 166 reviews versus the 1-2 of other new listings in this catalog, this is the option with the most real backing — at the same price as always, the buyer track record is extra assurance that costs nothing more, and today it's also the only one of this specific family still in stock."
     },
     "tagsEn": [
       "20A",
