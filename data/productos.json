@@ -3627,5 +3627,56 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0BBQHMGJG?tag=controltrazado-20",
     "actualizadoEn": "2026-10-06",
     "activo": true
+  },
+  {
+    "asin": "B0BMLFZ4CP",
+    "nombre": "SwitchBot Blind Tilt — Motor para Persianas Venecianas, Compatible Matter vía Hub",
+    "nombreEn": "SwitchBot Blind Tilt — Venetian Blind Motor, Matter-Compatible via Hub",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 59.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61kpRtr6bbL.jpg",
+    "rating": 4.4,
+    "numResenas": 1449,
+    "ranking": 28,
+    "notaTecnica": "Motor retrofit que se sujeta a la varilla giratoria de una persiana veneciana/horizontal ya instalada (no sirve para persianas verticales ni de cadena, y no es lo mismo que el SwitchBot Curtain 3 de este catálogo, que mueve el riel completo de una cortina de tela en vez de girar las láminas) — se monta sin herramientas, con cinta 3M incluida o tornillos. Funciona standalone por Bluetooth y app propia; para aparecer como dispositivo Matter en Alexa/Google Home necesita el SwitchBot Hub Mini de este mismo catálogo (vendido aparte), igual que el Curtain 3. Trae panel solar que recarga la batería interna sin depender de cambiarla a mano, y sensor de luz que puede ajustar la inclinación sola a lo largo del día. Confirmado en vivo: ASIN B0BMLFZ4CP, $59.99, 4.4★, 1.449 reseñas, \"In Stock\" (página de variantes /clp/, precio y reseñas verificados en el bloque propio del producto, sin contaminación cruzada — un histograma \"Matter/HomeKit/Z-Wave\" que aparecía en el mismo HTML pertenece a un producto totalmente distinto, persianas SmartWings, embebido en el carrusel de productos relacionados).",
+    "notaTecnicaEn": "A retrofit motor that clips onto the tilt rod of an existing Venetian/horizontal blind (it won't work on vertical or chain-operated blinds, and it's not the same as this catalog's SwitchBot Curtain 3, which moves the whole rail of a fabric curtain instead of tilting slats) — no tools needed to install, using the included 3M tape or screws. It runs standalone over Bluetooth with its own app; to show up as a Matter device in Alexa/Google Home it needs this same catalog's SwitchBot Hub Mini (sold separately), just like the Curtain 3. It includes a solar panel that recharges the internal battery so you don't have to swap it by hand, plus a light sensor that can adjust the tilt angle on its own through the day. Verified live: ASIN B0BMLFZ4CP, $59.99, 4.4 stars, 1,449 reviews, \"In Stock\" (a /clp/ variant page, with price and reviews confirmed in the product's own block, no cross-contamination — a \"Matter/HomeKit/Z-Wave\" histogram that appeared in the same HTML belongs to a completely different product, SmartWings blinds, embedded in the related-products carousel).",
+    "idealPara": "Quien tiene persianas venecianas u horizontales con varilla de giro (no cortina de tela ni persiana vertical/de cadena) y quiere automatizar la inclinación sin cambiar la persiana entera — solo por Bluetooth, o sumado al Hub Mini de este catálogo para tenerla como dispositivo Matter.",
+    "idealParaEn": "Anyone with Venetian or horizontal blinds that use a tilt rod (not a fabric curtain or a vertical/chain blind) who wants to automate the tilt angle without replacing the whole blind — standalone over Bluetooth, or added to this catalog's Hub Mini to make it a Matter device.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Una persiana veneciana (de láminas horizontales) normalmente se abre o cierra el paso de luz girando a mano una varilla chiquita al costado — este aparato es un motor que reemplaza esa mano: se clipea sobre esa misma varilla existente, sin sacar ni cambiar la persiana, y gira las láminas desde el celular, por horario o solo. No es lo mismo que mover la persiana hacia arriba o abajo (eso lo resuelve otro mecanismo, como el SwitchBot Curtain 3 de este catálogo pero para cortinas de tela): este solo inclina las láminas para dejar entrar más o menos luz. Trae un panel solar propio — una especie de cargador que usa la luz de la ventana para mantener la batería interna sin que tengas que acordarte de cargarla.",
+      "ejemploHogar": "En un dormitorio, programás que las láminas se cierren solas a la noche para privacidad y se abran de a poco con la luz de la mañana (usando el sensor de luz o un horario fijo en la app) en vez de tener que levantarte a girar la varilla cada vez.",
+      "ejemploNegocio": "En un local o una oficina con varias ventanas de persianas venecianas que dan al sol, se motorizan todas y se programan juntas desde la app para cerrar un poco las láminas en las horas de más sol (bajando el calor que entra y el trabajo del aire acondicionado) sin que nadie tenga que ir ventana por ventana.",
+      "puntosClave": [
+        "Solo sirve para persianas horizontales/venecianas con varilla de giro — no funciona en persianas verticales, de cadena, ni en cortinas de tela (para eso es el SwitchBot Curtain 3 de este mismo catálogo, que es otro mecanismo). Confirmá el tipo de persiana que tenés antes de comprar.",
+        "Sin el Hub Mini (vendido aparte, ya en este catálogo) funciona solo por Bluetooth con la app propia, sin Matter y sin control remoto fuera de tu WiFi doméstico — si lo que buscás es que aparezca en Alexa/Google Home, el hub es una compra adicional, no opcional.",
+        "El montaje es con cinta 3M incluida o tornillos a pared/marco — en persianas muy anchas o pesadas conviene revisar el peso máximo que soporta el motor antes de instalarlo, para no forzarlo."
+      ],
+      "consejoInversion": "Frente a comprar una persiana nueva 100% motorizada (que implica sacar la que tenés y pagar instalación), este motor retrofit cuesta una fracción y reutiliza la persiana existente sin tocar nada de la instalación. El panel solar es la diferencia real frente a una alternativa genérica a pila sola: evita el viaje mensual de sacar el motor para cargarlo, que es justamente el motivo por el que mucha gente abandona este tipo de gadget a los pocos meses."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A Venetian blind (horizontal slats) is normally opened or closed by hand-turning a small rod on the side — this device is a motor that replaces that hand: it clips onto that same existing rod, without removing or replacing the blind, and tilts the slats from your phone, on a schedule, or on its own. It's not the same as raising or lowering the blind (a different mechanism handles that, like this catalog's SwitchBot Curtain 3, but for fabric curtains): this one only tilts the slats to let in more or less light. It has its own solar panel — think of it as a charger that uses the light coming through the window to keep the internal battery topped up so you don't have to remember to charge it.",
+      "ejemploHogar": "In a bedroom, you schedule the slats to close on their own at night for privacy and open gradually with the morning light (using the light sensor or a fixed schedule in the app) instead of getting up to turn the rod yourself every time.",
+      "ejemploNegocio": "In a storefront or office with several sun-facing windows fitted with Venetian blinds, all of them get motorized and scheduled together from the app to tilt the slats partly closed during the sunniest hours (cutting the heat coming in and the air conditioner's workload) without anyone having to walk window to window.",
+      "puntosClave": [
+        "It only works on horizontal/Venetian blinds with a tilt rod — it won't work on vertical blinds, chain-operated blinds, or fabric curtains (that's what this catalog's SwitchBot Curtain 3 is for, a different mechanism). Confirm your blind type before buying.",
+        "Without the Hub Mini (sold separately, already in this catalog) it only runs over Bluetooth with its own app, no Matter and no remote control outside your home WiFi — if you want it to show up in Alexa/Google Home, the hub is an extra purchase, not optional.",
+        "Mounting uses the included 3M tape or wall/frame screws — on very wide or heavy blinds, check the motor's maximum supported weight before installing so you don't overload it."
+      ],
+      "consejoInversion": "Compared to buying a fully motorized blind from scratch (which means removing what you have and paying for installation), this retrofit motor costs a fraction and reuses the blind you already own without touching any of the mounting. The solar panel is the real difference versus a generic battery-only alternative: it avoids the monthly trip of taking the motor down to recharge it, which is exactly why a lot of people abandon this kind of gadget after a few months."
+    },
+    "tags": [
+      "Persianas",
+      "Venecianas",
+      "Matter vía Hub"
+    ],
+    "tagsEn": [
+      "Blinds",
+      "Venetian",
+      "Matter via Hub"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B0BMLFZ4CP?tag=controltrazado-20",
+    "actualizadoEn": "2026-10-09",
+    "activo": true
   }
 ]
