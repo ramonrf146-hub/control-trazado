@@ -3678,5 +3678,56 @@
     "urlAfiliado": "https://www.amazon.com/dp/B0BMLFZ4CP?tag=controltrazado-20",
     "actualizadoEn": "2026-10-09",
     "activo": true
+  },
+  {
+    "asin": "B01M9GKS74",
+    "nombre": "Migro PLC Ai Kit — Mini Controlador Lógico Programable 20 I/O, con Software y Curso de Ladder Logic Incluidos",
+    "nombreEn": "Migro PLC Ai Kit — Mini Programmable Logic Controller 20 I/O, with Software and Ladder Logic Course Included",
+    "categoria": "control-industrial-b2b",
+    "precio": 149.97,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/41c0+1V0EfL.jpg",
+    "rating": 4.7,
+    "numResenas": 4,
+    "ranking": 45,
+    "notaTecnica": "PLC (controlador lógico programable) compatible con la familia FX en formato placa de 20 I/O: 12 entradas digitales DC y 8 salidas a relé N/O de 6A. Se programa por lógica de escalera (ladder logic) o diagrama de bloques desde una PC con Windows 10 de 32 bits, vía el cable USB incluido — el software de programación y un curso de capacitación en ladder logic (de lo básico a aplicaciones industriales) van incluidos sin costo adicional. Trae su propia fuente de alimentación de riel DIN (entrada 120/240VAC, salida 24V DC) y el riel mismo, así que no depende de ninguna otra pieza de este catálogo para arrancar. Importante: no tiene puerto RS485/Modbus — es un PLC standalone que se programa una vez y corre solo con sus propias entradas/salidas, no un nodo que se integre al bus Modbus RTU de los módulos de relé de este catálogo. Confirmado en vivo: ASIN B01M9GKS74, $149.97, marca Migro (confirmada en bylineInfo), \"Only 10 left in stock\"/\"Add to Cart\" reales, 4.7★ con 4 reseñas (bloque propio averageCustomerReviews_feature_div ligado al título exacto del producto, sin contaminación cruzada con otros artículos del carrusel).",
+    "notaTecnicaEn": "A PLC (programmable logic controller) compatible with the FX family, in a 20-I/O board format: 12 DC digital inputs and 8 N/O relay outputs rated 6A. It's programmed with ladder logic or function-block diagrams from a Windows 10 32-bit PC over the included USB cable — the programming software and a ladder-logic training course (from basics to industrial applications) are included at no extra cost. It ships with its own DIN rail power supply (120/240VAC input, 24V DC output) and the DIN rail itself, so it doesn't depend on any other piece in this catalog to get running. Important: it has no RS485/Modbus port — it's a standalone PLC you program once and let run on its own inputs/outputs, not a node that joins this catalog's Modbus RTU relay bus. Verified live: ASIN B01M9GKS74, $149.97, brand Migro (confirmed in bylineInfo), real \"Only 10 left in stock\"/\"Add to Cart\", 4.7 stars with 4 reviews (its own averageCustomerReviews_feature_div block tied to the exact product title, no cross-contamination from other carousel items).",
+    "idealPara": "Quien necesita lógica condicional real (no solo un relé o un timer de una sola función) para automatizar una secuencia de encendidos/apagados, sin pagar los cientos o miles de dólares de un PLC de marca industrial tradicional ni depender de un distribuidor que no vende en Amazon — también ideal para aprender ladder logic desde cero gracias al curso incluido.",
+    "idealParaEn": "Anyone who needs real conditional logic (not just a relay or a single-function timer) to automate a sequence of on/off actions, without paying the hundreds or thousands of dollars a traditional industrial-brand PLC costs, or depending on a distributor that doesn't sell on Amazon — also a solid pick for learning ladder logic from zero thanks to the included course.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Un relé común solo hace una cosa fija (cerrar un circuito cuando recibe señal); un PLC es distinto — pensalo como un empleado que sigue una lista de reglas \"si pasa esto, y también esto otro, entonces hacé aquello\" todo el tiempo, sin cansarse ni olvidarse de ningún paso. Esas reglas se escriben con \"ladder logic\" (lógica de escalera), un lenguaje visual que se parece a un diagrama de interruptores en serie y en paralelo, pensado para que alguien sin formación de programador lo pueda leer y armar. Este kit en particular es la versión económica y chica de esa idea: una placa con 12 entradas (para sensores, botones, finales de carrera) y 8 salidas a relé (para encender motores chicos, válvulas, luces, electroválvulas) que programás una vez desde una PC por USB y después corre sola, sin la PC conectada.",
+      "ejemploHogar": "En un invernadero o un sistema de hidroponía casero con varias bombas y luces, en vez de cablear un timer por cada función, programás una sola secuencia de reglas (por ejemplo: \"si el sensor de nivel está bajo Y es horario diurno, encendé la bomba de riego, pero nunca al mismo tiempo que la luz de crecimiento si comparten el mismo circuito\") — justo el tipo de lógica condicional que un timer simple no puede hacer por sí solo.",
+      "ejemploNegocio": "En un taller chico o una línea de producción simple, se usa para secuenciar el arranque de una cinta transportadora con enclavamientos de seguridad (que no arranque si una puerta de protección está abierta, que pare si un sensor detecta una obstrucción) sin necesitar un PLC industrial de gama alta ni un integrador que cobre por el proyecto completo — alcanza y sobra para procesos con pocas variables.",
+      "puntosClave": [
+        "El software de programación corre en Windows 10 de 32 bits — en una PC moderna con Windows 11 de 64 bits puede no instalar directo; confirmá que tenés (o podés conseguir) una PC compatible antes de comprar si no sabés correr software legado en una máquina virtual.",
+        "No tiene puerto RS485/Modbus: no se integra al bus Modbus RTU de los módulos de relé de este catálogo ni a un SCADA centralizado — sus 8 salidas a relé son la única forma en que controla equipo, cableadas directo.",
+        "Solo 4 reseñas en Amazon pese al 4.7★ — historial real pero muy corto; si vas a depender de él para algo crítico, conviene tener un relé de respaldo simple mientras termina de acumular historial."
+      ],
+      "consejoInversion": "Frente a armar la misma lógica con relés y timers sueltos (que se vuelve un enredo de cables en cuanto hay más de dos o tres condiciones que combinar) o saltar directo a un PLC de marca industrial de varios cientos de dólares que además exige entrenamiento aparte, este kit te da lógica de escalera real, su propia fuente, riel DIN y un curso de capacitación incluido por $149.97 — la inversión se paga la primera vez que necesitás cambiar una regla de la secuencia sin volver a cablear nada, solo reprogramando por USB."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "A plain relay only does one fixed thing (close a circuit when it gets a signal); a PLC is different — think of it as an employee who follows a list of rules all day long, \"if this happens, and also this other thing, then do that,\" without ever getting tired or skipping a step. Those rules are written in \"ladder logic,\" a visual language that looks like a diagram of switches in series and parallel, designed so someone without a programming background can read and build it. This particular kit is the small, affordable version of that idea: a board with 12 inputs (for sensors, buttons, limit switches) and 8 relay outputs (for small motors, valves, lights, solenoids) that you program once from a PC over USB and then let run on its own, no PC attached.",
+      "ejemploHogar": "In a greenhouse or a home hydroponics setup with several pumps and lights, instead of wiring a separate timer for each function, you program one set of rules (for example: \"if the level sensor reads low AND it's daytime, turn on the irrigation pump, but never at the same time as the grow light if they share the same circuit\") — exactly the kind of conditional logic a simple timer can't do on its own.",
+      "ejemploNegocio": "In a small workshop or a simple production line, it's used to sequence a conveyor's start-up with safety interlocks (it won't start if a guard door is open, it stops if a sensor detects an obstruction) without needing a high-end industrial PLC or an integrator billing for the whole project — more than enough for a process with just a few variables.",
+      "puntosClave": [
+        "The programming software runs on Windows 10 32-bit — it may not install directly on a modern 64-bit Windows 11 PC; confirm you have (or can get) a compatible machine before buying if you're not comfortable running legacy software in a virtual machine.",
+        "It has no RS485/Modbus port: it doesn't join this catalog's Modbus RTU relay bus or a centralized SCADA system — its 8 relay outputs are the only way it controls equipment, wired directly.",
+        "Only 4 reviews on Amazon despite the 4.7-star rating — a real but very short track record; if you're going to rely on it for anything critical, it's worth keeping a simple backup relay on hand while it builds up more history."
+      ],
+      "consejoInversion": "Compared to building the same logic out of loose relays and timers (which turns into a wiring mess as soon as there are more than two or three conditions to combine), or jumping straight to a several-hundred-dollar industrial-brand PLC that also demands separate training, this kit gives you real ladder logic, its own power supply, a DIN rail, and an included training course for $149.97 — the investment pays for itself the first time you need to change a rule in the sequence without rewiring anything, just reprogramming it over USB."
+    },
+    "tags": [
+      "PLC",
+      "Ladder Logic",
+      "Riel DIN"
+    ],
+    "tagsEn": [
+      "PLC",
+      "Ladder Logic",
+      "DIN Rail"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B01M9GKS74?tag=controltrazado-20",
+    "actualizadoEn": "2026-10-10",
+    "activo": true
   }
 ]
