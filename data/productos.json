@@ -54,13 +54,13 @@
     "asin": "B0D7MLMCXR",
     "nombre": "GHome Dual Smart Plug 15A — Enchufe doble WiFi",
     "categoria": "automatizacion-hogar-inteligente",
-    "precio": 30.99,
+    "precio": 25.99,
     "moneda": "USD",
     "imagen": "https://m.media-amazon.com/images/I/510m81bMHxL._AC_UL320_.jpg",
     "rating": 4.5,
-    "numResenas": 750,
+    "numResenas": 765,
     "ranking": 2,
-    "notaTecnica": "Es un enchufe listo para usar (no un módulo para instalar en un tablero), pensado para quien quiere resultado inmediato sin cablear nada. Corre en el ecosistema cerrado de GHome/Tuya — no tiene salida de contacto seco ni integración nativa con Home Assistant sin un puente adicional. Buena opción si tu prioridad es simplicidad, no si buscás integrarlo a un proyecto propio con Node-RED.",
+    "notaTecnica": "Es un enchufe listo para usar (no un módulo para instalar en un tablero), pensado para quien quiere resultado inmediato sin cablear nada. Corre en el ecosistema cerrado de GHome/Tuya — no tiene salida de contacto seco ni integración nativa con Home Assistant sin un puente adicional. Dos salidas 100% independientes (podés prender una y dejar la otra apagada), 15A/1800W por unidad, solo WiFi 2.4GHz (no soporta 5GHz), carcasa con clasificación de resistencia al fuego V0 y protección incorporada contra sobrecarga y sobretensión, 2 años de garantía. Funciona con Alexa/Google Home, pero no se vincula directo: hay que enlazarlo primero desde la app GHome/Smart Life y después conectar esa cuenta como servicio de terceros. Buena opción si tu prioridad es simplicidad, no si buscás integrarlo a un proyecto propio con Node-RED. Confirmado en vivo: ASIN B0D7MLMCXR, $25.99, \"In Stock\", 4.5★ con 765 reseñas (bloque propio acrCustomerReviewLink ligado al título exacto del producto).",
     "idealPara": "Resultado inmediato sin cablear nada: enchufás y controlás por app. No es para quien busca integrar el equipo a un proyecto propio con Node-RED.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es un enchufe doble que se conecta a tu WiFi: enchufás dos aparatos ahí y después los prendés o apagás desde una app o con la voz, sin tocar ningún cable.",
@@ -68,20 +68,20 @@
       "ejemploNegocio": "Un local puede usarlo para prender y apagar la cartelería LED o un ventilador de vidriera en un horario fijo, sin necesidad de que alguien lo haga manualmente todos los días.",
       "puntosClave": [
         "Es un enchufe listo para usar: no hace falta instalación ni electricista, solo enchufarlo a la pared.",
-        "Corre en el ecosistema Tuya/GHome — si más adelante querés integrarlo a un sistema más avanzado (como Home Assistant), vas a necesitar un puente adicional.",
-        "No sirve para cableado fijo (como una luz empotrada) — solo para lo que se puede enchufar."
+        "Corre en el ecosistema Tuya/GHome — si más adelante querés integrarlo a un sistema más avanzado (como Home Assistant), vas a necesitar un puente adicional, y tampoco se vincula directo con Alexa/Google Home (primero hay que pasar por la app GHome/Smart Life).",
+        "Solo funciona en redes WiFi 2.4GHz — si tu router moderno separa las bandas y solo tenés la red 5GHz visible, tenés que crear o activar la red 2.4GHz aparte antes de vincularlo."
       ],
-      "consejoInversion": "Para el que quiere resultados ya, sin instalación ni curva de aprendizaje, este enchufe doble es la opción más simple y directa — la contra es quedar atado a la app Tuya, algo a tener en cuenta si en el futuro pensás construir un sistema domótico más grande y personalizado."
+      "consejoInversion": "Para el que quiere resultados ya, sin instalación ni curva de aprendizaje, este enchufe doble es la opción más simple y directa — la contra es quedar atado a la app Tuya, algo a tener en cuenta si en el futuro pensás construir un sistema domótico más grande y personalizado. Frente a un enchufe inteligente genérico sin marca, este trae protección activa contra sobrecarga y sobretensión más una carcasa con clasificación de resistencia al fuego V0 — en un enchufe que vas a dejar enchufado 24/7 alimentando dos aparatos a la vez, esa protección de base vale más que ahorrarte unos dólares en algo que va a estar conectado a la red eléctrica todo el tiempo sin que lo estés mirando."
     },
     "urlAfiliado": "https://www.amazon.com/dp/B0D7MLMCXR?tag=controltrazado-20",
-    "actualizadoEn": "2026-08-25",
+    "actualizadoEn": "2026-10-11",
     "tags": [
       "WiFi 2.4GHz",
       "Tuya",
       "15A"
     ],
     "nombreEn": "GHome Dual Smart Plug 15A — WiFi Double Outlet",
-    "notaTecnicaEn": "It's a ready-to-use outlet (not a module for a panel), meant for anyone who wants immediate results without wiring anything. It runs on the closed GHome/Tuya ecosystem — no dry-contact output or native Home Assistant integration without an extra bridge. A good choice if simplicity is your priority, not if you're looking to integrate it into your own Node-RED project.",
+    "notaTecnicaEn": "It's a ready-to-use outlet (not a module for a panel), meant for anyone who wants immediate results without wiring anything. It runs on the closed GHome/Tuya ecosystem — no dry-contact output or native Home Assistant integration without an extra bridge. Two fully independent outlets (you can leave one on and the other off), 15A/1800W per outlet, WiFi 2.4GHz only (no 5GHz support), V0 fire-resistant-rated casing with built-in overload and surge protection, 2-year warranty. It works with Alexa/Google Home, but not directly — you link it through the GHome/Smart Life app first and then connect that account as a third-party service. A good choice if simplicity is your priority, not if you're looking to integrate it into your own Node-RED project. Verified live: ASIN B0D7MLMCXR, $25.99, \"In Stock\", 4.5 stars with 765 reviews (its own acrCustomerReviewLink block tied to the exact product title).",
     "idealParaEn": "Immediate results without wiring anything: plug it in and control it from an app. Not for anyone looking to integrate the device into their own Node-RED project.",
     "guiaCompraEn": {
       "queEsYParaQueSirve": "It's a double outlet that connects to your WiFi: you plug two devices into it and then turn them on or off from an app or with your voice, without touching a single wire.",
@@ -89,10 +89,10 @@
       "ejemploNegocio": "A store can use it to turn LED signage or a window fan on and off on a fixed schedule, without someone having to do it manually every day.",
       "puntosClave": [
         "It's a ready-to-use outlet: no installation or electrician needed, just plug it into the wall.",
-        "It runs on the Tuya/GHome ecosystem — if you later want to integrate it into a more advanced system (like Home Assistant), you'll need an extra bridge.",
-        "It doesn't work for fixed wiring (like a recessed light) — only for things you can plug in."
+        "It runs on the Tuya/GHome ecosystem — if you later want to integrate it into a more advanced system (like Home Assistant), you'll need an extra bridge, and it also doesn't link directly to Alexa/Google Home (you have to go through the GHome/Smart Life app first).",
+        "It only works on 2.4GHz WiFi networks — if your modern router splits bands and only shows the 5GHz network, you'll need to create or enable the separate 2.4GHz network before pairing it."
       ],
-      "consejoInversion": "For anyone who wants results now, with no installation or learning curve, this dual outlet is the simplest, most direct option — the trade-off is being tied to the Tuya app, worth keeping in mind if you plan to build a bigger, more custom smart-home system down the road."
+      "consejoInversion": "For anyone who wants results now, with no installation or learning curve, this dual outlet is the simplest, most direct option — the trade-off is being tied to the Tuya app, worth keeping in mind if you plan to build a bigger, more custom smart-home system down the road. Compared to a generic, no-name smart plug, this one ships with active overload and surge protection plus a V0 fire-resistant-rated casing — on an outlet you're going to leave plugged in 24/7 powering two devices at once, that built-in protection is worth more than saving a few dollars on something that stays connected to the mains all the time while you're not watching it."
     },
     "tagsEn": [
       "WiFi 2.4GHz",
