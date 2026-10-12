@@ -5,6 +5,7 @@ import { CATEGORIAS, getCategoriaPorSlug } from "@/lib/categorias";
 import { getProductosPorCategoria } from "@/lib/productos";
 import { getDictionary, t, withLocale, type Locale } from "@/lib/i18n";
 import GridDeProductos from "@/components/GridDeProductos";
+import { CONTENIDO_CATEGORIAS } from "@/lib/categorias-seo";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.controltrazado.com";
 
@@ -27,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const descripcion = t(categoria.descripcion, categoria.descripcionEn, locale);
 
   return {
-    title: `${d["categoria.metaTituloPrefix"]} ${nombre}`,
+    title: locale === "en" ? `${nombre}: ranking and buying guide` : `${nombre}: ranking y guía de compra`,
     description: `${d["categoria.metaDescripcionPrefix"]} ${nombre.toLowerCase()}: ${descripcion}`,
     alternates: {
       canonical: locale === "en" ? `/en/categorias/${categoria.slug}` : `/categorias/${categoria.slug}`,
@@ -50,6 +51,27 @@ export default async function CategoriaPage({ params }: Props) {
   const productos = await getProductosPorCategoria(categoria.slug);
   const nombre = t(categoria.nombre, categoria.nombreEn, locale);
   const descripcion = t(categoria.descripcion, categoria.descripcionEn, locale);
+
+  const contenido = CONTENIDO_CATEGORIAS[categoria.slug]?.[locale];
+  const precios = productos.map((p) => p.precio).filter((n) => n > 0);
+  const resumenPrecios =
+    precios.length > 0
+      ? locale === "en"
+        ? `${productos.length} products compared, from $${Math.min(...precios).toFixed(2)} to $${Math.max(...precios).toFixed(2)}.`
+        : `${productos.length} productos comparados, desde $${Math.min(...precios).toFixed(2)} hasta $${Math.max(...precios).toFixed(2)}.`
+      : null;
+
+  const faqJsonLd = contenido
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: contenido.faq.map((item) => ({
+          "@type": "Question",
+          name: item.pregunta,
+          acceptedAnswer: { "@type": "Answer", text: item.respuesta },
+        })),
+      }
+    : null;
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
@@ -92,6 +114,12 @@ export default async function CategoriaPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
 
       <nav className="font-mono text-xs uppercase tracking-wide text-text-dim">
         <Link href={withLocale("/", locale)} className="hover:text-line">
@@ -108,6 +136,7 @@ export default async function CategoriaPage({ params }: Props) {
       </h1>
       <p className="mt-3 max-w-2xl text-sm leading-relaxed text-text-dim">
         {descripcion}
+        {resumenPrecios && <> {resumenPrecios}</>}
       </p>
 
       {productos.length === 0 ? (
@@ -116,6 +145,35 @@ export default async function CategoriaPage({ params }: Props) {
         </p>
       ) : (
         <GridDeProductos productos={productos} locale={locale} />
+      )}
+
+      {contenido && (
+        <div className="mx-auto mt-14 max-w-3xl space-y-10">
+          <section>
+            <h2 className="text-xl font-bold text-text-light">{d["categoria.comoElegir"]}</h2>
+            <ul className="mt-4 space-y-3">
+              {contenido.comoElegir.map((punto) => (
+                <li key={punto} className="rounded-2xl border border-line-dim bg-ink-2 p-4 text-sm leading-relaxed text-text-dim">
+                  {punto}
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-bold text-text-light">{d["producto.faq"]}</h2>
+            <div className="mt-4 divide-y divide-line-dim rounded-2xl border border-line-dim bg-ink-2">
+              {contenido.faq.map((item) => (
+                <details key={item.pregunta} className="group p-4">
+                  <summary className="cursor-pointer list-none text-sm font-semibold text-text-light marker:hidden">
+                    {item.pregunta}
+                  </summary>
+                  <p className="mt-2 text-sm leading-relaxed text-text-dim">{item.respuesta}</p>
+                </details>
+              ))}
+            </div>
+          </section>
+        </div>
       )}
     </div>
   );

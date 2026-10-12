@@ -180,6 +180,7 @@ const es = {
   "articulo.verRankingCompleto": "Ver ranking completo →",
 
   "categoria.rankingDelMes": "Ranking del mes",
+  "categoria.comoElegir": "Cómo elegir",
   "categoria.sinProductos": "Aún no hay productos rankeados en esta categoría.",
   "categoria.metaTituloPrefix": "Ranking de",
   "categoria.metaDescripcionPrefix": "Ranking mensual de",
@@ -346,6 +347,7 @@ const en: Dictionary = {
   "articulo.verRankingCompleto": "See full ranking →",
 
   "categoria.rankingDelMes": "This month's ranking",
+  "categoria.comoElegir": "How to choose",
   "categoria.sinProductos": "No products ranked in this category yet.",
   "categoria.metaTituloPrefix": "Ranking of",
   "categoria.metaDescripcionPrefix": "Monthly ranking of",
