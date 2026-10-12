@@ -3729,5 +3729,56 @@
     "urlAfiliado": "https://www.amazon.com/dp/B01M9GKS74?tag=controltrazado-20",
     "actualizadoEn": "2026-10-10",
     "activo": true
+  },
+  {
+    "asin": "B09ZY9THZ1",
+    "nombre": "Noorio B210 — Cámara de Seguridad Exterior Magnética, Almacenamiento Local sin Suscripción",
+    "nombreEn": "Noorio B210 — Magnetic Outdoor Security Camera, No-Subscription Local Storage",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 59.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61PFQq2+C8L.jpg",
+    "rating": 4.1,
+    "numResenas": 4278,
+    "ranking": 29,
+    "notaTecnica": "Cámara de seguridad exterior con batería recargable (3 a 6 meses de autonomía según uso) y base magnética + soporte a tornillo incluidos, sin cableado ni hub — se conecta por WiFi 2.4GHz y se controla desde la app Noorio, con integración a Alexa limitada a mostrar el video en pantalla (no tiene Matter ni Zigbee). A diferencia de la cámara exterior TP-Link Tapo C402 de este catálogo, que necesita una tarjeta microSD aparte o la suscripción Tapo Care para repasar grabaciones viejas, esta trae 8GB de almacenamiento local incorporado de fábrica, sin costo extra ni suscripción (hasta 3.000 clips). Detección de movimiento con IA (personas) y zonas de detección personalizables, visión nocturna a color, audio bidireccional, certificación IP66 (un escalón de resistencia al agua por encima del IP65 de la C402), compatible con panel solar opcional (vendido aparte). $59.99, 4.1★, 4.278 reseñas — confirmado en vivo: ASIN B09ZY9THZ1, \"In Stock\" en primary-availability-message, precio en el bloque propio mobile_buybox_group_1, rating/reseñas en el bloque propio acrCustomerReviewLink ligado al mismo ASIN, marca Noorio y modelo B210 confirmados en la tabla de detalles del producto.",
+    "notaTecnicaEn": "Outdoor security camera with a rechargeable battery (3 to 6 months of runtime depending on use) and a magnetic base plus an included screw bracket, no wiring or hub required — it connects over 2.4GHz WiFi and is controlled from the Noorio app, with Alexa integration limited to showing the video feed on a screen (no Matter or Zigbee support). Unlike this catalog's TP-Link Tapo C402 outdoor camera, which needs a separate microSD card or a Tapo Care subscription to review old footage, this one ships with 8GB of built-in local storage at no extra cost and no subscription (good for up to 3,000 clips). AI-based motion/person detection with customizable detection zones, color night vision, two-way audio, an IP66 rating (one notch above the C402's IP65 for water resistance), and compatible with an optional solar panel (sold separately). $59.99, 4.1 stars, 4,278 reviews — confirmed live: ASIN B09ZY9THZ1, \"In Stock\" in primary-availability-message, price in the product's own mobile_buybox_group_1 block, rating/reviews in the product's own acrCustomerReviewLink block tied to the same ASIN, Noorio brand and B210 model confirmed in the product details table.",
+    "idealPara": "Vigilar el exterior de la casa o el negocio sin pagar suscripción mensual ni comprar una tarjeta microSD aparte para poder repasar grabaciones viejas — alternativa a la cámara exterior TP-Link Tapo C402 de este catálogo para quien prioriza almacenamiento local gratis desde el primer día.",
+    "idealParaEn": "Watching over the outside of a home or business without paying a monthly subscription or buying a separate microSD card just to review old footage — an alternative to this catalog's TP-Link Tapo C402 outdoor camera for anyone who'd rather have free local storage from day one.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es otra cámara de seguridad para el exterior — como la Tapo C402 de este mismo catálogo, es un guardia que vigila la puerta, el patio o la entrada del negocio sin que tengas que cablear corriente nueva, porque anda a batería. La diferencia real está en cómo guarda lo que graba: en vez de obligarte a comprar una tarjeta de memoria aparte o pagar una suscripción mensual para poder repasar grabaciones viejas (como pasa con la Tapo C402), esta cámara ya trae su propia 'memoria' incorporada de fábrica — 8GB que alcanzan para unos 3.000 clips cortos, sin ningún gasto extra ni mensualidad. Eso sí: ese almacenamiento es local, no hay respaldo en la nube, así que si la cámara se rompe o la roban junto con la grabación adentro, se pierde lo guardado.",
+      "ejemploHogar": "La instalás con la base magnética en el marco metálico de la puerta de entrada o, si la pared es de otro material, con el soporte a tornillo incluido. Cuando pasa algo de noche —alguien toca timbre, un auto entra al garaje— la app te avisa al toque, y si querés repasar qué pasó el fin de semana que no estabas, el clip ya está guardado adentro de la cámara, sin tener que entrar a ninguna app de pago para verlo.",
+      "ejemploNegocio": "Un depósito, taller o local chico que necesita cubrir varios puntos ciegos (entrada de mercadería, estacionamiento, portón trasero) con dos o tres cámaras: pagar una suscripción de nube por cada una suma rápido mes a mes, así que el almacenamiento local gratis de esta cámara evita ese costo recurrente multiplicado por la cantidad de equipos instalados.",
+      "puntosClave": [
+        "La base magnética solo agarra bien en superficies de metal (marco de puerta, chapa, reja) — en madera, revoque o siding de vinilo hace falta usar el soporte a tornillo que también viene incluido. Confirmá en qué superficie la vas a instalar antes de comprar.",
+        "Solo habla WiFi 2.4GHz, no 5GHz — igual que la mayoría de las cámaras de batería de este rubro, pero conviene confirmarlo si tu router separa ambas bandas con nombres distintos.",
+        "El almacenamiento de 8GB es local y sin respaldo en la nube: no hay Matter, Zigbee, ni cloud backup — si la cámara se daña más allá de lo que cubre el IP66, se moja de más, o se la llevan junto con la grabación, el clip se pierde. Para quien quiera redundancia en la nube, sigue siendo una suscripción aparte y opcional."
+      ],
+      "consejoInversion": "Frente a la Tapo C402 ya lista en este catálogo, la Noorio B210 no es estrictamente 'mejor': cuesta $10 más, pero ese extra se recupera solo con no tener que comprar una tarjeta microSD o pagar Tapo Care para poder repasar grabaciones viejas — a dos o tres cámaras instaladas, la diferencia de no pagar suscripción mensual se nota rápido en el bolsillo. El IP66 (un escalón por encima del IP65 de la Tapo) y casi 5 veces más reseñas confirmadas (4.278 contra 853) suman tranquilidad extra para dejarla a la intemperie. Elegir entre las dos no es un error en ningún sentido: es decidir si preferís pagar una vez por el almacenamiento (Noorio) o tener más opciones de integración con el ecosistema Tapo que ya tengas instalado (Tapo C402)."
+    },
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's another outdoor security camera — like this catalog's Tapo C402, it's a guard watching your door, yard, or storefront entrance without needing new wiring, since it runs on battery. The real difference is how it stores what it records: instead of forcing you to buy a separate memory card or pay a monthly subscription to review old footage (like the Tapo C402 does), this camera already comes with its own built-in 'memory' — 8GB, good for around 3,000 short clips, at no extra cost and no monthly fee. One catch: that storage is local only, with no cloud backup, so if the camera breaks or gets stolen along with the recording inside it, whatever was saved is gone too.",
+      "ejemploHogar": "You mount it using the magnetic base on the metal frame of your front door, or, if the wall is a different material, with the included screw bracket instead. When something happens at night — someone rings the bell, a car pulls into the driveway — the app alerts you right away, and if you want to check what happened over a weekend you were away, the clip is already saved inside the camera, with no paid app to open first.",
+      "ejemploNegocio": "A storeroom, workshop, or small shop that needs to cover a few blind spots (the loading entrance, the parking area, a back gate) with two or three cameras: paying a cloud subscription for each one adds up fast month after month, so this camera's free local storage avoids that recurring cost multiplied by however many units you install.",
+      "puntosClave": [
+        "The magnetic base only grips well on metal surfaces (a door frame, sheet metal, a gate) — on wood, stucco, or vinyl siding you need the included screw bracket instead. Confirm what surface you're mounting it on before buying.",
+        "It only speaks 2.4GHz WiFi, not 5GHz — the same limitation most battery cameras in this category have, but worth checking if your router splits the two bands under different network names.",
+        "The 8GB of storage is local with no cloud backup: no Matter, no Zigbee, no cloud redundancy — if the camera is damaged beyond what the IP66 rating covers, gets too wet, or is stolen along with the footage inside it, that clip is gone. If you want cloud redundancy too, that's still a separate, optional subscription."
+      ],
+      "consejoInversion": "Compared to this catalog's Tapo C402, the Noorio B210 isn't strictly 'better' — it costs $10 more, but that gap pays for itself just by skipping the microSD card or Tapo Care subscription you'd need to review old footage on the Tapo. With two or three cameras installed, not paying a monthly fee adds up fast. The IP66 rating (one notch above the Tapo's IP65) and nearly five times the confirmed reviews (4,278 versus 853) add extra peace of mind for leaving it outdoors. Choosing between the two isn't a mistake either way — it comes down to whether you'd rather pay once for storage (Noorio) or keep more integration options with a Tapo ecosystem you may already have installed (Tapo C402)."
+    },
+    "tags": [
+      "Cámara exterior",
+      "Almacenamiento local",
+      "Sin suscripción"
+    ],
+    "tagsEn": [
+      "Outdoor camera",
+      "Local storage",
+      "No subscription"
+    ],
+    "urlAfiliado": "https://www.amazon.com/dp/B09ZY9THZ1?tag=controltrazado-20",
+    "actualizadoEn": "2026-10-12",
+    "activo": true
   }
 ]
