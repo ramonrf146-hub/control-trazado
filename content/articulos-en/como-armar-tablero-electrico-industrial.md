@@ -63,6 +63,16 @@ In practice, this is the supply that powers this catalog's [8-](/en/productos/B0
 
 Speaking of PLCs: until now this catalog didn't have one of its own, only Modbus relay modules and gateways that need a separate brain to decide the logic. The [Migro PLC Ai Kit](/en/productos/B01M9GKS74) covers that gap — a 20-I/O board (12 DC inputs, 8 relay outputs) you program over USB with ladder logic and then let run on its own, no PC attached. Unlike the relay modules above, which need this same MEAN WELL supply to power on, the Migro **already ships with its own DIN rail power supply** (120/240VAC input, 24V DC output) — so if the only thing you need 24V DC for is the PLC, you can get started without buying the MEAN WELL separately; if you're also adding sensors or this catalog's Modbus relay modules, then the MEAN WELL earns its place so you don't need a separate wall adapter per device. One real limit to flag: the Migro has no RS485/Modbus port, so it doesn't join the same bus as those modules — its 8 relay outputs are the only way it controls equipment, wired directly.
 
+Those 12 DC inputs on the Migro are exactly where this catalog's [Taiss LJ12A3-4-Z/AX inductive proximity sensor (2-pack)](/en/productos/B073XDKM9S) comes in: it detects metal without touching it, from up to 4mm away, so it works as a contactless limit switch that tells the PLC when a metal part has reached the end of its travel — no mechanical microswitch wearing down from daily contact. One wiring detail to watch for: it's NPN NC (normally closed), the opposite logic from the more common NPN NO, so confirm which one the Migro's input expects before trusting your program's sequence — with the wrong type, the wiring still works, but the logic ends up inverted.
+
+### NPN vs. PNP: how not to invert the logic, on video
+
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/r-hB_I6lWcM" title="The Simple Way to Wire NPN and PNP Sensors to Click PLC" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+This video from ACC Automation explains, on a real PLC, the difference between NPN and PNP sensors and why it has to match the controller's input type — the same check that applies when wiring this ranking's Taiss (NPN) sensor to the Migro's DC inputs.
+
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/T445BPCXvE0" title="DIN Rail Introduction: Why &amp; How to choose MEAN WELL DIN Rail PSU" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>

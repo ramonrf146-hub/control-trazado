@@ -3585,7 +3585,7 @@
     "precio": 19.99,
     "moneda": "USD",
     "imagen": "https://m.media-amazon.com/images/I/618diA1Rm5L._AC_UL320_.jpg",
-    "rating": 5.0,
+    "rating": 5,
     "numResenas": 10,
     "ranking": 44,
     "notaTecnica": "Placa de montaje en riel DIN (35mm) que convierte un conector RJ45 8P8C en 9 bornes a tornillo, con una resistencia de 120Ω incorporada que se puede sumar o dejar afuera del circuito según un puente/selector de la propia placa — pensada para Ethernet/DMX512/RS485/RS422/RS232. No es un cable de potencia: está clasificada para 0,5A/100V, nivel de señal, no de carga. Confirmado en vivo: ASIN B0BBQHMGJG, $19.99, 5.0★ con 10 reseñas (bloque propio acrCustomerReviewLink ligado al ASIN correcto, sin contaminación cruzada — se descartó un histograma de 2/1/4/7/86 estrellas que aparecía en el mismo HTML porque pertenecía a un producto de ad totalmente distinto, ASIN B0CY3DFWX2).",
@@ -3780,5 +3780,56 @@
     "urlAfiliado": "https://www.amazon.com/dp/B09ZY9THZ1?tag=controltrazado-20",
     "actualizadoEn": "2026-10-12",
     "activo": true
+  },
+  {
+    "asin": "B073XDKM9S",
+    "nombre": "Taiss Sensor de Proximidad Inductivo LJ12A3-4-Z/AX (Pack de 2) — NPN NC, Rosca M12",
+    "categoria": "control-industrial-b2b",
+    "precio": 11.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/51TLx-mG+aL._AC_UL320_.jpg",
+    "rating": 4.2,
+    "numResenas": 80,
+    "ranking": 46,
+    "notaTecnica": "Sensor de proximidad inductivo cilíndrico con rosca M12 (12mm), modelo LJ12A3-4-Z/AX, que detecta objetos metálicos sin tocarlos a hasta 4mm de distancia. Salida de 3 hilos (marrón = +V, azul = GND, negro = señal), tipo NPN NC (normalmente cerrado): sin metal cerca la señal está activa, y se abre al detectar el metal — es la lógica inversa a la más común NPN NO, así que hay que confirmar el tipo antes de cablearlo a una entrada digital de PLC o relé. Alimentación DC 6-36V, corriente de salida máxima 300mA, carcasa metálica con cable de 1,16m. Se vende en pack de 2 unidades, $11.99 el pack — pensado como entrada de campo para el Migro PLC Ai Kit u otro controlador/relé de este catálogo con entradas digitales DC. Confirmado en vivo: ASIN B073XDKM9S, \"In Stock\" en primary-availability-message, precio $11.99 en el bloque mobile_buybox_group_1, rating/reseñas en el bloque propio acrCustomerReviewLink pegado al title_feature_div exacto del producto (4.2★, \"80 Reviews\"), sin contaminación cruzada; marca Taiss y modelo LJ12A3-4-Z/AX confirmados en feature-bullets.",
+    "idealPara": "Agregar una entrada de detección de metal (fin de carrera sin contacto, conteo de piezas, posición de una pieza móvil) a un PLC o relé Modbus de este catálogo que tenga entradas digitales DC — sin cablear un sensor mecánico de fin de carrera que se desgasta con el roce.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un detector de metal sin contacto: imaginá un cable invisible que se \"pincha\" apenas un objeto de metal entra en su rango — a diferencia de un sensor mecánico de fin de carrera, que necesita que la pieza lo toque y empuje una palanca, este lo siente a distancia (hasta 4mm) sin roce, así que no se desgasta ni se traba con el uso. Internamente genera un campo electromagnético chico desde la punta: cuando un metal entra en ese campo, el sensor cambia el estado de su salida eléctrica, la misma señal de encendido/apagado que entendería un botón o un fin de carrera común. Se atornilla en una rosca M12 estándar (la misma que usan sensores de decenas de marcas), así que conseguir una tuerca de montaje o un reemplazo el día de mañana no depende de esta marca puntual.",
+      "ejemploHogar": "En un taller o garaje con proyectos propios de automatización (una impresora 3D casera, un portón corredizo armado a medida, una cinta transportadora de juguete para un proyecto de robótica), este sensor hace de \"fin de carrera sin contacto\": detecta cuándo una pieza metálica llegó al límite de su recorrido sin que haga falta tocarla ni desgastar un microswitch mecánico con el uso diario.",
+      "ejemploNegocio": "En una línea de producción chica o un taller que arma su automatización con el Migro PLC Ai Kit de este catálogo, se usa para contar piezas metálicas que pasan por una cinta, confirmar que una compuerta de metal cerró del todo, o detectar la posición de un carro antes de que el PLC dispare la siguiente secuencia — una entrada de campo robusta y barata que no depende de contacto físico repetido para no fallar.",
+      "puntosClave": [
+        "Confirmá el tipo de salida antes de cablear: este modelo es NPN NC (normalmente cerrado) — al revés del NPN NO más común. Si tu PLC o relé espera la lógica contraria, el cableado funciona técnicamente pero la secuencia de tu programa queda invertida (activa cuando no hay metal, en vez de al revés).",
+        "Solo detecta metal, y a muy corta distancia (4mm) — no sirve para plástico, madera ni vidrio, y no detecta nada más allá de medio centímetro. Medí el espacio real de montaje antes de comprar, porque el sensor no se puede \"estirar\" más allá de esa distancia física.",
+        "80 reseñas reales a 4.2★ es un historial corto para una marca sin trayectoria reconocida (Taiss) — conviene aprovechar que viene en pack de 2 para tener un repuesto a mano, no solo una unidad sin margen si falla la primera."
+      ],
+      "consejoInversion": "Frente a un sensor genérico sin marca ni reseñas que se consigue a un precio parecido, pagar por un modelo con 80 reseñas confirmadas reduce el riesgo real de que llegue una unidad defectuosa de fábrica y arruine el arranque de un proyecto de automatización recién armado. Al venir en pack de 2 por el mismo precio que muchas unidades sueltas de la competencia, ya tenés el repuesto resuelto sin comprar dos veces — y al ser rosca M12 estándar, si en el futuro necesitás otro rango de detección o una marca distinta, la tuerca de montaje y el agujero ya hecho sirven igual."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B073XDKM9S?tag=controltrazado-20",
+    "actualizadoEn": "2026-10-13",
+    "tags": [
+      "Sensor de proximidad",
+      "PLC",
+      "Entrada digital"
+    ],
+    "activo": true,
+    "nombreEn": "Taiss LJ12A3-4-Z/AX Inductive Proximity Sensor (2-Pack) — NPN NC, M12 Thread",
+    "notaTecnicaEn": "Cylindrical M12-threaded (12mm) inductive proximity sensor, model LJ12A3-4-Z/AX, that detects metal objects without touching them from up to 4mm away. 3-wire output (brown = +V, blue = GND, black = signal), NPN NC (normally closed) type: with no metal nearby the signal is active, and it opens once metal is detected — the opposite logic from the more common NPN NO, so confirm the type before wiring it to a PLC or relay's digital input. DC 6-36V power, 300mA max output current, metal housing with a 1.16m cable. Sold as a 2-pack, $11.99 for the pair — built as a field input for this catalog's Migro PLC Ai Kit or any other controller/relay with DC digital inputs. Verified live: ASIN B073XDKM9S, \"In Stock\" in primary-availability-message, $11.99 price in the mobile_buybox_group_1 block, rating/reviews in the product's own acrCustomerReviewLink block tied to its exact title_feature_div (4.2 stars, \"80 Reviews\"), no cross-contamination; Taiss brand and LJ12A3-4-Z/AX model confirmed in the feature bullets.",
+    "idealParaEn": "Adding a contactless metal-detection input (a limit switch with no physical contact, part counting, tracking a moving part's position) to a PLC or Modbus relay in this catalog with DC digital inputs — without wiring a mechanical limit switch that wears out from repeated contact.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a contactless metal detector: picture an invisible string that gets \"plucked\" the moment a metal object enters its range — unlike a mechanical limit switch, which needs the part to physically touch it and push a lever, this one senses metal from a short distance (up to 4mm) with no contact at all, so it doesn't wear out or jam with use. Inside, it generates a small electromagnetic field from its tip: when metal enters that field, the sensor flips its electrical output state, the same kind of on/off signal a button or a regular limit switch would send. It screws into a standard M12 thread (the same one dozens of brands use), so finding a mounting nut or a replacement down the road doesn't lock you into this specific brand.",
+      "ejemploHogar": "In a home workshop or garage running its own automation projects (a DIY 3D printer, a custom sliding gate, a toy conveyor belt for a robotics project), this sensor works as a contactless limit switch: it detects when a metal part has reached the end of its travel without needing to touch it or wear down a mechanical microswitch from daily use.",
+      "ejemploNegocio": "On a small production line or workshop building automation around this catalog's Migro PLC Ai Kit, it's used to count metal parts moving along a belt, confirm a metal gate closed all the way, or detect a cart's position before the PLC triggers the next step in the sequence — a cheap, rugged field input that doesn't depend on repeated physical contact to keep working.",
+      "puntosClave": [
+        "Confirm the output type before wiring it in: this model is NPN NC (normally closed) — the opposite of the more common NPN NO. If your PLC or relay expects the other logic, the wiring still works electrically, but your program's sequence ends up inverted (active when there's no metal, instead of the other way around).",
+        "It only detects metal, and only at a very short range (4mm) — it won't work on plastic, wood, or glass, and it can't sense anything more than about a fifth of an inch away. Measure your actual mounting gap before buying, since the sensor can't be \"stretched\" past that physical distance.",
+        "80 real reviews at 4.2 stars is a short track record for a brand without much name recognition (Taiss) — it's worth taking advantage of the 2-pack to have a spare on hand, rather than relying on a single unit with no margin if the first one fails."
+      ],
+      "consejoInversion": "Compared to an unbranded sensor with no reviews at a similar price, paying for a model with 80 confirmed reviews cuts the real risk of getting a factory-defective unit that derails a freshly built automation project. Since it ships as a 2-pack for roughly the price of a single unit from many competitors, you already have a spare sorted out without buying twice — and because it uses a standard M12 thread, if you need a different sensing range or a different brand down the road, the mounting nut and the hole you already drilled still work."
+    },
+    "tagsEn": [
+      "Proximity sensor",
+      "PLC",
+      "Digital input"
+    ]
   }
 ]
