@@ -65,6 +65,8 @@ Speaking of PLCs: until now this catalog didn't have one of its own, only Modbus
 
 Those 12 DC inputs on the Migro are exactly where this catalog's [Taiss LJ12A3-4-Z/AX inductive proximity sensor (2-pack)](/en/productos/B073XDKM9S) comes in: it detects metal without touching it, from up to 4mm away, so it works as a contactless limit switch that tells the PLC when a metal part has reached the end of its travel — no mechanical microswitch wearing down from daily contact. One wiring detail to watch for: it's NPN NC (normally closed), the opposite logic from the more common NPN NO, so confirm which one the Migro's input expects before trusting your program's sequence — with the wrong type, the wiring still works, but the logic ends up inverted.
 
+If the part you need to detect isn't metal, though, or you need to close a control load directly without going through a digital input, this catalog's [BAOMAIN WLCA12-2-Q limit switch](/en/productos/B01HHN1LBY) is the other half of this same gap: an adjustable roller lever with 1NO+1NC contacts rated up to 10A/380VAC — real power, not just a PLC-level signal like the Taiss (300mA max NPN output) — so you can wire it straight into a contactor or relay's coil with no relay in between. The trade-off: being real physical contact, it wears down with repeated cycling, exactly the limitation the Taiss avoids; for very high-frequency cycling the contactless sensor is the better fit, while for occasional cycling or anything that needs to switch more current, this mechanical limit switch is the one to use.
+
 ### NPN vs. PNP: how not to invert the logic, on video
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">

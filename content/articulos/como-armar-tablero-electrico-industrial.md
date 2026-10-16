@@ -65,6 +65,8 @@ Hablando de PLC: hasta ahora este catálogo no tenía ninguno propio, solo módu
 
 Esas 12 entradas DC del Migro son justo donde entra el [sensor de proximidad inductivo Taiss LJ12A3-4-Z/AX (pack de 2)](/productos/B073XDKM9S) de este catálogo: detecta metal sin tocarlo, a hasta 4mm de distancia, así que funciona como un fin de carrera sin contacto para avisarle al PLC cuándo una pieza metálica llegó al límite de su recorrido — sin el microswitch mecánico que se desgasta con el roce diario. Ojo al cablearlo: es tipo NPN NC (normalmente cerrado), la lógica inversa a la más común NPN NO, así que confirmá cuál espera la entrada del Migro antes de dar por buena la secuencia de tu programa — con el tipo equivocado, el cableado funciona igual pero la lógica queda invertida.
 
+Si en cambio la pieza a detectar no es metálica, o necesitás cerrar directo una carga de control sin pasar por una entrada digital, el [fin de carrera BAOMAIN WLCA12-2-Q](/productos/B01HHN1LBY) es la otra mitad de este mismo hueco: palanca con rodillo ajustable, contactos 1NA+1NC de hasta 10A/380VAC — potencia real, no solo señal de PLC como el Taiss (salida NPN de 300mA máximo) — así que podés cablearlo directo a la bobina de un contactor o relé sin relé intermedio. La contrapartida: al ser de contacto físico real, se desgasta con el roce repetido, justo la limitación que el Taiss evita; para un recorrido de ciclado muy frecuente conviene el sensor sin contacto, y para uno ocasional o que necesite manejar más corriente, este fin de carrera mecánico.
+
 ### NPN vs. PNP: cómo no invertir la lógica, en video
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
