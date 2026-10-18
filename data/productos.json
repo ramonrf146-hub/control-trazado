@@ -754,41 +754,41 @@
     "moneda": "USD",
     "imagen": "https://m.media-amazon.com/images/I/61FuhkC76-L._SX522_.jpg",
     "rating": 4.5,
-    "numResenas": 4435,
+    "numResenas": 4506,
     "ranking": 4,
-    "notaTecnica": "Enchufe inteligente listo para usar, sin instalación en tablero — se enchufa y se controla por app. Funciona con Alexa y Google Home, pero primero hay que vincularlo a la app GHome (no se conecta directo a los asistentes). Solo soporta WiFi 2.4GHz (no 5GHz) y no tiene salida de contacto seco como el SONOFF que ya está en el ranking, así que no sirve para conmutar una carga externa dentro de un tablero — es para enchufar electrodomésticos directamente.",
-    "idealPara": "Enchufar electrodomésticos directo y controlarlos por Alexa/Google Home sin instalación — no sirve para conmutar una carga externa dentro de un tablero.",
+    "notaTecnica": "Enchufe inteligente WiFi más básico y barato del ranking — se enchufa directo al tomacorriente y se controla por la app GHome, sin instalación en tablero. Reverificado en vivo el 2026-10-18 con curl --compressed vía el endpoint móvil amazon.com/gp/aw/d/ASIN con header de iPhone Safari: primary-availability-message = \"In Stock\", precio sin cambios ($9.99), rating sin cambios (4.5★) y reseñas actualizadas de 4.435 a 4.506 (bloque propio acrCustomerReviewLink, \"4.5 out of 5 stars (4,506)\"), marca GHome Smart y ASIN B0FD6CYBNH confirmados sin contaminación cruzada en la tabla de detalles del producto (modelo WP3, carcasa de policarbonato). Specs reales de feature-bullets que la nota técnica anterior no tenía: 10A/1200W a 120V, certificación ETL + FCC, conexión WiFi 2.4GHz reforzada con Bluetooth (el Bluetooth es solo para el emparejamiento inicial más estable, no agrega control por esa vía) y función de control por grupos (agrupar varios enchufes GHome y prenderlos/apagarlos juntos con un solo toque). Sigue sin salida de contacto seco (no sirve para instalar dentro de un tablero, a diferencia del SONOFF Mini-D de este ranking) y solo WiFi 2.4GHz (no 5GHz).",
+    "idealPara": "Enchufar electrodomésticos directo y controlarlos por Alexa/Google Home sin instalación — no sirve para conmutar una carga externa dentro de un tablero, y su límite real es 10A/1200W a 120V.",
     "guiaCompra": {
-      "queEsYParaQueSirve": "Es la versión más chica y barata de un enchufe inteligente WiFi: se enchufa a la pared y te deja prender/apagar lo que conectes ahí desde el celular o con la voz.",
-      "ejemploHogar": "Enchufás una guirnalda de luces navideñas o un calefactor portátil y programás que se apague solo a cierta hora, sin tener que acordarte.",
-      "ejemploNegocio": "Un pequeño local puede usarlo para automatizar el encendido de un cartel luminoso o un ventilador de vidriera con una inversión mínima.",
+      "queEsYParaQueSirve": "Es la versión más chica y barata de un enchufe inteligente WiFi: pensalo como un control remoto para cualquier cosa que enchufes a la pared — se enchufa ahí y te deja prender/apagar lo conectado desde el celular o con la voz, sin tocar cableado ni abrir ninguna caja.",
+      "ejemploHogar": "Enchufás una guirnalda de luces navideñas o una lámpara de pie y programás que se apaguen solas a cierta hora, sin tener que acordarte — el consumo de ese tipo de aparatos queda muy por debajo del límite de 1200W de este enchufe.",
+      "ejemploNegocio": "Un pequeño local puede usarlo para automatizar el encendido de un cartel luminoso o un ventilador de vidriera con una inversión mínima, y agrupar varios enchufes GHome del mismo local para prenderlos todos juntos con un solo toque en vez de uno por uno.",
       "puntosClave": [
-        "Funciona con Alexa y Google Home, pero primero hay que vincularlo a la app GHome — no se conecta directo a los asistentes de voz.",
-        "Solo soporta WiFi de 2.4GHz, no 5GHz — confirmá que tu router tenga esa banda disponible.",
-        "No tiene salida de contacto seco como el switch SONOFF de este ranking, así que no sirve para instalar dentro de un tablero — es solo para enchufar aparatos directamente."
+        "Hay que vincularlo primero a la app GHome — no se conecta directo a Alexa/Google Home — y solo funciona en WiFi 2.4GHz, no 5GHz (confirmá que tu router tenga esa banda).",
+        "No tiene salida de contacto seco como el switch SONOFF Mini-D de este ranking, así que no sirve para instalar dentro de un tablero — es solo para enchufar aparatos directo a la pared.",
+        "Su límite real, confirmado en la ficha, es 10A/1200W a 120V: antes de enchufar algo que calienta (un calefactor portátil, una plancha, un secador de pelo), revisá su etiqueta de consumo — la mayoría de los calefactores portátiles comunes son de 1.500W y superan este límite, lo que puede sobrecalentar el enchufe con el uso sostenido."
       ],
-      "consejoInversion": "Es la puerta de entrada más barata a la domótica: para alguien que nunca probó un enchufe inteligente, esta es la forma de más bajo riesgo y costo de empezar, aunque para proyectos más ambiciosos vas a necesitar equipos con más funciones como los otros de este ranking."
+      "consejoInversion": "Es la puerta de entrada más barata a la domótica, pero \"barato\" no significa sin respaldo: viene certificado ETL y FCC (una marca de seguridad eléctrica reconocida en EE.UU. que un enchufe clon sin marca casi nunca tiene) y ya acumula más de 4.500 reseñas reales a 4.5★. Con la electrónica conectada directo a la red eléctrica de tu casa, esa certificación es justo el tipo de detalle que no conviene resignar por ahorrarte unos pesos: un enchufe sin certificación que falla puede recalentarse sin ningún corte de seguridad de por medio. Para proyectos más ambiciosos (tablero, contacto seco) vas a necesitar equipos con más funciones como los otros de este ranking."
     },
     "urlAfiliado": "https://www.amazon.com/dp/B0FD6CYBNH?tag=controltrazado-20",
-    "actualizadoEn": "2026-08-26",
+    "actualizadoEn": "2026-10-18",
     "tags": [
       "WiFi 2.4GHz",
       "Alexa/Google",
       "Plug&Play"
     ],
     "nombreEn": "GHome Smart Mini WiFi Smart Plug",
-    "notaTecnicaEn": "A ready-to-use smart plug, no panel installation needed — you plug it in and control it from an app. Works with Alexa and Google Home, but you need to link it to the GHome app first (it doesn't connect directly to the assistants). Only supports 2.4GHz WiFi (not 5GHz) and has no dry-contact output like the SONOFF already in this ranking, so it can't switch an external load inside a panel — it's for plugging in appliances directly.",
-    "idealParaEn": "Plugging in appliances directly and controlling them via Alexa/Google Home with no installation — doesn't work for switching an external load inside a panel.",
+    "notaTecnicaEn": "The ranking's most basic, cheapest WiFi smart plug — plugs straight into the wall outlet and is controlled through the GHome app, no panel installation needed. Re-verified live on 2026-10-18 with curl --compressed via the mobile endpoint amazon.com/gp/aw/d/ASIN with an iPhone Safari header: primary-availability-message = \"In Stock\", price unchanged ($9.99), rating unchanged (4.5 stars), and reviews updated from 4,435 to 4,506 (the listing's own acrCustomerReviewLink block, \"4.5 out of 5 stars (4,506)\"), GHome Smart brand and ASIN B0FD6CYBNH confirmed with no cross-contamination in the product details table (model WP3, polycarbonate housing). Real specs from the feature bullets that the previous note didn't have: 10A/1200W at 120V, ETL + FCC certification, 2.4GHz WiFi connection reinforced with Bluetooth (Bluetooth is only for a more stable initial pairing, it doesn't add control over that link), and a group-control feature (grouping several GHome plugs and turning them on/off together with one tap). It still has no dry-contact output (can't be installed inside a panel, unlike this ranking's SONOFF Mini-D) and is 2.4GHz WiFi only (no 5GHz).",
+    "idealParaEn": "Plugging in appliances directly and controlling them via Alexa/Google Home with no installation — doesn't work for switching an external load inside a panel, and its real limit is 10A/1200W at 120V.",
     "guiaCompraEn": {
-      "queEsYParaQueSirve": "It's the smallest, cheapest version of a WiFi smart plug: you plug it into the wall and it lets you turn whatever's connected on or off from your phone or with your voice.",
-      "ejemploHogar": "You plug in a string of holiday lights or a portable heater and schedule it to turn off by itself at a certain time, without having to remember.",
-      "ejemploNegocio": "A small store can use it to automate turning a lit sign or window fan on and off with minimal investment.",
+      "queEsYParaQueSirve": "It's the smallest, cheapest version of a WiFi smart plug: think of it as a remote control for anything you plug into a wall outlet — it plugs in there and lets you turn whatever's connected on or off from your phone or with your voice, with no wiring or boxes to open.",
+      "ejemploHogar": "You plug in a string of holiday lights or a floor lamp and schedule it to turn off by itself at a certain time, without having to remember — that kind of appliance draws well under this plug's 1200W limit.",
+      "ejemploNegocio": "A small store can use it to automate turning a lit sign or a window fan on and off with minimal investment, and group several GHome plugs in the same store to switch them all together with one tap instead of one by one.",
       "puntosClave": [
-        "Works with Alexa and Google Home, but you need to link it to the GHome app first — it doesn't connect directly to voice assistants.",
-        "Only supports 2.4GHz WiFi, not 5GHz — confirm your router has that band available.",
-        "Has no dry-contact output like the SONOFF switch in this ranking, so it can't be installed inside a panel — it's only for plugging in devices directly."
+        "You need to link it to the GHome app first — it doesn't connect directly to Alexa/Google Home — and it only works on 2.4GHz WiFi, not 5GHz (confirm your router has that band).",
+        "Has no dry-contact output like this ranking's SONOFF Mini-D switch, so it can't be installed inside a panel — it's only for plugging appliances straight into the wall.",
+        "Its real limit, confirmed on the listing, is 10A/1200W at 120V: before plugging in anything that generates heat (a portable heater, an iron, a hair dryer), check its wattage label — most common portable heaters are 1,500W and exceed this limit, which can overheat the plug under sustained use."
       ],
-      "consejoInversion": "It's the cheapest entry point into home automation: for someone who's never tried a smart plug, this is the lowest-risk, lowest-cost way to start, though for more ambitious projects you'll need devices with more features like the others in this ranking."
+      "consejoInversion": "It's the cheapest entry point into home automation, but \"cheap\" doesn't mean unbacked: it carries ETL and FCC certification (a recognized US electrical safety mark that an unbranded clone plug almost never has) and already has over 4,500 real reviews at 4.5 stars. With electronics wired straight into your home's power, that certification is exactly the kind of detail not worth skipping to save a few dollars: an uncertified plug that fails can overheat with no safety cutoff in the way. For more ambitious projects (a panel, dry-contact switching) you'll need devices with more features like the others in this ranking."
     },
     "tagsEn": [
       "WiFi 2.4GHz",
