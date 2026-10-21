@@ -7,6 +7,7 @@ import { getProductosPorCategoria } from "@/lib/productos";
 import { getDictionary, t, withLocale, type Locale } from "@/lib/i18n";
 import GridDeProductos from "@/components/GridDeProductos";
 import HojaInglesCTA from "@/components/HojaInglesCTA";
+import { recortar } from "@/lib/seo";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.controltrazado.com";
 
@@ -31,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: articulo.titulo,
-    description: articulo.descripcion,
+    description: recortar(articulo.descripcion),
     alternates: {
       canonical: locale === "en" ? `/en/articulos/${slug}` : `/articulos/${slug}`,
       languages: {
@@ -43,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       type: "article",
       title: articulo.titulo,
-      description: articulo.descripcion,
+      description: recortar(articulo.descripcion),
       publishedTime: articulo.fecha,
       images: imagenDestacada ? [imagenDestacada] : undefined,
     },

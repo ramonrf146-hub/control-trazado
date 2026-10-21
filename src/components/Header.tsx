@@ -8,7 +8,9 @@ import { getDictionary, t, withLocale, type Locale } from "@/lib/i18n";
 
 /** Convierte la ruta actual (ya sin el /en, ver proxy.ts) al equivalente en el otro idioma. */
 function rutaEnOtroIdioma(pathname: string, localeDestino: Locale): string {
-  const sinPrefijo = pathname.startsWith("/en") ? pathname.slice(3) || "/" : pathname;
+  // Durante el SSR, usePathname() devuelve la ruta interna reescrita por proxy.ts (/es/...),
+  // así que se quitan ambos prefijos para no generar enlaces rotos tipo /en/es/... o /es/...
+  const sinPrefijo = /^\/(en|es)(\/|$)/.test(pathname) ? pathname.slice(3) || "/" : pathname;
   return withLocale(sinPrefijo, localeDestino);
 }
 

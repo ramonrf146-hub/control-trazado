@@ -26,6 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const locale: Locale = lang === "en" ? "en" : "es";
 
   return {
+    title: { absolute: locale === "en" ? "AutomatizaLab — Monthly automation and control ranking" : "AutomatizaLab — Ranking mensual de automatización y control" },
     description:
       locale === "en"
         ? "Monthly ranking with technical criteria of home automation and B2B industrial control hardware: WiFi plugs and relays, variable frequency drives, RS485/Modbus gateways."
