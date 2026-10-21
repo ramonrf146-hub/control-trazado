@@ -605,42 +605,42 @@
     "precio": 92.98,
     "moneda": "USD",
     "imagen": "https://m.media-amazon.com/images/I/51KEUVsLDNL._AC_SX425_.jpg",
-    "rating": 4.8,
-    "numResenas": 200,
+    "rating": 4.7,
+    "numResenas": 205,
     "ranking": 10,
-    "notaTecnica": "Misma familia que el cable de silicona 18AWG del ranking, en calibre más fino (22AWG, 60 hebras estañadas) para señal o cargas chicas, no para alimentación de potencia. Soporta -60°C a 200°C y 600V nominal, ideal para cableado interno de proyectos que se calientan (fuentes, drivers). También viene solo en rojo — necesitás el negro aparte — y en bobina de 1000 pies es una compra grande, no pensada para un proyecto puntual chico.",
+    "notaTecnica": "Misma familia que el cable de silicona 18AWG del ranking, en calibre más fino (22AWG, 60 hebras estañadas) para señal o cargas chicas, no para alimentación de potencia. Soporta -60°C a 200°C y 600V nominal, ideal para cableado interno de proyectos que se calientan (fuentes, drivers). También viene solo en rojo — necesitás el negro aparte — y en bobina de 1000 pies es una compra grande, no pensada para un proyecto puntual chico. $92.98, 4.7★, 205 reseñas — reverificado en vivo con curl --compressed vía el endpoint móvil amazon.com/gp/aw/d/ASIN con header de iPhone Safari: botón real add-to-cart-button dentro del contenedor principal id=\"buybox\" (0 apariciones de id=\"unqualifiedBuyBox\"), precio $92.98 sin cambios en mobile_buybox_group_1, rating/reseñas actualizados de 4.8★/200 a 4.7★/205 en el bloque propio pqv-ratings y en la fila \"Customer Reviews\" de prodDetAttrValue, ambos ligados al mismo ASIN B08S6PTM95 (124 referencias a data-csa-c-asin=\"B08S6PTM95\" en la página, sin contaminación cruzada), imagen principal confirmada (misma landingImageUrl que ya tenía esta ficha). El mensaje de disponibilidad explícito vino vacío en este chequeo (no es señal de alerta en un producto ya comprado y con historial real: a diferencia de un candidato nuevo sin reseñas, acá lo que importa es que el buybox esté calificado y el botón de compra esté presente, y ambos lo están).",
     "idealPara": "Señal o cargas chicas en proyectos que se calientan, no para alimentación de potencia — es la versión más fina del cable de silicona 18AWG de este ranking.",
     "guiaCompra": {
-      "queEsYParaQueSirve": "Es la versión más fina del mismo cable de silicona de arriba: pensalo como el cable de señal en vez del cable de fuerza, no está hecho para mover mucha corriente sino para llevar señales o alimentar componentes chicos que no consumen mucho.",
-      "ejemploHogar": "Cableado interno de un proyecto electrónico casero (sensores, señales de control) que se calienta un poco y necesita un cable que no se ponga rígido.",
-      "ejemploNegocio": "Un taller que arma drivers o fuentes chicas usa este calibre más fino para las conexiones de señal, reservando el cable más grueso (18AWG) para las conexiones de potencia.",
+      "queEsYParaQueSirve": "Es la versión más fina del mismo cable de silicona de arriba: pensalo como el cable de señal en vez del cable de fuerza, no está hecho para mover mucha corriente sino para llevar señales o alimentar componentes chicos que no consumen mucho. Por dentro son 60 hebras finas de cobre estañado (el estañado evita que el cobre se oxide y se vuelva quebradizo con el calor) envueltas en silicona en vez del PVC común — la silicona sigue siendo flexible incluso caliente o con frío extremo, mientras que el PVC se pone rígido y se puede agrietar.",
+      "ejemploHogar": "Cableado interno de un proyecto electrónico casero (sensores, señales de control, la pantalla o los botones de un panel DIY) que se calienta un poco cerca de una fuente o un driver y necesita un cable que no se ponga rígido ni se agriete con el tiempo.",
+      "ejemploNegocio": "Un taller que arma drivers, fuentes chicas o paneles de prueba usa este calibre más fino para las conexiones de señal y control (las que no mueven corriente real), reservando el cable más grueso de 18AWG de este mismo ranking para las conexiones de potencia — separar ambos calibres por función, no solo por color, ayuda a diagnosticar un tablero de un vistazo.",
       "puntosClave": [
-        "No es para alimentación de potencia — es para señal o cargas chicas. Si necesitás mover más corriente, el 18AWG de este ranking es lo correcto.",
-        "También viene solo en rojo, necesitás el negro aparte.",
-        "Se vende en bobina de 1000 pies — es una compra grande, no pensada para un proyecto puntual chico."
+        "No es para alimentación de potencia — es para señal o cargas chicas. Si necesitás mover más corriente, el 18AWG de este ranking es lo correcto; usar este calibre fino en una carga de potencia puede calentarlo más de lo seguro.",
+        "También viene solo en rojo: para cualquier circuito necesitás comprar el negro aparte (mismo fabricante, mismo calibre) para tener polaridad clara.",
+        "Se vende en bobina de 1000 pies — es una compra grande pensada para un taller o varios proyectos, no para un cableado puntual chico; para eso conviene buscar la misma marca en bobinas más cortas."
       ],
-      "consejoInversion": "Para cableado de señal en proyectos que se calientan, esta silicona mantiene su flexibilidad donde un cable PVC común se endurecería — pero solo tiene sentido comprarlo en esta cantidad si vas a usar bastante, porque es una bobina grande."
+      "consejoInversion": "Frente a un cable de señal genérico de PVC, que se endurece y puede agrietarse con el calor de una fuente o un driver cercano, esta silicona mantiene su flexibilidad en todo el rango de -60°C a 200°C — evita el riesgo de un cable rajado haciendo corto contra el gabinete meses después de instalado. Solo tiene sentido comprarlo en esta cantidad si vas a usar bastante: a precio por pie, rinde mejor que comprar varias bobinas chicas sueltas con el tiempo."
     },
     "urlAfiliado": "https://www.amazon.com/dp/B08S6PTM95?tag=controltrazado-20",
-    "actualizadoEn": "2026-08-26",
+    "actualizadoEn": "2026-10-21",
     "tags": [
       "22AWG",
       "Silicona",
       "60 hebras"
     ],
     "nombreEn": "BNTECHGO Silicone Wire 22AWG Red (1000ft Spool)",
-    "notaTecnicaEn": "Same family as the 18AWG silicone wire in this ranking, in a thinner gauge (22AWG, 60 tinned strands) for signal or small loads, not power. Rated -60°C to 200°C and 600V nominal, ideal for internal wiring of projects that run hot (supplies, drivers). Also comes only in red — you need black separately — and at a 1000ft spool it's a large purchase, not meant for a small one-off project.",
+    "notaTecnicaEn": "Same family as the 18AWG silicone wire in this ranking, in a thinner gauge (22AWG, 60 tinned strands) for signal or small loads, not power. Rated -60°C to 200°C and 600V nominal, ideal for internal wiring of projects that run hot (supplies, drivers). Also comes only in red — you need black separately — and at a 1000ft spool it's a large purchase, not meant for a small one-off project. $92.98, 4.7 stars, 205 reviews — re-verified live with curl --compressed via the mobile endpoint amazon.com/gp/aw/d/ASIN with an iPhone Safari header: a genuine add-to-cart-button inside the main id=\"buybox\" container (zero occurrences of id=\"unqualifiedBuyBox\"), unchanged $92.98 price in mobile_buybox_group_1, rating/reviews updated from 4.8 stars/200 to 4.7 stars/205 in the listing's own pqv-ratings block and in the \"Customer Reviews\" row of prodDetAttrValue, both tied to the same ASIN B08S6PTM95 (124 references to data-csa-c-asin=\"B08S6PTM95\" on the page, no cross-contamination), main image confirmed (same landingImageUrl this listing already had). The explicit availability message came back blank on this check (not a red flag for an already-purchased product with a real review history: unlike a brand-new unreviewed candidate, what matters here is that the buybox is qualified and the buy button is present, and both are).",
     "idealParaEn": "Signal or small loads in projects that run hot, not for power — it's the thinner version of the 18AWG silicone wire in this ranking.",
     "guiaCompraEn": {
-      "queEsYParaQueSirve": "It's the thinner version of the same silicone wire above: think of it as the signal cable instead of the power cable, not built to carry a lot of current but to carry signals or power small components that don't draw much.",
-      "ejemploHogar": "Internal wiring for a home electronics project (sensors, control signals) that gets a bit warm and needs a wire that won't turn stiff.",
-      "ejemploNegocio": "A shop building small drivers or supplies uses this thinner gauge for signal connections, reserving the thicker cable (18AWG) for power connections.",
+      "queEsYParaQueSirve": "It's the thinner version of the same silicone wire above: think of it as the signal cable instead of the power cable, not built to carry a lot of current but to carry signals or power small components that don't draw much. Inside it's 60 thin strands of tinned copper (the tin coating keeps the copper from oxidizing and turning brittle with heat) wrapped in silicone instead of common PVC — silicone stays flexible even when hot or in extreme cold, while PVC stiffens and can crack.",
+      "ejemploHogar": "Internal wiring for a home electronics project (sensors, control signals, the display or buttons on a DIY panel) that gets a bit warm near a supply or a driver and needs a wire that won't turn stiff or crack over time.",
+      "ejemploNegocio": "A shop building drivers, small supplies, or test panels uses this thinner gauge for signal and control connections (the ones that don't carry real current), reserving the thicker 18AWG cable in this same ranking for power connections — separating both gauges by function, not just color, makes a panel easier to diagnose at a glance.",
       "puntosClave": [
-        "It's not for power — it's for signal or small loads. If you need to carry more current, the 18AWG in this ranking is the right choice.",
-        "Also comes only in red, you need black separately.",
-        "Sold on a 1000ft spool — it's a large purchase, not meant for a small one-off project."
+        "It's not for power — it's for signal or small loads. If you need to carry more current, the 18AWG in this ranking is the right choice; using this thin gauge on a power load can heat it beyond safe limits.",
+        "Also comes only in red: for any circuit you'll need to buy the black one separately (same brand, same gauge) to keep polarity clear.",
+        "Sold on a 1000ft spool — a large purchase meant for a shop or several projects, not a small one-off wiring job; for that, look for the same brand in shorter spools."
       ],
-      "consejoInversion": "For signal wiring in projects that run hot, this silicone stays flexible where standard PVC wire would stiffen — but it only makes sense to buy this much if you're going to use a lot, since it's a large spool."
+      "consejoInversion": "Compared to a generic PVC signal wire, which stiffens and can crack from the heat of a nearby supply or driver, this silicone keeps its flexibility across the full -60°C to 200°C range — avoiding the risk of a cracked wire shorting against the enclosure months after installation. It only makes sense to buy this much if you're going to use a lot: per foot, it works out cheaper than buying several small spools separately over time."
     },
     "tagsEn": [
       "22AWG",
