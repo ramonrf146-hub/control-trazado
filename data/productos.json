@@ -4137,5 +4137,56 @@
       "22mm",
       "BAOMAIN"
     ]
+  },
+  {
+    "asin": "B07Y5ZWBCY",
+    "nombre": "TRENDnet TI-E50 — Switch Industrial No Administrado 5 Puertos, Riel DIN",
+    "categoria": "control-industrial-b2b",
+    "precio": 57.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/71EPYT9qQCL._AC_UL320_.jpg",
+    "rating": 4.4,
+    "numResenas": 115,
+    "ranking": 50,
+    "notaTecnica": "Switch Ethernet no administrado de 5 puertos Fast Ethernet (10/100Mbps), marca TRENDnet, modelo TI-E50 — pensado para montarse en riel DIN o pared dentro de un tablero industrial, a diferencia de un switch doméstico de plástico. Carcasa metálica con grado IP50, rango de temperatura de operación -40°C a 75°C, capacidad de conmutación total de 1Gbps, terminales a tornillo removibles de 4 pines para la alimentación (no viene con fuente incluida: usa el modelo TI-M6024, 12-56V DC, vendido aparte). Protección de por vida del fabricante (Lifetime Protection) y cumplimiento NDAA/TAA. $57.99, 4.4★, 115 reseñas — verificado en vivo con curl --compressed vía el endpoint móvil amazon.com/gp/aw/d/ASIN con header de iPhone Safari (ASIN obtenido de una búsqueda amazon.com/s?k=DIN+rail+ethernet+switch+5+port+unmanaged+industrial por el mismo endpoint; el primer intento fue bloqueado con el challenge bm-verify de Amazon, patrón ya documentado en sesiones anteriores, pero el segundo intento pasó sin bloqueo): mensaje de disponibilidad real \"In Stock\", botón real add-to-cart-button presente 4 veces dentro del contenedor principal id=\"buybox\", precio $57.99 en mobile_buybox_group_1, rating/reseñas en el bloque propio acrCustomerReviewLink ligado al title_feature_div exacto de esta ficha (4.4★, \"115 Reviews\"), marca TRENDnet y modelo TI-E50 confirmados en feature-bullets y en la tabla prodDetAttrValue, 124 referencias propias a data-csa-c-asin=\"B07Y5ZWBCY\" en la página. El único bloque ajeno detectado en el HTML fue un widget de \"frequently bought together\"/anuncio con un router GL.iNet completamente distinto — descartado por no pertenecer a esta ficha, sin contaminación en el precio/rating/reseñas usados acá. Se comparó contra otros 2 candidatos de la misma búsqueda, ambos también con buybox calificado: el WAGO 852-111 (B003L71YOU, $153.26, 4.7★ pero solo 10 reseñas) y el SODOLA (B0B5WG4GH5, $25.99, 4.6★ pero solo 6 reseñas) — se priorizó el TRENDnet por tener, por lejos, el historial de reseñas más largo (115) de los tres, además de ser una marca reconocida en redes/networking.",
+    "idealPara": "Conectar en red, dentro del mismo tablero, dos o más equipos Ethernet de este catálogo (gateway Waveshare, relé Modbus TCP de 30 canales, servidores seriales) que hoy no tienen forma de comunicarse entre sí sin un switch — no sirve si lo único que tenés es equipo RS485 puro sin ningún dispositivo Ethernet propio.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Es un repartidor de red: toma una sola conexión Ethernet que llega al tablero y la reparte en 5 puertos, para que varios equipos puedan hablar entre sí y con la red de la planta al mismo tiempo. Pensalo como una zapatilla eléctrica, pero para datos en vez de corriente: en vez de un solo enchufe para un aparato, tenés un solo cable de red convertido en cinco. A diferencia de un switch doméstico de plástico pensado para conectar la PC y el router de una casa, este viene en una carcasa metálica pensada para vivir dentro de un tablero caliente y se atornilla directo al riel DIN, igual que el resto de los componentes de este catálogo.",
+      "ejemploHogar": "En un taller o garage con un sistema propio armado con un PLC y un par de gateways Modbus de este catálogo (como en la guía de cómo armar un tablero eléctrico), este switch es lo que permite que el gateway RS485-a-Ethernet y el router de internet de la casa se conecten al mismo cable de red sin pelearse por el único puerto libre del router.",
+      "ejemploNegocio": "En una planta con el gateway Waveshare, un relé Ethernet de 30 canales y un servidor serial, todos dentro del mismo tablero, este switch los conecta a todos entre sí y a la red general de la planta desde un solo punto, sin tener que tirar un cable de red distinto desde cada equipo hasta el switch principal del otro lado del edificio.",
+      "puntosClave": [
+        "No trae fuente de alimentación incluida: usa el modelo TI-M6024 (12-56V DC) vendido aparte — pero acepta ese mismo rango, así que la fuente MEAN WELL de 24V DC de este catálogo lo alimenta sin comprar nada extra.",
+        "Es de 10/100Mbps (Fast Ethernet), no Gigabit — de sobra para equipo Modbus TCP/industrial, pero no para transferencias de datos pesadas como video o backups grandes.",
+        "El grado de protección de la carcasa es IP50 (contra polvo, no contra agua) — no es apto para instalarse a la intemperie como el gabinete QILIPSU IP67 de este mismo ranking, solo para dentro de un tablero ya protegido."
+      ],
+      "consejoInversion": "Frente a un switch doméstico genérico sin ningún bloque de reseñas propio confirmado en este nicho industrial, este TRENDnet ya es una marca reconocida en networking, con protección de por vida del fabricante y 115 reseñas respaldándolo — en un tablero donde un switch que se cuelga por sobrecalentamiento te deja sin monitoreo de toda la planta, pagar un poco más por una carcasa metálica pensada para esas temperaturas y por el respaldo de una marca establecida vale la tranquilidad de no tener que resolver ese problema a mitad de una producción."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B07Y5ZWBCY?tag=controltrazado-20",
+    "actualizadoEn": "2026-10-22",
+    "tags": [
+      "Ethernet",
+      "Riel DIN",
+      "TRENDnet"
+    ],
+    "activo": true,
+    "nombreEn": "TRENDnet TI-E50 — 5-Port Unmanaged Industrial DIN-Rail Switch",
+    "notaTecnicaEn": "Unmanaged 5-port Fast Ethernet (10/100Mbps) switch, brand TRENDnet, model TI-E50 — built for DIN-rail or wall mounting inside an industrial panel, unlike a plastic home switch. Metal housing rated IP50, operating temperature range -40°C to 75°C, 1Gbps total switching capacity, removable 4-pin screw terminals for power (no power supply included: it uses model TI-M6024, 12-56V DC, sold separately). Manufacturer Lifetime Protection and NDAA/TAA compliance. $57.99, 4.4 stars, 115 reviews — verified live with curl --compressed via the mobile endpoint amazon.com/gp/aw/d/ASIN with an iPhone Safari header (ASIN found via a search at amazon.com/s?k=DIN+rail+ethernet+switch+5+port+unmanaged+industrial through the same endpoint; the first attempt was blocked by Amazon's bm-verify challenge, a pattern already documented in previous sessions, but the second attempt went through with no block): real availability message \"In Stock\", a genuine add-to-cart-button appearing 4 times inside the main id=\"buybox\" container, $57.99 price in mobile_buybox_group_1, rating/reviews in the listing's own acrCustomerReviewLink block tied to this exact listing's title_feature_div (4.4 stars, \"115 Reviews\"), TRENDnet brand and TI-E50 model confirmed in the feature-bullets and in the prodDetAttrValue table, 124 of the page's own references to data-csa-c-asin=\"B07Y5ZWBCY\". The only unrelated block found in the raw HTML was a \"frequently bought together\"/ad widget for a completely different GL.iNet router — discarded as not belonging to this listing, with no contamination of the price/rating/reviews used here. Two other candidates from the same search were compared, both also with a qualified buy box: WAGO 852-111 (B003L71YOU, $153.26, 4.7 stars but only 10 reviews) and SODOLA (B0B5WG4GH5, $25.99, 4.6 stars but only 6 reviews) — TRENDnet was prioritized for having, by far, the longest review history (115) of the three, on top of being a recognized networking brand.",
+    "idealParaEn": "Networking two or more Ethernet devices from this catalog (the Waveshare gateway, the 30-channel Modbus TCP relay, serial servers) inside the same panel, which today have no way to talk to each other without a switch — it won't help if all you have is pure RS485 equipment with no Ethernet device of its own.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "It's a network splitter: it takes a single Ethernet connection reaching the panel and splits it into 5 ports, so several devices can talk to each other and to the plant network at the same time. Think of it as a power strip, but for data instead of electricity: instead of one outlet for one appliance, you get one network cable turned into five. Unlike a plastic home switch sold for connecting a PC and a router at home, this one comes in a metal housing built to live inside a hot panel and bolts straight onto a DIN rail, just like the rest of this catalog's components.",
+      "ejemploHogar": "In a home workshop or garage running its own setup built with a PLC and a couple of Modbus gateways from this catalog (as in the guide to building an electrical panel), this switch is what lets the RS485-to-Ethernet gateway and the home internet router share the same network cable without fighting over the router's one free port.",
+      "ejemploNegocio": "In a plant with the Waveshare gateway, a 30-channel Ethernet relay, and a serial server all inside the same panel, this switch ties all of them together and to the plant's general network from a single point, instead of running a separate network cable from each device all the way to the main switch on the other side of the building.",
+      "puntosClave": [
+        "It doesn't include a power supply: it uses model TI-M6024 (12-56V DC), sold separately — but it accepts that same range, so this catalog's 24V DC MEAN WELL supply powers it without buying anything extra.",
+        "It's 10/100Mbps (Fast Ethernet), not Gigabit — plenty for Modbus TCP/industrial traffic, but not for heavy data transfers like video or large backups.",
+        "The housing's protection rating is IP50 (dust, not water) — it's not fit for outdoor installation like this same ranking's QILIPSU IP67 enclosure, only for inside a panel that's already protected."
+      ],
+      "consejoInversion": "Compared to a generic home switch with no confirmed review history of its own in this industrial niche, this TRENDnet unit is already a recognized networking brand, backed by manufacturer Lifetime Protection and 115 reviews — in a panel where a switch that locks up from overheating leaves you blind to the whole plant's monitoring, paying a bit more for a metal housing built for those temperatures and for an established brand's backing is worth the peace of mind of not having to solve that problem in the middle of a production run."
+    },
+    "tagsEn": [
+      "Ethernet",
+      "DIN rail",
+      "TRENDnet"
+    ]
   }
 ]
