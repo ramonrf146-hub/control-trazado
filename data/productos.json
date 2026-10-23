@@ -507,41 +507,41 @@
     "precio": 22.99,
     "moneda": "USD",
     "imagen": "https://m.media-amazon.com/images/I/61EsHEooRzL._AC_SY355_.jpg",
-    "rating": 4.6,
-    "numResenas": 356,
+    "rating": 4.7,
+    "numResenas": 368,
     "ranking": 8,
-    "notaTecnica": "Pensada originalmente para ocultar cables de TV/computadora en un escritorio, no es un ducto certificado para tablero industrial — pero varias reseñas la usan igual para prolijar el cableado dentro de un gabinete de electrónica y funciona bien para eso a bajo costo. Es plástico delgado (una reseña la describe como \"cheap quality\" aunque cumple), se instala con cinta doble faz o tornillos, y no reemplaza un ducto ranurado rígido si necesitás algo estructural o resistente a la intemperie.",
-    "idealPara": "Prolijar cableado dentro de un gabinete de electrónica a bajo costo — no reemplaza un ducto rígido si necesitás algo estructural o para intemperie.",
+    "notaTecnica": "Canaleta abierta de cable (\"open slot wiring raceway\") de plástico blanco, pack de 8 tramos, sección aproximada de 1.18x1.57\" por tramo — pensada originalmente para ocultar cables de TV/computadora en un escritorio, no es un ducto certificado para tablero industrial pesado. Se fija con la cinta doble faz ya incluida en el dorso o con tornillos, y la tapa se abre a presión en toda su longitud para meter o sacar cables sin desarmar nada. Reverificada en vivo el 2026-10-23 con WebFetch directo sobre amazon.com/dp/B081GWZTB7: precio sin cambios ($22.99, confirmado dos veces en la misma página — en el bloque \"Frequently bought together\" con la etiqueta \"This item\" ligada al propio ASIN, y en el resumen de ofertas de terceros), \"In Stock\" confirmado en ese mismo bloque, rating actualizado de 4.6★/356 a 4.7★/368 reseñas (bloque propio acrPopover/acrCustomerReviewText). Vendido y despachado por Amazon (seller \"UMTele\"), con devolución/cambio de 30 días.",
+    "idealPara": "Prolijar cableado liviano dentro de un gabinete de electrónica a bajo costo — no reemplaza un ducto rígido si necesitás algo estructural o para intemperie.",
     "guiaCompra": {
-      "queEsYParaQueSirve": "Es un ductito plástico que se pega o atornilla a una superficie para esconder y ordenar cables sueltos, como el que usarías para prolijar los cables detrás de un escritorio, pero acá aprovechado dentro de un gabinete eléctrico.",
-      "ejemploHogar": "Ordenás los cables de tu proyecto de domótica casero dentro de una caja, evitando que queden sueltos y enredados.",
-      "ejemploNegocio": "Un técnico prolija el cableado dentro de un gabinete de electrónica de bajo costo, sin necesitar un ducto industrial certificado.",
+      "queEsYParaQueSirve": "Es un ductito plástico de dos piezas: una base que se pega o atornilla a una superficie, y una tapa que se encastra a presión arriba y se puede abrir en cualquier punto para meter o sacar cables. Pensalo como la funda de una manguera de jardín, pero para cables eléctricos: en vez de dejarlos sueltos y enredados, quedan todos metidos adentro de un mismo canal prolijo. Es exactamente el mismo producto que usarías para esconder los cables de la TV detrás de un escritorio — acá se aprovecha ese mismo ductito, pero puesto adentro de un gabinete eléctrico para ordenar el cableado entre el riel DIN y los bloques de terminales.",
+      "ejemploHogar": "En un proyecto de domótica casero armado dentro de una caja o gabinete chico (un PLC mini, un par de relés, cableado a 24V), esta canaleta ordena todos esos cables sueltos en un canal único, en vez de dejarlos flotando y enganchándose cada vez que se abre la tapa para revisar algo.",
+      "ejemploNegocio": "Un técnico que arma un tablero de control de bajo volumen (oficina técnica, taller, panel de prueba de banco) la usa para prolijar el cableado interno entre el riel DIN, los bloques de terminales y los relés — rápido de instalar y mucho más barato que un ducto ranurado industrial, para un tablero que no va a estar a la intemperie ni sometido a vibración o calor extremo.",
       "puntosClave": [
-        "No es un ducto certificado para tablero industrial pesado — es plástico delgado pensado originalmente para cables de escritorio.",
-        "No reemplaza un ducto ranurado rígido si necesitás algo estructural o resistente a la intemperie.",
-        "Se instala con cinta doble faz o tornillos — confirmá que la superficie donde lo vas a pegar esté limpia y seca para que la cinta agarre bien."
+        "No es un ducto certificado para tablero industrial pesado: es plástico delgado pensado originalmente para cables de escritorio, aunque cumple bien dentro de un gabinete ya protegido.",
+        "No reemplaza un ducto ranurado rígido (tipo Panduit) si tu tablero necesita algo estructural, resistente al calor sostenido, o para exteriores/intemperie.",
+        "Se instala con la cinta doble faz que ya trae en el dorso o con tornillos — confirmá que la superficie esté limpia, seca y sin grasa para que la cinta agarre bien y no se despegue con el tiempo."
       ],
-      "consejoInversion": "Para prolijar cableado liviano dentro de un gabinete a bajo costo, cumple bien su función — pero si tu tablero va a estar sometido a mucho calor, peso o intemperie, conviene invertir en un ducto ranurado industrial más resistente en vez de arriesgar que este se rompa."
+      "consejoInversion": "Frente a dejar el cableado interno suelto (que con el tiempo se enreda, se puede pellizcar al cerrar la puerta del gabinete, o dificulta ubicar un cable específico durante un service), esta canaleta ordena todo por una fracción del costo de un ducto industrial certificado — la inversión real recién tiene sentido en un ducto rígido si el tablero va a vivir a la intemperie, con vibración constante, o con temperaturas que ablanden este plástico más liviano."
     },
     "urlAfiliado": "https://www.amazon.com/dp/B081GWZTB7?tag=controltrazado-20",
-    "actualizadoEn": "2026-08-26",
+    "actualizadoEn": "2026-10-23",
     "tags": [
       "Canaleta cable",
       "8 tramos"
     ],
     "nombreEn": "REFLYING Open Cable Raceway 8 Sections (White)",
-    "notaTecnicaEn": "Originally designed to hide TV/computer cables on a desk, it's not a certified duct for an industrial panel — but several reviews use it anyway to tidy wiring inside an electronics enclosure, and it works fine for that at low cost. It's thin plastic (one review calls it \"cheap quality\" though it does the job), installs with double-sided tape or screws, and doesn't replace a rigid slotted duct if you need something structural or weatherproof.",
-    "idealParaEn": "Tidying wiring inside an electronics enclosure at low cost — doesn't replace a rigid duct if you need something structural or for outdoor use.",
+    "notaTecnicaEn": "Open slot wiring raceway, white plastic, pack of 8 sections, approx. 1.18x1.57\" cross-section per section — originally designed to hide TV/computer cables on a desk, it is not a certified duct for a heavy industrial panel. It mounts with the double-sided tape already on the back or with screws, and the lid snaps open along its full length to add or remove cables without taking anything apart. Re-verified live on 2026-10-23 with WebFetch directly on amazon.com/dp/B081GWZTB7: price unchanged ($22.99, confirmed twice on the same page — in the \"Frequently bought together\" block under the \"This item\" label tied to this exact ASIN, and in the third-party offers summary), \"In Stock\" confirmed in that same block, rating updated from 4.6 stars/356 to 4.7 stars/368 reviews (own acrPopover/acrCustomerReviewText block). Sold and shipped by Amazon (seller \"UMTele\"), with a 30-day return/exchange window.",
+    "idealParaEn": "Tidying light wiring inside an electronics enclosure at low cost — doesn't replace a rigid duct if you need something structural or for outdoor use.",
     "guiaCompraEn": {
-      "queEsYParaQueSirve": "It's a small plastic duct that sticks or screws onto a surface to hide and organize loose cables, like the kind you'd use to tidy cables behind a desk, but used here inside an electrical enclosure instead.",
-      "ejemploHogar": "You tidy the cables of your home automation project inside a box, keeping them from ending up loose and tangled.",
-      "ejemploNegocio": "A technician tidies the wiring inside a low-cost electronics enclosure, without needing a certified industrial duct.",
+      "queEsYParaQueSirve": "It's a two-piece plastic duct: a base that sticks or screws onto a surface, and a lid that snaps on top and can be opened at any point to add or remove cables. Think of it like a garden hose sleeve, but for electrical cables: instead of leaving them loose and tangled, they all sit inside one tidy channel. It's the exact same product you'd use to hide TV cables behind a desk — here that same little duct is put to use inside an electrical enclosure, to organize the wiring between the DIN rail and the terminal blocks.",
+      "ejemploHogar": "In a home automation project built inside a small box or enclosure (a mini PLC, a couple of relays, 24V wiring), this raceway organizes all those loose cables into a single channel, instead of leaving them floating and snagging every time the lid is opened to check something.",
+      "ejemploNegocio": "A technician building a low-volume control panel (a technical office, a workshop, a benchtop test panel) uses it to tidy the internal wiring between the DIN rail, terminal blocks, and relays — quick to install and much cheaper than an industrial slotted duct, for a panel that won't be outdoors or exposed to vibration or extreme heat.",
       "puntosClave": [
-        "It's not a certified duct for a heavy industrial panel — it's thin plastic originally meant for desk cables.",
-        "It doesn't replace a rigid slotted duct if you need something structural or weatherproof.",
-        "It installs with double-sided tape or screws — make sure the surface you're sticking it to is clean and dry so the tape holds well."
+        "It's not a certified duct for a heavy industrial panel: it's thin plastic originally meant for desk cables, though it holds up fine inside an enclosure that's already protected.",
+        "It doesn't replace a rigid slotted duct (like Panduit) if your panel needs something structural, heat-resistant, or rated for outdoor use.",
+        "It installs with the double-sided tape already on the back or with screws — make sure the surface is clean, dry, and grease-free so the tape holds and doesn't peel off over time."
       ],
-      "consejoInversion": "For tidying light wiring inside an enclosure on a budget, it does the job well — but if your panel will be exposed to a lot of heat, weight, or outdoor conditions, it's worth investing in a more durable industrial slotted duct instead of risking this one breaking."
+      "consejoInversion": "Compared to leaving internal wiring loose (which over time tangles, can get pinched when the enclosure door closes, or makes it hard to trace a specific cable during a service call), this raceway organizes everything for a fraction of the cost of a certified industrial duct — the real case for a rigid duct only kicks in if the panel will live outdoors, under constant vibration, or at temperatures that would soften this lighter plastic."
     },
     "tagsEn": [
       "Cable raceway",
