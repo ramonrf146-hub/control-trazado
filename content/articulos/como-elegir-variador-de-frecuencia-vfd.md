@@ -1,9 +1,11 @@
 ---
-titulo: "Cómo elegir un variador de frecuencia (VFD) para tu taller"
+titulo: "VFD económico: cómo elegir un variador de frecuencia para un taller chico"
 fecha: "2026-08-25"
-descripcion: "Potencia, tipo de entrada/salida (monofásica a trifásica), control vectorial vs. V/F, y errores comunes al dimensionar un VFD."
+descripcion: "Cómo elegir un VFD de entrada: entrada monofásica a salida trifásica, potencia según la chapa del motor, control V/F vs vectorial y las protecciones que importan."
 categoria: "control-industrial-b2b"
 ---
+
+> **Cómo elegir un VFD de entrada en cuatro chequeos:** (1) entrada — si tu red es monofásica, el variador tiene que aceptar explícitamente entrada monofásica; (2) potencia — igual o un poco mayor a la del motor según su chapa, nunca menor; (3) control — V/F alcanza para ventiladores y bombas, vectorial para tornos y fresadoras que necesitan torque a bajas RPM; (4) protecciones — como mínimo sobrecorriente, sobretemperatura y cortocircuito.
 
 Un variador de frecuencia (VFD, por sus siglas en inglés) controla la velocidad de un motor de corriente alterna variando la frecuencia de la señal que le entrega, en vez de la forma tradicional de arrancar un motor directo a la línea. Para un torno, una fresadora, una bomba o un ventilador, eso significa control fino de velocidad, arranques suaves que no estresan mecánicamente el equipo, y en muchos casos ahorro de energía real.
 
@@ -46,3 +48,12 @@ En términos generales sí, siempre que la potencia y el voltaje coincidan — p
 
 **¿Un VFD ahorra energía de verdad?**
 Sí, especialmente en bombas y ventiladores donde la carga varía — controlar la velocidad en vez de estrangular el flujo mecánicamente (con una válvula, por ejemplo) reduce el consumo de forma medible. En aplicaciones de mecanizado el ahorro energético es secundario frente al beneficio de control de velocidad.
+
+**¿Cuál es el mejor VFD económico para un taller chico?**
+No hay un único mejor modelo: depende de tu red eléctrica y de tu motor. Partí de los cuatro chequeos de arriba: entrada monofásica si es lo único que tenés, potencia igual o un poco mayor a la chapa del motor, control V/F para ventiladores y bombas o vectorial para mecanizado, y protecciones básicas. El ranking de [Control Industrial B2B](/categorias/control-industrial-b2b) pone los modelos de entrada lado a lado.
+
+**¿Un variador monofásico puede mover un motor trifásico?**
+Sí — para eso existe un variador con entrada monofásica y salida trifásica. Revisá las notas del fabricante sobre la entrada monofásica, porque algunos hay que sobredimensionarlos para ese uso, y confirmá que el modelo lo soporte de forma explícita.
+
+**¿Cómo dimensiono un VFD para mi motor?**
+Leé la chapa del motor (HP o kW y corriente) y elegí un variador de capacidad igual o un poco mayor. Estar justo en el límite es lo que provoca disparos por sobrecorriente al arrancar.

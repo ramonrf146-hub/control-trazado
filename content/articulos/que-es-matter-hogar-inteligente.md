@@ -1,9 +1,11 @@
 ---
-titulo: "Qué es Matter y por qué te conviene en 2026 (aunque no lo sepas)"
+titulo: "Matter explicado: controlador vs Thread border router (2026)"
 fecha: "2026-08-29"
-descripcion: "Matter explicado en criollo: qué problema resuelve, cómo saber si un dispositivo lo tiene, y cuáles de este ranking lo soportan y cuáles no."
+descripcion: "Qué es Matter, la diferencia entre un controlador Matter y un Thread border router, cómo saber si un dispositivo lo soporta y cuáles de este ranking lo tienen."
 categoria: "automatizacion-hogar-inteligente"
 ---
+
+> **Matter en un párrafo:** Matter es un estándar de hogar inteligente que permite que dispositivos de distintas marcas funcionen juntos en Apple Home, Google Home, Alexa o Home Assistant. Un **controlador Matter** es el hub que empareja y controla tus dispositivos; un **Thread border router** conecta los dispositivos Thread de bajo consumo (cerraduras, sensores) con tu red del hogar. Muchos hubs recientes son las dos cosas.
 
 Si compraste dos dispositivos de casa inteligente de marcas distintas y terminaste con dos apps que no se hablan entre sí, ya viviste el problema que Matter viene a resolver. En 2026 es el tema número uno cuando alguien busca "mejor enchufe inteligente" o "mejor smart plug" — y vale la pena entender qué es antes de comprar el próximo dispositivo.
 
@@ -137,6 +139,17 @@ Este review, grabado después de varios meses de uso real (no un unboxing), repa
 2. Si el producto solo menciona "funciona con Alexa" o "app propia", andá con cuidado: puede ser un ecosistema cerrado.
 3. Matter no es gratis de fábrica — los dispositivos compatibles suelen costar un poco más que el equivalente sin Matter de la misma marca. Si vas a comprar varios dispositivos y planeás mezclarlos con otros ecosistemas, ese sobrecosto se paga solo.
 
+## Controlador Matter vs Thread border router: cuál es la diferencia
+
+Dos términos que confunden a casi todos, y no son lo mismo:
+
+- **Un controlador Matter** es el dispositivo (y la app) que agrega tus dispositivos Matter y los controla: un hub de Apple Home (HomePod o Apple TV), una bocina o pantalla Google Nest, un Amazon Echo, un hub SmartThings, o un hub como el [Aqara Hub M3](/productos/B0CWLHSKYC). Es el "cerebro" que empareja y habla con cada dispositivo.
+- **Un Thread border router** conecta los dispositivos Thread con tu red del hogar. Thread es la malla de bajo consumo que usan los dispositivos a batería, como cerraduras y sensores; esos dispositivos no hablan directo con tu WiFi, así que el border router une la malla Thread con tu red WiFi o Ethernet.
+
+Muchos hubs recientes hacen las dos cosas en una sola caja, por eso las fichas dicen "controlador Matter y Thread border router" — el Aqara Hub M3 figura así. Revisá la ficha técnica de cualquier hub que estés mirando en vez de suponerlo.
+
+**¿Necesitás un Thread border router?** Solo si comprás dispositivos Thread. Un dispositivo Matter que funciona por WiFi no lo necesita. Un dispositivo Matter sobre Thread — como la [cerradura Aqara Smart Lock U100](/productos/B0BZSD2L1W) de este ranking — necesita un border router más un controlador Matter, que un hub que hace ambas cosas te da en una sola compra.
+
 ## Video: Matter explicado en 7 minutos
 
 <div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
@@ -154,3 +167,9 @@ No. Matter conviene para lo que compres de acá en adelante — los dispositivos
 
 **¿Matter reemplaza a WiFi o Bluetooth?**
 No, es una capa arriba — un dispositivo Matter igual usa WiFi, Thread o Bluetooth para conectarse, pero el "idioma" que hablan los dispositivos entre sí y con los hubs es el que unifica Matter.
+
+**¿Qué es un controlador Matter?**
+El hub o la app que agrega tus dispositivos Matter y los controla — por ejemplo un hub de Apple Home (HomePod o Apple TV), una bocina o pantalla Google Nest, un Amazon Echo o un hub como el Aqara Hub M3. Los dispositivos Matter necesitan uno para configurarse.
+
+**¿Necesito un Thread border router para Matter?**
+Solo para dispositivos Thread. Los dispositivos Matter que usan WiFi no lo necesitan. Muchos hubs recientes incluyen un border router, así que una sola compra puede cubrir los dos roles — mirá la ficha técnica.

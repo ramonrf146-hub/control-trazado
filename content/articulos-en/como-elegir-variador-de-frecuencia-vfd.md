@@ -1,9 +1,11 @@
 ---
-titulo: "How to Choose a Variable Frequency Drive (VFD) for Your Workshop"
+titulo: "Entry-Level VFD: How to Choose a Variable Frequency Drive for a Small Workshop"
 fecha: "2026-08-25"
-descripcion: "Power, input/output type (single-phase to three-phase), vector vs. V/F control, and common mistakes when sizing a VFD."
+descripcion: "How to pick an entry-level VFD: single-phase to three-phase input, sizing against the motor's data plate, V/F vs vector control, and the protections that matter."
 categoria: "control-industrial-b2b"
 ---
+
+> **How to choose an entry-level VFD in four checks:** (1) input — a single-phase feed needs a drive that explicitly accepts single-phase input; (2) power — equal to or slightly above the motor's data-plate rating, never below; (3) control — V/F is enough for fans and pumps, vector control for lathes and mills that need torque at low RPM; (4) protections — overcurrent, overtemperature and short-circuit at minimum.
 
 A variable frequency drive (VFD) controls the speed of an AC motor by varying the frequency of the signal it delivers, instead of the traditional way of starting a motor direct-on-line. For a lathe, a mill, a pump, or a fan, that means fine speed control, smooth starts that don't mechanically stress the equipment, and in many cases real energy savings.
 
@@ -46,3 +48,12 @@ Generally yes, as long as the power and voltage match — but confirm the motor'
 
 **Does a VFD actually save energy?**
 Yes, especially on pumps and fans where the load varies — controlling speed instead of mechanically throttling the flow (with a valve, for example) measurably reduces consumption. In machining applications, energy savings are secondary to the benefit of speed control.
+
+**What is the best entry-level VFD for a small workshop?**
+There is no single best model — it depends on your feed and your motor. Start from the four checks at the top: single-phase input if that's all your shop has, power at or slightly above the motor's data plate, V/F control for fans and pumps or vector control for machining, and basic protections. The [Industrial Control (B2B)](/en/categorias/control-industrial-b2b) ranking lists the entry models side by side.
+
+**Can a single-phase VFD run a three-phase motor?**
+Yes — that is exactly what a single-phase-input, three-phase-output drive is built for. Check the manufacturer's notes on single-phase input, because some drives need to be oversized for that use, and confirm the model explicitly supports it.
+
+**How do I size a VFD for my motor?**
+Read the motor's data plate (HP or kW and current), then pick a drive rated equal to or slightly above that. Being right at the limit is what causes overcurrent trips at start-up.
