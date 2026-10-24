@@ -4188,5 +4188,58 @@
       "DIN rail",
       "TRENDnet"
     ]
+  },
+  {
+    "asin": "B0FC4VHT8M",
+    "nombre": "Klein Tools 34060 — Juego Crimpadora de Ferrules Cuadrada con Carraca, 1200 Terminales (AWG 10-22)",
+    "categoria": "control-industrial-b2b",
+    "precio": 49.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/61TPtKKYc8L._AC_UL320_.jpg",
+    "rating": 4.9,
+    "numResenas": 111,
+    "ranking": 51,
+    "notaTecnica": "Juego de crimpado de ferrules de Klein Tools, marca reconocida de herramientas eléctricas profesionales en EE.UU. — incluye la pinza crimpadora cuadrada con carraca (modelo base 34055), 1.200 terminales tipo ferrule en 5 tamaños (AWG 22 a 10, más grueso que el kit BAOMAIN de este catálogo que llega hasta AWG 14) y un estuche blando de transporte. Carraca autoajustable: no cierra del todo hasta aplicar la fuerza de crimpado correcta, así que no hay forma de crimpar \"a medias\" por error. Herramienta NO aislada — no se usa sobre o cerca de circuitos vivos. $49.99, 4.9★, 111 reseñas — verificado en vivo con WebFetch directo sobre amazon.com/dp/B0FC4VHT8M (fragmentos de offset creciente por el tamaño de la página, ~1.5M caracteres): título e imagen principal (alt text) coinciden exactamente en offset 0 y 250.000; rating 4.9★ y \"111 Reviews\" en el bloque propio `averageCustomerReviews` con `data-asin=\"B0FC4VHT8M\"` en offset 300.000; precio $49.99 ligado a la misma variante exacta via `data-asin` en el selector de variantes (\"3 options from $49.99\", el ASIN de esta ficha es la opción \"Crimper w/ Terminals\"); `add-to-cart-button` y `buy-now-button` activos en offset 150.000 (sin mensaje de \"Currently unavailable\" en ninguno de los fragmentos revisados); bloque \"Frequently bought together\" en offset 700.000 confirma el mismo producto (crimpadora cuadrada + 1.200 terminales + estuche) ligado a este ASIN sin contaminación cruzada de otro producto. No se encontró ningún video de YouTube/TikTok genuino y verificable sobre este modelo puntual (solo clips promocionales de 16-40 segundos del propio fabricante en su sitio del Reino Unido, sin URL de youtube.com/watch confirmable) — por honestidad no se incrustó ninguno.",
+    "idealPara": "Crimpar ferrules propias en cable trenzado/flexible de AWG 22 a 10 (más grueso que el kit BAOMAIN de este catálogo) antes de conectarlo a bloques de terminales a tornillo, contactores o arrancadores — reemplaza la necesidad de usar un alicate común sin garantía de aplastado parejo.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Ya hay en este catálogo un kit de ferrules (las fundas metálicas que compactan los hilos sueltos de un cable trenzado antes de meterlo bajo un tornillo), pero nunca hubo la herramienta para crimparlas correctamente — hasta ahora, la única opción real era un alicate común, que aprieta parejo en algunos puntos y flojo en otros, como intentar cerrar un frasco con la mano en vez de una llave. Esta pinza tiene una carraca interna que no se abre hasta aplicar la fuerza exacta de crimpado en las 4 caras del terminal por igual (crimpado \"cuadrado\"), así que no hay margen para un crimpado a medias que después se afloje con el uso.",
+      "ejemploHogar": "En un proyecto de electrónica o audio en casa con cable flexible fino, esta pinza deja el terminal bien compactado al primer intento, sin tener que adivinar cuánta fuerza hizo falta con un alicate común ni repetir el crimpado por las dudas.",
+      "ejemploNegocio": "En el tablero industrial de este catálogo es donde más rinde: con el kit de ferrules BAOMAIN ya listado (hasta AWG 14) y el cable más grueso que acepta el Dinkle DK4N, esta pinza cubre todo el rango real de calibres del catálogo (hasta AWG 10) con un crimpado garantizado por la carraca — justo la pieza que faltaba para que la inversión en ferrules del catálogo tenga sentido completo, en vez de terminar crimpadas a mano con un alicate común.",
+      "puntosClave": [
+        "No es una herramienta aislada — nunca se usa sobre o cerca de un circuito con tensión, solo para preparar cable desenergizado antes de conectarlo.",
+        "Cubre AWG 22 a 10: para el calibre más fino del kit BAOMAIN de este catálogo (AWG 22) y para cable más grueso (10 AWG) que ese kit no cubre, confirmá el tamaño de dado correcto antes de crimpar.",
+        "Con 111 reseñas y 4.9★ es, junto con otras piezas Klein Tools, de las marcas con mejor trazabilidad de todo este catálogo — pero el crimpado cuadrado de este modelo es distinto al hexagonal de otras pinzas genéricas: no mezclés terminales pensados para un perfil con la pinza del otro."
+      ],
+      "consejoInversion": "Frente a seguir crimpando a mano con un alicate común (lo único que había en el catálogo hasta ahora), esta pinza con carraca elimina el punto de falla más común de una ferrule: un crimpado flojo que parece sujeto pero se afloja con la vibración de un motor o bomba, generando el mismo problema que la ferrule estaba ahí para evitar. Klein Tools es marca de referencia en herramienta eléctrica profesional en EE.UU. (a diferencia de los kits genéricos sin marca reconocible que abundan en esta categoría) — pagar una vez por una herramienta que dura años de uso profesional sale más barato que rehacer conexiones que fallaron por un crimpado desparejo."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B0FC4VHT8M?tag=controltrazado-20",
+    "actualizadoEn": "2026-10-24",
+    "tags": [
+      "Ferrule",
+      "Crimpadora",
+      "Klein Tools",
+      "AWG 10-22"
+    ],
+    "activo": true,
+    "nombreEn": "Klein Tools 34060 — Ratcheting Square Ferrule Crimping Tool Set, 1200 Wire Terminals (AWG 10-22)",
+    "notaTecnicaEn": "Klein Tools ferrule crimping set — a recognized US professional electrical tools brand — includes the ratcheting square crimper (base model 34055), 1,200 ferrule terminals in 5 sizes (AWG 22 to 10, wider range than this catalog's BAOMAIN kit which tops out at AWG 14), and a soft carrying case. Self-adjusting ratchet: it won't release until the correct crimping force is applied, so there's no way to accidentally produce a half-finished crimp. Tool is NOT insulated — never use on or near live circuits. $49.99, 4.9 stars, 111 reviews — verified live with WebFetch directly on amazon.com/dp/B0FC4VHT8M (growing-offset fragments due to the page's ~1.5M character size): title and main image alt text match exactly at offset 0 and 250,000; 4.9-star rating and \"111 Reviews\" in the listing's own `averageCustomerReviews` block with `data-asin=\"B0FC4VHT8M\"` at offset 300,000; $49.99 price tied to this exact variant via `data-asin` in the variant selector (\"3 options from $49.99\", this listing's ASIN is the \"Crimper w/ Terminals\" option); active `add-to-cart-button` and `buy-now-button` at offset 150,000 (no \"Currently unavailable\" message in any fragment reviewed); \"Frequently bought together\" block at offset 700,000 confirms the same product (square crimper + 1,200 terminals + case) tied to this ASIN with no cross-contamination from another product. No genuine, verifiable YouTube/TikTok video was found for this specific model (only 16-40 second promotional clips from the manufacturer's own UK site, with no confirmable youtube.com/watch URL) — none embedded, for honesty.",
+    "idealParaEn": "Crimping proper ferrules onto stranded/flexible wire from AWG 22 to 10 (wider range than this catalog's BAOMAIN kit) before landing it on screw terminal blocks, contactors, or starters — replaces the need for a regular plier with no guarantee of an even crimp.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "This catalog already has a ferrule kit (the metal sleeves that compact a stranded wire's loose strands before it goes under a screw), but never had the tool to crimp them properly — until now, the only real option was a regular plier, which squeezes evenly in some spots and loosely in others, like trying to close a jar by hand instead of with a wrench. This crimper has an internal ratchet that won't open until the exact crimping force is applied evenly on all 4 sides of the terminal (\"square\" crimp), so there's no room for a half-finished crimp that works loose later.",
+      "ejemploHogar": "On a home electronics or audio project with thin flexible wire, this crimper leaves the terminal properly compacted on the first try, without guessing how much force a regular plier needed or re-crimping just to be sure.",
+      "ejemploNegocio": "This is where it pays off most in this catalog's industrial panel: together with the BAOMAIN ferrule kit already listed (up to AWG 14) and the thicker wire the Dinkle DK4N accepts, this crimper covers this catalog's full real gauge range (down to AWG 10) with a ratchet-guaranteed crimp — exactly the missing piece that makes the catalog's ferrule investment pay off fully, instead of ending up hand-crimped with a regular plier.",
+      "puntosClave": [
+        "Not an insulated tool — never use it on or near a live circuit, only to prep de-energized wire before connecting it.",
+        "Covers AWG 22 to 10: for this catalog's BAOMAIN kit's finest gauge (AWG 22) and for thicker wire (10 AWG) that kit doesn't cover — confirm the correct die size before crimping.",
+        "At 111 reviews and 4.9 stars, it's among this catalog's best-tracked brands alongside other Klein Tools parts — but this model's square crimp profile differs from the hexagonal profile of other generic crimpers: don't mix terminals meant for one profile with the other tool."
+      ],
+      "consejoInversion": "Compared to hand-crimping with a regular plier (the only option in this catalog until now), this ratcheting crimper eliminates the most common ferrule failure point: a loose crimp that looks secure but works free from a motor's or pump's vibration, recreating the exact problem the ferrule was there to prevent. Klein Tools is a benchmark brand in US professional electrical tools (unlike the unbranded generic kits that flood this category) — paying once for a tool built for years of professional use costs less than redoing connections that failed from an uneven crimp."
+    },
+    "tagsEn": [
+      "Ferrule",
+      "Crimping Tool",
+      "Klein Tools",
+      "AWG 10-22"
+    ]
   }
 ]
