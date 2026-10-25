@@ -260,39 +260,39 @@
     "rating": 4.3,
     "numResenas": 24,
     "ranking": 3,
-    "notaTecnica": "Tiene control vectorial (no solo V/F escalar), lo que mantiene mejor el torque a bajas RPM — importante si vas a roscar o cortar a velocidad reducida. Con 5HP/4kW cubre motores más grandes que el modelo anterior, y acepta tanto entrada monofásica como trifásica, dando flexibilidad según la instalación eléctrica disponible. Sale hasta 26A — confirmá que tu cableado y protecciones soporten esa corriente antes de instalar.",
+    "notaTecnica": "Tiene control vectorial (no solo V/F escalar), lo que mantiene mejor el torque a bajas RPM — importante si vas a roscar o cortar a velocidad reducida. Con 5HP/4kW cubre motores más grandes que el modelo anterior, y acepta tanto entrada monofásica como trifásica, dando flexibilidad según la instalación eléctrica disponible. Sale hasta 26A — confirmá que tu cableado y protecciones soporten esa corriente antes de instalar. Es de la marca HKS, vendido con un selector de potencia que va desde 0.75kW hasta 7.5kW bajo la misma ficha — si 5HP te queda sobredimensionado o corto, hay variantes hermanas sin cambiar de listado. Ojo: no incluye resistencia de frenado — si tu aplicación necesita frenar el motor rápido en vez de dejarlo parar por inercia, esa pieza se compra aparte (todavía no hay ninguna en este catálogo con historial de reseñas confirmable).",
     "idealPara": "Motores más grandes (hasta 5HP) que necesitan mantener torque a bajas RPM, por ejemplo roscar o cortar a velocidad reducida.",
     "guiaCompra": {
       "queEsYParaQueSirve": "Es un VFD como el de arriba, pero con \"control vectorial\": una forma más precisa de manejar el motor que mantiene la fuerza (torque) incluso cuando gira lento, como un auto con caja automática inteligente que no pierde tracción al subir una pendiente a baja velocidad.",
       "ejemploHogar": "Un aficionado con un torno de madera casero que necesita cortar piezas grandes a baja velocidad sin que el motor pierda fuerza.",
-      "ejemploNegocio": "Un taller de mecanizado que necesita roscar o cortar metal a velocidad reducida sin que el motor se ahogue — el control vectorial mantiene la fuerza necesaria en ese momento crítico.",
+      "ejemploNegocio": "Un taller de mecanizado que necesita roscar o cortar metal a velocidad reducida sin que el motor se ahogue — el control vectorial mantiene la fuerza necesaria en ese momento crítico. A diferencia de un hobbysta que prueba y reajusta sobre la marcha, en uso de negocio conviene dejar anotados los parámetros que funcionaron (frecuencia máxima, tiempo de rampa) para no repetir el ajuste cada vez que se cambia de pieza o de operario.",
       "puntosClave": [
-        "Cubre motores más grandes (hasta 5HP) que el modelo de entrada de este ranking — confirmá la potencia de tu motor antes de elegir uno u otro.",
+        "Cubre motores más grandes (hasta 5HP) que el modelo de entrada de este ranking — confirmá la potencia de tu motor antes de elegir uno u otro. La misma ficha vende variantes de 0.75kW a 7.5kW si necesitás otra potencia.",
         "Acepta entrada monofásica o trifásica, dándote flexibilidad según la instalación eléctrica que tengas.",
-        "Sale hasta 26A de corriente — confirmá que tu cableado y las protecciones (disyuntores) soporten ese amperaje antes de instalarlo."
+        "Sale hasta 26A de corriente — confirmá que tu cableado y las protecciones (disyuntores) soporten ese amperaje antes de instalarlo. No trae resistencia de frenado incluida: si necesitás parada rápida, es una compra aparte."
       ],
-      "consejoInversion": "Si tu trabajo incluye cortar o roscar a velocidad reducida, el control vectorial evita que pierdas piezas por pérdida de torque — una ventaja real sobre un VFD escalar más barato que no puede sostener la fuerza a bajas revoluciones."
+      "consejoInversion": "Si tu trabajo incluye cortar o roscar a velocidad reducida, el control vectorial evita que pierdas piezas por pérdida de torque — una ventaja real sobre un VFD escalar más barato que no puede sostener la fuerza a bajas revoluciones. Esa precisión también se traduce en menos desgaste mecánico del motor con el tiempo, frente a un control V/F genérico que fuerza al motor a sostener torque sin la misma respuesta fina."
     },
     "urlAfiliado": "https://www.amazon.com/dp/B09C5NDXDG?tag=controltrazado-20",
-    "actualizadoEn": "2026-08-25",
+    "actualizadoEn": "2026-10-25",
     "tags": [
       "Control vectorial",
       "5HP",
       "1F/3F"
     ],
     "nombreEn": "VFD 4kW (5HP) Vector Control — 220V 1-Phase/3-Phase",
-    "notaTecnicaEn": "Has vector control (not just scalar V/F), which holds torque better at low RPM — important if you'll be threading or cutting at reduced speed. At 5HP/4kW it covers larger motors than the entry-level model, and accepts both single-phase and three-phase input, giving flexibility depending on the electrical setup available. Rated up to 26A — confirm your wiring and breakers can handle that current before installing.",
+    "notaTecnicaEn": "Has vector control (not just scalar V/F), which holds torque better at low RPM — important if you'll be threading or cutting at reduced speed. At 5HP/4kW it covers larger motors than the entry-level model, and accepts both single-phase and three-phase input, giving flexibility depending on the electrical setup available. Rated up to 26A — confirm your wiring and breakers can handle that current before installing. It's made by HKS, sold with a power selector from 0.75kW up to 7.5kW on the same listing — if 5HP is too much or too little for you, sibling variants are a click away without hunting a different listing. One thing to know: it doesn't include a braking resistor — if your application needs to stop the motor fast instead of letting it coast to a stop by inertia, that part is a separate purchase (this catalog doesn't yet have one with a confirmable review history).",
     "idealParaEn": "Larger motors (up to 5HP) that need to hold torque at low RPM, for example threading or cutting at reduced speed.",
     "guiaCompraEn": {
       "queEsYParaQueSirve": "It's a VFD like the one above, but with \"vector control\": a more precise way of driving the motor that keeps its force (torque) even when spinning slowly, like a car with a smart automatic transmission that doesn't lose traction climbing a hill at low speed.",
       "ejemploHogar": "A hobbyist with a home wood lathe who needs to cut large pieces at low speed without the motor losing power.",
-      "ejemploNegocio": "A machine shop that needs to thread or cut metal at reduced speed without the motor stalling — vector control maintains the necessary force at that critical moment.",
+      "ejemploNegocio": "A machine shop that needs to thread or cut metal at reduced speed without the motor stalling — vector control maintains the necessary force at that critical moment. Unlike a hobbyist who can tweak settings on the fly, a business use is better off writing down the parameters that worked (max frequency, ramp time) instead of re-tuning every time a part or operator changes.",
       "puntosClave": [
-        "Covers larger motors (up to 5HP) than the entry-level model in this ranking — confirm your motor's power before choosing one or the other.",
+        "Covers larger motors (up to 5HP) than the entry-level model in this ranking — confirm your motor's power before choosing one or the other. The same listing sells 0.75kW to 7.5kW variants if you need a different power.",
         "Accepts single-phase or three-phase input, giving you flexibility depending on the electrical setup you have.",
-        "Rated up to 26A of current — confirm your wiring and breakers can handle that amperage before installing it."
+        "Rated up to 26A of current — confirm your wiring and breakers can handle that amperage before installing it. No braking resistor included: if you need a fast stop, that's a separate purchase."
       ],
-      "consejoInversion": "If your work includes cutting or threading at reduced speed, vector control keeps you from losing pieces to torque loss — a real advantage over a cheaper scalar VFD that can't sustain force at low RPM."
+      "consejoInversion": "If your work includes cutting or threading at reduced speed, vector control keeps you from losing pieces to torque loss — a real advantage over a cheaper scalar VFD that can't sustain force at low RPM. That precision also means less mechanical wear on the motor over time, versus a generic V/F control that forces the motor to hold torque without the same fine-grained response."
     },
     "tagsEn": [
       "Vector control",
