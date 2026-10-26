@@ -958,18 +958,18 @@
     "rating": 0,
     "numResenas": 0,
     "ranking": 16,
-    "notaTecnica": "Misma familia y mismas protecciones (aislamiento óptico, TVS, fusible reseteable, relé de hasta 10A 250VAC/30VDC) que el módulo de 32 canales de este ranking, pero con la mitad de salidas — para instalaciones medianas donde 32 canales sería sobredimensionado y caro de más. Sin ninguna reseña todavía en Amazon, así que no hay feedback real de otros compradores más allá de la ficha técnica.",
+    "notaTecnica": "Misma familia y mismas protecciones (aislamiento óptico, TVS, fusible reseteable, relé de hasta 10A 250VAC/30VDC) que el módulo de 32 canales de este ranking, pero con la mitad de salidas — para instalaciones medianas donde 32 canales sería sobredimensionado y caro de más. Al ser Modbus RTU, podés tener varios módulos de esta misma familia (8, 16 o 32 canales) conviviendo en el mismo bus RS485, siempre que cada uno tenga configurada una dirección de esclavo distinta — así que si hoy necesitás 16 salidas pero más adelante sumás equipo nuevo, no hace falta reemplazar este módulo, se agrega otro al lado en el mismo cable. Sigue sin ninguna reseña en Amazon al día de hoy (reverificado en vivo), así que no hay feedback real de otros compradores más allá de la ficha técnica.",
     "idealPara": "Instalaciones medianas (hasta 16 salidas) donde el módulo de 32 canales de este ranking sería demasiado para lo que necesitás.",
     "guiaCompra": {
-      "queEsYParaQueSirve": "Es el mismo tipo de módulo de relé Modbus que el de 32 canales de este ranking, pero con la mitad de salidas: para cuando necesitás control remoto de varios equipos, pero no tantos como para justificar el modelo grande.",
-      "ejemploHogar": "Un proyecto de domótica DIY de tamaño mediano (por ejemplo, controlar el riego, las luces del jardín y algunos electrodomésticos) que no necesita las 32 salidas del modelo grande.",
-      "ejemploNegocio": "Una línea de producción chica o mediana que necesita controlar 16 equipos distintos desde un mismo sistema Modbus, sin pagar de más por canales que no va a usar.",
+      "queEsYParaQueSirve": "Es el mismo tipo de módulo de relé Modbus que el de 32 canales de este ranking, pero con la mitad de salidas: para cuando necesitás control remoto de varios equipos, pero no tantos como para justificar el modelo grande. \"Modbus RTU\" es simplemente el idioma por el que un controlador central le dice a este módulo qué salida prender o apagar, usando el mismo cable de dos hilos (RS485) al que se pueden conectar varios módulos más sin cablear cada uno por separado hasta el controlador.",
+      "ejemploHogar": "Un proyecto de domótica DIY de tamaño mediano (por ejemplo, controlar el riego, las luces del jardín y algunos electrodomésticos) que no necesita las 32 salidas del modelo grande, pero que ya se queda corto con un módulo de 8.",
+      "ejemploNegocio": "Una línea de producción chica o mediana que necesita controlar 16 equipos distintos desde un mismo sistema Modbus, sin pagar de más por canales que no va a usar — y que en seis meses puede agregar un segundo módulo al mismo bus si la línea crece, sin tocar el cableado ya instalado.",
       "puntosClave": [
-        "Contá cuántas salidas necesitás realmente — si son menos de 16, quizás te convenga un módulo más chico; si son más, andá directo al de 32 canales de este ranking.",
-        "Sin ninguna reseña todavía en Amazon, así que no hay feedback real de compradores más allá de la ficha técnica.",
-        "Tiene las mismas protecciones (aislamiento óptico, TVS, fusible reseteable) que el modelo de 32 canales, así que no estás resignando seguridad por tener menos canales."
+        "Contá cuántas salidas necesitás hoy y en el corto plazo — si estás al borde entre 8 y 16, conviene pagar la diferencia e ir directo a este de 16 en vez de tener que comprar otro módulo en unos meses.",
+        "Si vas a usar más de un módulo de esta familia (8/16/32 canales) en el mismo tablero, cada uno necesita su propia dirección de esclavo Modbus configurada antes de conectarlo al bus — no vienen con direcciones distintas de fábrica.",
+        "Sigue sin ninguna reseña en Amazon (reverificado): las mismas protecciones eléctricas que el modelo de 32 canales, que sí tiene historial, dan cierta garantía indirecta de que es la misma línea de fabricación, pero no hay feedback real todavía de compradores de este tamaño puntual."
       ],
-      "consejoInversion": "Para instalaciones medianas, este módulo evita pagar de más por 32 canales que no vas a usar, sin sacrificar ninguna de las protecciones eléctricas del modelo más grande — el punto justo entre precio y capacidad."
+      "consejoInversion": "Frente a comprar dos módulos de 8 canales para llegar a las mismas 16 salidas, este módulo único ahorra una dirección de esclavo Modbus, un espacio de riel DIN y un punto de alimentación más — simplifica el cableado del bus sin sacrificar ninguna de las protecciones eléctricas del modelo más grande."
     },
     "tags": [
       "16 canales",
@@ -977,21 +977,21 @@
       "Aislamiento óptico"
     ],
     "urlAfiliado": "https://www.amazon.com/dp/B0CMH47846?tag=controltrazado-20",
-    "actualizadoEn": "2026-08-26",
+    "actualizadoEn": "2026-10-26",
     "activo": true,
     "nombreEn": "Modbus RTU Relay Module 16 Channels (RS485, Industrial)",
-    "notaTecnicaEn": "Same family and same protections (optical isolation, TVS, resettable fuse, relay rated up to 10A 250VAC/30VDC) as the 32-channel module in this ranking, but with half the outputs — for medium installations where 32 channels would be overkill and overpriced. No reviews yet on Amazon, so there's no real feedback from buyers beyond the spec sheet.",
+    "notaTecnicaEn": "Same family and same protections (optical isolation, TVS, resettable fuse, relay rated up to 10A 250VAC/30VDC) as the 32-channel module in this ranking, but with half the outputs — for medium installations where 32 channels would be overkill and overpriced. Being Modbus RTU, you can run several modules from this same family (8, 16, or 32 channels) on the same RS485 bus, as long as each one has a distinct slave address configured — so if you need 16 outputs today but add more equipment later, you don't need to replace this module, you just add another one on the same cable. Still no reviews on Amazon as of today (re-verified live), so there's no real buyer feedback beyond the spec sheet.",
     "idealParaEn": "Medium installations (up to 16 outputs) where the 32-channel module in this ranking would be more than you need.",
     "guiaCompraEn": {
-      "queEsYParaQueSirve": "It's the same type of Modbus relay module as the 32-channel one in this ranking, but with half the outputs: for when you need remote control of several devices, but not enough to justify the bigger model.",
-      "ejemploHogar": "A medium-sized DIY home-automation project (for example, controlling irrigation, garden lights, and a few appliances) that doesn't need the big model's 32 outputs.",
-      "ejemploNegocio": "A small or medium production line that needs to control 16 different devices from the same Modbus system, without overpaying for channels it won't use.",
+      "queEsYParaQueSirve": "It's the same type of Modbus relay module as the 32-channel one in this ranking, but with half the outputs: for when you need remote control of several devices, but not enough to justify the bigger model. \"Modbus RTU\" is simply the language a central controller uses to tell this module which output to switch on or off, over the same two-wire cable (RS485) that several more modules can share without wiring each one separately back to the controller.",
+      "ejemploHogar": "A medium-sized DIY home-automation project (for example, controlling irrigation, garden lights, and a few appliances) that doesn't need the big model's 32 outputs, but already outgrows an 8-channel module.",
+      "ejemploNegocio": "A small or medium production line that needs to control 16 different devices from the same Modbus system, without overpaying for channels it won't use — and that can add a second module to the same bus six months from now if the line grows, without touching the wiring already installed.",
       "puntosClave": [
-        "Count how many outputs you actually need — if fewer than 16, a smaller module might suit you better; if more, go straight to the 32-channel one in this ranking.",
-        "No reviews yet on Amazon, so there's no real buyer feedback beyond the spec sheet.",
-        "Has the same protections (optical isolation, TVS, resettable fuse) as the 32-channel model, so you're not giving up any safety for having fewer channels."
+        "Count how many outputs you need today and in the near term — if you're on the edge between 8 and 16, it's worth paying the difference and going straight to this 16-channel one instead of having to buy another module in a few months.",
+        "If you're going to use more than one module from this family (8/16/32 channels) in the same panel, each one needs its own Modbus slave address configured before wiring it to the bus — they don't ship with distinct addresses out of the box.",
+        "Still no reviews on Amazon (re-verified): sharing the same electrical protections as the 32-channel model, which does have a track record, gives some indirect assurance it's the same manufacturing line, but there's still no real buyer feedback for this specific size."
       ],
-      "consejoInversion": "For medium installations, this module avoids overpaying for 32 channels you won't use, without sacrificing any of the larger model's electrical protections — the sweet spot between price and capacity."
+      "consejoInversion": "Compared to buying two 8-channel modules to reach the same 16 outputs, this single module saves a Modbus slave address, a DIN rail slot, and an extra power point — simplifying the bus wiring without giving up any of the larger model's electrical protections."
     },
     "tagsEn": [
       "16 channels",
