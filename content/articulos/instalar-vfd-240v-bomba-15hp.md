@@ -45,6 +45,8 @@ Este video explica el funcionamiento y el cableado de un relé de monitoreo de f
 
 Todo eso protege al equipo, pero no reemplaza un corte manual accesible para la persona parada frente al tablero. Un [botón de parada de emergencia IP65](/productos/B00NTT91Y0) cableado en serie con la bobina del contactor de derivación (no con la potencia del motor) permite frenar todo con un solo golpe si algo se traba durante el arranque — es una pieza barata que suele faltar en instalaciones caseras de este tipo, justamente porque no protege al equipo, protege a quien lo opera.
 
+Una vez armado y antes de dejarlo trabajando sin supervisión, conviene confirmar con un instrumento real que el motor efectivamente está consumiendo cerca de esos 40-45A nominales del punto 2 — no asumirlo de la placa. La [Klein Tools CL120](/productos/B08CP6GL49) es una pinza amperimétrica que mide hasta 400A AC abriendo la mordaza sobre uno de los cables que van al motor, sin cortar nada ni interrumpir el arranque, y de paso sirve para confirmar con las puntas incluidas que las tres fases de la acometida llegan con el mismo voltaje antes de energizar — el mismo chequeo que el Nannday de arriba vigila después del hecho.
+
 ## 5. Cableado de potencia
 
 Para las conexiones internas del tablero que quedan cerca de componentes que generan calor (como el propio arrancador o VFD trabajando a full carga), un [cable de silicona](/productos/B08GFQP2MG) no se pone rígido ni se raja con el tiempo como el PVC común — vale la pena en los tramos cortos cerca del equipo de potencia, aunque no hace falta usarlo en todo el tablero.

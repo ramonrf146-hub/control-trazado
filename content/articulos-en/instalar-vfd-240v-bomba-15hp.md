@@ -45,6 +45,8 @@ This video explains how a phase monitoring relay like the Nannday works and wire
 
 All of that protects the equipment, but it doesn't replace an accessible manual cutoff for the person standing in front of the panel. An [IP65 emergency stop button](/en/productos/B00NTT91Y0) wired in series with the bypass contactor's coil (not with the motor's power side) lets you stop everything with one hit if something jams during startup — it's a cheap part that's often missing from DIY installations like this one, precisely because it doesn't protect the equipment, it protects whoever's operating it.
 
+Once it's wired up and before leaving it running unsupervised, it's worth confirming with a real instrument that the motor is actually drawing close to the 40-45A nominal from step 2 above — not assuming it from the nameplate. The [Klein Tools CL120](/en/productos/B08CP6GL49) clamp meter measures up to 400A AC by opening its jaw around one of the wires going to the motor, without cutting anything or interrupting the startup, and it also works with the included leads to confirm all three incoming phases arrive at the same voltage before energizing — the same check the Nannday relay above watches for after the fact.
+
 ## 5. Power wiring
 
 For internal panel connections near heat-generating components (like the starter or VFD itself working at full load), [silicone wire](/en/productos/B08GFQP2MG) doesn't stiffen or crack over time like standard PVC — worth it on the short runs near the power equipment, though you don't need it throughout the whole panel.
