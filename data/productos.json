@@ -4294,5 +4294,58 @@
       "Klein Tools",
       "Electrical Tester"
     ]
+  },
+  {
+    "asin": "B0C79PNK84",
+    "nombre": "Emporia Vue 3 — Monitor de Energía para Tablero Eléctrico, 16 Circuitos",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 199.99,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/51+b2R+UWsL._AC_SL1000_.jpg",
+    "rating": 4.6,
+    "numResenas": 883,
+    "ranking": 33,
+    "notaTecnica": "Monitor de energía Emporia Vue 3 (variante de 16 sensores, modelo EMV3A-2P-16) — mide el consumo real de hasta 16 circuitos individuales del tablero eléctrico al mismo tiempo, con 2 clamps de corriente grandes para las líneas principales (mains) y 16 clamps chicos de 50A para circuitos individuales, conexión WiFi 2.4GHz o Ethernet, certificación UL, y monitoreo de generación solar si corresponde. $199.99, 4.6★, 883 reseñas — verificado en vivo con WebFetch directo sobre amazon.com/dp/B0C79PNK84 (página de ~1,74M caracteres, varios fragmentos de offset creciente): canonical confirmado como /dp/ (no /clp/) en offset 0; add-to-cart-button y buy-now-button activos en offset 150.000, sin \"Currently unavailable\"; rating 4.6★ y \"883 Reviews\" ligados al propio ASIN en offset 300.000 (confirmado una segunda vez en una tabla comparativa de variantes en offset 1.000.000, misma cifra exacta y con el link apuntando a /dp/B0C79PNK84); el precio no aparece en el bloque principal de buybox (corePriceDisplay vacío, mismo patrón ya documentado en este catálogo con otros ASINs) — se confirmó en cambio en el bloque \"Frequently bought together\" en offset 800.000, donde la tarjeta \"This item\" muestra $199.99 ligado a data-csa-c-item-id=\"amzn1.asin.B0C79PNK84\"; esa misma tabla comparativa de variantes en offset 1.000.000 confirma además que este ASIN exacto corresponde a la variante \"16 CT Sensors\"/\"Up to 16 Circuits\" (existen también variantes de 8 sensores y de solo líneas principales, cada una con su propio ASIN distinto). Especificaciones (16 clamps de 50A, monitoreo solar, smart plugs no incluidos) tomadas de esa misma tabla comparativa oficial del listado. Nota de seguridad real (no inventada, tomada de la guía de instalación oficial de Emporia y de reseñas de compradores encontradas por WebSearch): el sensor va cableado dentro del tablero eléctrico, con tensión peligrosa expuesta durante la instalación — el propio fabricante recomienda que lo instale un electricista matriculado. No se encontró ningún video de YouTube/TikTok genuino y verificable sobre este modelo puntual (solo guías en PDF del fabricante y reseñas de texto de compradores) — por honestidad no se incrustó ninguno.",
+    "idealPara": "Medir en tiempo real cuánta energía consume cada circuito del tablero eléctrico por separado (hasta 16 a la vez) en vez de solo el total de la casa — detecta qué equipo específico está disparando el consumo, sin tener que poner un enchufe inteligente en cada aparato.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Hasta ahora este catálogo medía el consumo de un aparato a la vez: un enchufe inteligente Tuya o un Zooz ZEN15 reportan los watts de lo que tienen enchufado, nada más. Este monitor trabaja en otra escala: se instala directo en el tablero eléctrico, como un medidor de agua que en vez de medir una sola canilla mide el caudal de cada tubería por separado al mismo tiempo. Usa pinzas de corriente (el mismo tipo de clamp que una pinza amperimétrica, pero fijas y conectadas a una base que transmite por WiFi) alrededor de cada cable de circuito, sin necesidad de un enchufe inteligente por cada aparato.",
+      "ejemploHogar": "En la casa, deja ver de una sola vez cuánto consume el aire acondicionado, el calefón eléctrico y el resto de los circuitos del tablero, sin comprar un enchufe inteligente para cada uno — y avisa si un circuito empieza a consumir de forma rara (una heladera vieja que tira más de lo normal, por ejemplo) antes de que se note en la factura.",
+      "ejemploNegocio": "En un taller chico o un local con tablero propio, cumple un rol que complementa a la pinza amperimétrica Klein Tools CL120 de este mismo ranking: mientras el CL120 da una lectura puntual (lo que consume un motor en el momento exacto en que lo medís), este monitor queda instalado y muestra el consumo de cada circuito las 24 horas — útil para detectar qué máquina sigue consumiendo de noche cuando no debería estar prendida, o repartir el costo de electricidad entre varios equipos del mismo tablero.",
+      "puntosClave": [
+        "Se instala dentro del tablero eléctrico, con tensión peligrosa expuesta durante el cableado — el propio fabricante recomienda que lo instale un electricista matriculado, no es un proyecto de enchufar y listo.",
+        "Esta variante trae 16 clamps de 50A para circuitos individuales más 2 clamps grandes para las líneas principales — alcanza para un tablero residencial típico, pero si tu tablero tiene más de 16 circuitos para medir por separado vas a tener que priorizar cuáles conectar.",
+        "No reemplaza un enchufe inteligente si lo que necesitás es apagar o prender algo a distancia (como el Smart Plug con Monitoreo de Consumo de este mismo ranking) — este monitor solo mide, no controla nada."
+      ],
+      "consejoInversion": "Frente a seguir las automatizaciones solo con enchufes inteligentes (un aparato a la vez, como el Tuya o el Zooz de este ranking), este monitor da una vista completa del tablero sin comprar un enchufe por cada equipo — justo el problema que queda sin resolver cuando el objetivo es entender toda la casa o todo el taller, no solo un aparato puntual. Con certificación UL y 883 reseñas reales a 4.6★, tiene más trazabilidad que la mayoría de los monitores de energía genéricos sin marca que aparecen en esta categoría."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B0C79PNK84?tag=controltrazado-20",
+    "actualizadoEn": "2026-10-28",
+    "tags": [
+      "Monitor de Energía",
+      "Emporia",
+      "Consumo Eléctrico",
+      "Tablero Eléctrico"
+    ],
+    "activo": true,
+    "nombreEn": "Emporia Vue 3 — Electrical Panel Energy Monitor, 16 Circuits",
+    "notaTecnicaEn": "Emporia Vue 3 energy monitor (16-sensor variant, model EMV3A-2P-16) — measures real consumption on up to 16 individual electrical panel circuits at the same time, with 2 large current clamps for the main lines and 16 smaller 50A clamps for individual circuits, 2.4GHz WiFi or Ethernet connection, UL certification, and solar generation monitoring where applicable. $199.99, 4.6 stars, 883 reviews — verified live with WebFetch directly on amazon.com/dp/B0C79PNK84 (~1.74M character page, several growing-offset fragments): canonical confirmed as /dp/ (not /clp/) at offset 0; active add-to-cart-button and buy-now-button at offset 150,000, no \"Currently unavailable\" message; 4.6-star rating and \"883 Reviews\" tied to the listing's own ASIN at offset 300,000 (confirmed a second time in a variant comparison table at offset 1,000,000, same exact figure, with the link pointing to /dp/B0C79PNK84); price does not appear in the main buybox block (empty corePriceDisplay, the same pattern already documented in this catalog with other ASINs) — instead confirmed in the \"Frequently bought together\" block at offset 800,000, where the \"This item\" card shows $199.99 tied to data-csa-c-item-id=\"amzn1.asin.B0C79PNK84\"; that same variant comparison table at offset 1,000,000 also confirms this exact ASIN corresponds to the \"16 CT Sensors\"/\"Up to 16 Circuits\" variant (8-sensor and mains-only variants also exist, each with its own distinct ASIN). Specs (16 50A clamps, solar monitoring, smart plugs not included) taken from that same official comparison table on the listing. Real safety note (not invented, taken from Emporia's official installation guide and buyer reviews found via WebSearch): the sensor wires inside the electrical panel, with dangerous voltage exposed during installation — the manufacturer itself recommends having a licensed electrician install it. No genuine, verifiable YouTube/TikTok video was found for this specific model (only manufacturer PDF guides and text buyer reviews) — none embedded, for honesty.",
+    "idealParaEn": "Measuring in real time how much energy each individual circuit on the electrical panel draws (up to 16 at once) instead of just the whole house's total — pinpoints which specific device is driving consumption, without needing a smart plug on every appliance.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "Until now this catalog measured one appliance's consumption at a time: a Tuya smart plug or a Zooz ZEN15 report the watts of whatever is plugged into them, nothing more. This monitor works at a different scale: it installs directly in the electrical panel, like a water meter that, instead of measuring a single tap, measures the flow through every pipe separately at the same time. It uses current clamps (the same kind of clamp as a clamp meter, but fixed in place and wired to a base that transmits over WiFi) around each circuit's wire, with no need for a smart plug on every appliance.",
+      "ejemploHogar": "At home, it shows at a glance how much the AC unit, the electric water heater, and the rest of the panel's circuits are drawing, without buying a smart plug for each one — and it flags if a circuit starts drawing oddly (an aging fridge pulling more than usual, for example) before it shows up on the bill.",
+      "ejemploNegocio": "In a small workshop or a store with its own panel, it fills a role that complements this ranking's Klein Tools CL120 clamp meter: while the CL120 gives a one-time reading (what a motor draws at the exact moment you measure it), this monitor stays installed and shows every circuit's draw around the clock — useful for catching which machine keeps drawing power overnight when it shouldn't be on, or splitting the electricity cost across several pieces of equipment on the same panel.",
+      "puntosClave": [
+        "It installs inside the electrical panel, with dangerous voltage exposed during wiring — the manufacturer itself recommends having a licensed electrician install it; this isn't a plug-and-play project.",
+        "This variant ships with 16 50A clamps for individual circuits plus 2 larger clamps for the main lines — enough for a typical residential panel, but if your panel has more than 16 circuits you want to track separately, you'll have to prioritize which ones to wire up.",
+        "It doesn't replace a smart plug if what you need is to turn something on or off remotely (like this ranking's Smart Plug with Energy Monitoring) — this monitor only measures, it doesn't control anything."
+      ],
+      "consejoInversion": "Compared to sticking with smart-plug-only automations (one appliance at a time, like the Tuya or Zooz plugs in this ranking), this monitor gives a full view of the panel without buying a plug for every single piece of equipment — exactly the gap left open once the goal is understanding the whole house or the whole workshop, not just one appliance. With UL certification and 883 real reviews at 4.6 stars, it has more track record than most unbranded generic energy monitors that show up in this category."
+    },
+    "tagsEn": [
+      "Energy Monitor",
+      "Emporia",
+      "Power Consumption",
+      "Electrical Panel"
+    ]
   }
 ]
