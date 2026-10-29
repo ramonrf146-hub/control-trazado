@@ -31,6 +31,10 @@ Una señal que viaja por un cable largo se refleja en el final si el final no es
 - Los tramos muy cortos a baja velocidad muchas veces funcionan sin terminación, pero agregarla es un seguro barato.
 - Muchos equipos traen una resistencia de 120Ω incorporada que se activa con un puente o un interruptor. Si el tuyo no la tiene, un bloque terminador ayuda: el [bloque terminador RS485 de 120Ω Jienk](/productos/B0BBQHMGJG) de este ranking es una placa para riel DIN con una resistencia que se conecta o desconecta con un selector, lo que facilita probar con y sin terminación.
 
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/fVoDTJeqkvU" title="How to Install Terminating Resistors - Advantech IPlanet Series" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## 5. Polarización: un estado de reposo definido
 
 Cuando nadie transmite, las dos líneas pueden quedar flotando y el ruido puede leerse como datos. La polarización es un pull-up en una línea y un pull-down en la otra para que el estado de reposo quede definido. Aplicala en **un solo punto**, normalmente en el maestro o en el convertidor que encabeza el bus. Muchos maestros y convertidores ya la incluyen, así que revisá la documentación antes de agregar resistencias, porque acumular varios puntos de polarización distorsiona los niveles de señal.

@@ -31,6 +31,10 @@ A signal travelling down a long cable reflects at the end unless the end is term
 - Very short runs at low baud rates often work without termination, but adding it is cheap insurance.
 - Many devices have a built-in 120Ω resistor you enable with a jumper or switch. If yours doesn't, a dedicated terminator block helps: the [Jienk RS485 120Ω terminator block](/en/productos/B0BBQHMGJG) in this ranking is a DIN-rail board with a resistor you switch in or out with a selector, which makes it easy to test with and without termination.
 
+<div class="not-prose my-6 overflow-hidden rounded-2xl border border-line-dim" style="aspect-ratio:16/9">
+<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/fVoDTJeqkvU" title="How to Install Terminating Resistors - Advantech IPlanet Series" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## 5. Biasing: a defined idle state
 
 When nobody is transmitting, the two lines can float, and noise may be read as data. Biasing is a pull-up on one line and a pull-down on the other so that the idle state is defined. Apply it at **one point only**, usually at the master or the converter at the head of the bus. Many masters and converters already include it, so check the documentation before adding resistors, because stacking several biasing points distorts the signal levels.
