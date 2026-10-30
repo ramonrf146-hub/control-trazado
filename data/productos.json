@@ -4347,5 +4347,56 @@
       "Power Consumption",
       "Electrical Panel"
     ]
+  },
+  {
+    "asin": "B0BYZP8NK2",
+    "nombre": "SONOFF SNZB-02D — Sensor Zigbee de Temperatura y Humedad con Pantalla LCD",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 15.9,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/51UVxJIRnmL._SL1500_.jpg",
+    "rating": 4.3,
+    "numResenas": 3419,
+    "ranking": 34,
+    "notaTecnica": "SONOFF Zigbee Indoor Temperature & Humidity Sensor, modelo SNZB-02D con pantalla LCD (ASIN comprado/hijo B0BYZP8NK2, variante \"1 Pack\" dentro del listado padre B0GWMWFTTF) — sensor Zigbee 3.0 de temperatura y humedad para interior, con pantalla LCD propia (lee el dato sin celular), 1 pila CR2430 incluida (vida útil estimada ~2 años según el fabricante), pensado para sumarse a un coordinador Zigbee 3.0 ya existente como el dongle SONOFF (ranking 8) o el Aqara Hub M3 (ranking 17) de este mismo ranking. $15.90, 4.3★, 3.419 reseñas — verificado en vivo con WebFetch sobre amazon.com/dp/B0BYZP8NK2 (página de ~1,54M caracteres, offsets crecientes): el canonical de esta página redirige al ASIN padre B0GWMWFTTF (\"SONOFF-Zigbee-Temperature-Humidity-SNZB-02D\"), patrón de variante ya documentado en este catálogo (no descarta el ASIN, el 2026-10-26 ya se confirmó que un ASIN activo del propio catálogo también muestra \"Fallback Detail Page\"); add-to-cart-button y buy-now-button activos y sin atributo disabled en offset 150.000-250.000, tanto en el ASIN hijo como en el padre; rating 4.3★ y \"3.419 Reviews\" ligados al acrCustomerReviewText propio del ASIN hijo en offset 300.000 (el ASIN padre muestra 4.3★/3.408 reseñas, cifra consistente — diferencia mínima esperable entre el snapshot de la variante y el agregado del padre); precio no visible en el buybox principal (corePriceDisplay vacío, mismo patrón ya documentado varias veces en este catálogo) — confirmado en cambio en los datos de twister/variantes del ASIN padre (bloque \"desktop-twister-sort-filter-data\"), donde la opción \"1\" (este ASIN exacto, B0BYZP8NK2, marcada como SELECTED) muestra \"1 option from $15.90\", frente a $31.50 para la variante de 2 unidades (B0BZCV658S) y $61.90 para la de 4 (B0GSYN6ZJD); \"Ships from Amazon, Sold by SONOFF-Direct\" confirmado en el buybox en offset 200.000. Imagen real tomada de data-old-hires/colorImages (hiRes) en offset 200.000. No se encontró bloque \"Frequently bought together\" en ninguna de las dos páginas (bundles_feature_div vacío) — por eso se usó el precio del selector de variantes en su lugar, método no usado antes en este catálogo pero igual de verificable: está ligado de forma inequívoca al ASIN exacto que se agrega (dimensionValueState SELECTED).",
+    "idealPara": "Sumar monitoreo de temperatura y humedad en tiempo real a una red Zigbee que ya tengas armada (con el dongle SONOFF o el hub Aqara M3 de este ranking), con pantalla propia y sin depender de wifi.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Este es un termómetro e higrómetro (mide temperatura y humedad) que en vez de guardarse la lectura para sí mismo, la manda por radio Zigbee a tu sistema de domótica — pensá en Zigbee como un WiFi chiquito y de muy bajo consumo, hecho solo para que sensores y dispositivos de hogar inteligente se hablen entre sí sin gastar batería de golpe. Tiene pantalla LCD propia, así que podés leer el dato parado al lado del sensor sin abrir ninguna app.",
+      "ejemploHogar": "Lo pegás con la base magnética en un cuarto de bebé, un sótano o un placard, y tu sistema (Home Assistant, Alexa, Google Home) te avisa si la humedad sube demasiado — antes de que aparezca moho — o si la temperatura baja de un umbral mientras no estás en casa.",
+      "ejemploNegocio": "En un taller o depósito chico donde se guardan herramientas, materiales sensibles a la humedad o un tablero/servidor electrónico, varios de estos sensores distribuidos avisan si un ambiente se está calentando o humedeciendo de más — sin cablear nada ni pagar por un sistema de monitoreo industrial completo.",
+      "puntosClave": [
+        "Necesita un coordinador Zigbee 3.0 para funcionar en red — no sirve solo con el WiFi de la casa; el dongle SONOFF o el hub Aqara M3 de este mismo ranking cumplen esa función.",
+        "Viene con 1 pila CR2430 que el fabricante estima en ~2 años de uso — no tiene cable ni se recarga, así que conviene anotar la fecha de instalación.",
+        "Es solo para interior: no tiene certificación IP contra agua ni polvo, así que no sirve para un galpón abierto o un exterior sin protección."
+      ],
+      "consejoInversion": "Frente a comprar un termómetro digital genérico de pila suelto (que hay que ir a mirar a mano, uno por uno), este sensor se integra a la misma red Zigbee que ya tenés armada con el dongle SONOFF o el hub Aqara — podés ver y recibir alertas de varios ambientes a la vez desde un solo panel, y automatizar una respuesta (como prender un deshumidificador) en vez de solo enterarte tarde."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B0BYZP8NK2?tag=controltrazado-20",
+    "actualizadoEn": "2026-10-30",
+    "tags": [
+      "Zigbee 3.0",
+      "Temperatura y Humedad",
+      "SONOFF"
+    ],
+    "activo": true,
+    "nombreEn": "SONOFF SNZB-02D — Zigbee Temperature & Humidity Sensor with LCD Display",
+    "notaTecnicaEn": "SONOFF Zigbee Indoor Temperature & Humidity Sensor, SNZB-02D model with LCD screen (purchased/child ASIN B0BYZP8NK2, \"1 Pack\" variant under parent listing B0GWMWFTTF) — indoor Zigbee 3.0 temperature and humidity sensor with its own LCD screen (reads without a phone), 1 included CR2430 battery (manufacturer-estimated ~2 year life), meant to join an existing Zigbee 3.0 coordinator such as this ranking's SONOFF dongle (rank 8) or Aqara Hub M3 (rank 17). $15.90, 4.3 stars, 3,419 reviews — verified live with WebFetch on amazon.com/dp/B0BYZP8NK2 (~1.54M character page, growing offsets): this page's canonical redirects to the parent ASIN B0GWMWFTTF (\"SONOFF-Zigbee-Temperature-Humidity-SNZB-02D\"), a variant pattern already documented in this catalog (doesn't disqualify the ASIN — on 2026-10-26 an already-active catalog ASIN was confirmed to also show a \"Fallback Detail Page\" marker); add-to-cart-button and buy-now-button active with no disabled attribute at offset 150,000-250,000, on both the child and parent ASIN; 4.3-star rating and \"3,419 Reviews\" tied to the child ASIN's own acrCustomerReviewText at offset 300,000 (the parent ASIN shows 4.3 stars/3,408 reviews, a consistent figure — the small gap is expected between a variant snapshot and the parent's aggregate); price not visible in the main buybox (empty corePriceDisplay, the same pattern already documented repeatedly in this catalog) — confirmed instead in the parent ASIN's twister/variant data (\"desktop-twister-sort-filter-data\" block), where option \"1\" (this exact ASIN, B0BYZP8NK2, marked SELECTED) shows \"1 option from $15.90\", versus $31.50 for the 2-unit variant (B0BZCV658S) and $61.90 for the 4-unit one (B0GSYN6ZJD); \"Ships from Amazon, Sold by SONOFF-Direct\" confirmed in the buybox at offset 200,000. Real image taken from data-old-hires/colorImages (hiRes) at offset 200,000. No \"Frequently bought together\" block was found on either page (empty bundles_feature_div) — so the variant-selector price was used instead, a method not used before in this catalog but equally verifiable: it's unambiguously tied to the exact ASIN being added (dimensionValueState SELECTED).",
+    "idealParaEn": "Adding real-time temperature and humidity monitoring to a Zigbee network you've already built (with the SONOFF dongle or Aqara M3 hub in this ranking), with its own screen and no WiFi dependency.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "This is a thermometer and hygrometer (it measures temperature and humidity) that, instead of keeping the reading to itself, sends it over Zigbee radio to your smart home system — think of Zigbee as a tiny, very low-power version of WiFi, built just so home sensors and devices can talk to each other without draining their battery fast. It has its own LCD screen, so you can read the value standing right next to the sensor without opening any app.",
+      "ejemploHogar": "Stick it with the magnetic base in a nursery, a basement, or a closet, and your system (Home Assistant, Alexa, Google Home) alerts you if humidity climbs too high — before mold shows up — or if the temperature drops below a threshold while you're away.",
+      "ejemploNegocio": "In a small workshop or storage room holding tools, moisture-sensitive materials, or an electronics panel/server, several of these sensors spread around flag when a space is getting too hot or humid — without running any wiring or paying for a full industrial monitoring system.",
+      "puntosClave": [
+        "It needs a Zigbee 3.0 coordinator to work on a network — it doesn't run on your home WiFi alone; the SONOFF dongle or the Aqara M3 hub in this same ranking fill that role.",
+        "It ships with 1 CR2430 battery that the manufacturer estimates at about 2 years of use — no cable, no recharging, so it's worth writing down the install date.",
+        "It's indoor-only: it has no IP rating against water or dust, so it's not meant for an open shed or an unprotected outdoor spot."
+      ],
+      "consejoInversion": "Compared to buying a cheap standalone battery thermometer (one you have to walk over and check by hand, one at a time), this sensor plugs into the same Zigbee network you've already built with the SONOFF dongle or the Aqara hub — you can see and get alerts from several rooms at once from a single panel, and automate a response (like turning on a dehumidifier) instead of just finding out too late."
+    },
+    "tagsEn": [
+      "Zigbee 3.0",
+      "Temperature & Humidity",
+      "SONOFF"
+    ]
   }
 ]
