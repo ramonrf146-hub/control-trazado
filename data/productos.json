@@ -4398,5 +4398,56 @@
       "Temperature & Humidity",
       "SONOFF"
     ]
+  },
+  {
+    "asin": "B00KLAXNC6",
+    "nombre": "Lutron Caseta Smart Dimmer Switch — Interruptor de Pared Atenuador, Sin Cable Neutro (Negro)",
+    "categoria": "automatizacion-hogar-inteligente",
+    "precio": 64.95,
+    "moneda": "USD",
+    "imagen": "https://m.media-amazon.com/images/I/511A3f1fAFL._SL1500_.jpg",
+    "rating": 4.7,
+    "numResenas": 5674,
+    "ranking": 35,
+    "notaTecnica": "Lutron Caseta Smart Dimmer Switch, modelo PD-6WCL-BL en negro (ASIN B00KLAXNC6) — interruptor de pared que atenúa (dimea) bombillas LED/CFL regulables hasta 150W o incandescentes/halógenas hasta 600W, sin necesitar cable neutro en la caja (a diferencia de la mayoría de dimmers WiFi genéricos, que sí lo exigen). Usa el protocolo propio de Lutron (Clear Connect RF, no WiFi/Zigbee/Z-Wave/Matter); para control por app/voz (Alexa, Google Assistant, Apple Home) necesita el Lutron Smart Bridge L-BDG2-WH, vendido por separado — sin el bridge funciona igual como dimmer de pared manual normal (prender/apagar y regular brillo con el botón físico), pero sin automatización ni control remoto. $64.95, 4.7★, 5.674 reseñas — verificado en vivo con WebFetch sobre amazon.com/dp/B00KLAXNC6 (página de ~1,72M caracteres, offsets crecientes): el canonical redirige a /clp/B00KLAXNC6 (mismo patrón \"Fallback Detail Page\" ya documentado varias veces en este catálogo — no descarta por sí solo); add-to-cart-button y buy-now-button activos sin atributo disabled en offset 150.000; \"Ships from: Amazon.com\" y \"Sold by: Amazon.com\" confirmados en el mismo offset; rating 4.7★ ligado a data-asin=\"B00KLAXNC6\" en offset 300.000, y acrCustomerReviewText \"(5.674)\"/\"5.674 Reviews\" confirmado en offset 320.000; precio $64.95 confirmado en el bloque \"Frequently bought together\" en offset 800.000-900.000, \"This item\" con data-csa-c-item-id=\"amzn1.asin.B00KLAXNC6\" — mismo método ya usado con éxito en este catálogo (REFLYING, Klein Tools, Emporia Vue 3) — y cruzado contra \"New & Used (5) from $61.70\" de otros vendedores visible en offset 300.000. Nota de método: el ASIN B0CBV5V6CL, encontrado primero en camelcamelcamel como variante rastreada de este mismo producto, al pedirlo directo devolvió el mismo contenido con \"Black\" marcado SELECTED en el twister de color — se optó por listar el ASIN B00KLAXNC6 porque es el que efectivamente resuelve con buybox activo, canonical propio y todos los datos (precio, rating, reseñas, stock) ligados a él sin ambigüedad. Especificaciones (150W LED/600W incandescente, no apto para cargas de bajo voltaje electrónico/magnético, setup de 3 vías únicamente con el control remoto Pico PJ2-WALL-WH-L01 vendido aparte) tomadas de los bullets \"About this item\" en offset 750.000-850.000.",
+    "idealPara": "Reemplazar un interruptor de pared común por uno que realmente atenúa la luz (no solo prende/apaga), en casas sin cable neutro en la caja — con la opción de sumar control por app/voz más adelante comprando el Smart Bridge aparte.",
+    "guiaCompra": {
+      "queEsYParaQueSirve": "Este es un interruptor de pared que, en vez de solo prender y apagar la luz, también controla su intensidad — pensalo como un control de volumen para la luz en lugar de un botón de todo-o-nada. Se instala en el mismo lugar que tu interruptor actual y no necesita el cable neutro que la mayoría de los dimmers inteligentes sí exige, algo clave en casas viejas donde ese cable extra no está en la caja. De entrada funciona como dimmer manual normal; si además querés manejarlo desde el celular o por voz, hace falta sumar el Lutron Smart Bridge (se vende aparte), que actúa de \"traductor\" entre este switch y tu WiFi.",
+      "ejemploHogar": "En el living o el dormitorio reemplazás el interruptor viejo por este y ya podés bajar la luz a mano antes de dormir, sin tocar ningún cable extra. Si sumás el Smart Bridge, programás que las luces bajen solas a las 10 de la noche o se atenúen junto con una escena de \"modo cine\" activada por voz.",
+      "ejemploNegocio": "En una sala de reuniones o un local comercial chico, varios de estos dimmers conectados al mismo Smart Bridge permiten bajar la luz general para una presentación con proyector sin tocar cada interruptor por separado, y sin reformar el cableado de cada caja para sumar un neutro que originalmente no se dejó previsto.",
+      "puntosClave": [
+        "Sin el Lutron Smart Bridge (se vende aparte, no incluido) este switch funciona como dimmer manual normal — la app, Alexa, Google Assistant y Apple Home solo entran en juego después de sumar ese puente.",
+        "Soporta hasta 150W en bombillas LED/CFL regulables o 600W en incandescentes/halógenas, pero no está pensado para cargas de bajo voltaje (transformadores electrónicos o magnéticos de ciertos spots/rieles) — revisá el tipo de carga antes de instalar.",
+        "Para un armado de 3 vías (dos interruptores para la misma luz) no sirve combinarlo con un interruptor mecánico común — necesita específicamente el control remoto Pico (se vende aparte) en el segundo punto."
+      ],
+      "consejoInversion": "Frente al Shelly 1L de este mismo ranking (también sin neutro, pero solo prende/apaga), este switch cuesta más y recién se vuelve \"inteligente\" de verdad sumando el Smart Bridge aparte — es una inversión en dos pasos, no en uno. A cambio, Lutron lleva más de dos décadas con el mismo protocolo Clear Connect RF funcionando de forma estable (el control físico no depende de tu WiFi ni se cae si el router se reinicia), así que si lo que buscás es atenuar luces de verdad y no solo prenderlas/apagarlas, vale la pena el gasto extra del bridge en vez de forzar un dimmer WiFi genérico que puede titilar con LEDs baratos."
+    },
+    "urlAfiliado": "https://www.amazon.com/dp/B00KLAXNC6?tag=controltrazado-20",
+    "actualizadoEn": "2026-10-31",
+    "tags": [
+      "Dimmer de Pared",
+      "Sin Cable Neutro",
+      "Lutron Caseta"
+    ],
+    "activo": true,
+    "nombreEn": "Lutron Caseta Smart Dimmer Switch — No Neutral Wire Required (Black)",
+    "notaTecnicaEn": "Lutron Caseta Smart Dimmer Switch, PD-6WCL-BL model in black (ASIN B00KLAXNC6) — a wall switch that dims dimmable LED/CFL bulbs up to 150W or incandescent/halogen up to 600W, with no neutral wire required in the box (unlike most generic WiFi dimmers, which do require one). It runs on Lutron's own protocol (Clear Connect RF, not WiFi/Zigbee/Z-Wave/Matter); voice/app control (Alexa, Google Assistant, Apple Home) needs the Lutron Smart Bridge L-BDG2-WH, sold separately — without the bridge it still works as a normal manual wall dimmer (on/off and brightness via the physical button), just without automation or remote control. $64.95, 4.7 stars, 5,674 reviews — verified live with WebFetch on amazon.com/dp/B00KLAXNC6 (~1.72M character page, growing offsets): the canonical redirects to /clp/B00KLAXNC6 (the same \"Fallback Detail Page\" pattern already documented several times in this catalog — not disqualifying on its own); add-to-cart-button and buy-now-button active with no disabled attribute at offset 150,000; \"Ships from: Amazon.com\" and \"Sold by: Amazon.com\" confirmed at the same offset; 4.7-star rating tied to data-asin=\"B00KLAXNC6\" at offset 300,000, and acrCustomerReviewText \"(5,674)\"/\"5,674 Reviews\" confirmed at offset 320,000; $64.95 price confirmed in the \"Frequently bought together\" block at offset 800,000-900,000, \"This item\" with data-csa-c-item-id=\"amzn1.asin.B00KLAXNC6\" — the same method already used successfully in this catalog (REFLYING, Klein Tools, Emporia Vue 3) — cross-checked against \"New & Used (5) from $61.70\" from other sellers visible at offset 300,000. Method note: ASIN B0CBV5V6CL, first found on camelcamelcamel as a tracked variant of this same product, returned the same content with \"Black\" marked SELECTED in the color twister when fetched directly — B00KLAXNC6 was the one listed since it's the one that actually resolves with an active buybox, its own canonical, and every data point (price, rating, reviews, stock) unambiguously tied to it. Specs (150W LED/600W incandescent, not rated for electronic/magnetic low-voltage loads, 3-way setup only with the separately sold Pico remote PJ2-WALL-WH-L01) taken from the \"About this item\" bullets at offset 750,000-850,000.",
+    "idealParaEn": "Replacing a plain wall switch with one that actually dims the light (not just on/off), in homes without a neutral wire in the box — with the option to add app/voice control later by buying the Smart Bridge separately.",
+    "guiaCompraEn": {
+      "queEsYParaQueSirve": "This is a wall switch that, instead of just turning the light on and off, also controls its brightness — think of it as a volume knob for light instead of an all-or-nothing button. It installs in the same spot as your current switch and doesn't need the neutral wire that most smart dimmers require, which matters in older homes where that extra wire isn't in the box. Out of the box it works as a normal manual dimmer; if you also want to control it from your phone or by voice, you need to add the Lutron Smart Bridge (sold separately), which acts as the \"translator\" between this switch and your WiFi.",
+      "ejemploHogar": "In the living room or bedroom you swap out the old switch for this one and can already dim the light by hand before bed, with no extra wiring. Add the Smart Bridge and you can schedule the lights to dim on their own at 10pm or fade along with a voice-activated \"movie mode\" scene.",
+      "ejemploNegocio": "In a small meeting room or shop, several of these dimmers wired to the same Smart Bridge let you lower the overall light for a projector presentation without touching each switch one by one, and without reworking each box's wiring to add a neutral that was never originally run.",
+      "puntosClave": [
+        "Without the Lutron Smart Bridge (sold separately, not included) this switch works as a plain manual dimmer — the app, Alexa, Google Assistant, and Apple Home only come into play once you add that bridge.",
+        "It supports up to 150W of dimmable LED/CFL bulbs or 600W of incandescent/halogen, but it isn't meant for low-voltage loads (electronic or magnetic transformers used by some spot/track lighting) — check your load type before installing.",
+        "For a 3-way setup (two switches controlling the same light) it can't be paired with a regular mechanical switch — it specifically needs the Pico remote (sold separately) at the second point."
+      ],
+      "consejoInversion": "Compared to this ranking's Shelly 1L (also no neutral needed, but on/off only), this switch costs more and only becomes truly \"smart\" once you add the Smart Bridge separately — it's a two-step investment, not one. In exchange, Lutron has run the same Clear Connect RF protocol reliably for over two decades (physical control doesn't depend on your WiFi and doesn't drop if the router reboots), so if what you're after is real dimming and not just on/off, the extra cost of the bridge is worth it over forcing a generic WiFi dimmer that can flicker with cheap LEDs."
+    },
+    "tagsEn": [
+      "Wall Dimmer",
+      "No Neutral Wire",
+      "Lutron Caseta"
+    ]
   }
 ]
